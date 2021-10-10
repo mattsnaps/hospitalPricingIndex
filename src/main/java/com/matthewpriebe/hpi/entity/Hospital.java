@@ -17,7 +17,7 @@ import java.util.Set;
 
 @Entity(name = "Hospital")
 @Table(name = "hospital")
-public class Hospital {
+public class Hospital implements java.io.Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -26,8 +26,8 @@ public class Hospital {
     @Column(name = "hospital_Name")
     private String hospitalName;
 
-    @OneToMany(mappedBy = "hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    @EqualsAndHashCode.Exclude private Set<HospitalProcedurePrice> hospitals = new HashSet<>();
+    @OneToMany(mappedBy = "pk.hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>();
 
     /**
      * Instantiates a new Hospital.
@@ -43,8 +43,8 @@ public class Hospital {
      *
      * @param hospital the hospital
      */
-    public void addHospitals(HospitalProcedurePrice hospital) {
-        hospitals.add(hospital);
+    public void addHospitals(Price hospital) {
+        prices.add(hospital);
         hospital.setHospital(this);
     }
 
@@ -53,8 +53,8 @@ public class Hospital {
      *
      * @param hospital the hospital
      */
-    public void removeHospitals(HospitalProcedurePrice hospital) {
-        hospitals.remove(hospital);
+    public void removeHospitals(Price hospital) {
+        prices.remove(hospital);
         hospital.setHospital(this);
     }
 }

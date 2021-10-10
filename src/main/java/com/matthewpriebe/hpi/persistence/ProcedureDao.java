@@ -21,15 +21,10 @@ public class ProcedureDao {
 
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
-    /**
-     * Gets by id.
-     *
-     * @param id the id
-     * @return the by id
-     */
     public Procedure getById(int id) {
+        log.info("Does it get here?" + id);
         Session session = sessionFactory.openSession();
-        Procedure Procedure = session.get(Procedure.class, id );
+        Procedure Procedure = session.get(Procedure.class, id);
         session.close();
         return Procedure;
     }

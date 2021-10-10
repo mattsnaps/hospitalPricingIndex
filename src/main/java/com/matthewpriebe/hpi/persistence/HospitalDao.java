@@ -28,7 +28,7 @@ public class HospitalDao {
      */
     public Hospital getById(int id) {
         Session session = sessionFactory.openSession();
-        Hospital Hospital = session.get(Hospital.class, id );
+        Hospital Hospital = session.get(Hospital.class, id);
         session.close();
         return Hospital;
     }

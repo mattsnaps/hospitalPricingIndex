@@ -1,6 +1,6 @@
 package com.matthewpriebe.hpi.persistence;
 
-import com.matthewpriebe.hpi.entity.HospitalProcedurePrice;
+import com.matthewpriebe.hpi.entity.Price;
 import lombok.extern.log4j.Log4j2;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -15,7 +15,7 @@ import java.util.List;
  * The type Hospital procedure price dao.
  */
 @Log4j2
-public class  HospitalProcedurePriceDao{
+public class PriceDao {
 
     /**
      * The Session factory.
@@ -29,23 +29,23 @@ public class  HospitalProcedurePriceDao{
      * @param id the id
      * @return the by id
      */
-    public HospitalProcedurePrice getById(int id) {
+    public Price getById(int id) {
         Session session = sessionFactory.openSession();
-        HospitalProcedurePrice HospitalProcedurePrice = session.get( HospitalProcedurePrice.class, id );
+        Price Price = session.get( Price.class, id );
         session.close();
-        return HospitalProcedurePrice;
+        return Price;
     }
 
 
     /**
      * Save or update.
      *
-     * @param HospitalProcedurePrice the hospital procedure price
+     * @param Price the hospital procedure price
      */
-    public void saveOrUpdate(HospitalProcedurePrice HospitalProcedurePrice) {
+    public void saveOrUpdate(Price Price) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        session.saveOrUpdate(HospitalProcedurePrice);
+        session.saveOrUpdate(Price);
         transaction.commit();
         session.close();
     }
@@ -54,14 +54,14 @@ public class  HospitalProcedurePriceDao{
     /**
      * Insert int.
      *
-     * @param HospitalProcedurePrice the hospital procedure price
+     * @param Price the hospital procedure price
      * @return the int
      */
-    public int insert(HospitalProcedurePrice HospitalProcedurePrice) {
+    public int insert(Price Price) {
         int id = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(HospitalProcedurePrice);
+        id = (int)session.save(Price);
         transaction.commit();
         session.close();
         return id;
@@ -70,12 +70,12 @@ public class  HospitalProcedurePriceDao{
     /**
      * Delete.
      *
-     * @param HospitalProcedurePrice the hospital procedure price
+     * @param Price the hospital procedure price
      */
-    public void delete(HospitalProcedurePrice HospitalProcedurePrice) {
+    public void delete(Price Price) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        session. delete(HospitalProcedurePrice);
+        session. delete(Price);
         transaction.commit();
         session.close();
     }
@@ -85,14 +85,14 @@ public class  HospitalProcedurePriceDao{
      *
      * @return the all
      */
-    public List<HospitalProcedurePrice> getAll() {
+    public List<Price> getAll() {
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<HospitalProcedurePrice> query = builder.createQuery(HospitalProcedurePrice.class);
-        Root<HospitalProcedurePrice> root = query.from(HospitalProcedurePrice.class);
-        List<HospitalProcedurePrice> hospitalProcedurePrices = session.createQuery(query).getResultList();
+        CriteriaQuery<Price> query = builder.createQuery(Price.class);
+        Root<Price> root = query.from(Price.class);
+        List<Price> prices = session.createQuery(query).getResultList();
         session.close();
-        return hospitalProcedurePrices;
+        return prices;
     }
 
 }

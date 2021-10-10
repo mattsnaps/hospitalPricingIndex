@@ -1,0 +1,26 @@
+[ERROR] 2021-10-10 01:02:15.304 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_bookseller.sample_hospital_pricing_schema.hospital' doesn't exist
+[ERROR] 2021-10-10 01:07:53.269 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_bookseller.sample_hospital_pricing_schema.hospital' doesn't exist
+[ERROR] 2021-10-10 01:09:37.896 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_bookseller.sample_hospital_pricing_schema.hospital' doesn't exist
+[ERROR] 2021-10-10 01:19:46.305 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_bookseller.hospital' doesn't exist
+[ERROR] 2021-10-10 01:21:04.586 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_bookseller.hospital' doesn't exist
+[ERROR] 2021-10-10 01:23:58.504 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 01:28:37.155 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 01:36:18.421 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[INFO ] 2021-10-10 01:36:19.796 [main] HospitalDaoTest - getAllSuccess runs
+[ERROR] 2021-10-10 10:10:48.766 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 10:19:29.390 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 10:20:50.691 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 10:23:41.089 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 10:38:24.342 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 10:39:30.026 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-10-10 10:41:31.010 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[INFO ] 2021-10-10 10:51:24.434 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-10 15:43:26.992 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-10 16:23:59.305 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-10 16:34:34.206 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-10 16:44:25.513 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-10 16:47:02.831 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-10 16:48:30.529 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-10 17:06:06.436 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-10 17:06:35.173 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-10 17:16:09.607 [main] ProcedureDao - Does it get here?3

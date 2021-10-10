@@ -17,7 +17,7 @@ import java.util.Set;
 
 @Entity(name = "Procedure")
 @Table(name = "procedure")
-public class Procedure {
+public class Procedure implements java.io.Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -32,18 +32,18 @@ public class Procedure {
     @Column(name = "code_desc_english")
     private String codeDescriptionLong;
 
-    @OneToMany(mappedBy = "procedure", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    @EqualsAndHashCode.Exclude private Set<HospitalProcedurePrice> procedures = new HashSet<>();
+    @OneToMany(mappedBy = "pk.procedure", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>();
 
     /**
      * Instantiates a new Procedure.
      *
-     * @param code                the code
+     * @param procedureCode                the code
      * @param codeDescription     the code description
      * @param codeDescriptionLong the code description long
      */
-    public Procedure(String code, String codeDescription, String codeDescriptionLong) {
-        this.procedureCode = code;
+    public Procedure(String procedureCode, String codeDescription, String codeDescriptionLong) {
+        this.procedureCode = procedureCode;
         this.codeDescription = codeDescription;
         this.codeDescriptionLong = codeDescriptionLong;
     }
@@ -53,8 +53,8 @@ public class Procedure {
      *
      * @param procedure the procedure
      */
-    public void addProcedure(HospitalProcedurePrice procedure) {
-        procedures.add(procedure);
+    public void addProcedure(Price procedure) {
+        prices.add(procedure);
         procedure.setProcedure(this);
     }
 
@@ -63,8 +63,8 @@ public class Procedure {
      *
      * @param procedure the procedure
      */
-    public void removeProcedure(HospitalProcedurePrice procedure) {
-        procedures.remove(procedure);
+    public void removeProcedure(Price procedure) {
+        prices.remove(procedure);
         procedure.setProcedure(this);
     }
 }
