@@ -1,6 +1,7 @@
 package com.matthewpriebe.hpi.persistence;
 
 import com.matthewpriebe.hpi.entity.Price;
+import com.matthewpriebe.hpi.entity.PriceId;
 import lombok.extern.log4j.Log4j2;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -29,7 +30,7 @@ public class PriceDao {
      * @param id the id
      * @return the by id
      */
-    public Price getById(int id) {
+    public Price getById(PriceId id) {
         Session session = sessionFactory.openSession();
         Price Price = session.get( Price.class, id );
         session.close();
@@ -57,11 +58,11 @@ public class PriceDao {
      * @param Price the hospital procedure price
      * @return the int
      */
-    public int insert(Price Price) {
-        int id = 0;
+    public PriceId insert(Price Price) {
+        PriceId id;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(Price);
+        id = (PriceId)session.save(Price);
         transaction.commit();
         session.close();
         return id;

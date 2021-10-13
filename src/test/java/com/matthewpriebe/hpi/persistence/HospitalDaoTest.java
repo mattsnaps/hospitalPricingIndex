@@ -47,6 +47,7 @@ public class HospitalDaoTest {
     @Test
     void getAllSuccess() {
         log.info("getAllSuccess runs");
+
         List<Hospital> Hospitals = dao.getAll();
         assertEquals(4, Hospitals.size());
     }

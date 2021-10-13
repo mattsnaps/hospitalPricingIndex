@@ -1,5 +1,6 @@
 package com.matthewpriebe.hpi.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
@@ -21,6 +22,10 @@ public class Price implements java.io.Serializable{
     @EmbeddedId
     private PriceId pk = new PriceId();
     private String price;
+
+    public Price(String price) {
+        this.price = price;
+    }
 
     @Transient
     public Procedure getProcedure() {

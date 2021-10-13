@@ -61,3 +61,34 @@
 [INFO ] 2021-10-12 21:24:24.196 [main] ProcedureDao - Does it get here?4
 [INFO ] 2021-10-12 21:24:24.341 [main] ProcedureDao - Does it get here?4
 [INFO ] 2021-10-12 21:24:32.582 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:32:39.606 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 21:32:56.431 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 21:32:56.574 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 22:46:37.360 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 22:46:45.202 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 22:46:45.345 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 22:46:45.387 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 22:46:45.584 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 22:46:45.650 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 22:46:45.677 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 22:46:45.756 [main] ProcedureDao - Does it get here?15
+[INFO ] 2021-10-12 22:58:21.777 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 22:58:39.147 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 22:58:39.282 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 22:58:39.469 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 22:58:39.529 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 22:58:39.617 [main] ProcedureDao - Does it get here?16
+[INFO ] 2021-10-12 22:59:18.092 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 22:59:25.524 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 22:59:25.659 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 22:59:25.699 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 22:59:25.910 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 22:59:25.975 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 22:59:26.002 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 22:59:26.077 [main] ProcedureDao - Does it get here?17
+[INFO ] 2021-10-12 23:15:06.144 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 23:15:22.060 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 23:15:36.536 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 23:37:00.690 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 23:41:00.640 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 23:42:21.275 [main] ProcedureDao - Does it get here?2
