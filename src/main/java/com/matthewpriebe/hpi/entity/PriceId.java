@@ -1,30 +1,20 @@
 package com.matthewpriebe.hpi.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 
 @Embeddable
+@Getter
+@Setter
 public class PriceId implements java.io.Serializable {
 
+    @ManyToOne
     private Procedure procedure;
+    @ManyToOne
     private Hospital hospital;
 
-    @ManyToOne
-    public Procedure getProcedure() {
-        return procedure;
-    }
-
-    public void setProcedure(Procedure procedure) {
-        this.procedure = procedure;
-    }
-
-    @ManyToOne
-    public Hospital getHospital() {
-        return hospital;
-    }
-
-    public void setHospital(Hospital hospital) {
-        this.hospital = hospital;
-    }
 
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -33,8 +23,7 @@ public class PriceId implements java.io.Serializable {
         PriceId that = (PriceId) o;
 
         if (procedure != null ? !procedure.equals(that.procedure) : that.procedure != null) return false;
-        if (hospital != null ? !hospital.equals(that.hospital) : that.hospital != null)
-            return false;
+        if (hospital != null ? !hospital.equals(that.hospital) : that.hospital != null) return false;
 
         return true;
     }

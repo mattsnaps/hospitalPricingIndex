@@ -10,8 +10,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.*;
+
 @Log4j2
 public class ProcedureDaoTest {
 
@@ -28,9 +28,7 @@ public class ProcedureDaoTest {
 
     @Test
     void getByIdSuccess() {
-        Procedure retrievedProcedure = dao.getById(3);
-
-        log.info("Returns this:" + retrievedProcedure.getProcedureCode());
+        Procedure retrievedProcedure = dao.getById(2);
 
         assertEquals("HT MUSCLE IMAGE SPECT, MULT", retrievedProcedure.getCodeDescription());
     }
@@ -43,7 +41,7 @@ public class ProcedureDaoTest {
     }
 
     @Test
-    void insertHospitalSuccess() {
+    void insertProcedureSuccess() {
         Procedure newProcedure = new Procedure("24500", "Under Fracture",
                         " Under Fracture and/or Dislocation Procedures on the Humerus (Upper Arm) and Elbow");
 
@@ -51,5 +49,28 @@ public class ProcedureDaoTest {
         assertNotEquals(0,id);
         Procedure insertedProcedure = dao.getById(id);
         assertEquals(newProcedure, insertedProcedure);
+    }
+
+    @Test
+    void updateSuccess() {
+        String hcpsCode = "00794";
+        String codeDescription = " Under Anesthesia for Procedures on the Upper Abdomen";
+        String codeDescriptionLong = " Under Anesthesia for Procedures on the Upper Abdomen Longer Version";
+
+        Procedure procedureToUpdate = dao.getById(3);
+        procedureToUpdate.setProcedureCode(hcpsCode);
+        procedureToUpdate.setCodeDescription(codeDescription);
+        procedureToUpdate.setCodeDescriptionLong(codeDescriptionLong);
+
+        dao.saveOrUpdate(procedureToUpdate);
+        Procedure procedureAfterUpdate = dao.getById(3);
+
+        assertEquals(procedureToUpdate, procedureAfterUpdate);
+    }
+
+    @Test
+    void delete() {
+        dao.delete(dao.getById(4));
+        assertNull(dao.getById(4));
     }
 }

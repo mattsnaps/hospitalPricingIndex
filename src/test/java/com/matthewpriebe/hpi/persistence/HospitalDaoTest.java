@@ -38,7 +38,6 @@ public class HospitalDaoTest {
     @Test
     void getByIdSuccess() {
         Hospital retrievedHospital = dao.getById(1);
-
         assertEquals("Monroe Clinic", retrievedHospital.getHospitalName());
     }
 

@@ -16,7 +16,7 @@ import java.util.Set;
 @NoArgsConstructor
 
 @Entity(name = "Procedure")
-@Table(name = "procedure")
+@Table(name = "`procedure`")
 public class Procedure implements java.io.Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -32,8 +32,8 @@ public class Procedure implements java.io.Serializable{
     @Column(name = "code_desc_english")
     private String codeDescriptionLong;
 
-    @OneToMany(mappedBy = "pk.procedure", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>();
+    @OneToMany(mappedBy = "pk.procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);
 
     /**
      * Instantiates a new Procedure.
@@ -48,23 +48,10 @@ public class Procedure implements java.io.Serializable{
         this.codeDescriptionLong = codeDescriptionLong;
     }
 
-    /**
-     * Add procedure.
-     *
-     * @param procedure the procedure
-     */
-    public void addProcedure(Price procedure) {
-        prices.add(procedure);
-        procedure.setProcedure(this);
-    }
-
-    /**
-     * Remove procedure.
-     *
-     * @param procedure the procedure
-     */
-    public void removeProcedure(Price procedure) {
-        prices.remove(procedure);
-        procedure.setProcedure(this);
+    public Procedure(String procedureCode, String codeDescription, String codeDescriptionLong, Set<Price> prices) {
+        this.procedureCode = procedureCode;
+        this.codeDescription = codeDescription;
+        this.codeDescriptionLong = codeDescriptionLong;
+        this.prices = prices;
     }
 }

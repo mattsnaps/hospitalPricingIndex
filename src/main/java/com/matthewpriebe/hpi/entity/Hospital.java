@@ -27,7 +27,7 @@ public class Hospital implements java.io.Serializable {
     private String hospitalName;
 
     @OneToMany(mappedBy = "pk.hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>();
+    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);
 
     /**
      * Instantiates a new Hospital.
@@ -38,23 +38,8 @@ public class Hospital implements java.io.Serializable {
         this.hospitalName = hospitalName;
     }
 
-    /**
-     * Add hospitals.
-     *
-     * @param hospital the hospital
-     */
-    public void addHospitals(Price hospital) {
-        prices.add(hospital);
-        hospital.setHospital(this);
-    }
-
-    /**
-     * Remove hospitals.
-     *
-     * @param hospital the hospital
-     */
-    public void removeHospitals(Price hospital) {
-        prices.remove(hospital);
-        hospital.setHospital(this);
+    public Hospital(String hospitalName, Set<Price> prices) {
+        this.hospitalName = hospitalName;
+        this.prices = prices;
     }
 }

@@ -2,6 +2,7 @@ package com.matthewpriebe.hpi.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
@@ -17,17 +18,9 @@ import javax.persistence.*;
                 joinColumns = @JoinColumn(name = "procedure_id")) })
 public class Price implements java.io.Serializable{
 
+    @EmbeddedId
     private PriceId pk = new PriceId();
     private String price;
-
-    @EmbeddedId
-    public PriceId getPk() {
-        return pk;
-    }
-
-    public void setPk(PriceId pk) {
-        this.pk = pk;
-    }
 
     @Transient
     public Procedure getProcedure() {

@@ -24,3 +24,40 @@
 [INFO ] 2021-10-10 17:06:06.436 [main] HospitalDaoTest - getAllSuccess runs
 [INFO ] 2021-10-10 17:06:35.173 [main] HospitalDaoTest - getAllSuccess runs
 [INFO ] 2021-10-10 17:16:09.607 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 20:13:38.369 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:21:55.624 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:23:34.458 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:23:34.759 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 20:33:39.202 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:34:24.931 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:34:25.247 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 20:34:55.384 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:36:06.256 [main] HospitalDaoTest - getAllSuccess runs
+[ERROR] 2021-10-12 20:39:57.361 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[INFO ] 2021-10-12 20:45:54.742 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:55:46.443 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 20:56:41.018 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:00:09.314 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:00:17.017 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:00:17.320 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 21:02:50.649 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:04:11.354 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:04:39.485 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:04:39.755 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 21:12:10.623 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:12:10.970 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 21:12:10.985 [main] ProcedureDaoTest - Returns this:80048
+[INFO ] 2021-10-12 21:12:11.103 [main] ProcedureDao - Does it get here?12
+[INFO ] 2021-10-12 21:13:54.888 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:13:55.205 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 21:13:55.329 [main] ProcedureDao - Does it get here?13
+[INFO ] 2021-10-12 21:22:56.691 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-12 21:22:57.002 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-12 21:22:57.096 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 21:22:57.145 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-12 21:22:57.254 [main] ProcedureDao - Does it get here?14
+[INFO ] 2021-10-12 21:23:48.763 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 21:23:48.912 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 21:24:24.196 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 21:24:24.341 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-12 21:24:32.582 [main] HospitalDaoTest - getAllSuccess runs
