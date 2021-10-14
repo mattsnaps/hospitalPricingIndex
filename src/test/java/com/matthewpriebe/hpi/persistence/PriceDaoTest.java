@@ -13,12 +13,22 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
+/**
+ * The type Price dao test.
+ */
 public class PriceDaoTest {
 
+
     PriceDao daoPrice;
+
     HospitalDao daoHospital;
+
     ProcedureDao daoProcedure;
 
+    /**
+     * Sets up.
+     * resets the database.
+     */
     @BeforeEach
     void setUp() {
 
@@ -30,12 +40,18 @@ public class PriceDaoTest {
         daoProcedure = new ProcedureDao();
     }
 
+    /**
+     * Gets all prices from all procedures from all hospitals.
+     */
     @Test
     void getAllSuccess() {
         List<Price> Prices = daoPrice.getAll();
         assertEquals(15, Prices.size());
     }
 
+    /**
+     * Gets by id success. Verify one procedure from one hospital at one price.
+     */
     @Test
     void getByIdSuccess() {
         Hospital hospital = daoHospital.getById(2);
@@ -50,6 +66,9 @@ public class PriceDaoTest {
         assertEquals("4667", retrievedPrice.getPrice());
     }
 
+    /**
+     * Insert a new hospital with existing procedure.
+     */
     @Test
     void insertSuccess() {
         Hospital newHospital = new Hospital("Final Destination Medical");
@@ -71,6 +90,9 @@ public class PriceDaoTest {
         assertEquals(newPrice, insertedPrice);
     }
 
+    /**
+     * Update success price of a procedure from one hospital.
+     */
     @Test
     void updateSuccess() {
         String newPrice = "8700";
@@ -93,6 +115,9 @@ public class PriceDaoTest {
     }
 
 
+    /**
+     * Delete procedure from a hospital with price.
+     */
     @Test
     void delete() {
         Hospital hospital = daoHospital.getById(3);
