@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * The type Hospital.
+ * The type Hospital. Represents a Hospital.
  */
 @Data
 @NoArgsConstructor
@@ -38,6 +38,12 @@ public class Hospital implements java.io.Serializable {
         this.hospitalName = hospitalName;
     }
 
+    /**
+     * Instantiates a new Hospital.
+     *
+     * @param hospitalName the hospital name
+     * @param prices       the prices
+     */
     public Hospital(String hospitalName, Set<Price> prices) {
         this.hospitalName = hospitalName;
         this.prices = prices;
