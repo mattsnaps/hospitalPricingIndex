@@ -13,7 +13,7 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 
 /**
- * The type Hospital procedure price dao.
+ * The type Price dao.
  */
 @Log4j2
 public class PriceDao {
