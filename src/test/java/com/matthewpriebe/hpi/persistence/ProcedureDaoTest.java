@@ -13,13 +13,20 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Procedure dao test.
+ */
 @Log4j2
 public class ProcedureDaoTest {
+
 
     ProcedureDao dao;
     HospitalDao daoHospital;
     PriceDao daoPrice;
 
+    /**
+     * Sets up.
+     */
     @BeforeEach
     void setUp() {
 
@@ -31,6 +38,9 @@ public class ProcedureDaoTest {
         daoPrice = new PriceDao();
     }
 
+    /**
+     * Gets by id success.
+     */
     @Test
     void getByIdSuccess() {
         Procedure retrievedProcedure = dao.getById(2);
@@ -38,6 +48,9 @@ public class ProcedureDaoTest {
         assertEquals("HT MUSCLE IMAGE SPECT, MULT", retrievedProcedure.getCodeDescription());
     }
 
+    /**
+     * Gets all success.
+     */
     @Test
     void getAllSuccess() {
         log.info("getAllSuccess runs");
@@ -45,6 +58,9 @@ public class ProcedureDaoTest {
         assertEquals(5, Procedures.size());
     }
 
+    /**
+     * Insert procedure success.
+     */
     @Test
     void insertProcedureSuccess() {
         Procedure newProcedure = new Procedure("24500", "Under Fracture",
@@ -56,6 +72,9 @@ public class ProcedureDaoTest {
         assertEquals(newProcedure, insertedProcedure);
     }
 
+    /**
+     * Update success test.
+     */
     @Test
     void updateSuccess() {
         String hcpsCode = "00794";
@@ -73,6 +92,10 @@ public class ProcedureDaoTest {
         assertEquals(procedureToUpdate, procedureAfterUpdate);
     }
 
+    /**
+     * Delete
+     * Test Delete. Also tests that the delete cascades down to child tables.
+     */
     @Test
     void delete() {
         Hospital hospital = daoHospital.getById(3);

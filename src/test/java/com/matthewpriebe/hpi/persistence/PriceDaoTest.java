@@ -92,8 +92,8 @@ public class PriceDaoTest {
         assertEquals(priceToUpdate.getPrice(), newPrice);
     }
 
-    @Test
 
+    @Test
     void delete() {
         Hospital hospital = daoHospital.getById(3);
         Procedure procedure = daoProcedure.getById(4);

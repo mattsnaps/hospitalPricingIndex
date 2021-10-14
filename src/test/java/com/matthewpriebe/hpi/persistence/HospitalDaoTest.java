@@ -1,12 +1,10 @@
 package com.matthewpriebe.hpi.persistence;
 
 import com.matthewpriebe.hpi.entity.Hospital;
-import com.matthewpriebe.hpi.entity.Price;
 import com.matthewpriebe.hpi.entity.PriceId;
 import com.matthewpriebe.hpi.entity.Procedure;
 import com.matthewpriebe.hpi.util.Database;
 import lombok.extern.log4j.Log4j2;
-import org.hibernate.Session;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +12,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Hospital dao test.
+ */
 @Log4j2
 public class HospitalDaoTest {
 
@@ -21,7 +22,13 @@ public class HospitalDaoTest {
      * The Dao.
      */
     HospitalDao dao;
+    /**
+     * The Dao procedure.
+     */
     ProcedureDao daoProcedure;
+    /**
+     * The Dao price.
+     */
     PriceDao daoPrice;
 
     /**
@@ -41,7 +48,7 @@ public class HospitalDaoTest {
     }
 
     /**
-     * Verify successful retrieval of a Book
+     * Verify successful retrieval of a Hospital
      */
     @Test
     void getByIdSuccess() {
@@ -50,7 +57,7 @@ public class HospitalDaoTest {
     }
 
     /**
-     * Verify successful retrieval of all Books
+     * Verify successful retrieval of all Hospitals
      */
     @Test
     void getAllSuccess() {
@@ -60,6 +67,10 @@ public class HospitalDaoTest {
         assertEquals(4, Hospitals.size());
     }
 
+
+    /**
+     * Insert hospital success test.
+     */
     @Test
     void insertHospitalSuccess() {
         Hospital newHospital = new Hospital("Greater Mary's Medical");
@@ -71,6 +82,9 @@ public class HospitalDaoTest {
     }
 
 
+    /**
+     * Update Hospital success.
+     */
     @Test
     void updateSuccess() {
 
@@ -84,6 +98,10 @@ public class HospitalDaoTest {
 
         assertEquals(hospitalToUpdate, hospitalAfterUpdate);
     }
+
+    /**
+     * Delete Hospital success. Cascade delete works down to child tables.
+     */
     @Test
     void deleteSuccess() {
         Hospital hospital = dao.getById(3);
