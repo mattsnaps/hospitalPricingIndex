@@ -5,6 +5,10 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
+/**
+ * The type Price id.
+ * This represents the compsite key for the Price table
+ */
 @Embeddable
 @Getter
 @Setter
