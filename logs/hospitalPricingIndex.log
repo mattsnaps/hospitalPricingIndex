@@ -180,3 +180,17 @@
 [INFO ] 2021-10-13 22:07:14.468 [main] ProcedureDao - Does it get here?3
 [INFO ] 2021-10-13 22:07:14.507 [main] ProcedureDao - Does it get here?3
 [INFO ] 2021-10-13 22:07:14.612 [main] ProcedureDao - Does it get here?24
+[INFO ] 2021-10-13 22:16:01.238 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-13 22:16:01.472 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-10-13 22:16:02.264 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-13 22:16:02.525 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-13 22:16:02.650 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-13 22:16:02.768 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-13 22:16:02.896 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-13 22:16:02.922 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-13 22:16:02.965 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-10-13 22:16:03.031 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-10-13 22:16:03.123 [main] ProcedureDao - Does it get here?2
+[INFO ] 2021-10-13 22:16:03.209 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-13 22:16:03.243 [main] ProcedureDao - Does it get here?3
+[INFO ] 2021-10-13 22:16:03.336 [main] ProcedureDao - Does it get here?25
