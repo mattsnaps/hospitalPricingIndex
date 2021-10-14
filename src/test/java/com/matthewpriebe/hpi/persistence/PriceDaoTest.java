@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class PriceDaoTest {
 
@@ -30,8 +31,13 @@ public class PriceDaoTest {
     }
 
     @Test
+    void getAllSuccess() {
+        List<Price> Prices = daoPrice.getAll();
+        assertEquals(15, Prices.size());
+    }
 
-    void GetByIdSuccess() {
+    @Test
+    void getByIdSuccess() {
         Hospital hospital = daoHospital.getById(2);
         Procedure procedure = daoProcedure.getById(2);
 
@@ -45,31 +51,58 @@ public class PriceDaoTest {
     }
 
     @Test
-    void getAllSuccess() {
-        List<Price> Prices = daoPrice.getAll();
-        assertEquals(15, Prices.size());
+    void insertSuccess() {
+        Hospital newHospital = new Hospital("Final Destination Medical");
+
+        int idHospital = daoHospital.insert(newHospital);
+
+        Hospital hospital = daoHospital.getById(idHospital);
+        Procedure procedure = daoProcedure.getById(2);
+
+        PriceId priceId = new PriceId();
+        priceId.setProcedure(procedure);
+        priceId.setHospital(hospital);
+
+        Price newPrice = new Price("3333", priceId);
+        daoPrice.insert(newPrice);
+
+        Price insertedPrice = daoPrice.getById(priceId);
+
+        assertEquals(newPrice, insertedPrice);
     }
 
     @Test
-    void insertNewHospitalNewProcedure() {
-        Hospital newHospital = new Hospital("Final Destination Medical");
-        Procedure newProcedure = new Procedure("28470", "Fracture, Foot and Toes", "Under Fracture and/or Dislocation Procedures on the Foot and Toes");
+    void updateSuccess() {
+        String newPrice = "8700";
 
-        daoHospital.insert(newHospital);
-        daoProcedure.insert(newProcedure);
-
-        newHospital = daoHospital.getById();
+        Hospital hospital = daoHospital.getById(1);
+        Procedure procedure = daoProcedure.getById(4);
 
         PriceId priceId = new PriceId();
-        priceId.setHospital(newHospital);
-        priceId.setProcedure(newProcedure);
+        priceId.setProcedure(procedure);
+        priceId.setHospital(hospital);
 
-        Price addedPrice = new Price("3222");
+        Price priceToUpdate = daoPrice.getById(priceId);
+        priceToUpdate.setPrice(newPrice);
 
-        daoPrice.insert(addedPrice);
+        daoPrice.saveOrUpdate(priceToUpdate);
 
-        Price insertedPrice = daoPrice.getById(priceId);
-        assertEquals(addedPrice, insertedPrice);
+        Price priceAfterUpdate = daoPrice.getById(priceId);
 
+        assertEquals(priceToUpdate.getPrice(), newPrice);
+    }
+
+    @Test
+
+    void delete() {
+        Hospital hospital = daoHospital.getById(3);
+        Procedure procedure = daoProcedure.getById(4);
+
+        PriceId priceId = new PriceId();
+        priceId.setProcedure(procedure);
+        priceId.setHospital(hospital);
+
+        daoPrice.delete(daoPrice.getById(priceId));
+        assertNull(daoPrice.getById(priceId));
     }
 }

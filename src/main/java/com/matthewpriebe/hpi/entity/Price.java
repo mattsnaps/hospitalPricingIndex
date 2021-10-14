@@ -27,6 +27,11 @@ public class Price implements java.io.Serializable{
         this.price = price;
     }
 
+    public Price(String price,PriceId pk) {
+        this.price = price;
+        this.pk = pk;
+    }
+
     @Transient
     public Procedure getProcedure() {
         return getPk().getProcedure();

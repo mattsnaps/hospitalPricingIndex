@@ -47,12 +47,6 @@ public class HospitalDao {
         session.close();
     }
 
-    /**
-     * Insert int.
-     *
-     * @param Hospital the hospital
-     * @return the int
-     */
     public int insert(Hospital Hospital) {
         int id = 0;
         Session session = sessionFactory.openSession();
