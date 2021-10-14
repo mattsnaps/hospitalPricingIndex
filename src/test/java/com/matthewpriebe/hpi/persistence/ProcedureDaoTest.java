@@ -1,6 +1,7 @@
 package com.matthewpriebe.hpi.persistence;
 
 import com.matthewpriebe.hpi.entity.Hospital;
+import com.matthewpriebe.hpi.entity.PriceId;
 import com.matthewpriebe.hpi.entity.Procedure;
 import com.matthewpriebe.hpi.util.Database;
 import lombok.extern.java.Log;
@@ -16,6 +17,8 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ProcedureDaoTest {
 
     ProcedureDao dao;
+    HospitalDao daoHospital;
+    PriceDao daoPrice;
 
     @BeforeEach
     void setUp() {
@@ -24,6 +27,8 @@ public class ProcedureDaoTest {
         database.runSQL("cleandb.sql");
 
         dao = new ProcedureDao();
+        daoHospital = new HospitalDao();
+        daoPrice = new PriceDao();
     }
 
     @Test
@@ -70,7 +75,15 @@ public class ProcedureDaoTest {
 
     @Test
     void delete() {
+        Hospital hospital = daoHospital.getById(3);
+        Procedure procedure = dao.getById(4);
+
+        PriceId priceId = new PriceId();
+        priceId.setProcedure(procedure);
+        priceId.setHospital(hospital);
+
         dao.delete(dao.getById(4));
         assertNull(dao.getById(4));
+        assertNull(daoPrice.getById(priceId));
     }
 }

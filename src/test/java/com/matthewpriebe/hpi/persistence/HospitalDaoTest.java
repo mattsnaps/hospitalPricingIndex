@@ -21,6 +21,8 @@ public class HospitalDaoTest {
      * The Dao.
      */
     HospitalDao dao;
+    ProcedureDao daoProcedure;
+    PriceDao daoPrice;
 
     /**
      * Run set up tasks before each test:
@@ -34,6 +36,8 @@ public class HospitalDaoTest {
         database.runSQL("cleandb.sql");
 
         dao = new HospitalDao();
+        daoProcedure = new ProcedureDao();
+        daoPrice = new PriceDao();
     }
 
     /**
@@ -82,7 +86,16 @@ public class HospitalDaoTest {
     }
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getById(4));
-        assertNull(dao.getById(4));
+        Hospital hospital = dao.getById(3);
+        Procedure procedure = daoProcedure.getById(4);
+
+        PriceId priceId = new PriceId();
+        priceId.setProcedure(procedure);
+        priceId.setHospital(hospital);
+
+        dao.delete(dao.getById(3));
+
+        assertNull(dao.getById(3));
+        assertNull(daoPrice.getById(priceId));
     }
 }

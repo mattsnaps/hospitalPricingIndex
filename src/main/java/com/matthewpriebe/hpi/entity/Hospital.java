@@ -26,7 +26,7 @@ public class Hospital implements java.io.Serializable {
     @Column(name = "hospital_Name")
     private String hospitalName;
 
-    @OneToMany(mappedBy = "pk.hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "pk.hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);
 
     /**
