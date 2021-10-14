@@ -11,6 +11,7 @@ import java.util.Set;
 
 /**
  * The type Procedure.
+ * Represents a medical procedure
  */
 @Data
 @NoArgsConstructor
@@ -38,7 +39,7 @@ public class Procedure implements java.io.Serializable{
     /**
      * Instantiates a new Procedure.
      *
-     * @param procedureCode                the code
+     * @param procedureCode       the code
      * @param codeDescription     the code description
      * @param codeDescriptionLong the code description long
      */
@@ -48,6 +49,14 @@ public class Procedure implements java.io.Serializable{
         this.codeDescriptionLong = codeDescriptionLong;
     }
 
+    /**
+     * Instantiates a new Procedure.
+     *
+     * @param procedureCode       the procedure code
+     * @param codeDescription     the code description
+     * @param codeDescriptionLong the code description long
+     * @param prices              the prices
+     */
     public Procedure(String procedureCode, String codeDescription, String codeDescriptionLong, Set<Price> prices) {
         this.procedureCode = procedureCode;
         this.codeDescription = codeDescription;
