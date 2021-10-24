@@ -1,4 +1,4 @@
-#Project Plan
+# Project Plan
 
 ### Week 6
 - [ ] Get Project caught up and ready for check in.
@@ -9,4 +9,8 @@
 - [ ] Push project up to AWS
 
 ### Week 8
-- [ ]
+- [ ] Add User Table
+- [ ] Implement Generic Dao
+- [ ] Better Format markdown
+- [ ] Delete unit testing could be better
+- [ ] Update Project Plan
