@@ -27,6 +27,9 @@
     <junit-vintage-version>4.12.0</junit-vintage-version>
     <jupiter-version>5.0.0</jupiter-version>
     <mysql-version>8.0.16</mysql-version>
+    <java-jwt-version>3.4.1</java-jwt-version>
+    <json-version>20170516</json-version>
+    <common-io-version>2.11.0</common-io-version>
   </properties>
 
   <dependencies>
@@ -105,6 +108,27 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>${mysql-version}</version>
     </dependency>
+
+    <!-- for parsing access token -->
+    <dependency>
+      <groupId>com.auth0</groupId>
+      <artifactId>java-jwt</artifactId>
+      <version>${java-jwt-version}</version>
+    </dependency>
+
+    <!-- json dependency -->
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>${json-version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>${common-io-version}</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -142,5 +166,15 @@
         </plugin>
       </plugins>
     </pluginManagement>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>11</source>
+                  <target>11</target>
+              </configuration>
+          </plugin>
+      </plugins>
   </build>
 </project>
