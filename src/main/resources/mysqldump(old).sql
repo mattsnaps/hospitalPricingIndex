@@ -26,7 +26,7 @@ CREATE TABLE `hospital` (
   `id` int NOT NULL AUTO_INCREMENT,
   `hospital_Name` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -76,12 +76,11 @@ DROP TABLE IF EXISTS `procedure`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `procedure` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `code` varchar(30) NOT NULL,
-  `code_type` varchar(30) DEFAULT NULL,
+  `hcpcs_code` varchar(30) NOT NULL,
   `code_desc` varchar(200) DEFAULT NULL,
   `code_desc_english` varchar(400) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -90,31 +89,8 @@ CREATE TABLE `procedure` (
 
 LOCK TABLES `procedure` WRITE;
 /*!40000 ALTER TABLE `procedure` DISABLE KEYS */;
-INSERT INTO `procedure` (`id`, `code`, `code_type`, `code_desc`, `code_desc_english`) VALUES (1,'76700','CPT','HC US ABDOMEN COMPLETE','Ultrasound, abdominal, real time with image documentation'),(2,'78452','CPT','HT MUSCLE IMAGE SPECT, MULT','Myocardial perfusion imaging, tomographic (SPECT) (including attenuation correction, qualitative or quantitative wall motion, ejection fraction by first pass or gated technique, additional quantification, when performed)'),(3,'80048','CPT','METABOLIC PANEL TOTAL CA','BASIC METABOLIC PANEL - Glucose, Urea Nitrogen (BUN), Creatinine, Sodium (Na), Potassium (K),\r\n                        Chloride (CL), Carbon Dioxide (CO2), Anion Gap, Calcium'),(4,'806','DRG','VAGINAL DELIVERY WITHOUT STERILIZATION/D&C WITH CC','VAGINAL DELIVERY WITHOUT STERILIZATION/D&C WITH CC'),(5,'93017','CPT','HC CARD STRESS TEST ROUTINE','Cardiovascular stress test using maximal or submaximal treadmill or bicycle exercise, continuous electrocardiographic monitoring, and/or pharmacological stress');
+INSERT INTO `procedure` (`id`, code, `code_desc`, `code_desc_english`) VALUES (1,'76700','HC US ABDOMEN COMPLETE','Ultrasound, abdominal, real time with image documentation'),(2,'78452','HT MUSCLE IMAGE SPECT, MULT','Myocardial perfusion imaging, tomographic (SPECT) (including attenuation correction, qualitative or quantitative wall motion, ejection fraction by first pass or gated technique, additional quantification, when performed)'),(3,'80048','METABOLIC PANEL TOTAL CA','BASIC METABOLIC PANEL - Glucose, Urea Nitrogen (BUN), Creatinine, Sodium (Na), Potassium (K),\r\n                        Chloride (CL), Carbon Dioxide (CO2), Anion Gap, Calcium'),(4,'DRG806','VAGINAL DELIVERY WITHOUT STERILIZATION/D&C WITH CC','VAGINAL DELIVERY WITHOUT STERILIZATION/D&C WITH CC'),(5,'93017','HC CARD STRESS TEST ROUTINE','Cardiovascular stress test using maximal or submaximal treadmill or bicycle exercise, continuous electrocardiographic monitoring, and/or pharmacological stress'),(24,'24500','Under Fracture',' Under Fracture and/or Dislocation Procedures on the Humerus (Upper Arm) and Elbow');
 /*!40000 ALTER TABLE `procedure` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `user`
---
-
-DROP TABLE IF EXISTS `user`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `user` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `username` varchar(100) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `user`
---
-
-LOCK TABLES `user` WRITE;
-/*!40000 ALTER TABLE `user` DISABLE KEYS */;
-/*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -126,4 +102,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-11-29 18:54:46
+-- Dump completed on 2021-10-13 22:14:18

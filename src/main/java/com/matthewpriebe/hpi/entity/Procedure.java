@@ -24,8 +24,11 @@ public class Procedure implements java.io.Serializable{
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "hcpcs_code")
+    @Column(name = "code")
     private String procedureCode;
+
+    @Column(name = "code_type")
+    private String codeType;
 
     @Column(name = "code_desc")
     private String codeDescription;
