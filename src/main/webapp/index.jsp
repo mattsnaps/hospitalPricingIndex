@@ -10,5 +10,7 @@
         <h3>Welcome ${userName}</h3>
     </c:otherwise>
 </c:choose>
+
+<a href = "getresults">results</a>
 </body>
 </html>

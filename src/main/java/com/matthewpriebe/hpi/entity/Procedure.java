@@ -46,8 +46,9 @@ public class Procedure implements java.io.Serializable{
      * @param codeDescription     the code description
      * @param codeDescriptionLong the code description long
      */
-    public Procedure(String procedureCode, String codeDescription, String codeDescriptionLong) {
+    public Procedure(String procedureCode, String codeType, String codeDescription, String codeDescriptionLong) {
         this.procedureCode = procedureCode;
+        this.codeType = codeType;
         this.codeDescription = codeDescription;
         this.codeDescriptionLong = codeDescriptionLong;
     }

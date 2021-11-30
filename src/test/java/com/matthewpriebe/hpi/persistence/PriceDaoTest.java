@@ -5,6 +5,7 @@ import com.matthewpriebe.hpi.entity.Price;
 import com.matthewpriebe.hpi.entity.PriceId;
 import com.matthewpriebe.hpi.entity.Procedure;
 import com.matthewpriebe.hpi.util.Database;
+import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -16,6 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 /**
  * The type Price dao test.
  */
+@Log4j2
 public class PriceDaoTest {
 
 
@@ -46,6 +48,13 @@ public class PriceDaoTest {
     @Test
     void getAllSuccess() {
         List<Price> Prices = daoPrice.getAll();
+
+        log.info("Starting Test");
+
+        for (Price price : Prices) {
+            log.info(price.getHospital().getHospitalName() + " " + price.getProcedure().getProcedureCode() + " " + price.getPrice());
+        }
+
         assertEquals(15, Prices.size());
     }
 

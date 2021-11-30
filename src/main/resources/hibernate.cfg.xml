@@ -18,6 +18,7 @@
 
         <mapping class="com.matthewpriebe.hpi.entity.Hospital" />
         <mapping class="com.matthewpriebe.hpi.entity.Procedure" />
+        <mapping class="com.matthewpriebe.hpi.entity.Price" />
     </session-factory>
 
 </hibernate-configuration>

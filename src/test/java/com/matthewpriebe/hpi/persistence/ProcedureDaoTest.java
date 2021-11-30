@@ -63,7 +63,7 @@ public class ProcedureDaoTest {
      */
     @Test
     void insertProcedureSuccess() {
-        Procedure newProcedure = new Procedure("24500", "Under Fracture",
+        Procedure newProcedure = new Procedure("24500", "CPT", "Under Fracture",
                         " Under Fracture and/or Dislocation Procedures on the Humerus (Upper Arm) and Elbow");
 
         int id = dao.insert(newProcedure);
