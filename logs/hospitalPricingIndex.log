@@ -339,3 +339,163 @@
 [INFO ] 2021-11-29 20:00:15.044 [main] PriceDaoTest - Monroe Clinic 93017 786
 [INFO ] 2021-11-29 20:00:15.044 [main] PriceDaoTest - St. Mary's Hospital 93017 892
 [INFO ] 2021-11-29 20:00:15.044 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:31:52.236 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:31:52.239 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:36:31.237 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:36:31.241 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:36:31.242 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:36:31.242 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:36:31.242 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:36:31.242 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:36:31.242 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:36:31.242 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:36:31.242 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:37:08.370 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:37:08.373 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:37:56.563 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:37:56.568 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:38:21.047 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:38:21.050 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:38:21.050 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:38:21.050 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:38:21.050 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:38:21.050 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:38:21.050 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:38:21.050 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:38:21.051 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:39:01.184 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:39:01.188 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:39:01.188 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:39:01.188 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:39:01.188 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:39:01.188 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:39:01.188 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:39:01.188 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:39:01.189 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:39:13.267 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:39:13.272 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:39:13.272 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:39:13.272 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:39:13.273 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:39:22.009 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:39:22.012 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:39:22.012 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:39:22.012 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:39:22.012 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:39:22.012 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:39:22.012 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:39:22.013 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:39:38.696 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:39:38.702 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:39:38.703 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:39:38.703 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:39:38.703 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:39:38.703 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-29 20:49:49.321 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-11-29 20:49:49.323 [main] PriceDaoTest - Monroe Clinic 76700 1611
+[INFO ] 2021-11-29 20:49:49.323 [main] PriceDaoTest - St. Mary's Hospital 76700 1198
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Anges Hospital 76700 632
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - Monroe Clinic 78452 4843
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Mary's Hospital 78452 4667
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Anges Hospital 78452 4086
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - Monroe Clinic 80048 123
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Mary's Hospital 80048 352
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Anges Hospital 80048 174
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - Monroe Clinic 806 16561
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Mary's Hospital 806 11328
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Anges Hospital 806 5838
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - Monroe Clinic 93017 786
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Mary's Hospital 93017 892
+[INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Anges Hospital 93017 1083
