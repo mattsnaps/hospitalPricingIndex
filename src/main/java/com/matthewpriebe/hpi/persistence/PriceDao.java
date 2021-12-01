@@ -32,7 +32,8 @@ public class PriceDao {
      */
     public Price getById(PriceId id) {
         Session session = sessionFactory.openSession();
-        Price Price = session.get( Price.class, id );
+
+        Price Price = session.get(Price.class, id );
         session.close();
         return Price;
     }

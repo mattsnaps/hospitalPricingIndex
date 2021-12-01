@@ -21,7 +21,7 @@ public class HospitalDaoTest {
     /**
      * The Dao.
      */
-    HospitalDao dao;
+    HospitalDao daoHospital;
     /**
      * The Dao procedure.
      */
@@ -30,6 +30,10 @@ public class HospitalDaoTest {
      * The Dao price.
      */
     PriceDao daoPrice;
+    /**
+     *
+     */
+    GenericDao dao;
 
     /**
      * Run set up tasks before each test:
@@ -38,11 +42,12 @@ public class HospitalDaoTest {
      */
     @BeforeEach
     void setUp() {
-
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
 
-        dao = new HospitalDao();
+        dao = new GenericDao<>(Hospital.class);
+
+        daoHospital = new HospitalDao();
         daoProcedure = new ProcedureDao();
         daoPrice = new PriceDao();
     }
@@ -52,7 +57,7 @@ public class HospitalDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Hospital retrievedHospital = dao.getById(1);
+        Hospital retrievedHospital = (Hospital) dao.getById(1);
         assertEquals("Monroe Clinic", retrievedHospital.getHospitalName());
     }
 
@@ -67,7 +72,6 @@ public class HospitalDaoTest {
         assertEquals(4, Hospitals.size());
     }
 
-
     /**
      * Insert hospital success test.
      */
@@ -77,7 +81,7 @@ public class HospitalDaoTest {
 
         int id = dao.insert(newHospital);
         assertNotEquals(0,id);
-        Hospital insertedHospital = dao.getById(id);
+        Hospital insertedHospital = (Hospital) dao.getById(id);
         assertEquals(newHospital, insertedHospital);
     }
 
@@ -90,11 +94,11 @@ public class HospitalDaoTest {
 
         String newHospitalName = "Sacred Hearts";
 
-        Hospital hospitalToUpdate = dao.getById(2);
+        Hospital hospitalToUpdate = (Hospital) dao.getById(2);
         hospitalToUpdate.setHospitalName(newHospitalName);
 
         dao.saveOrUpdate(hospitalToUpdate);
-        Hospital hospitalAfterUpdate = dao.getById(2);
+        Hospital hospitalAfterUpdate = (Hospital) dao.getById(2);
 
         assertEquals(hospitalToUpdate, hospitalAfterUpdate);
     }
@@ -104,7 +108,7 @@ public class HospitalDaoTest {
      */
     @Test
     void deleteSuccess() {
-        Hospital hospital = dao.getById(3);
+        Hospital hospital = (Hospital) dao.getById(3);
         Procedure procedure = daoProcedure.getById(4);
 
         PriceId priceId = new PriceId();

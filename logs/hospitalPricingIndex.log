@@ -499,3 +499,8 @@
 [INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - Monroe Clinic 93017 786
 [INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Mary's Hospital 93017 892
 [INFO ] 2021-11-29 20:49:49.324 [main] PriceDaoTest - St. Anges Hospital 93017 1083
+[INFO ] 2021-11-30 19:14:45.587 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-11-30 19:17:29.118 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-11-30 19:21:02.550 [main] ProcedureDao - Does it get here?4
+[INFO ] 2021-11-30 19:21:08.043 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-11-30 19:28:52.493 [main] ProcedureDaoTest - getAllSuccess runs

@@ -19,8 +19,9 @@ import static org.junit.jupiter.api.Assertions.*;
 @Log4j2
 public class ProcedureDaoTest {
 
+    GenericDao dao;
 
-    ProcedureDao dao;
+    ProcedureDao daoProcedure;
     HospitalDao daoHospital;
     PriceDao daoPrice;
 
@@ -33,7 +34,9 @@ public class ProcedureDaoTest {
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
 
-        dao = new ProcedureDao();
+        dao = new GenericDao<>(Procedure.class);
+
+        daoProcedure = new ProcedureDao();
         daoHospital = new HospitalDao();
         daoPrice = new PriceDao();
     }
@@ -43,7 +46,7 @@ public class ProcedureDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Procedure retrievedProcedure = dao.getById(2);
+        Procedure retrievedProcedure = (Procedure) dao.getById(2);
 
         assertEquals("HT MUSCLE IMAGE SPECT, MULT", retrievedProcedure.getCodeDescription());
     }
@@ -68,7 +71,7 @@ public class ProcedureDaoTest {
 
         int id = dao.insert(newProcedure);
         assertNotEquals(0,id);
-        Procedure insertedProcedure = dao.getById(id);
+        Procedure insertedProcedure = (Procedure) dao.getById(id);
         assertEquals(newProcedure, insertedProcedure);
     }
 
@@ -81,13 +84,13 @@ public class ProcedureDaoTest {
         String codeDescription = " Under Anesthesia for Procedures on the Upper Abdomen";
         String codeDescriptionLong = " Under Anesthesia for Procedures on the Upper Abdomen Longer Version";
 
-        Procedure procedureToUpdate = dao.getById(3);
+        Procedure procedureToUpdate = (Procedure) dao.getById(3);
         procedureToUpdate.setProcedureCode(hcpsCode);
         procedureToUpdate.setCodeDescription(codeDescription);
         procedureToUpdate.setCodeDescriptionLong(codeDescriptionLong);
 
         dao.saveOrUpdate(procedureToUpdate);
-        Procedure procedureAfterUpdate = dao.getById(3);
+        Procedure procedureAfterUpdate = (Procedure) dao.getById(3);
 
         assertEquals(procedureToUpdate, procedureAfterUpdate);
     }
@@ -99,7 +102,7 @@ public class ProcedureDaoTest {
     @Test
     void delete() {
         Hospital hospital = daoHospital.getById(3);
-        Procedure procedure = dao.getById(4);
+        Procedure procedure = (Procedure) dao.getById(4);
 
         PriceId priceId = new PriceId();
         priceId.setProcedure(procedure);
