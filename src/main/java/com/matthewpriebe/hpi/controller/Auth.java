@@ -13,6 +13,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -62,9 +64,9 @@ public class Auth extends HttpServlet implements PropertiesLoader {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     @Override
-    public void init() throws ServletException {
+    public void init(ServletConfig config) throws ServletException {
         super.init();
-        loadProperties();
+        loadProperties(config);
         loadKey();
     }
 
@@ -239,21 +241,18 @@ public class Auth extends HttpServlet implements PropertiesLoader {
      * for authenticating a user.
      */
     // TODO This code appears in a couple classes, consider using a startup servlet similar to adv java project
-    private void loadProperties() {
-        try {
-            properties = loadProperties("/cognito.properties");
-            CLIENT_ID = properties.getProperty("client.id");
-            CLIENT_SECRET = properties.getProperty("client.secret");
-            OAUTH_URL = properties.getProperty("oauthURL");
-            LOGIN_URL = properties.getProperty("loginURL");
-            REDIRECT_URL = properties.getProperty("redirectURL");
-            REGION = properties.getProperty("region");
-            POOL_ID = properties.getProperty("poolId");
-        } catch (IOException ioException) {
-            logger.error("Cannot load properties..." + ioException.getMessage(), ioException);
-        } catch (Exception e) {
-            logger.error("Error loading properties" + e.getMessage(), e);
-        }
+    private void loadProperties(ServletConfig config) {
+        ServletContext ctx = config.getServletContext();
+        Properties properties = (Properties) ctx.getAttribute("cognitoProperties");
+
+        CLIENT_ID = properties.getProperty("client.id");
+        CLIENT_SECRET = properties.getProperty("client.secret");
+        OAUTH_URL = properties.getProperty("oauthURL");
+        LOGIN_URL = properties.getProperty("loginURL");
+        REDIRECT_URL = properties.getProperty("redirectURL");
+        REGION = properties.getProperty("region");
+        POOL_ID = properties.getProperty("poolId");
+
     }
 }
 
