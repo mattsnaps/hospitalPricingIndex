@@ -504,3 +504,597 @@
 [INFO ] 2021-11-30 19:21:02.550 [main] ProcedureDao - Does it get here?4
 [INFO ] 2021-11-30 19:21:08.043 [main] HospitalDaoTest - getAllSuccess runs
 [INFO ] 2021-11-30 19:28:52.493 [main] ProcedureDaoTest - getAllSuccess runs
+[ERROR] 2021-12-01 23:58:10.041 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_hospital_pricing_schema`.`hospital_procedure_price`, CONSTRAINT `hospital_procedure_price_hospital_id_fk` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-01 23:59:23.365 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-02 00:02:31.732 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[INFO ] 2021-12-02 00:02:33.256 [main] HospitalDaoTest - getAllSuccess runs
+[ERROR] 2021-12-02 00:05:11.054 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-02 00:05:34.421 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-02 00:06:08.762 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-02 00:06:39.174 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[INFO ] 2021-12-02 00:06:40.812 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:06:44.034 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[INFO ] 2021-12-02 00:06:44.035 [main] HospitalDaoTest - getAllSuccess runs
+[ERROR] 2021-12-02 00:06:47.542 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-02 00:06:50.403 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-02 00:06:50.478 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`standard_charge`, CONSTRAINT `FK_hospital` FOREIGN KEY (`hospital_id`) REFERENCES `hospital` (`id`))
+[ERROR] 2021-12-02 00:11:08.147 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_pricing_data.procedure_catagory' doesn't exist
+[ERROR] 2021-12-02 00:12:16.224 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_pricing_data.procedure_catagory' doesn't exist
+[ERROR] 2021-12-02 00:14:07.336 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_pricing_data.procedure_catagory' doesn't exist
+[ERROR] 2021-12-02 00:15:09.143 [main] Database - java.sql.SQLSyntaxErrorException: Table 'sample_pricing_data.procedure_catagory' doesn't exist
+[ERROR] 2021-12-02 00:16:28.927 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:16:59.633 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:17:01.296 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:17:01.461 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:17:01.462 [main] HospitalDaoTest - getAllSuccess runs
+[ERROR] 2021-12-02 00:17:01.773 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:17:01.936 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:17:02.090 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:19:20.159 [main] Database - java.lang.NullPointerException
+[INFO ] 2021-12-02 00:19:22.268 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:19:22.287 [main] Database - java.lang.NullPointerException
+[INFO ] 2021-12-02 00:19:22.400 [main] PriceDaoTest - Starting Test
+[ERROR] 2021-12-02 00:19:22.405 [main] Database - java.lang.NullPointerException
+[INFO ] 2021-12-02 00:19:22.411 [main] ProcedureDao - Does it get here?2
+[ERROR] 2021-12-02 00:19:22.422 [main] Database - java.lang.NullPointerException
+[INFO ] 2021-12-02 00:19:22.443 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:19:22.456 [main] Database - java.lang.NullPointerException
+[INFO ] 2021-12-02 00:19:22.495 [main] ProcedureDao - Does it get here?2
+[ERROR] 2021-12-02 00:20:01.414 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:20:03.122 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:20:03.123 [main] ProcedureDaoTest - getAllSuccess runs
+[ERROR] 2021-12-02 00:20:03.387 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:20:03.537 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:20:03.647 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:21:00.739 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:21:02.299 [main] ProcedureDao - Does it get here?2
+[ERROR] 2021-12-02 00:22:47.064 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:22:48.600 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:22:48.749 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:22:48.750 [main] HospitalDaoTest - getAllSuccess runs
+[ERROR] 2021-12-02 00:22:49.024 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:22:49.177 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:22:49.325 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[ERROR] 2021-12-02 00:23:34.314 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:23:35.953 [main] PriceDaoTest - Starting Test
+[ERROR] 2021-12-02 00:25:12.416 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:25:14.173 [main] PriceDaoTest - Starting Test
+[ERROR] 2021-12-02 00:27:24.043 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
+[INFO ] 2021-12-02 00:27:25.639 [main] ProcedureDao - Does it get here?2
+[ERROR] 2021-12-02 00:31:05.342 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[ERROR] 2021-12-02 00:31:27.550 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[INFO ] 2021-12-02 00:31:29.123 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:31:32.415 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[INFO ] 2021-12-02 00:31:35.798 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 0191T $13,723.56
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 19120 $11,939.91
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 19125 $14,138.35
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 19301 $16,129.30
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 19307 $19,212.60
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 20610-0320 $793.90
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 20610-0510 $793.90
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 216 
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 23410 $13,943.55
+[INFO ] 2021-12-02 00:31:35.800 [main] PriceDaoTest - Monroe Clinic 23412 $13,530.31
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 25111 $8,614.76
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 27096-0359 $1,110.83
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 27096-0761 $1,110.83
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 27130 $28,959.58
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 27447 $26,108.37
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 28285 $5,225.16
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 28296 $11,300.11
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 29826 $20,562.13
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 29827 $20,255.76
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 29877 $12,128.12
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 29880 $11,335.86
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 29881 $14,587.70
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 29888 $23,486.09
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 30140 $13,061.33
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3030236 $89.70
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3030239 $208.00
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3030424 $231.75
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3032000 $168.65
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3032010 $168.82
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3033797 $168.82
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 30520 $14,998.48
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 30930 $13,184.86
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3110471 $38.36
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3112911 $54.46
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3112912-0260 $220.50
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3112912-0920 $220.50
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3112912-0940 $220.50
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3112913-0260 $89.57
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3112913-0940 $89.57
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3115137 $220.50
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3116365 $220.50
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3119099-0761 $3,858.52
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31253 $18,422.16
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31254 $14,585.12
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31255 $16,184.73
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31256 $16,571.59
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31259 $20,896.32
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31267 $20,896.32
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31623 $7,782.86
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31624 $7,678.83
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31625 $5,997.26
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 31628 $7,678.83
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3263034 $54.46
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 329 $75,848.68
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 330 $30,524.03
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3306372 $54.46
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 331 $32,670.26
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 33285 $11,035.78
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3330113 $1,238.39
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3400025 $1,750.39
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3405088-0450 $793.90
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3405088-0456 $793.90
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3405144-0450 $793.90
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3405144-0456 $793.90
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3405393-0456 $38.36
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3405393-0771 $38.36
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3470011-0260 $220.50
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3470011-0761 $220.50
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490010-0749 $3,120.03
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490010-0920 $3,120.03
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490011 $3,120.03
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490031-0410 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490031-0410-52 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490032-0410 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490032-0410-52 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490032-0920 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490032-0920-52 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490033-0410 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3490033-0920 $3,107.51
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3495810 $3,120.03
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3540003 $200.17
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3550220 $483.70
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3550221 $483.70
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3550222 $483.70
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 3559366 $897.70
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 36430-0280 $198.93
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 36430-0300 $198.93
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 36430-0391 $198.93
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 36430-0450 $198.93
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 37224-0329 $20,707.82
+[INFO ] 2021-12-02 00:31:35.801 [main] PriceDaoTest - Monroe Clinic 37224-0480 $20,707.82
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731020 $126.44
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731024 $126.44
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731039 $113.99
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731040 $90.35
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731042 $90.35
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731071 $113.99
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731072 $125.72
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3731074 $126.77
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3735061 $113.99
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3737161 $241.80
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3737162 $286.22
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3737163 $289.90
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3739711 $83.20
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3739715 $41.60
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761013 $111.80
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761018 $126.77
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761021 $111.80
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761022 $113.99
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761039 $126.44
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761042 $126.44
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761044 $126.44
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3761203 $68.25
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3767165 $234.00
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3767166 $288.13
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3767167 $281.45
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 3769525 $125.72
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 38500 $16,550.55
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 38510 $15,865.36
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 38525 $17,592.28
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 4101752-0350 $7,609.65
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 4101781-0761 $4,157.37
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 4109397 $312.25
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 42820 $9,951.19
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 42821 $10,295.73
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 42825 $8,621.33
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 42826 $11,969.49
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 43235 $3,819.18
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 43239 $4,970.96
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 45330 $3,332.55
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 45378 $4,346.11
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 45380 $4,408.92
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 45385 $4,291.49
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 45391 
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 460 
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 469 
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 470 $26,277.72
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 473 
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 47562 $17,825.67
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49505 $13,690.33
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49507 $11,920.97
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49520 $16,849.66
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49560 $16,728.26
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49561 $19,288.27
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49565 $14,667.58
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49585 $13,856.84
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49587 $14,112.55
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49650 $19,697.13
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49653 $18,364.07
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 49655 $19,562.54
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 52000-0402 $8,057.00
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 52000-0510 $8,057.00
+[INFO ] 2021-12-02 00:31:35.802 [main] PriceDaoTest - Monroe Clinic 52000-0761 $8,057.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 52601 $22,013.84
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 54161 $13,941.56
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 55700 $14,175.92
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 55866 
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 58552 $21,405.13
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 58571 $23,928.75
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 59400 
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 59510 
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 59610 
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 62322 
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 62323-0320 $1,122.99
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 64721 $7,713.47
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 66821 
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 66982 $10,854.47
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 66984 $11,038.36
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 69436 $7,926.33
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70030-0320 $244.56
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70030-0320-50 $244.56
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70450-0350 $1,618.53
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70450-0350-TC $1,618.53
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70450-0351 $1,618.53
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70450-0351-TC $1,618.53
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70470-0350 $1,765.73
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70470-0350-TC $1,765.73
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70470-0351 $1,765.73
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70470-0351-TC $1,765.73
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70480-0350 $1,638.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70480-0350-TC $1,638.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70480-0351 $1,638.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70480-0351-TC $1,638.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70486-0350 $1,588.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70486-0510 $1,588.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 704860-0350 $1,588.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 704860-0350-52 $1,588.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 704860-0350-52-TC $1,588.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 704860-0350-PC $1,588.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70491-0350 $1,842.30
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70491-0351 $1,842.30
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70496 $1,896.43
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70498-0350 $2,049.33
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70498-0350-TC $2,049.33
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70543-0610 $3,838.41
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70543-0611 $3,838.41
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70544-0610 $2,649.82
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70544-0615 $2,649.82
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70549-0610 $4,611.52
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70549-0610-TC $4,611.52
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70549-0615 $4,611.52
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70549-0615-TC $4,611.52
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70551-0610 $2,766.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70551-0611 $2,766.00
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 70553 $4,494.12
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71045-0320 $181.65
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71045-0320-TC $181.65
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71046-0320 $229.06
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71046-0320-TC $229.06
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71101-0320 $155.76
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71101-0320-TC $155.76
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71250 $1,632.70
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 712505-0350 $1,632.70
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 712505-0352 $1,632.70
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71260-0350 $1,931.15
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71260-0350-TC $1,931.15
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71260-0352 $1,931.15
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71260-0352-TC $1,931.15
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71275-0350 $2,046.34
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 71275-0350-TC $2,046.34
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72040 $131.02
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72052-0320 $260.65
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72052-0320-TC $260.65
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72072-0320 $178.88
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72072-0320-TC $178.88
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72100-0320 $153.63
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72100-0320-TC $153.63
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72110-0320 $216.01
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72110-0320-TC $216.01
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72125-0350 $2,543.79
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72125-0352 $2,543.79
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72128-0350 $2,567.39
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72128-0350-TC $2,567.39
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72128-0352 $2,567.39
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72128-0352-TC $2,567.39
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72131-0350 $2,275.65
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72131-0352 $2,275.65
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72141-0610 $2,705.83
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72141-0612 $2,705.83
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72146 $2,969.65
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72148 $2,883.53
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72156 $4,010.91
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72157 $4,051.74
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72158 $3,850.76
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72170-0320 $119.81
+[INFO ] 2021-12-02 00:31:35.803 [main] PriceDaoTest - Monroe Clinic 72170-0320-TC $119.81
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 72192 $1,506.70
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 72193-0350 $1,575.60
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 72193-0400 $1,575.60
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 72195-0610 $2,742.68
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 72195-0610-TC $2,742.68
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 72197-0610 $3,809.26
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 72197-0610-TC $3,809.26
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73030 $137.08
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73060 $130.18
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73070 $118.30
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73090 $108.99
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73100 $145.96
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73110 $142.04
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73130-0320 $135.27
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73130-0320-TC $135.27
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73140-0320 $98.81
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73140-0320-TC $98.81
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73200 $1,946.49
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73218 $2,695.55
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73220 $3,789.83
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73221 $2,511.85
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73222 $3,281.85
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73223 $3,911.70
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73502 $89.32
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73522 $100.75
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73525 $536.25
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73552 $69.01
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73560 $153.12
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73564 $170.21
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73580-0320 $636.24
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73580-0322 $636.24
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73590-0320 $123.57
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73590-0320-TC $123.57
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73600 $158.10
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73610-0320 $137.69
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73610-0320-TC $137.69
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73620 $144.58
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73630-0320 $133.89
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73630-0320-TC $133.89
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73660 $99.65
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73700 $2,022.84
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73718 $2,509.90
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73720 $2,668.46
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73721 $2,484.83
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73722 $3,023.52
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 73723 $2,729.35
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74018-0320 $130.29
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74018-0320-TC $130.29
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74019-0320 $149.75
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74019-0320-TC $149.75
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74150-0350 $1,550.69
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74150-0352 $1,550.69
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74160-0350 $1,691.17
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74160-0350-52 $1,691.17
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74160-0352 $1,691.17
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74160-0352-52 $1,691.17
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74160-0400 $1,691.17
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74160-0400-52 $1,691.17
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74170-0350 $1,985.23
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74170-0350-TC $1,985.23
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74170-0352 $1,985.23
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74170-0352-TC $1,985.23
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74174 $2,911.55
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74175 $1,925.17
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74176-0350 $2,825.94
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74176-0352 $2,825.94
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74177-0350 $3,261.31
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74177-0352 $3,261.31
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74178 $4,494.04
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74183-0610 $4,071.50
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74183-0610-TC $4,071.50
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 742 $46,307.77
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74220 $284.84
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74230-0320 $297.86
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74230-0320-TC $297.86
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74240-0320 $295.19
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74240-0320-TC $295.19
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74261 $1,900.60
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 743 $20,527.86
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74420 $630.66
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74455-0320 $389.35
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74740-0320 $404.95
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 74740-0320-TC $404.95
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 75561 $2,784.81
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 75574-0350 $1,559.35
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 75574-0352 $1,559.35
+[INFO ] 2021-12-02 00:31:35.804 [main] PriceDaoTest - Monroe Clinic 75630-0320 $2,507.05
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 75630-0323 $2,507.05
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 75635-0320 $3,203.85
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 75635-0352 $3,203.85
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 75710-0320 $2,926.30
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 75710-0323 $2,926.30
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76536-0402 $344.73
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76536-0402-TC $344.73
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76642 $265.74
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76700-0402 $721.97
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76700-0402-TC $721.97
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76705-0402 $371.64
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76705-0402-TC $371.64
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76706 $83.11
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76770-0402 $487.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76770-0402-TC $487.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76775-0402 $323.09
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76775-0402-TC $323.09
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76805 $407.55
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76830 $273.18
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76856 $436.80
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76857 $326.30
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76870-0402 $399.65
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76870-0402-TC $399.65
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76881 $384.80
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 76882 $257.08
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 77048 $4,223.05
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 77061 $412.50
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 77062 $442.94
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 77065 $353.96
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 77066-0401 $373.99
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 77066-0401-TC $373.99
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 77067 $329.10
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78014 $1,195.61
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78195-0340 $1,714.26
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78195-0340-TC $1,714.26
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78195-0341 $1,714.26
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78195-0341-TC $1,714.26
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78227 $2,492.70
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78264-0340 $2,443.82
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78264-0340-TC $2,443.82
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78264-0341 $2,443.82
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78264-0341-TC $2,443.82
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78306-0340 $2,066.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78306-0340-TC $2,066.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78306-0341 $2,066.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78306-0341-TC $2,066.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78315-0340 $1,877.04
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78315-0340-TC $1,877.04
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78315-0341 $1,877.04
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78315-0341-TC $1,877.04
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78452 $3,107.70
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 786 $27,437.15
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 787 $28,924.55
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78708-0340 $2,256.15
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78708-0340-TC $2,256.15
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78708-0341 $2,256.15
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78708-0341-TC $2,256.15
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 788 $23,323.11
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78815 $5,842.85
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78816-0340 $5,594.55
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 78816-0404 $5,594.55
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 795 $2,163.53
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80048-0300 $79.70
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80048-0301 $79.70
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80053-0300 $144.24
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80053-0301 $144.24
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80055-0300 $271.70
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80055-0301 $271.70
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80061-0300 $111.99
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80061-0301 $111.99
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80069-0300 $104.33
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80069-0301 $104.33
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80076-0300 $85.56
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 80076-0301 $85.56
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 806 $16,561.22
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 807 $9,307.95
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81000 
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81001-0300 $27.51
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81001-0306 $27.51
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81001-0636 $27.51
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81002-0300 $20.51
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81002-0307 $20.51
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81003-0300 $22.39
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 81003-0307 $22.39
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 810035 $22.39
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 84153-0300 $152.10
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 84153-0301 $152.10
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 84154 
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 84443-0300 $115.13
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 84443-0301 $115.13
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85025-0300 $59.88
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85025-0305 $59.88
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85027-0300 $57.29
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85027-0305 $57.29
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85610-0300 $31.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85610-0305 $31.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85610-0510 $31.40
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85730-0300 $41.55
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 85730-0305 $41.55
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 86769 $35.75
+[INFO ] 2021-12-02 00:31:35.805 [main] PriceDaoTest - Monroe Clinic 87635 $123.50
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90471-0510 $38.36
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90471-0636 $38.36
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90471-0771 $38.36
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90471-0940 $38.36
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90832 
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90834 
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90837 
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90846 
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90847 
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 90853 
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 92507 $465.74
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 92526 $265.71
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 92585-0471 $1,238.39
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 92610 $453.64
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 92611 $533.65
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93000-0730 $192.40
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93000-0732 $192.40
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93005-0510 $200.17
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93005-0730 $200.17
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93005-0732 $200.17
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93017-0480 $483.70
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93017-0482 $483.70
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93306-0480 $2,011.23
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93306-0482 $2,011.23
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93306-0483 $2,011.23
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93306-0510 $2,011.23
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93306-0730 $2,011.23
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93306-0731 $2,011.23
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93308-0480 $274.43
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93308-0483 $274.43
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93308-0510 $274.43
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93312 $1,646.24
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93351-0480 $2,632.75
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93351-0482 $2,632.75
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93351-0483 $2,632.75
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93351-0510 $2,632.75
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93452 
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93660-0480 $897.70
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93880-0920 $729.95
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93880-0920-TC $729.95
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93880-0921 $729.95
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93880-0921-TC $729.95
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93970 $760.43
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93971-0402 $644.70
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93971-0921 $644.70
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 93975 $312.25
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96365-0260 $220.50
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96365-0450 $220.50
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96365-0761 $220.50
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96365-0940 $220.50
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96372-0260 $54.46
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96372-0270 $54.46
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96372-0940 $54.46
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96374-0260 $89.57
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96374-0450 $89.57
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 96374-0940 $89.57
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 97110 $126.44
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 97161 $241.80
+[INFO ] 2021-12-02 00:31:35.806 [main] PriceDaoTest - Monroe Clinic 97605 $3,858.52
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 99203 $230.75
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 99203P $117.65
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 99204 $330.85
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 99205 
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 99243 
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 99244 
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 993850 $84.50
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 993860 $84.50
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic 993863 $71.50
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic C8908 $3,492.45
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic C8929 $2,027.44
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic C8930 $2,878.48
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic C9600 $8,170.83
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0008-0510 $31.79
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0008-0636 $31.79
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0008-0771 $31.79
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0104 $2,339.91
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0105 $3,453.37
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0121 $3,494.17
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0260 $1,482.70
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0297 $101.40
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0365-0320 $808.60
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0365-0921 $808.60
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic G0463-0510 $84.31
+[INFO ] 2021-12-02 00:31:35.807 [main] PriceDaoTest - Monroe Clinic U0003 $123.50
+[ERROR] 2021-12-02 00:31:35.862 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[INFO ] 2021-12-02 00:31:39.245 [main] ProcedureDao - Does it get here?2
+[ERROR] 2021-12-02 00:31:44.301 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[INFO ] 2021-12-02 00:31:47.841 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:31:51.850 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[INFO ] 2021-12-02 00:31:51.876 [main] ProcedureDao - Does it get here?2
+[ERROR] 2021-12-02 00:32:29.484 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[INFO ] 2021-12-02 00:32:34.247 [main] ProcedureDao - Does it get here?4
+[ERROR] 2021-12-02 00:32:48.842 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[ERROR] 2021-12-02 00:32:50.548 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[INFO ] 2021-12-02 00:32:50.550 [main] ProcedureDaoTest - getAllSuccess runs
+[ERROR] 2021-12-02 00:32:54.033 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[ERROR] 2021-12-02 00:32:57.365 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))
+[ERROR] 2021-12-02 00:33:03.938 [main] Database - java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`sample_pricing_data`.`procedure`, CONSTRAINT `FK_procedure_catagory` FOREIGN KEY (`procedure_catagory_id`) REFERENCES `procedure_category` (`id`))

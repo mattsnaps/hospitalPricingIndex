@@ -63,7 +63,7 @@ public class PriceDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Hospital hospital = daoHospital.getById(2);
+        Hospital hospital = daoHospital.getById(1);
         Procedure procedure = daoProcedure.getById(2);
 
         PriceId priceId = new PriceId();
@@ -129,7 +129,7 @@ public class PriceDaoTest {
      */
     @Test
     void delete() {
-        Hospital hospital = daoHospital.getById(3);
+        Hospital hospital = daoHospital.getById(1);
         Procedure procedure = daoProcedure.getById(4);
 
         PriceId priceId = new PriceId();

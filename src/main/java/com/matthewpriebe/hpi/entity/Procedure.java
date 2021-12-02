@@ -33,9 +33,6 @@ public class Procedure implements java.io.Serializable{
     @Column(name = "code_desc")
     private String codeDescription;
 
-    @Column(name = "code_desc_english")
-    private String codeDescriptionLong;
-
     @OneToMany(mappedBy = "pk.procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);
 
@@ -44,13 +41,11 @@ public class Procedure implements java.io.Serializable{
      *
      * @param procedureCode       the code
      * @param codeDescription     the code description
-     * @param codeDescriptionLong the code description long
      */
-    public Procedure(String procedureCode, String codeType, String codeDescription, String codeDescriptionLong) {
+    public Procedure(String procedureCode, String codeType, String codeDescription) {
         this.procedureCode = procedureCode;
         this.codeType = codeType;
         this.codeDescription = codeDescription;
-        this.codeDescriptionLong = codeDescriptionLong;
     }
 
     /**
@@ -58,13 +53,11 @@ public class Procedure implements java.io.Serializable{
      *
      * @param procedureCode       the procedure code
      * @param codeDescription     the code description
-     * @param codeDescriptionLong the code description long
      * @param prices              the prices
      */
-    public Procedure(String procedureCode, String codeDescription, String codeDescriptionLong, Set<Price> prices) {
+    public Procedure(String procedureCode, String codeDescription, Set<Price> prices) {
         this.procedureCode = procedureCode;
         this.codeDescription = codeDescription;
-        this.codeDescriptionLong = codeDescriptionLong;
         this.prices = prices;
     }
 }

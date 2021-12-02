@@ -23,8 +23,11 @@ public class Hospital implements java.io.Serializable {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "hospital_Name")
+    @Column(name = "hospital_name")
     private String hospitalName;
+
+    @Column(name = "entity_cd")
+    private String entity;
 
     @OneToMany(mappedBy = "pk.hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);

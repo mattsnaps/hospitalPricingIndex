@@ -14,7 +14,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 
 @Entity(name = "Price")
-@Table(name = "hospital_procedure_price")
+@Table(name = "standard_charge")
 @AssociationOverrides({
         @AssociationOverride(name = "pk.hospital",
                 joinColumns = @JoinColumn(name = "hospital_id")),
@@ -25,6 +25,8 @@ public class Price implements java.io.Serializable{
 
     @EmbeddedId
     private PriceId pk = new PriceId();
+
+    @Column(name = "discounted_cash_price")
     private String price;
 
     /**

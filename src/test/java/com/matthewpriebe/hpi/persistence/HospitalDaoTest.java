@@ -69,7 +69,7 @@ public class HospitalDaoTest {
         log.info("getAllSuccess runs");
 
         List<Hospital> Hospitals = dao.getAll();
-        assertEquals(4, Hospitals.size());
+        assertEquals(1, Hospitals.size());
     }
 
     /**
@@ -94,11 +94,11 @@ public class HospitalDaoTest {
 
         String newHospitalName = "Sacred Hearts";
 
-        Hospital hospitalToUpdate = (Hospital) dao.getById(2);
+        Hospital hospitalToUpdate = (Hospital) dao.getById(1);
         hospitalToUpdate.setHospitalName(newHospitalName);
 
         dao.saveOrUpdate(hospitalToUpdate);
-        Hospital hospitalAfterUpdate = (Hospital) dao.getById(2);
+        Hospital hospitalAfterUpdate = (Hospital) dao.getById(1 );
 
         assertEquals(hospitalToUpdate, hospitalAfterUpdate);
     }

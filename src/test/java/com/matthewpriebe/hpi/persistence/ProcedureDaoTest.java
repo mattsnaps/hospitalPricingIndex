@@ -4,7 +4,6 @@ import com.matthewpriebe.hpi.entity.Hospital;
 import com.matthewpriebe.hpi.entity.PriceId;
 import com.matthewpriebe.hpi.entity.Procedure;
 import com.matthewpriebe.hpi.util.Database;
-import lombok.extern.java.Log;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -66,7 +65,7 @@ public class ProcedureDaoTest {
      */
     @Test
     void insertProcedureSuccess() {
-        Procedure newProcedure = new Procedure("24500", "CPT", "Under Fracture",
+        Procedure newProcedure = new Procedure("24500", "CPT",
                         " Under Fracture and/or Dislocation Procedures on the Humerus (Upper Arm) and Elbow");
 
         int id = dao.insert(newProcedure);
@@ -87,7 +86,6 @@ public class ProcedureDaoTest {
         Procedure procedureToUpdate = (Procedure) dao.getById(3);
         procedureToUpdate.setProcedureCode(hcpsCode);
         procedureToUpdate.setCodeDescription(codeDescription);
-        procedureToUpdate.setCodeDescriptionLong(codeDescriptionLong);
 
         dao.saveOrUpdate(procedureToUpdate);
         Procedure procedureAfterUpdate = (Procedure) dao.getById(3);
