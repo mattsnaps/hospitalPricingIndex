@@ -21,11 +21,10 @@ public class HospitalDaoTest {
     /**
      * The Dao.
      */
-    HospitalDao daoHospital;
     /**
      * The Dao procedure.
      */
-    ProcedureDao daoProcedure;
+    GenericDao daoProcedure;
     /**
      * The Dao price.
      */
@@ -46,9 +45,7 @@ public class HospitalDaoTest {
         database.runSQL("cleandb.sql");
 
         dao = new GenericDao<>(Hospital.class);
-
-        daoHospital = new HospitalDao();
-        daoProcedure = new ProcedureDao();
+        daoProcedure = new GenericDao<>(Procedure.class);
         daoPrice = new PriceDao();
     }
 
@@ -108,16 +105,9 @@ public class HospitalDaoTest {
      */
     @Test
     void deleteSuccess() {
-        Hospital hospital = (Hospital) dao.getById(3);
-        Procedure procedure = daoProcedure.getById(4);
+        Hospital hospital = (Hospital) dao.getById(1);
+        dao.delete(hospital);
 
-        PriceId priceId = new PriceId();
-        priceId.setProcedure(procedure);
-        priceId.setHospital(hospital);
-
-        dao.delete(dao.getById(3));
-
-        assertNull(dao.getById(3));
-        assertNull(daoPrice.getById(priceId));
+        assertNull(dao.getById(1));
     }
 }

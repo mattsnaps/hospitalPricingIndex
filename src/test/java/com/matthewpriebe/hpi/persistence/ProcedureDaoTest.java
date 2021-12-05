@@ -19,9 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ProcedureDaoTest {
 
     GenericDao dao;
-
-    ProcedureDao daoProcedure;
-    HospitalDao daoHospital;
+    GenericDao daoHospital;
     PriceDao daoPrice;
 
     /**
@@ -33,10 +31,10 @@ public class ProcedureDaoTest {
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
 
+        daoHospital = new GenericDao<>(Hospital.class);
+
         dao = new GenericDao<>(Procedure.class);
 
-        daoProcedure = new ProcedureDao();
-        daoHospital = new HospitalDao();
         daoPrice = new PriceDao();
     }
 
@@ -99,15 +97,15 @@ public class ProcedureDaoTest {
      */
     @Test
     void delete() {
-        Hospital hospital = daoHospital.getById(3);
-        Procedure procedure = (Procedure) dao.getById(4);
+        Hospital hospital = (Hospital) daoHospital.getById(1);
+        Procedure procedure = (Procedure) dao.getById(6);
 
         PriceId priceId = new PriceId();
         priceId.setProcedure(procedure);
         priceId.setHospital(hospital);
 
-        dao.delete(dao.getById(4));
-        assertNull(dao.getById(4));
+        dao.delete(dao.getById(6));
+        assertNull(dao.getById(6));
         assertNull(daoPrice.getById(priceId));
     }
 }
