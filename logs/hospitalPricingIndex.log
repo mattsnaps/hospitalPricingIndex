@@ -1,29 +1,12 @@
-[ERROR] 2021-12-05 12:28:53.758 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:28:55.792 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[INFO ] 2021-12-05 12:28:55.793 [main] ProcedureDaoTest - getAllSuccess runs
-[ERROR] 2021-12-05 12:28:56.099 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:28:56.286 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:28:56.429 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:31:54.923 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:31:57.133 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[INFO ] 2021-12-05 12:31:57.134 [main] ProcedureDaoTest - getAllSuccess runs
-[ERROR] 2021-12-05 12:31:57.446 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:31:57.621 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:31:57.769 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Ca screen' at line 1
-[ERROR] 2021-12-05 12:33:17.541 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[ERROR] 2021-12-05 12:33:19.482 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[INFO ] 2021-12-05 12:33:19.483 [main] ProcedureDaoTest - getAllSuccess runs
-[ERROR] 2021-12-05 12:33:19.779 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[ERROR] 2021-12-05 12:33:19.978 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[ERROR] 2021-12-05 12:33:20.137 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[ERROR] 2021-12-05 12:34:48.418 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[ERROR] 2021-12-05 12:34:52.855 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[INFO ] 2021-12-05 12:34:52.856 [main] ProcedureDaoTest - getAllSuccess runs
-[ERROR] 2021-12-05 12:34:53.207 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[ERROR] 2021-12-05 12:34:53.420 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[ERROR] 2021-12-05 12:34:53.646 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Colorectal scrn' at line 1
-[INFO ] 2021-12-05 12:37:20.440 [main] ProcedureDaoTest - getAllSuccess runs
-[INFO ] 2021-12-05 12:38:23.644 [main] ProcedureDaoTest - getAllSuccess runs
-[INFO ] 2021-12-05 12:41:34.422 [main] HospitalDaoTest - getAllSuccess runs
-[INFO ] 2021-12-05 12:43:00.642 [main] ProcedureDaoTest - getAllSuccess runs
-[INFO ] 2021-12-05 12:56:18.279 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-12-05 16:11:14.548 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-12-05 16:11:17.169 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-12-05 16:11:19.078 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-12-05 16:12:32.852 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-12-05 16:12:35.458 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-12-05 16:12:37.550 [main] ProcedureDaoTest - getAllSuccess runs
+[INFO ] 2021-12-05 16:12:51.789 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-12-05 16:14:11.392 [main] HospitalDaoTest - getAllSuccess runs
+[INFO ] 2021-12-05 16:14:47.038 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-12-05 16:15:08.030 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-12-05 16:15:27.712 [main] PriceDaoTest - Starting Test
+[INFO ] 2021-12-05 16:16:04.086 [main] PriceDaoTest - Starting Test
