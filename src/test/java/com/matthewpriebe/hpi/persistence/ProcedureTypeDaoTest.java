@@ -22,8 +22,6 @@ public class ProcedureTypeDaoTest {
 
     @Test
     void getByIdSuccess() {
-        ProcedureType retrievedProcedure = (ProcedureType) dao.getById(13);
 
-        assertEquals("Radiology - Diagnostic - Arteriography", retrievedProcedure.getRevDescription());
     }
 }

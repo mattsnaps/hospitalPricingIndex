@@ -1,8 +1,6 @@
 package com.matthewpriebe.hpi.entity;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -13,19 +11,20 @@ import java.util.Set;
  * The type Procedure.
  * Represents a medical procedure
  */
-@Data
 @NoArgsConstructor
+@Getter
+@Setter
 
 @Entity(name = "Procedure")
 @Table(name = "`procedure`")
-public class Procedure implements java.io.Serializable{
+public class Procedure {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "code")
-    private String procedureCode;
+    private String code;
 
     @Column(name = "code_type")
     private String codeType;
@@ -34,33 +33,23 @@ public class Procedure implements java.io.Serializable{
     private String codeDescription;
 
     @ManyToOne
+    @JoinColumn(name="procedure_catagory_id", nullable = false)
     private ProcedureType procedureType;
 
-    @OneToMany(mappedBy = "pk.procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);
+    @OneToMany(mappedBy = "procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Set<Price> prices = new HashSet<>();
 
-    /**
-     * Instantiates a new Procedure.
-     *
-     * @param procedureCode       the code
-     * @param codeDescription     the code description
-     */
-    public Procedure(String procedureCode, String codeType, String codeDescription) {
-        this.procedureCode = procedureCode;
+    public Procedure(String code, String codeType, String codeDescription, ProcedureType procedureType) {
+        this.code = code;
         this.codeType = codeType;
         this.codeDescription = codeDescription;
+        this.procedureType = procedureType;
     }
 
-    /**
-     * Instantiates a new Procedure.
-     *
-     * @param procedureCode       the procedure code
-     * @param codeDescription     the code description
-     * @param prices              the prices
-     */
-    public Procedure(String procedureCode, String codeDescription, Set<Price> prices) {
-        this.procedureCode = procedureCode;
-        this.codeDescription = codeDescription;
-        this.prices = prices;
+    public void addHospital(Hospital hospital) {
+        Price procedurePrice = new Price(hospital, this);
+        prices.add(procedurePrice);
+        hospital.getPrices().add(procedurePrice);
     }
+
 }

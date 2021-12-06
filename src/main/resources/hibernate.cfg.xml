@@ -16,10 +16,10 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
+        <mapping class="com.matthewpriebe.hpi.entity.ProcedureType"/>
         <mapping class="com.matthewpriebe.hpi.entity.Hospital" />
         <mapping class="com.matthewpriebe.hpi.entity.Procedure" />
         <mapping class="com.matthewpriebe.hpi.entity.Price" />
-        <mapping class="com.matthewpriebe.hpi.entity.ProcedureType"/>
     </session-factory>
 
 </hibernate-configuration>

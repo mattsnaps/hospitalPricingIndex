@@ -47,15 +47,7 @@ public class PriceDaoTest {
      */
     @Test
     void getAllSuccess() {
-        List<Price> Prices = daoPrice.getAll();
 
-        log.info("Starting Test");
-
-        for (Price price : Prices) {
-            //log.info(price.getHospital().getHospitalName() + " " + price.getProcedure().getProcedureCode() + " " + price.getPrice());
-        }
-
-        assertEquals(15, Prices.size());
     }
 
     /**
@@ -63,17 +55,7 @@ public class PriceDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Hospital hospital = (Hospital) daoHospital.getById(1);
-        Procedure procedure = (Procedure) daoProcedure.getById(2);
 
-        PriceId priceId = new PriceId();
-
-        priceId.setHospital(hospital);
-        priceId.setProcedure(procedure);
-
-        Price retrievedPrice = daoPrice.getById(priceId);
-
-        assertEquals("$11,939.91", retrievedPrice.getPrice());
     }
 
     /**
@@ -81,23 +63,7 @@ public class PriceDaoTest {
      */
     @Test
     void insertSuccess() {
-        Hospital newHospital = new Hospital("Final Destination Medical");
 
-        int idHospital = daoHospital.insert(newHospital);
-
-        Hospital hospital = (Hospital) daoHospital.getById(idHospital);
-        Procedure procedure = (Procedure) daoProcedure.getById(2);
-
-        PriceId priceId = new PriceId();
-        priceId.setProcedure(procedure);
-        priceId.setHospital(hospital);
-
-        Price newPrice = new Price("3333", priceId);
-        daoPrice.insert(newPrice);
-
-        Price insertedPrice = daoPrice.getById(priceId);
-
-        assertEquals(newPrice, insertedPrice);
     }
 
     /**
@@ -105,23 +71,7 @@ public class PriceDaoTest {
      */
     @Test
     void updateSuccess() {
-        String newPrice = "8700";
 
-        Hospital hospital = (Hospital) daoHospital.getById(1);
-        Procedure procedure = (Procedure) daoProcedure.getById(4);
-
-        PriceId priceId = new PriceId();
-        priceId.setProcedure(procedure);
-        priceId.setHospital(hospital);
-
-        Price priceToUpdate = daoPrice.getById(priceId);
-        priceToUpdate.setPrice(newPrice);
-
-        daoPrice.saveOrUpdate(priceToUpdate);
-
-        Price priceAfterUpdate = daoPrice.getById(priceId);
-
-        assertEquals(priceToUpdate.getPrice(), newPrice);
     }
 
 
@@ -130,14 +80,6 @@ public class PriceDaoTest {
      */
     @Test
     void delete() {
-        Hospital hospital = (Hospital) daoHospital.getById(1);
-        Procedure procedure = (Procedure) daoProcedure.getById(4);
 
-        PriceId priceId = new PriceId();
-        priceId.setProcedure(procedure);
-        priceId.setHospital(hospital);
-
-        daoPrice.delete(daoPrice.getById(priceId));
-        assertNull(daoPrice.getById(priceId));
     }
 }

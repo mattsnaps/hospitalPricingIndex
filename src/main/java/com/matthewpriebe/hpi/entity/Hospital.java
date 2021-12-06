@@ -1,8 +1,6 @@
 package com.matthewpriebe.hpi.entity;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -12,12 +10,13 @@ import java.util.Set;
 /**
  * The type Hospital. Represents a Hospital.
  */
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 
 @Entity(name = "Hospital")
 @Table(name = "hospital")
-public class Hospital implements java.io.Serializable {
+public class Hospital {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -29,8 +28,8 @@ public class Hospital implements java.io.Serializable {
     @Column(name = "entity_cd")
     private String entity;
 
-    @OneToMany(mappedBy = "pk.hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);
+    @OneToMany(mappedBy = "hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Price> prices = new HashSet<>();
 
     /**
      * Instantiates a new Hospital.

@@ -1,108 +1,53 @@
 package com.matthewpriebe.hpi.entity;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.hibernate.annotations.GenericGenerator;
 
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * The type Price.
  * Represents the price of one procedure from one hospital
  */
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 
 @Entity(name = "Price")
 @Table(name = "standard_charge")
-@AssociationOverrides({
-        @AssociationOverride(name = "pk.hospital",
-                joinColumns = @JoinColumn(name = "hospital_id")),
-        @AssociationOverride(name = "pk.procedure",
-                joinColumns = @JoinColumn(name = "procedure_id")) })
-
-public class Price implements java.io.Serializable{
-
-    @EmbeddedId
-    private PriceId pk = new PriceId();
-
+public class Price implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator(name = "native", strategy = "native")
+    private int id;
     @Column(name = "discounted_cash_price")
     private String price;
 
-    /**
-     * Instantiates a new Price.
-     *
-     * @param price the price
-     */
-    public Price(String price) {
+    @Id
+    @ManyToOne
+    @JoinColumn(name = "hospital_id", referencedColumnName = "id")
+    private Hospital hospital;
+
+    @Id
+    @ManyToOne
+    @JoinColumn(name = "procedure_id", referencedColumnName = "id")
+    private Procedure procedure;
+
+    public Price(Hospital hospital, Procedure procedure) {
+        this.hospital = hospital;
+        this.procedure = procedure;
+    }
+
+    public Price(Hospital hospital, Procedure procedure, String price) {
+        this.hospital = hospital;
+        this.procedure = procedure;
         this.price = price;
     }
 
-    /**
-     * Instantiates a new Price.
-     *
-     * @param price the price
-     * @param pk    the pk
-     */
-    public Price(String price,PriceId pk) {
-        this.price = price;
-        this.pk = pk;
-    }
 
-    /**
-     * Gets procedure key.
-     *
-     * @return the procedure
-     */
-    @Transient
-    public Procedure getProcedure() {
-        return getPk().getProcedure();
-    }
-
-    /**
-     * Sets procedure key.
-     *
-     * @param procedure the procedure
-     */
-    public void setProcedure(Procedure procedure) {
-        getPk().setProcedure(procedure);
-    }
-
-    /**
-     * Gets hospital key.
-     *
-     * @return the hospital
-     */
-    @Transient
-    public Hospital getHospital() {
-        return getPk().getHospital();
-    }
-
-    /**
-     * Sets hospital key.
-     *
-     * @param hospital the hospital
-     */
-    public void setHospital(Hospital hospital) {
-        getPk().setHospital(hospital);
-    }
-
-    public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (o == null || getClass() != o.getClass())
-            return false;
-
-        Price that = (Price) o;
-
-        if (getPk() != null ? !getPk().equals(that.getPk())
-                : that.getPk() != null)
-            return false;
-
-        return true;
-    }
-
-    public int hashCode() {
-        return (getPk() != null ? getPk().hashCode() : 0);
-    }
 }
