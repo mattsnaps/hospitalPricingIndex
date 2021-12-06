@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/hospital_pricing_schema</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/pricing_schema</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
         <property name="connection.username">priebe</property>
@@ -19,7 +19,7 @@
         <mapping class="com.matthewpriebe.hpi.entity.Hospital" />
         <mapping class="com.matthewpriebe.hpi.entity.Procedure" />
         <mapping class="com.matthewpriebe.hpi.entity.Price" />
-        <mapping class="com.matthewpriebe.hpi.entity.ProcedureType"
+        <mapping class="com.matthewpriebe.hpi.entity.ProcedureType"/>
     </session-factory>
 
 </hibernate-configuration>

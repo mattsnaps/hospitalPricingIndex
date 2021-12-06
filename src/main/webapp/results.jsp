@@ -22,11 +22,10 @@
 <table>
     <c:forEach var="price" items="${price}">
         <tr>
-            <td>${price.price}</td>
-            <td>    ******    </td>
-            <td>${price.getProcedure().codeDescription}</td>
-            <td>     *****     </td>
             <td>${price.getHospital().hospitalName}</td>
+            <td>${price.getProcedure().getProcedureType().revDescription}</td>
+            <td>${price.getProcedure().codeDescription}</td>
+            <td>${price.price}</td>
         </tr>
         <tr>
 

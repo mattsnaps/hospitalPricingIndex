@@ -33,6 +33,9 @@ public class Procedure implements java.io.Serializable{
     @Column(name = "code_desc")
     private String codeDescription;
 
+    @ManyToOne
+    private ProcedureType procedureType;
+
     @OneToMany(mappedBy = "pk.procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @EqualsAndHashCode.Exclude private Set<Price> prices = new HashSet<>(0);
 
