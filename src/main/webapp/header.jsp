@@ -15,12 +15,13 @@
         </div>
         <div class="justify-content-right">
             <div class="navbar-nav">
-        <c:choose>
-            <c:when test="${empty userName}">
-                <a class="nav-item nav-link" href ="logIn">Log in</a>
+
+       <c:choose>
+            <c:when test="${sessionScope.username != null}">
+                <a class="nav-item nav-link" href="profile">Welcome <c:out value="${sessionScope.username}" /></a>
             </c:when>
             <c:otherwise>
-                <a class="nav-item nav-link" href="profile">Welcome ${userName}</a>
+                <a class="nav-item nav-link" href ="logIn">Log in</a>
             </c:otherwise>
         </c:choose>
             </div>

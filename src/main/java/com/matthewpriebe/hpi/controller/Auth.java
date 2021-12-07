@@ -20,6 +20,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.math.BigInteger;
@@ -98,6 +99,10 @@ public class Auth extends HttpServlet implements PropertiesLoader {
                 //TODO forward to an error page
             }
         }
+
+        HttpSession session = req.getSession(false);
+        session.setAttribute("username", userName);
+
         RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
         dispatcher.forward(req, resp);
 
