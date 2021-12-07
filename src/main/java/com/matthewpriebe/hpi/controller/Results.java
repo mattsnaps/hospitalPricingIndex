@@ -2,7 +2,6 @@ package com.matthewpriebe.hpi.controller;
 
 import com.matthewpriebe.hpi.entity.Price;
 import com.matthewpriebe.hpi.persistence.GenericDao;
-import com.matthewpriebe.hpi.persistence.PriceDao;
 import lombok.extern.log4j.Log4j2;
 
 import javax.servlet.RequestDispatcher;
