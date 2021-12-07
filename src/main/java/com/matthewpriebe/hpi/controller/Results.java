@@ -1,6 +1,6 @@
 package com.matthewpriebe.hpi.controller;
 
-import com.matthewpriebe.hpi.entity.Hospital;
+import com.matthewpriebe.hpi.entity.Price;
 import com.matthewpriebe.hpi.persistence.GenericDao;
 import com.matthewpriebe.hpi.persistence.PriceDao;
 import lombok.extern.log4j.Log4j2;
@@ -23,14 +23,13 @@ import java.io.IOException;
 @Log4j2
 public class Results extends HttpServlet {
 
+    GenericDao priceDao;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        GenericDao hospital = new GenericDao<>(Hospital.class);
-        PriceDao price = new PriceDao();
+        priceDao = new GenericDao<>(Price.class);
 
-        req.setAttribute("hospital", hospital.getAll());
-        req.setAttribute("price", price.getAll());
+        req.setAttribute("price", priceDao.getAll());
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);

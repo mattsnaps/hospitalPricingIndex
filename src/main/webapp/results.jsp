@@ -3,37 +3,26 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Title</title>
-</head>
+<%@include file="header.jsp"%>
 <body>
 <h2>Test Test</h2>
-<table>
-    <c:forEach var="name" items="${hospital}">
-        <tr>
-            <td>${name.hospitalName}</td>
-        </tr>
-    </c:forEach>
-</table>
 <br>
 <br>
 <br>
-
-<table>
+<table class="table">
     <c:forEach var="price" items="${price}">
         <tr>
             <td>${price.getHospital().hospitalName}</td>
             <td>${price.getProcedure().getProcedureType().revDescription}</td>
             <td>${price.getProcedure().codeDescription}</td>
+            <td>${price.getProcedure().codeType}</td>
+            <td>${price.getProcedure().code}</td>
             <td>${price.price}</td>
-        </tr>
-        <tr>
-
         </tr>
     </c:forEach>
 </table>
 
 
-
+<%@include file="footer.jsp"%>
 </body>
 </html>
