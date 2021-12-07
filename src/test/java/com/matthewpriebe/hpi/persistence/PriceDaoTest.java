@@ -81,23 +81,7 @@ public class PriceDaoTest {
      */
     @Test
     void insertSuccess() {
-        Hospital newHospital = new Hospital("Final Destination Medical");
 
-        int idHospital = daoHospital.insert(newHospital);
-
-        Hospital hospital = (Hospital) daoHospital.getById(idHospital);
-        Procedure procedure = (Procedure) daoProcedure.getById(2);
-
-        PriceId priceId = new PriceId();
-        priceId.setProcedure(procedure);
-        priceId.setHospital(hospital);
-
-        Price newPrice = new Price("3333", priceId);
-        daoPrice.insert(newPrice);
-
-        Price insertedPrice = daoPrice.getById(priceId);
-
-        assertEquals(newPrice, insertedPrice);
     }
 
     /**
