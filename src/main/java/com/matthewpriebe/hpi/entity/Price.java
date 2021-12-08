@@ -25,6 +25,7 @@ public class Price implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
+
     @Column(name = "discounted_cash_price")
     private String price;
 

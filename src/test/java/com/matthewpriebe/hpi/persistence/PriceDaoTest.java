@@ -49,10 +49,9 @@ public class PriceDaoTest {
         List<Price> allPrices = daoPrice.getAll();
 
         for (Price priceItem : allPrices) {
-            log.info(priceItem.getHospital().getHospitalName() + " - " + priceItem.getProcedure().getCodeDescription() + " - " + priceItem.getPrice());
-            log.info(" ");
         }
 
+        assertEquals(518, allPrices.size());
     }
 
     /**
@@ -60,7 +59,17 @@ public class PriceDaoTest {
      */
     @Test
     void getByIdSuccess() {
+        List<Price> allPrices = daoPrice.getAll();
 
+        Price foundPrice = new Price();
+
+        for (Price priceItem : allPrices) {
+            if(priceItem.getId() == 14) {
+                foundPrice = priceItem;
+            }
+        }
+
+        log.info(foundPrice.getPrice());
     }
 
     /**

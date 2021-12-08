@@ -1,0 +1,996 @@
+[DEBUG] 2021-12-08 11:43:49.160 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2021-12-08 11:43:49.165 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2021-12-08 11:43:49.168 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2021-12-08 11:43:49.227 [main] Version - HHH000412: Hibernate Core {5.4.4.Final}
+[DEBUG] 2021-12-08 11:43:49.229 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2021-12-08 11:43:49.353 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2021-12-08 11:43:49.354 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2021-12-08 11:43:49.356 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2021-12-08 11:43:49.543 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2021-12-08 11:43:49.561 [main] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[DEBUG] 2021-12-08 11:43:49.562 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2021-12-08 11:43:49.578 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[DEBUG] 2021-12-08 11:43:49.606 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@52e04737
+[DEBUG] 2021-12-08 11:43:49.606 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@52e04737
+[DEBUG] 2021-12-08 11:43:49.606 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@52e04737
+[DEBUG] 2021-12-08 11:43:49.607 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4674d90
+[DEBUG] 2021-12-08 11:43:49.607 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@b606cb6
+[DEBUG] 2021-12-08 11:43:49.608 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@38bb9d7a
+[DEBUG] 2021-12-08 11:43:49.609 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5b9396d3
+[DEBUG] 2021-12-08 11:43:49.609 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5b9396d3
+[DEBUG] 2021-12-08 11:43:49.609 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5b9396d3
+[DEBUG] 2021-12-08 11:43:49.610 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@2d9dff65
+[DEBUG] 2021-12-08 11:43:49.610 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@2d9dff65
+[DEBUG] 2021-12-08 11:43:49.610 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2d9dff65
+[DEBUG] 2021-12-08 11:43:49.611 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@6eb17ec8
+[DEBUG] 2021-12-08 11:43:49.611 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@6eb17ec8
+[DEBUG] 2021-12-08 11:43:49.611 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@6eb17ec8
+[DEBUG] 2021-12-08 11:43:49.612 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@4beaf6bd
+[DEBUG] 2021-12-08 11:43:49.612 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@4beaf6bd
+[DEBUG] 2021-12-08 11:43:49.612 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4beaf6bd
+[DEBUG] 2021-12-08 11:43:49.613 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@48528634
+[DEBUG] 2021-12-08 11:43:49.614 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@48528634
+[DEBUG] 2021-12-08 11:43:49.614 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@48528634
+[DEBUG] 2021-12-08 11:43:49.615 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@660f0c
+[DEBUG] 2021-12-08 11:43:49.615 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@660f0c
+[DEBUG] 2021-12-08 11:43:49.615 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@660f0c
+[DEBUG] 2021-12-08 11:43:49.616 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@35c12c7a
+[DEBUG] 2021-12-08 11:43:49.616 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@35c12c7a
+[DEBUG] 2021-12-08 11:43:49.616 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@35c12c7a
+[DEBUG] 2021-12-08 11:43:49.617 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@17f2dd85
+[DEBUG] 2021-12-08 11:43:49.617 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@17f2dd85
+[DEBUG] 2021-12-08 11:43:49.618 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5d43409a
+[DEBUG] 2021-12-08 11:43:49.618 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5d43409a
+[DEBUG] 2021-12-08 11:43:49.619 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@51c959a4
+[DEBUG] 2021-12-08 11:43:49.619 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@51c959a4
+[DEBUG] 2021-12-08 11:43:49.620 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@60f70249
+[DEBUG] 2021-12-08 11:43:49.620 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@46c269e0
+[DEBUG] 2021-12-08 11:43:49.621 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@102ecc22
+[DEBUG] 2021-12-08 11:43:49.621 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@102ecc22
+[DEBUG] 2021-12-08 11:43:49.622 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@2f236de0
+[DEBUG] 2021-12-08 11:43:49.622 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2f236de0
+[DEBUG] 2021-12-08 11:43:49.628 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@3dffc764
+[DEBUG] 2021-12-08 11:43:49.628 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@3dffc764
+[DEBUG] 2021-12-08 11:43:49.630 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1e7ab390
+[DEBUG] 2021-12-08 11:43:49.631 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1e7ab390
+[DEBUG] 2021-12-08 11:43:49.632 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@5460b754
+[DEBUG] 2021-12-08 11:43:49.632 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@5460b754
+[DEBUG] 2021-12-08 11:43:49.634 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@12fcc71f
+[DEBUG] 2021-12-08 11:43:49.634 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@12fcc71f
+[DEBUG] 2021-12-08 11:43:49.635 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@79b84841
+[DEBUG] 2021-12-08 11:43:49.635 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@79b84841
+[DEBUG] 2021-12-08 11:43:49.641 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@25ad4f71
+[DEBUG] 2021-12-08 11:43:49.641 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@25ad4f71
+[DEBUG] 2021-12-08 11:43:49.643 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5e5af8e1
+[DEBUG] 2021-12-08 11:43:49.644 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5e5af8e1
+[DEBUG] 2021-12-08 11:43:49.645 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@611a990b
+[DEBUG] 2021-12-08 11:43:49.645 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@611a990b
+[DEBUG] 2021-12-08 11:43:49.646 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@5f0f9947
+[DEBUG] 2021-12-08 11:43:49.646 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5f0f9947
+[DEBUG] 2021-12-08 11:43:49.650 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@44536de4
+[DEBUG] 2021-12-08 11:43:49.650 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@44536de4
+[DEBUG] 2021-12-08 11:43:49.651 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@44536de4
+[DEBUG] 2021-12-08 11:43:49.652 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@77b919a3
+[DEBUG] 2021-12-08 11:43:49.654 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@15639440
+[DEBUG] 2021-12-08 11:43:49.654 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@15639440
+[DEBUG] 2021-12-08 11:43:49.654 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@15639440
+[DEBUG] 2021-12-08 11:43:49.655 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5a6d30e2
+[DEBUG] 2021-12-08 11:43:49.655 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@70887727
+[DEBUG] 2021-12-08 11:43:49.656 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@70887727
+[DEBUG] 2021-12-08 11:43:49.657 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@75de29c0
+[DEBUG] 2021-12-08 11:43:49.657 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@75de29c0
+[DEBUG] 2021-12-08 11:43:49.658 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@7e642b88
+[DEBUG] 2021-12-08 11:43:49.658 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7e642b88
+[DEBUG] 2021-12-08 11:43:49.659 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@53f4c1e6
+[DEBUG] 2021-12-08 11:43:49.659 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@53f4c1e6
+[DEBUG] 2021-12-08 11:43:49.660 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6b1dc20f
+[DEBUG] 2021-12-08 11:43:49.660 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6b1dc20f
+[DEBUG] 2021-12-08 11:43:49.660 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@bc042d5
+[DEBUG] 2021-12-08 11:43:49.661 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@3cd9aa64
+[DEBUG] 2021-12-08 11:43:49.661 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@3cd9aa64
+[DEBUG] 2021-12-08 11:43:49.662 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@3cd9aa64
+[DEBUG] 2021-12-08 11:43:49.663 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@27d33393
+[DEBUG] 2021-12-08 11:43:49.663 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@27d33393
+[DEBUG] 2021-12-08 11:43:49.663 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@27d33393
+[DEBUG] 2021-12-08 11:43:49.664 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@1305c126
+[DEBUG] 2021-12-08 11:43:49.665 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@4b97c4ad
+[DEBUG] 2021-12-08 11:43:49.666 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@54e2fe
+[DEBUG] 2021-12-08 11:43:49.666 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@54e2fe
+[DEBUG] 2021-12-08 11:43:49.666 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@54e2fe
+[DEBUG] 2021-12-08 11:43:49.667 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@709ed6f3
+[DEBUG] 2021-12-08 11:43:49.667 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@709ed6f3
+[DEBUG] 2021-12-08 11:43:49.667 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@709ed6f3
+[DEBUG] 2021-12-08 11:43:49.667 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@1fb2d5e
+[DEBUG] 2021-12-08 11:43:49.668 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@181b8c4b
+[DEBUG] 2021-12-08 11:43:49.669 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@350d3f4d
+[DEBUG] 2021-12-08 11:43:49.669 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@350d3f4d
+[DEBUG] 2021-12-08 11:43:49.670 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1859e2a4
+[DEBUG] 2021-12-08 11:43:49.671 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@5d2828c9
+[DEBUG] 2021-12-08 11:43:49.671 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5d2828c9
+[DEBUG] 2021-12-08 11:43:49.672 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@6c0e13b7
+[DEBUG] 2021-12-08 11:43:49.672 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6c0e13b7
+[DEBUG] 2021-12-08 11:43:49.673 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1dc3502b
+[DEBUG] 2021-12-08 11:43:49.673 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@2cae9b8
+[DEBUG] 2021-12-08 11:43:49.674 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@2a369e14
+[DEBUG] 2021-12-08 11:43:49.676 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@10b1a751
+[DEBUG] 2021-12-08 11:43:49.677 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@10b1a751
+[DEBUG] 2021-12-08 11:43:49.677 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@934b52f
+[DEBUG] 2021-12-08 11:43:49.677 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2630dbc4
+[DEBUG] 2021-12-08 11:43:49.677 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5ea4300e
+[DEBUG] 2021-12-08 11:43:49.677 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5a1c3cb4
+[DEBUG] 2021-12-08 11:43:49.677 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@76ad6715
+[DEBUG] 2021-12-08 11:43:49.678 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@56637cff
+[DEBUG] 2021-12-08 11:43:49.678 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2938127d
+[DEBUG] 2021-12-08 11:43:49.678 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@127a7272
+[DEBUG] 2021-12-08 11:43:49.701 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2021-12-08 11:43:49.702 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2021-12-08 11:43:49.702 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2021-12-08 11:43:49.703 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2021-12-08 11:43:49.703 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2021-12-08 11:43:49.704 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2021-12-08 11:43:49.704 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2021-12-08 11:43:49.705 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2021-12-08 11:43:49.706 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2021-12-08 11:43:49.706 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2021-12-08 11:43:49.707 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2021-12-08 11:43:49.707 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2021-12-08 11:43:49.707 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2021-12-08 11:43:49.708 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[INFO ] 2021-12-08 11:43:49.712 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/sample_pricing_data
+[INFO ] 2021-12-08 11:43:49.713 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {password=****, user=priebe}
+[INFO ] 2021-12-08 11:43:49.713 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2021-12-08 11:43:49.800 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2021-12-08 11:43:49.884 [main] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.26
+      major : 8
+      minor : 0
+[DEBUG] 2021-12-08 11:43:49.884 [main] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+[DEBUG] 2021-12-08 11:43:49.884 [main] JdbcEnvironmentInitiator - JDBC version : 4.2
+[INFO ] 2021-12-08 11:43:49.906 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[DEBUG] 2021-12-08 11:43:49.923 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2021-12-08 11:43:49.938 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2021-12-08 11:43:49.963 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2021-12-08 11:43:49.966 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2ffb3aec] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@786ff1cb]
+[DEBUG] 2021-12-08 11:43:50.008 [main] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-08 11:43:50.027 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-08 11:43:50.032 [main] EntityBinder - Import with entity name Hospital
+[DEBUG] 2021-12-08 11:43:50.035 [main] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.Hospital on table hospital
+[DEBUG] 2021-12-08 11:43:50.056 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.058 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-08 11:43:50.059 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Hospital:id]
+[DEBUG] 2021-12-08 11:43:50.061 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.063 [main] PropertyBinder - Building property id
+[DEBUG] 2021-12-08 11:43:50.067 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-08 11:43:50.068 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=entity_cd, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.068 [main] PropertyBinder - MetadataSourceProcessor property entity with lazy=false
+[DEBUG] 2021-12-08 11:43:50.069 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Hospital:entity]
+[DEBUG] 2021-12-08 11:43:50.069 [main] SimpleValueBinder - building SimpleValue for entity
+[DEBUG] 2021-12-08 11:43:50.069 [main] PropertyBinder - Building property entity
+[DEBUG] 2021-12-08 11:43:50.069 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=hospital_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.069 [main] PropertyBinder - MetadataSourceProcessor property hospitalName with lazy=false
+[DEBUG] 2021-12-08 11:43:50.069 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Hospital:hospitalName]
+[DEBUG] 2021-12-08 11:43:50.069 [main] SimpleValueBinder - building SimpleValue for hospitalName
+[DEBUG] 2021-12-08 11:43:50.070 [main] PropertyBinder - Building property hospitalName
+[DEBUG] 2021-12-08 11:43:50.071 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hospital'}
+[DEBUG] 2021-12-08 11:43:50.071 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=prices, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.073 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.081 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.081 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=prices_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.082 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='prices_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-08 11:43:50.084 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hospital'}
+[DEBUG] 2021-12-08 11:43:50.084 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hospital'}
+[DEBUG] 2021-12-08 11:43:50.084 [main] CollectionBinder - Collection role: com.matthewpriebe.hpi.entity.Hospital.prices
+[DEBUG] 2021-12-08 11:43:50.086 [main] PropertyBinder - Building property prices
+[DEBUG] 2021-12-08 11:43:50.087 [main] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-08 11:43:50.087 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-08 11:43:50.087 [main] EntityBinder - Import with entity name Procedure
+[DEBUG] 2021-12-08 11:43:50.088 [main] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.Procedure on table procedure
+[DEBUG] 2021-12-08 11:43:50.090 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.091 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-08 11:43:50.091 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:id]
+[DEBUG] 2021-12-08 11:43:50.091 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.091 [main] PropertyBinder - Building property id
+[DEBUG] 2021-12-08 11:43:50.091 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-08 11:43:50.091 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=code, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.091 [main] PropertyBinder - MetadataSourceProcessor property code with lazy=false
+[DEBUG] 2021-12-08 11:43:50.091 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:code]
+[DEBUG] 2021-12-08 11:43:50.091 [main] SimpleValueBinder - building SimpleValue for code
+[DEBUG] 2021-12-08 11:43:50.092 [main] PropertyBinder - Building property code
+[DEBUG] 2021-12-08 11:43:50.092 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=code_desc, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.092 [main] PropertyBinder - MetadataSourceProcessor property codeDescription with lazy=false
+[DEBUG] 2021-12-08 11:43:50.092 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:codeDescription]
+[DEBUG] 2021-12-08 11:43:50.092 [main] SimpleValueBinder - building SimpleValue for codeDescription
+[DEBUG] 2021-12-08 11:43:50.092 [main] PropertyBinder - Building property codeDescription
+[DEBUG] 2021-12-08 11:43:50.092 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=code_type, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.092 [main] PropertyBinder - MetadataSourceProcessor property codeType with lazy=false
+[DEBUG] 2021-12-08 11:43:50.092 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:codeType]
+[DEBUG] 2021-12-08 11:43:50.093 [main] SimpleValueBinder - building SimpleValue for codeType
+[DEBUG] 2021-12-08 11:43:50.093 [main] PropertyBinder - Building property codeType
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedure'}
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=prices, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=prices_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='prices_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedure'}
+[DEBUG] 2021-12-08 11:43:50.093 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedure'}
+[DEBUG] 2021-12-08 11:43:50.094 [main] CollectionBinder - Collection role: com.matthewpriebe.hpi.entity.Procedure.prices
+[DEBUG] 2021-12-08 11:43:50.094 [main] PropertyBinder - Building property prices
+[DEBUG] 2021-12-08 11:43:50.094 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='procedure_catagory_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2021-12-08 11:43:50.094 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=procedureType, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.095 [main] PropertyBinder - Building property procedureType
+[DEBUG] 2021-12-08 11:43:50.095 [main] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-08 11:43:50.095 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-08 11:43:50.096 [main] EntityBinder - Import with entity name Price
+[DEBUG] 2021-12-08 11:43:50.096 [main] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.Price on table standard_charge
+[DEBUG] 2021-12-08 11:43:50.096 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='procedure_id', referencedColumn='id', mappedBy=''}
+[DEBUG] 2021-12-08 11:43:50.096 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=procedure, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.096 [main] PropertyBinder - Building property procedure
+[DEBUG] 2021-12-08 11:43:50.097 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.098 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-08 11:43:50.098 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Price:id]
+[DEBUG] 2021-12-08 11:43:50.098 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.098 [main] PropertyBinder - Building property id
+[DEBUG] 2021-12-08 11:43:50.098 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-08 11:43:50.098 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='hospital_id', referencedColumn='id', mappedBy=''}
+[DEBUG] 2021-12-08 11:43:50.098 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=hospital, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.098 [main] PropertyBinder - Building property hospital
+[DEBUG] 2021-12-08 11:43:50.098 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=discounted_cash_price, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.099 [main] PropertyBinder - MetadataSourceProcessor property price with lazy=false
+[DEBUG] 2021-12-08 11:43:50.099 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Price:price]
+[DEBUG] 2021-12-08 11:43:50.099 [main] SimpleValueBinder - building SimpleValue for price
+[DEBUG] 2021-12-08 11:43:50.099 [main] PropertyBinder - Building property price
+[DEBUG] 2021-12-08 11:43:50.099 [main] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-08 11:43:50.099 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-08 11:43:50.099 [main] EntityBinder - Import with entity name ProcedureType
+[DEBUG] 2021-12-08 11:43:50.099 [main] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.ProcedureType on table procedure_category
+[DEBUG] 2021-12-08 11:43:50.100 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.100 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-08 11:43:50.100 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.ProcedureType:id]
+[DEBUG] 2021-12-08 11:43:50.100 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.100 [main] PropertyBinder - Building property id
+[DEBUG] 2021-12-08 11:43:50.100 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-08 11:43:50.100 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedureType'}
+[DEBUG] 2021-12-08 11:43:50.100 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=procedures, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.100 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.101 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.101 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=procedures_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.101 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='procedures_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-08 11:43:50.101 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedureType'}
+[DEBUG] 2021-12-08 11:43:50.101 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedureType'}
+[DEBUG] 2021-12-08 11:43:50.101 [main] CollectionBinder - Collection role: com.matthewpriebe.hpi.entity.ProcedureType.procedures
+[DEBUG] 2021-12-08 11:43:50.101 [main] PropertyBinder - Building property procedures
+[DEBUG] 2021-12-08 11:43:50.101 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=rev_code, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.101 [main] PropertyBinder - MetadataSourceProcessor property revCode with lazy=false
+[DEBUG] 2021-12-08 11:43:50.101 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.ProcedureType:revCode]
+[DEBUG] 2021-12-08 11:43:50.102 [main] SimpleValueBinder - building SimpleValue for revCode
+[DEBUG] 2021-12-08 11:43:50.102 [main] PropertyBinder - Building property revCode
+[DEBUG] 2021-12-08 11:43:50.102 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=rev_desc, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-08 11:43:50.102 [main] PropertyBinder - MetadataSourceProcessor property revDescription with lazy=false
+[DEBUG] 2021-12-08 11:43:50.102 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.ProcedureType:revDescription]
+[DEBUG] 2021-12-08 11:43:50.102 [main] SimpleValueBinder - building SimpleValue for revDescription
+[DEBUG] 2021-12-08 11:43:50.102 [main] PropertyBinder - Building property revDescription
+[DEBUG] 2021-12-08 11:43:50.103 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for entity
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for hospitalName
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for code
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for codeDescription
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for codeType
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for price
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for revCode
+[DEBUG] 2021-12-08 11:43:50.104 [main] SimpleValueBinder - Starting fillSimpleValue for revDescription
+[DEBUG] 2021-12-08 11:43:50.107 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [hospital]
+[DEBUG] 2021-12-08 11:43:50.107 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [procedure]
+[DEBUG] 2021-12-08 11:43:50.107 [main] PrimaryKey - Forcing column [procedure_id] to be non-null as it is part of the primary key for table [standard_charge]
+[DEBUG] 2021-12-08 11:43:50.107 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [standard_charge]
+[DEBUG] 2021-12-08 11:43:50.107 [main] PrimaryKey - Forcing column [hospital_id] to be non-null as it is part of the primary key for table [standard_charge]
+[DEBUG] 2021-12-08 11:43:50.108 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [procedure_category]
+[DEBUG] 2021-12-08 11:43:50.108 [main] CollectionSecondPass - Second pass for collection: com.matthewpriebe.hpi.entity.Hospital.prices
+[DEBUG] 2021-12-08 11:43:50.108 [main] CollectionBinder - Binding a OneToMany: com.matthewpriebe.hpi.entity.Hospital.prices through a foreign key
+[DEBUG] 2021-12-08 11:43:50.108 [main] CollectionBinder - Mapping collection: com.matthewpriebe.hpi.entity.Hospital.prices -> standard_charge
+[DEBUG] 2021-12-08 11:43:50.109 [main] TableBinder - Retrieving property com.matthewpriebe.hpi.entity.Price.hospital
+[DEBUG] 2021-12-08 11:43:50.109 [main] CollectionSecondPass - Mapped collection key: hospital_id, one-to-many: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-08 11:43:50.109 [main] CollectionSecondPass - Second pass for collection: com.matthewpriebe.hpi.entity.Procedure.prices
+[DEBUG] 2021-12-08 11:43:50.110 [main] CollectionBinder - Binding a OneToMany: com.matthewpriebe.hpi.entity.Procedure.prices through a foreign key
+[DEBUG] 2021-12-08 11:43:50.110 [main] CollectionBinder - Mapping collection: com.matthewpriebe.hpi.entity.Procedure.prices -> standard_charge
+[DEBUG] 2021-12-08 11:43:50.110 [main] TableBinder - Retrieving property com.matthewpriebe.hpi.entity.Price.procedure
+[DEBUG] 2021-12-08 11:43:50.110 [main] CollectionSecondPass - Mapped collection key: procedure_id, one-to-many: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-08 11:43:50.110 [main] CollectionSecondPass - Second pass for collection: com.matthewpriebe.hpi.entity.ProcedureType.procedures
+[DEBUG] 2021-12-08 11:43:50.110 [main] CollectionBinder - Binding a OneToMany: com.matthewpriebe.hpi.entity.ProcedureType.procedures through a foreign key
+[DEBUG] 2021-12-08 11:43:50.110 [main] CollectionBinder - Mapping collection: com.matthewpriebe.hpi.entity.ProcedureType.procedures -> procedure
+[DEBUG] 2021-12-08 11:43:50.110 [main] TableBinder - Retrieving property com.matthewpriebe.hpi.entity.Procedure.procedureType
+[DEBUG] 2021-12-08 11:43:50.110 [main] CollectionSecondPass - Mapped collection key: procedure_catagory_id, one-to-many: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-08 11:43:50.110 [main] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-08 11:43:50.112 [main] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-08 11:43:50.112 [main] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-08 11:43:50.113 [main] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-08 11:43:50.113 [main] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-08 11:43:50.114 [main] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-08 11:43:50.115 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Price] is safe
+[DEBUG] 2021-12-08 11:43:50.115 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Price
+[WARN ] 2021-12-08 11:43:50.146 [main] RootClass - HHH000038: Composite-id class does not override equals(): com.matthewpriebe.hpi.entity.Price
+[WARN ] 2021-12-08 11:43:50.146 [main] RootClass - HHH000039: Composite-id class does not override hashCode(): com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-08 11:43:50.155 [main] SessionFactoryImpl - Building session factory
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - SessionFactory name : null
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Statistics: disabled
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Default entity-mode: pojo
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2021-12-08 11:43:50.156 [main] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Default batch fetch size: -1
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Default null ordering: NONE
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - JTA Track by Thread: enabled
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Query language substitutions: {}
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Named query checking : enabled
+[DEBUG] 2021-12-08 11:43:50.157 [main] Settings - Second-level cache: disabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Second-level query cache: disabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Second-level query cache factory: null
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Second-level cache region prefix: null
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - JDBC batch size: 15
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Scrollable result sets: enabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - Wrap result sets: disabled
+[DEBUG] 2021-12-08 11:43:50.158 [main] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2021-12-08 11:43:50.159 [main] Settings - JDBC result set fetch size: null
+[DEBUG] 2021-12-08 11:43:50.159 [main] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2021-12-08 11:43:50.159 [main] Settings - Generate SQL with comments: disabled
+[DEBUG] 2021-12-08 11:43:50.159 [main] Settings - JPA compliance - query : 
+[DEBUG] 2021-12-08 11:43:50.159 [main] Settings - JPA compliance - closed-handling : 
+[DEBUG] 2021-12-08 11:43:50.159 [main] Settings - JPA compliance - lists : 
+[DEBUG] 2021-12-08 11:43:50.159 [main] Settings - JPA compliance - transactions : 
+[INFO ] 2021-12-08 11:43:50.201 [main] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[DEBUG] 2021-12-08 11:43:50.216 [main] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2021-12-08 11:43:50.216 [main] SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, java.specification.version=11, sun.cpu.isalist=amd64, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.c3p0.min_size=5, java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\plugins\junit\lib\junit-rt.jar;C:\Users\prieb\IdeaProjects\hospitalPricingIndex\target\test-classes;C:\Users\prieb\IdeaProjects\hospitalPricingIndex\target\classes;C:\Users\prieb\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\prieb\.m2\repository\org\hibernate\hibernate-core\5.4.4.Final\hibernate-core-5.4.4.Final.jar;C:\Users\prieb\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\prieb\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\prieb\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\prieb\.m2\repository\net\bytebuddy\byte-buddy\1.9.11\byte-buddy-1.9.11.jar;C:\Users\prieb\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\prieb\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\prieb\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\prieb\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\prieb\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\prieb\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\prieb\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\prieb\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\prieb\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\prieb\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\prieb\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\prieb\.m2\repository\org\hibernate\hibernate-c3p0\5.4.4.Final\hibernate-c3p0-5.4.4.Final.jar;C:\Users\prieb\.m2\repository\com\mchange\c3p0\0.9.5.3\c3p0-0.9.5.3.jar;C:\Users\prieb\.m2\repository\com\mchange\mchange-commons-java\0.2.15\mchange-commons-java-0.2.15.jar;C:\Users\prieb\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\prieb\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\prieb\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\prieb\.m2\repository\org\junit\platform\junit-platform-runner\1.0.0\junit-platform-runner-1.0.0.jar;C:\Users\prieb\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\prieb\.m2\repository\org\junit\platform\junit-platform-launcher\1.0.0\junit-platform-launcher-1.0.0.jar;C:\Users\prieb\.m2\repository\org\junit\platform\junit-platform-suite-api\1.0.0\junit-platform-suite-api-1.0.0.jar;C:\Users\prieb\.m2\repository\org\junit\platform\junit-platform-commons\1.0.0\junit-platform-commons-1.0.0.jar;C:\Users\prieb\.m2\repository\org\junit\vintage\junit-vintage-engine\4.12.0\junit-vintage-engine-4.12.0.jar;C:\Users\prieb\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\prieb\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\prieb\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\prieb\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\prieb\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\prieb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prieb\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\prieb\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\prieb\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\prieb\.m2\repository\com\auth0\java-jwt\3.4.1\java-jwt-3.4.1.jar;C:\Users\prieb\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\prieb\.m2\repository\org\json\json\20170516\json-20170516.jar;C:\Users\prieb\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\prieb\.m2\repository\org\glassfish\jersey\core\jersey-client\2.29.1\jersey-client-2.29.1.jar;C:\Users\prieb\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.6\jakarta.ws.rs-api-2.1.6.jar;C:\Users\prieb\.m2\repository\org\glassfish\jersey\core\jersey-common\2.29.1\jersey-common-2.29.1.jar;C:\Users\prieb\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\prieb\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.3\osgi-resource-locator-1.0.3.jar;C:\Users\prieb\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.6.1\jakarta.inject-2.6.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\jersey\inject\jersey-hk2\2.29.1\jersey-hk2-2.29.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\hk2\hk2-locator\2.6.1\hk2-locator-2.6.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.6.1\aopalliance-repackaged-2.6.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\hk2\hk2-api\2.6.1\hk2-api-2.6.1.jar;C:\Users\prieb\.m2\repository\org\glassfish\hk2\hk2-utils\2.6.1\hk2-utils-2.6.1.jar;C:\Users\prieb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.0\jackson-core-2.10.0.jar;C:\Users\prieb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.0\jackson-annotations-2.10.0.jar;C:\Users\prieb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.0\jackson-databind-2.10.0.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, user.variant=, java.vendor.url=https://openjdk.java.net/, user.timezone=America/Chicago, os.name=Windows 10, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-11.0.12\bin, sun.java.command=com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 com.matthewpriebe.hpi.persistence.PriceDaoTest,getByIdSuccess, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\prieb, hibernate.c3p0.max_statements=50, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2021-07-20, java.home=C:\Program Files\Java\jdk-11.0.12, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.c3p0.timeout=300, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.script=, connection.password=Thermodynamic16, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.c3p0.max_size=20, java.runtime.version=11.0.12+8-LTS-237, user.name=prieb, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/sample_pricing_data, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.version=18.9, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\prieb\AppData\Local\Temp\, java.version=11.0.12, user.dir=C:\Users\prieb\IdeaProjects\hospitalPricingIndex, os.arch=amd64, connection.username=priebe, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, hibernate.connection.password=****, sun.os.patch.level=, connection.driver_class=com.mysql.cj.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@3434a4f0, java.library.path=C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jre1.8.0_301;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prieb\AppData\Local\Microsoft\WindowsApps;C:\Users\prieb\AppData\Local\atom\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=11.0.12+8-LTS-237, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:mysql://localhost:3306/sample_pricing_data, java.class.version=55.0}
+[DEBUG] 2021-12-08 11:43:50.232 [main] TypeSafeActivator - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+[DEBUG] 2021-12-08 11:43:50.232 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2021-12-08 11:43:50.233 [main] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2021-12-08 11:43:50.233 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2ffb3aec] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@70997a94]
+[DEBUG] 2021-12-08 11:43:50.269 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Procedure] is safe
+[DEBUG] 2021-12-08 11:43:50.269 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-08 11:43:50.277 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Procedure] is safe
+[DEBUG] 2021-12-08 11:43:50.277 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-08 11:43:50.436 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.ProcedureType] is safe
+[DEBUG] 2021-12-08 11:43:50.436 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-08 11:43:50.436 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.ProcedureType] is safe
+[DEBUG] 2021-12-08 11:43:50.437 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-08 11:43:50.446 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Price] is safe
+[DEBUG] 2021-12-08 11:43:50.446 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-08 11:43:50.459 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Hospital] is safe
+[DEBUG] 2021-12-08 11:43:50.459 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-08 11:43:50.459 [main] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Hospital] is safe
+[DEBUG] 2021-12-08 11:43:50.460 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-08 11:43:50.473 [main] AbstractCollectionPersister - Static SQL for collection: com.matthewpriebe.hpi.entity.ProcedureType.procedures
+[DEBUG] 2021-12-08 11:43:50.473 [main] AbstractCollectionPersister -  Row insert: update `procedure` set procedure_catagory_id=? where id=?
+[DEBUG] 2021-12-08 11:43:50.473 [main] AbstractCollectionPersister -  Row update: update `procedure` set  where id=?
+[DEBUG] 2021-12-08 11:43:50.473 [main] AbstractCollectionPersister -  Row delete: update `procedure` set procedure_catagory_id=null where procedure_catagory_id=? and id=?
+[DEBUG] 2021-12-08 11:43:50.473 [main] AbstractCollectionPersister -  One-shot delete: update `procedure` set procedure_catagory_id=null where procedure_catagory_id=?
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister - Static SQL for collection: com.matthewpriebe.hpi.entity.Procedure.prices
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister -  Row insert: update standard_charge set procedure_id=? where procedure_id=? and id=? and hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister -  Row update: update standard_charge set  where procedure_id=? and id=? and hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister -  Row delete: update standard_charge set procedure_id=null where procedure_id=? and id=? and hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister -  One-shot delete: update standard_charge set procedure_id=null where procedure_id=?
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister - Static SQL for collection: com.matthewpriebe.hpi.entity.Hospital.prices
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister -  Row insert: update standard_charge set hospital_id=? where procedure_id=? and id=? and hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister -  Row update: update standard_charge set  where procedure_id=? and id=? and hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.474 [main] AbstractCollectionPersister -  Row delete: update standard_charge set hospital_id=null where hospital_id=? and procedure_id=? and id=?
+[DEBUG] 2021-12-08 11:43:50.475 [main] AbstractCollectionPersister -  One-shot delete: update standard_charge set hospital_id=null where hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.477 [main] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-08 11:43:50.477 [main] AbstractEntityPersister -  Version select: select id from `procedure` where id =?
+[DEBUG] 2021-12-08 11:43:50.478 [main] AbstractEntityPersister -  Snapshot select: select procedure_.id, procedure_.code as code2_1_, procedure_.code_desc as code_des3_1_, procedure_.code_type as code_typ4_1_, procedure_.procedure_catagory_id as procedur5_1_ from `procedure` procedure_ where procedure_.id=?
+[DEBUG] 2021-12-08 11:43:50.478 [main] AbstractEntityPersister -  Insert 0: insert into `procedure` (code, code_desc, code_type, procedure_catagory_id, id) values (?, ?, ?, ?, ?)
+[DEBUG] 2021-12-08 11:43:50.478 [main] AbstractEntityPersister -  Update 0: update `procedure` set code=?, code_desc=?, code_type=?, procedure_catagory_id=? where id=?
+[DEBUG] 2021-12-08 11:43:50.478 [main] AbstractEntityPersister -  Delete 0: delete from `procedure` where id=?
+[DEBUG] 2021-12-08 11:43:50.478 [main] AbstractEntityPersister -  Identity insert: insert into `procedure` (code, code_desc, code_type, procedure_catagory_id) values (?, ?, ?, ?)
+[DEBUG] 2021-12-08 11:43:50.497 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10fb4575]
+[DEBUG] 2021-12-08 11:43:50.498 [main] MetamodelGraphWalker - Visiting attribute path : code
+[DEBUG] 2021-12-08 11:43:50.498 [main] MetamodelGraphWalker - Visiting attribute path : codeDescription
+[DEBUG] 2021-12-08 11:43:50.498 [main] MetamodelGraphWalker - Visiting attribute path : codeType
+[DEBUG] 2021-12-08 11:43:50.498 [main] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-08 11:43:50.502 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3cf55e0c]
+[DEBUG] 2021-12-08 11:43:50.504 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28e7bb31]
+[DEBUG] 2021-12-08 11:43:50.505 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@13ca16bf]
+[DEBUG] 2021-12-08 11:43:50.508 [main] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-08 11:43:50.508 [main] MetamodelGraphWalker - Property path deemed to be circular : prices.procedure
+[DEBUG] 2021-12-08 11:43:50.509 [main] MetamodelGraphWalker - Visiting attribute path : prices.id
+[DEBUG] 2021-12-08 11:43:50.509 [main] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-08 11:43:50.509 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7c901203]
+[DEBUG] 2021-12-08 11:43:50.509 [main] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-08 11:43:50.509 [main] MetamodelGraphWalker - Visiting attribute path : procedureType
+[DEBUG] 2021-12-08 11:43:50.510 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@8b41ad]
+[DEBUG] 2021-12-08 11:43:50.510 [main] MetamodelGraphWalker - Visiting attribute path : procedureType.procedures
+[DEBUG] 2021-12-08 11:43:50.510 [main] MetamodelGraphWalker - Property path deemed to be circular : procedureType.procedures
+[DEBUG] 2021-12-08 11:43:50.510 [main] MetamodelGraphWalker - Visiting attribute path : procedureType.revCode
+[DEBUG] 2021-12-08 11:43:50.510 [main] MetamodelGraphWalker - Visiting attribute path : procedureType.revDescription
+[DEBUG] 2021-12-08 11:43:50.510 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.520 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.525 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Procedure)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Procedure)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Procedure.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>)
+                - (entity id) 
+                   - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>.id.hospital)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.Procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Procedure)
+          - SQL table alias mapping - procedure0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur3_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - procedur3_3_2_, id1_3_2_, hospital4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {procedur3_3_2_, id1_3_2_, hospital4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+          - JOIN (JoinDefinedByMetadata(procedureType)) : <gen:0> -> <gen:4>
+             - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+                - SQL table alias mapping - proceduret2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_2_3_}
+
+[DEBUG] 2021-12-08 11:43:50.526 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Procedure [NONE]: select procedure0_.id as id1_1_0_, procedure0_.code as code2_1_0_, procedure0_.code_desc as code_des3_1_0_, procedure0_.code_type as code_typ4_1_0_, procedure0_.procedure_catagory_id as procedur5_1_0_, prices1_.procedure_id as procedur3_3_1_, prices1_.id as id1_3_1_, prices1_.hospital_id as hospital4_3_1_, prices1_.procedure_id as procedur3_3_2_, prices1_.id as id1_3_2_, prices1_.hospital_id as hospital4_3_2_, prices1_.discounted_cash_price as discount2_3_2_, proceduret2_.id as id1_2_3_, proceduret2_.rev_code as rev_code2_2_3_, proceduret2_.rev_desc as rev_desc3_2_3_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.procedure_id inner join procedure_category proceduret2_ on procedure0_.procedure_catagory_id=proceduret2_.id where procedure0_.id=?
+[DEBUG] 2021-12-08 11:43:50.526 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@22865072]
+[DEBUG] 2021-12-08 11:43:50.526 [main] MetamodelGraphWalker - Visiting attribute path : code
+[DEBUG] 2021-12-08 11:43:50.526 [main] MetamodelGraphWalker - Visiting attribute path : codeDescription
+[DEBUG] 2021-12-08 11:43:50.526 [main] MetamodelGraphWalker - Visiting attribute path : codeType
+[DEBUG] 2021-12-08 11:43:50.527 [main] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-08 11:43:50.527 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5d5d3a5c]
+[DEBUG] 2021-12-08 11:43:50.527 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e0d16a4]
+[DEBUG] 2021-12-08 11:43:50.527 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@7e18ced7]
+[DEBUG] 2021-12-08 11:43:50.527 [main] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-08 11:43:50.527 [main] MetamodelGraphWalker - Property path deemed to be circular : prices.procedure
+[DEBUG] 2021-12-08 11:43:50.527 [main] MetamodelGraphWalker - Visiting attribute path : prices.id
+[DEBUG] 2021-12-08 11:43:50.527 [main] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-08 11:43:50.527 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a0896b3]
+[DEBUG] 2021-12-08 11:43:50.527 [main] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-08 11:43:50.527 [main] MetamodelGraphWalker - Visiting attribute path : procedureType
+[DEBUG] 2021-12-08 11:43:50.527 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50a7c72b]
+[DEBUG] 2021-12-08 11:43:50.528 [main] MetamodelGraphWalker - Visiting attribute path : procedureType.procedures
+[DEBUG] 2021-12-08 11:43:50.528 [main] MetamodelGraphWalker - Property path deemed to be circular : procedureType.procedures
+[DEBUG] 2021-12-08 11:43:50.528 [main] MetamodelGraphWalker - Visiting attribute path : procedureType.revCode
+[DEBUG] 2021-12-08 11:43:50.528 [main] MetamodelGraphWalker - Visiting attribute path : procedureType.revDescription
+[DEBUG] 2021-12-08 11:43:50.528 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.528 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.528 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Procedure)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Procedure)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Procedure.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>)
+                - (entity id) 
+                   - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>.id.hospital)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.Procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Procedure)
+          - SQL table alias mapping - procedure0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur3_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - procedur3_3_2_, id1_3_2_, hospital4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {procedur3_3_2_, id1_3_2_, hospital4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+          - JOIN (JoinDefinedByMetadata(procedureType)) : <gen:0> -> <gen:4>
+             - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+                - SQL table alias mapping - proceduret2_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_2_3_}
+
+[DEBUG] 2021-12-08 11:43:50.529 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Procedure [READ]: select procedure0_.id as id1_1_0_, procedure0_.code as code2_1_0_, procedure0_.code_desc as code_des3_1_0_, procedure0_.code_type as code_typ4_1_0_, procedure0_.procedure_catagory_id as procedur5_1_0_, prices1_.procedure_id as procedur3_3_1_, prices1_.id as id1_3_1_, prices1_.hospital_id as hospital4_3_1_, prices1_.procedure_id as procedur3_3_2_, prices1_.id as id1_3_2_, prices1_.hospital_id as hospital4_3_2_, prices1_.discounted_cash_price as discount2_3_2_, proceduret2_.id as id1_2_3_, proceduret2_.rev_code as rev_code2_2_3_, proceduret2_.rev_desc as rev_desc3_2_3_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.procedure_id inner join procedure_category proceduret2_ on procedure0_.procedure_catagory_id=proceduret2_.id where procedure0_.id=?
+[DEBUG] 2021-12-08 11:43:50.538 [main] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.Procedure: select procedure0_.id as id1_1_1_, procedure0_.code as code2_1_1_, procedure0_.code_desc as code_des3_1_1_, procedure0_.code_type as code_typ4_1_1_, procedure0_.procedure_catagory_id as procedur5_1_1_, prices1_.procedure_id as procedur3_3_3_, prices1_.id as id1_3_3_, prices1_.hospital_id as hospital4_3_3_, prices1_.procedure_id as procedur3_3_0_, prices1_.id as id1_3_0_, prices1_.hospital_id as hospital4_3_0_, prices1_.discounted_cash_price as discount2_3_0_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.procedure_id where procedure0_.id=?
+[DEBUG] 2021-12-08 11:43:50.539 [main] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.Procedure: select procedure0_.id as id1_1_1_, procedure0_.code as code2_1_1_, procedure0_.code_desc as code_des3_1_1_, procedure0_.code_type as code_typ4_1_1_, procedure0_.procedure_catagory_id as procedur5_1_1_, prices1_.procedure_id as procedur3_3_3_, prices1_.id as id1_3_3_, prices1_.hospital_id as hospital4_3_3_, prices1_.procedure_id as procedur3_3_0_, prices1_.id as id1_3_0_, prices1_.hospital_id as hospital4_3_0_, prices1_.discounted_cash_price as discount2_3_0_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.procedure_id where procedure0_.id=?
+[DEBUG] 2021-12-08 11:43:50.539 [main] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-08 11:43:50.539 [main] AbstractEntityPersister -  Version select: select id from procedure_category where id =?
+[DEBUG] 2021-12-08 11:43:50.539 [main] AbstractEntityPersister -  Snapshot select: select proceduret_.id, proceduret_.rev_code as rev_code2_2_, proceduret_.rev_desc as rev_desc3_2_ from procedure_category proceduret_ where proceduret_.id=?
+[DEBUG] 2021-12-08 11:43:50.539 [main] AbstractEntityPersister -  Insert 0: insert into procedure_category (rev_code, rev_desc, id) values (?, ?, ?)
+[DEBUG] 2021-12-08 11:43:50.539 [main] AbstractEntityPersister -  Update 0: update procedure_category set rev_code=?, rev_desc=? where id=?
+[DEBUG] 2021-12-08 11:43:50.539 [main] AbstractEntityPersister -  Delete 0: delete from procedure_category where id=?
+[DEBUG] 2021-12-08 11:43:50.540 [main] AbstractEntityPersister -  Identity insert: insert into procedure_category (rev_code, rev_desc) values (?, ?)
+[DEBUG] 2021-12-08 11:43:50.540 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6704df84]
+[DEBUG] 2021-12-08 11:43:50.540 [main] MetamodelGraphWalker - Visiting attribute path : procedures
+[DEBUG] 2021-12-08 11:43:50.540 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@53bb71e5]
+[DEBUG] 2021-12-08 11:43:50.540 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54a056e4]
+[DEBUG] 2021-12-08 11:43:50.540 [main] MetamodelGraphWalker - Visiting attribute path : procedures.code
+[DEBUG] 2021-12-08 11:43:50.540 [main] MetamodelGraphWalker - Visiting attribute path : procedures.codeDescription
+[DEBUG] 2021-12-08 11:43:50.540 [main] MetamodelGraphWalker - Visiting attribute path : procedures.codeType
+[DEBUG] 2021-12-08 11:43:50.540 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices
+[DEBUG] 2021-12-08 11:43:50.540 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1a717d79]
+[DEBUG] 2021-12-08 11:43:50.540 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4cb00fa5]
+[DEBUG] 2021-12-08 11:43:50.540 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@13aed42b]
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.procedure
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Property path deemed to be circular : procedures.prices.procedure
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.id
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.hospital
+[DEBUG] 2021-12-08 11:43:50.541 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51ed2f68]
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.price
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Visiting attribute path : procedures.procedureType
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Property path deemed to be circular : procedures.procedureType
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Visiting attribute path : revCode
+[DEBUG] 2021-12-08 11:43:50.541 [main] MetamodelGraphWalker - Visiting attribute path : revDescription
+[DEBUG] 2021-12-08 11:43:50.541 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.542 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.542 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.ProcedureType)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.ProcedureType)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>)
+                - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>)
+                      - (entity id) 
+                         - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:5>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>.id.hospital)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+          - SQL table alias mapping - proceduret0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(procedures)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+                - SQL table alias mapping - procedures1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur5_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                      - SQL table alias mapping - procedures1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(prices)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                            - SQL table alias mapping - prices2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {procedur3_3_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - procedur3_3_4_, id1_3_4_, hospital4_3_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.Price)
+                                  - SQL table alias mapping - prices2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {procedur3_3_4_, id1_3_4_, hospital4_3_4_}
+                                  - JOIN (JoinDefinedByMetadata(id)) : <gen:4> -> <gen:4>-id
+                                     - CompositeQuerySpaceImpl(uid=<gen:4>-id)
+                                        - SQL table alias mapping - prices2_
+
+[DEBUG] 2021-12-08 11:43:50.542 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.ProcedureType [NONE]: select proceduret0_.id as id1_2_0_, proceduret0_.rev_code as rev_code2_2_0_, proceduret0_.rev_desc as rev_desc3_2_0_, procedures1_.procedure_catagory_id as procedur5_1_1_, procedures1_.id as id1_1_1_, procedures1_.id as id1_1_2_, procedures1_.code as code2_1_2_, procedures1_.code_desc as code_des3_1_2_, procedures1_.code_type as code_typ4_1_2_, procedures1_.procedure_catagory_id as procedur5_1_2_, prices2_.procedure_id as procedur3_3_3_, prices2_.id as id1_3_3_, prices2_.hospital_id as hospital4_3_3_, prices2_.procedure_id as procedur3_3_4_, prices2_.id as id1_3_4_, prices2_.hospital_id as hospital4_3_4_, prices2_.discounted_cash_price as discount2_3_4_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_catagory_id left outer join standard_charge prices2_ on procedures1_.id=prices2_.procedure_id where proceduret0_.id=?
+[DEBUG] 2021-12-08 11:43:50.542 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@538b3c88]
+[DEBUG] 2021-12-08 11:43:50.542 [main] MetamodelGraphWalker - Visiting attribute path : procedures
+[DEBUG] 2021-12-08 11:43:50.542 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@10e56da9]
+[DEBUG] 2021-12-08 11:43:50.542 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28cb86b2]
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.code
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.codeDescription
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.codeType
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices
+[DEBUG] 2021-12-08 11:43:50.543 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4fbaa7f5]
+[DEBUG] 2021-12-08 11:43:50.543 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b3056a6]
+[DEBUG] 2021-12-08 11:43:50.543 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@6d4a05f7]
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.procedure
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Property path deemed to be circular : procedures.prices.procedure
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.id
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.hospital
+[DEBUG] 2021-12-08 11:43:50.543 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4f235e8e]
+[DEBUG] 2021-12-08 11:43:50.543 [main] MetamodelGraphWalker - Visiting attribute path : procedures.prices.price
+[DEBUG] 2021-12-08 11:43:50.544 [main] MetamodelGraphWalker - Visiting attribute path : procedures.procedureType
+[DEBUG] 2021-12-08 11:43:50.544 [main] MetamodelGraphWalker - Property path deemed to be circular : procedures.procedureType
+[DEBUG] 2021-12-08 11:43:50.544 [main] MetamodelGraphWalker - Visiting attribute path : revCode
+[DEBUG] 2021-12-08 11:43:50.544 [main] MetamodelGraphWalker - Visiting attribute path : revDescription
+[DEBUG] 2021-12-08 11:43:50.544 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.544 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.544 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.ProcedureType)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.ProcedureType)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>)
+                - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>)
+                      - (entity id) 
+                         - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:5>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>.id.hospital)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+          - SQL table alias mapping - proceduret0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(procedures)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+                - SQL table alias mapping - procedures1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur5_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                      - SQL table alias mapping - procedures1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(prices)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                            - SQL table alias mapping - prices2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {procedur3_3_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - procedur3_3_4_, id1_3_4_, hospital4_3_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.Price)
+                                  - SQL table alias mapping - prices2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {procedur3_3_4_, id1_3_4_, hospital4_3_4_}
+                                  - JOIN (JoinDefinedByMetadata(id)) : <gen:4> -> <gen:4>-id
+                                     - CompositeQuerySpaceImpl(uid=<gen:4>-id)
+                                        - SQL table alias mapping - prices2_
+
+[DEBUG] 2021-12-08 11:43:50.544 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.ProcedureType [READ]: select proceduret0_.id as id1_2_0_, proceduret0_.rev_code as rev_code2_2_0_, proceduret0_.rev_desc as rev_desc3_2_0_, procedures1_.procedure_catagory_id as procedur5_1_1_, procedures1_.id as id1_1_1_, procedures1_.id as id1_1_2_, procedures1_.code as code2_1_2_, procedures1_.code_desc as code_des3_1_2_, procedures1_.code_type as code_typ4_1_2_, procedures1_.procedure_catagory_id as procedur5_1_2_, prices2_.procedure_id as procedur3_3_3_, prices2_.id as id1_3_3_, prices2_.hospital_id as hospital4_3_3_, prices2_.procedure_id as procedur3_3_4_, prices2_.id as id1_3_4_, prices2_.hospital_id as hospital4_3_4_, prices2_.discounted_cash_price as discount2_3_4_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_catagory_id left outer join standard_charge prices2_ on procedures1_.id=prices2_.procedure_id where proceduret0_.id=?
+[DEBUG] 2021-12-08 11:43:50.545 [main] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.ProcedureType: select proceduret0_.id as id1_2_1_, proceduret0_.rev_code as rev_code2_2_1_, proceduret0_.rev_desc as rev_desc3_2_1_, procedures1_.procedure_catagory_id as procedur5_1_3_, procedures1_.id as id1_1_3_, procedures1_.id as id1_1_0_, procedures1_.code as code2_1_0_, procedures1_.code_desc as code_des3_1_0_, procedures1_.code_type as code_typ4_1_0_, procedures1_.procedure_catagory_id as procedur5_1_0_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_catagory_id where proceduret0_.id=?
+[DEBUG] 2021-12-08 11:43:50.545 [main] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.ProcedureType: select proceduret0_.id as id1_2_1_, proceduret0_.rev_code as rev_code2_2_1_, proceduret0_.rev_desc as rev_desc3_2_1_, procedures1_.procedure_catagory_id as procedur5_1_3_, procedures1_.id as id1_1_3_, procedures1_.id as id1_1_0_, procedures1_.code as code2_1_0_, procedures1_.code_desc as code_des3_1_0_, procedures1_.code_type as code_typ4_1_0_, procedures1_.procedure_catagory_id as procedur5_1_0_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_catagory_id where proceduret0_.id=?
+[DEBUG] 2021-12-08 11:43:50.545 [main] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-08 11:43:50.545 [main] AbstractEntityPersister -  Version select: select procedure_id, id, hospital_id from standard_charge where procedure_id =? and id =? and hospital_id =?
+[DEBUG] 2021-12-08 11:43:50.545 [main] AbstractEntityPersister -  Snapshot select: select price_.procedure_id, price_.id, price_.hospital_id, price_.discounted_cash_price as discount2_3_ from standard_charge price_ where price_.procedure_id=? and price_.id=? and price_.hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.545 [main] AbstractEntityPersister -  Insert 0: insert into standard_charge (discounted_cash_price, procedure_id, id, hospital_id) values (?, ?, ?, ?)
+[DEBUG] 2021-12-08 11:43:50.545 [main] AbstractEntityPersister -  Update 0: update standard_charge set discounted_cash_price=? where procedure_id=? and id=? and hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.545 [main] AbstractEntityPersister -  Delete 0: delete from standard_charge where procedure_id=? and id=? and hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.545 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@597a7afa]
+[DEBUG] 2021-12-08 11:43:50.546 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@29dcdd1c]
+[DEBUG] 2021-12-08 11:43:50.546 [main] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-08 11:43:50.546 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@586843bc]
+[DEBUG] 2021-12-08 11:43:50.546 [main] MetamodelGraphWalker - Visiting attribute path : procedure.code
+[DEBUG] 2021-12-08 11:43:50.546 [main] MetamodelGraphWalker - Visiting attribute path : procedure.codeDescription
+[DEBUG] 2021-12-08 11:43:50.546 [main] MetamodelGraphWalker - Visiting attribute path : procedure.codeType
+[DEBUG] 2021-12-08 11:43:50.546 [main] MetamodelGraphWalker - Visiting attribute path : procedure.prices
+[DEBUG] 2021-12-08 11:43:50.546 [main] MetamodelGraphWalker - Property path deemed to be circular : procedure.prices
+[DEBUG] 2021-12-08 11:43:50.546 [main] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType
+[DEBUG] 2021-12-08 11:43:50.547 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7d8b66d9]
+[DEBUG] 2021-12-08 11:43:50.547 [main] MetamodelGraphWalker - Visiting attribute path : id
+[DEBUG] 2021-12-08 11:43:50.547 [main] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-08 11:43:50.547 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5599b5bb]
+[DEBUG] 2021-12-08 11:43:50.547 [main] MetamodelGraphWalker - Visiting attribute path : hospital.entity
+[DEBUG] 2021-12-08 11:43:50.547 [main] MetamodelGraphWalker - Visiting attribute path : hospital.hospitalName
+[DEBUG] 2021-12-08 11:43:50.547 [main] MetamodelGraphWalker - Visiting attribute path : hospital.prices
+[DEBUG] 2021-12-08 11:43:50.547 [main] MetamodelGraphWalker - Property path deemed to be circular : hospital.prices
+[DEBUG] 2021-12-08 11:43:50.547 [main] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-08 11:43:50.547 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.548 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.548 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Price)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Price)
+          - (entity id) 
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Price.id.procedure)
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Price.id.procedure.procedureType)
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Price.id.hospital)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Price)
+          - SQL table alias mapping - price0_
+          - alias suffix - 0_
+          - suffixed key columns - {procedur3_3_0_, id1_3_0_, hospital4_3_0_}
+          - JOIN (JoinDefinedByMetadata(id)) : <gen:0> -> <gen:0>-id
+             - CompositeQuerySpaceImpl(uid=<gen:0>-id)
+                - SQL table alias mapping - price0_
+                - JOIN (JoinDefinedByMetadata(procedure)) : <gen:0>-id -> <gen:1>
+                   - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                      - SQL table alias mapping - procedure1_
+                      - alias suffix - 1_
+                      - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(hospital)) : <gen:0>-id -> <gen:3>
+                   - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                      - SQL table alias mapping - hospital2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2021-12-08 11:43:50.548 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Price [NONE]: select price0_.procedure_id as procedur3_3_0_, price0_.id as id1_3_0_, price0_.hospital_id as hospital4_3_0_, price0_.discounted_cash_price as discount2_3_0_, procedure1_.id as id1_1_1_, procedure1_.code as code2_1_1_, procedure1_.code_desc as code_des3_1_1_, procedure1_.code_type as code_typ4_1_1_, procedure1_.procedure_catagory_id as procedur5_1_1_, hospital2_.id as id1_0_2_, hospital2_.entity_cd as entity_c2_0_2_, hospital2_.hospital_name as hospital3_0_2_ from standard_charge price0_ inner join `procedure` procedure1_ on price0_.procedure_id=procedure1_.id inner join hospital hospital2_ on price0_.hospital_id=hospital2_.id where price0_.procedure_id=? and price0_.id=? and price0_.hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.548 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@919086]
+[DEBUG] 2021-12-08 11:43:50.548 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@67e77f52]
+[DEBUG] 2021-12-08 11:43:50.548 [main] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-08 11:43:50.549 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1182413a]
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : procedure.code
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : procedure.codeDescription
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : procedure.codeType
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : procedure.prices
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Property path deemed to be circular : procedure.prices
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType
+[DEBUG] 2021-12-08 11:43:50.549 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b14f482]
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : id
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-08 11:43:50.549 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@19705650]
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : hospital.entity
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : hospital.hospitalName
+[DEBUG] 2021-12-08 11:43:50.549 [main] MetamodelGraphWalker - Visiting attribute path : hospital.prices
+[DEBUG] 2021-12-08 11:43:50.550 [main] MetamodelGraphWalker - Property path deemed to be circular : hospital.prices
+[DEBUG] 2021-12-08 11:43:50.550 [main] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-08 11:43:50.550 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.550 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.550 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Price)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Price)
+          - (entity id) 
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Price.id.procedure)
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Price.id.procedure.procedureType)
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Price.id.hospital)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Price)
+          - SQL table alias mapping - price0_
+          - alias suffix - 0_
+          - suffixed key columns - {procedur3_3_0_, id1_3_0_, hospital4_3_0_}
+          - JOIN (JoinDefinedByMetadata(id)) : <gen:0> -> <gen:0>-id
+             - CompositeQuerySpaceImpl(uid=<gen:0>-id)
+                - SQL table alias mapping - price0_
+                - JOIN (JoinDefinedByMetadata(procedure)) : <gen:0>-id -> <gen:1>
+                   - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                      - SQL table alias mapping - procedure1_
+                      - alias suffix - 1_
+                      - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(hospital)) : <gen:0>-id -> <gen:3>
+                   - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                      - SQL table alias mapping - hospital2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2021-12-08 11:43:50.550 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Price [READ]: select price0_.procedure_id as procedur3_3_0_, price0_.id as id1_3_0_, price0_.hospital_id as hospital4_3_0_, price0_.discounted_cash_price as discount2_3_0_, procedure1_.id as id1_1_1_, procedure1_.code as code2_1_1_, procedure1_.code_desc as code_des3_1_1_, procedure1_.code_type as code_typ4_1_1_, procedure1_.procedure_catagory_id as procedur5_1_1_, hospital2_.id as id1_0_2_, hospital2_.entity_cd as entity_c2_0_2_, hospital2_.hospital_name as hospital3_0_2_ from standard_charge price0_ inner join `procedure` procedure1_ on price0_.procedure_id=procedure1_.id inner join hospital hospital2_ on price0_.hospital_id=hospital2_.id where price0_.procedure_id=? and price0_.id=? and price0_.hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.550 [main] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.Price: select price0_.procedure_id as procedur3_3_0_, price0_.id as id1_3_0_, price0_.hospital_id as hospital4_3_0_, price0_.discounted_cash_price as discount2_3_0_ from standard_charge price0_ where price0_.procedure_id=? and price0_.id=? and price0_.hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.551 [main] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.Price: select price0_.procedure_id as procedur3_3_0_, price0_.id as id1_3_0_, price0_.hospital_id as hospital4_3_0_, price0_.discounted_cash_price as discount2_3_0_ from standard_charge price0_ where price0_.procedure_id=? and price0_.id=? and price0_.hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.551 [main] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-08 11:43:50.551 [main] AbstractEntityPersister -  Version select: select id from hospital where id =?
+[DEBUG] 2021-12-08 11:43:50.551 [main] AbstractEntityPersister -  Snapshot select: select hospital_.id, hospital_.entity_cd as entity_c2_0_, hospital_.hospital_name as hospital3_0_ from hospital hospital_ where hospital_.id=?
+[DEBUG] 2021-12-08 11:43:50.551 [main] AbstractEntityPersister -  Insert 0: insert into hospital (entity_cd, hospital_name, id) values (?, ?, ?)
+[DEBUG] 2021-12-08 11:43:50.551 [main] AbstractEntityPersister -  Update 0: update hospital set entity_cd=?, hospital_name=? where id=?
+[DEBUG] 2021-12-08 11:43:50.551 [main] AbstractEntityPersister -  Delete 0: delete from hospital where id=?
+[DEBUG] 2021-12-08 11:43:50.551 [main] AbstractEntityPersister -  Identity insert: insert into hospital (entity_cd, hospital_name) values (?, ?)
+[DEBUG] 2021-12-08 11:43:50.551 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a660b34]
+[DEBUG] 2021-12-08 11:43:50.551 [main] MetamodelGraphWalker - Visiting attribute path : entity
+[DEBUG] 2021-12-08 11:43:50.551 [main] MetamodelGraphWalker - Visiting attribute path : hospitalName
+[DEBUG] 2021-12-08 11:43:50.551 [main] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-08 11:43:50.552 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2df3545d]
+[DEBUG] 2021-12-08 11:43:50.552 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@75ad30c1]
+[DEBUG] 2021-12-08 11:43:50.552 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@fe8aaeb]
+[DEBUG] 2021-12-08 11:43:50.552 [main] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-08 11:43:50.552 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@a323a5b]
+[DEBUG] 2021-12-08 11:43:50.552 [main] MetamodelGraphWalker - Visiting attribute path : prices.id
+[DEBUG] 2021-12-08 11:43:50.552 [main] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-08 11:43:50.552 [main] MetamodelGraphWalker - Property path deemed to be circular : prices.hospital
+[DEBUG] 2021-12-08 11:43:50.552 [main] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-08 11:43:50.552 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.552 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.553 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Hospital)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Hospital)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Hospital.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Hospital.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>)
+                - (entity id) 
+                   - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>.id.procedure)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Hospital)
+          - SQL table alias mapping - hospital0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {hospital4_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - procedur3_3_2_, id1_3_2_, hospital4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {procedur3_3_2_, id1_3_2_, hospital4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+
+[DEBUG] 2021-12-08 11:43:50.553 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Hospital [NONE]: select hospital0_.id as id1_0_0_, hospital0_.entity_cd as entity_c2_0_0_, hospital0_.hospital_name as hospital3_0_0_, prices1_.hospital_id as hospital4_3_1_, prices1_.procedure_id as procedur3_3_1_, prices1_.id as id1_3_1_, prices1_.procedure_id as procedur3_3_2_, prices1_.id as id1_3_2_, prices1_.hospital_id as hospital4_3_2_, prices1_.discounted_cash_price as discount2_3_2_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id where hospital0_.id=?
+[DEBUG] 2021-12-08 11:43:50.553 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5546e754]
+[DEBUG] 2021-12-08 11:43:50.553 [main] MetamodelGraphWalker - Visiting attribute path : entity
+[DEBUG] 2021-12-08 11:43:50.553 [main] MetamodelGraphWalker - Visiting attribute path : hospitalName
+[DEBUG] 2021-12-08 11:43:50.553 [main] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-08 11:43:50.553 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7196a8f1]
+[DEBUG] 2021-12-08 11:43:50.553 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a6da47a]
+[DEBUG] 2021-12-08 11:43:50.553 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@8f39224]
+[DEBUG] 2021-12-08 11:43:50.553 [main] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-08 11:43:50.554 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50dc49e1]
+[DEBUG] 2021-12-08 11:43:50.554 [main] MetamodelGraphWalker - Visiting attribute path : prices.id
+[DEBUG] 2021-12-08 11:43:50.554 [main] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-08 11:43:50.554 [main] MetamodelGraphWalker - Property path deemed to be circular : prices.hospital
+[DEBUG] 2021-12-08 11:43:50.554 [main] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-08 11:43:50.554 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.554 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.554 [main] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Hospital)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Hospital)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Hospital.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Hospital.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>)
+                - (entity id) 
+                   - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>.id.procedure)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Hospital)
+          - SQL table alias mapping - hospital0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {hospital4_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - procedur3_3_2_, id1_3_2_, hospital4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {procedur3_3_2_, id1_3_2_, hospital4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+
+[DEBUG] 2021-12-08 11:43:50.554 [main] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Hospital [READ]: select hospital0_.id as id1_0_0_, hospital0_.entity_cd as entity_c2_0_0_, hospital0_.hospital_name as hospital3_0_0_, prices1_.hospital_id as hospital4_3_1_, prices1_.procedure_id as procedur3_3_1_, prices1_.id as id1_3_1_, prices1_.procedure_id as procedur3_3_2_, prices1_.id as id1_3_2_, prices1_.hospital_id as hospital4_3_2_, prices1_.discounted_cash_price as discount2_3_2_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id where hospital0_.id=?
+[DEBUG] 2021-12-08 11:43:50.555 [main] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.Hospital: select hospital0_.id as id1_0_1_, hospital0_.entity_cd as entity_c2_0_1_, hospital0_.hospital_name as hospital3_0_1_, prices1_.hospital_id as hospital4_3_3_, prices1_.procedure_id as procedur3_3_3_, prices1_.id as id1_3_3_, prices1_.procedure_id as procedur3_3_0_, prices1_.id as id1_3_0_, prices1_.hospital_id as hospital4_3_0_, prices1_.discounted_cash_price as discount2_3_0_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id where hospital0_.id=?
+[DEBUG] 2021-12-08 11:43:50.555 [main] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.Hospital: select hospital0_.id as id1_0_1_, hospital0_.entity_cd as entity_c2_0_1_, hospital0_.hospital_name as hospital3_0_1_, prices1_.hospital_id as hospital4_3_3_, prices1_.procedure_id as procedur3_3_3_, prices1_.id as id1_3_3_, prices1_.procedure_id as procedur3_3_0_, prices1_.id as id1_3_0_, prices1_.hospital_id as hospital4_3_0_, prices1_.discounted_cash_price as discount2_3_0_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id where hospital0_.id=?
+[DEBUG] 2021-12-08 11:43:50.558 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4e4f4092]
+[DEBUG] 2021-12-08 11:43:50.558 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d829ef0]
+[DEBUG] 2021-12-08 11:43:50.558 [main] MetamodelGraphWalker - Visiting attribute path : code
+[DEBUG] 2021-12-08 11:43:50.559 [main] MetamodelGraphWalker - Visiting attribute path : codeDescription
+[DEBUG] 2021-12-08 11:43:50.559 [main] MetamodelGraphWalker - Visiting attribute path : codeType
+[DEBUG] 2021-12-08 11:43:50.559 [main] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-08 11:43:50.559 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3120495d]
+[DEBUG] 2021-12-08 11:43:50.559 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@781c2497]
+[DEBUG] 2021-12-08 11:43:50.559 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@b75b890]
+[DEBUG] 2021-12-08 11:43:50.559 [main] MetamodelGraphWalker - Visiting attribute path : procedureType
+[DEBUG] 2021-12-08 11:43:50.559 [main] MetamodelGraphWalker - Property path deemed to be circular : procedureType
+[DEBUG] 2021-12-08 11:43:50.559 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.561 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.561 [main] LoadPlanTreePrinter - LoadPlan(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+    - Returns
+       - CollectionReturnImpl(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures, querySpaceUid=<gen:0>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:1>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures].<elements>)
+             - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:2>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures].<elements>.prices)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:3>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures].<elements>.prices.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+          - SQL table alias mapping - procedures0_
+          - alias suffix - 0_
+          - suffixed key columns - {procedur5_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                - SQL table alias mapping - procedures0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+[DEBUG] 2021-12-08 11:43:50.561 [main] CollectionLoader - Static select for collection com.matthewpriebe.hpi.entity.ProcedureType.procedures: select procedures0_.procedure_catagory_id as procedur5_1_0_, procedures0_.id as id1_1_0_, procedures0_.id as id1_1_1_, procedures0_.code as code2_1_1_, procedures0_.code_desc as code_des3_1_1_, procedures0_.code_type as code_typ4_1_1_, procedures0_.procedure_catagory_id as procedur5_1_1_ from `procedure` procedures0_ where procedures0_.procedure_catagory_id=?
+[DEBUG] 2021-12-08 11:43:50.561 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@49038f97]
+[DEBUG] 2021-12-08 11:43:50.561 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36211bbc]
+[DEBUG] 2021-12-08 11:43:50.562 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@7ef41ca2]
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Property path deemed to be circular : procedure
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Visiting attribute path : id
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-08 11:43:50.562 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5e98032e]
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Visiting attribute path : hospital.entity
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Visiting attribute path : hospital.hospitalName
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Visiting attribute path : hospital.prices
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Property path deemed to be circular : hospital.prices
+[DEBUG] 2021-12-08 11:43:50.562 [main] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-08 11:43:50.562 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.563 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.563 [main] LoadPlanTreePrinter - LoadPlan(collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+    - Returns
+       - CollectionReturnImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:0>, path=[com.matthewpriebe.hpi.entity.Procedure.prices])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:1>, path=[com.matthewpriebe.hpi.entity.Procedure.prices].<elements>)
+             - (entity id) 
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:2>, path=[com.matthewpriebe.hpi.entity.Procedure.prices].<elements>.id.hospital)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+          - SQL table alias mapping - prices0_
+          - alias suffix - 0_
+          - suffixed key columns - {procedur3_3_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - procedur3_3_1_, id1_3_1_, hospital4_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Price)
+                - SQL table alias mapping - prices0_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur3_3_1_, id1_3_1_, hospital4_3_1_}
+                - JOIN (JoinDefinedByMetadata(id)) : <gen:1> -> <gen:1>-id
+                   - CompositeQuerySpaceImpl(uid=<gen:1>-id)
+                      - SQL table alias mapping - prices0_
+                      - JOIN (JoinDefinedByMetadata(hospital)) : <gen:1>-id -> <gen:2>
+                         - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                            - SQL table alias mapping - hospital1_
+                            - alias suffix - 2_
+                            - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2021-12-08 11:43:50.563 [main] CollectionLoader - Static select for collection com.matthewpriebe.hpi.entity.Procedure.prices: select prices0_.procedure_id as procedur3_3_0_, prices0_.id as id1_3_0_, prices0_.hospital_id as hospital4_3_0_, prices0_.procedure_id as procedur3_3_1_, prices0_.id as id1_3_1_, prices0_.hospital_id as hospital4_3_1_, prices0_.discounted_cash_price as discount2_3_1_, hospital1_.id as id1_0_2_, hospital1_.entity_cd as entity_c2_0_2_, hospital1_.hospital_name as hospital3_0_2_ from standard_charge prices0_ inner join hospital hospital1_ on prices0_.hospital_id=hospital1_.id where prices0_.procedure_id=?
+[DEBUG] 2021-12-08 11:43:50.563 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@591be8aa]
+[DEBUG] 2021-12-08 11:43:50.563 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61808ecd]
+[DEBUG] 2021-12-08 11:43:50.563 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@7f1f60a0]
+[DEBUG] 2021-12-08 11:43:50.563 [main] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-08 11:43:50.563 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10bf1ec9]
+[DEBUG] 2021-12-08 11:43:50.563 [main] MetamodelGraphWalker - Visiting attribute path : procedure.code
+[DEBUG] 2021-12-08 11:43:50.563 [main] MetamodelGraphWalker - Visiting attribute path : procedure.codeDescription
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Visiting attribute path : procedure.codeType
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Visiting attribute path : procedure.prices
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Property path deemed to be circular : procedure.prices
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType
+[DEBUG] 2021-12-08 11:43:50.564 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@516195cf]
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Visiting attribute path : id
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Property path deemed to be circular : hospital
+[DEBUG] 2021-12-08 11:43:50.564 [main] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-08 11:43:50.564 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-08 11:43:50.564 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-08 11:43:50.565 [main] LoadPlanTreePrinter - LoadPlan(collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+    - Returns
+       - CollectionReturnImpl(collection=com.matthewpriebe.hpi.entity.Hospital.prices, querySpaceUid=<gen:0>, path=[com.matthewpriebe.hpi.entity.Hospital.prices])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:1>, path=[com.matthewpriebe.hpi.entity.Hospital.prices].<elements>)
+             - (entity id) 
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=[com.matthewpriebe.hpi.entity.Hospital.prices].<elements>.id.procedure)
+                   - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:3>, path=[com.matthewpriebe.hpi.entity.Hospital.prices].<elements>.id.procedure.procedureType)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+          - SQL table alias mapping - prices0_
+          - alias suffix - 0_
+          - suffixed key columns - {hospital4_3_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - procedur3_3_1_, id1_3_1_, hospital4_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Price)
+                - SQL table alias mapping - prices0_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur3_3_1_, id1_3_1_, hospital4_3_1_}
+                - JOIN (JoinDefinedByMetadata(id)) : <gen:1> -> <gen:1>-id
+                   - CompositeQuerySpaceImpl(uid=<gen:1>-id)
+                      - SQL table alias mapping - prices0_
+                      - JOIN (JoinDefinedByMetadata(procedure)) : <gen:1>-id -> <gen:2>
+                         - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                            - SQL table alias mapping - procedure1_
+                            - alias suffix - 2_
+                            - suffixed key columns - {id1_1_2_}
+
+[DEBUG] 2021-12-08 11:43:50.565 [main] CollectionLoader - Static select for collection com.matthewpriebe.hpi.entity.Hospital.prices: select prices0_.hospital_id as hospital4_3_0_, prices0_.procedure_id as procedur3_3_0_, prices0_.id as id1_3_0_, prices0_.procedure_id as procedur3_3_1_, prices0_.id as id1_3_1_, prices0_.hospital_id as hospital4_3_1_, prices0_.discounted_cash_price as discount2_3_1_, procedure1_.id as id1_1_2_, procedure1_.code as code2_1_2_, procedure1_.code_desc as code_des3_1_2_, procedure1_.code_type as code_typ4_1_2_, procedure1_.procedure_catagory_id as procedur5_1_2_ from standard_charge prices0_ inner join `procedure` procedure1_ on prices0_.procedure_id=procedure1_.id where prices0_.hospital_id=?
+[DEBUG] 2021-12-08 11:43:50.590 [main] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2021-12-08 11:43:50.591 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2021-12-08 11:43:50.591 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2021-12-08 11:43:50.597 [main] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-12-08 11:43:50.597 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2021-12-08 11:43:50.598 [main] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2021-12-08 11:43:50.598 [main] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2021-12-08 11:43:50.600 [main] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@12e5d3e1
+[DEBUG] 2021-12-08 11:43:50.601 [main] SessionFactoryRegistry - Registering SessionFactory: ecb382c0-be29-46cd-894f-2f8f3cefe644 (<unnamed>)
+[DEBUG] 2021-12-08 11:43:50.601 [main] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2021-12-08 11:43:50.656 [main] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2021-12-08 11:43:50.663 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

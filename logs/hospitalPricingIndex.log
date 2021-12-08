@@ -2848,3 +2848,5 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-12-08 11:11:07.122 [main] PriceDaoTest -  
 [INFO ] 2021-12-08 11:11:07.122 [main] PriceDaoTest - Monroe Clinic - SARS-COV-2 NAAT - $123.50
 [INFO ] 2021-12-08 11:11:07.122 [main] PriceDaoTest -  
+[INFO ] 2021-12-08 11:37:48.421 [main] PriceDaoTest - FEM/POPL REVAS W/TLA
+[INFO ] 2021-12-08 12:13:21.881 [main] PriceDaoTest - $28,959.58
