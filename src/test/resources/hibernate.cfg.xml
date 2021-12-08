@@ -20,6 +20,7 @@
         <mapping class="com.matthewpriebe.hpi.entity.Procedure" />
         <mapping class="com.matthewpriebe.hpi.entity.Price" />
         <mapping class="com.matthewpriebe.hpi.entity.ProcedureType"/>
+        <mapping class="com.matthewpriebe.hpi.entity.ProcedureHospital"/>
     </session-factory>
 
 </hibernate-configuration>

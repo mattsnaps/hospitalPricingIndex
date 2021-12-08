@@ -29,14 +29,15 @@ public class Hospital {
     private String entity;
 
     @OneToMany(mappedBy = "hospital", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<Price> prices = new HashSet<>();
+    private Set<ProcedureHospital> prices = new HashSet<>();
 
     /**
      * Instantiates a new Hospital.
      *
      * @param hospitalName the hospital name
      */
-    public Hospital(String hospitalName) {
+    public Hospital(String hospitalName, String entity) {
+        this.entity = entity;
         this.hospitalName = hospitalName;
     }
 
@@ -46,8 +47,9 @@ public class Hospital {
      * @param hospitalName the hospital name
      * @param prices       the prices
      */
-    public Hospital(String hospitalName, Set<Price> prices) {
+    public Hospital(String hospitalName, String entity, Set<ProcedureHospital> prices) {
         this.hospitalName = hospitalName;
+        this.entity = entity;
         this.prices = prices;
     }
 }

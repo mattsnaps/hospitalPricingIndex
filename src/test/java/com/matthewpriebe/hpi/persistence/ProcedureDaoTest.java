@@ -2,10 +2,15 @@ package com.matthewpriebe.hpi.persistence;
 
 import com.matthewpriebe.hpi.entity.Hospital;
 import com.matthewpriebe.hpi.entity.Procedure;
+import com.matthewpriebe.hpi.entity.ProcedureType;
 import com.matthewpriebe.hpi.util.Database;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * The type Procedure dao test.
@@ -13,8 +18,9 @@ import org.junit.jupiter.api.Test;
 @Log4j2
 public class ProcedureDaoTest {
 
-    GenericDao dao;
-    GenericDao daoHospital;
+    GenericDao procedureTypeDao;
+    GenericDao procedureDao;
+    GenericDao hospitalDao;
 
     /**
      * Sets up.
@@ -24,9 +30,10 @@ public class ProcedureDaoTest {
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
-        daoHospital = new GenericDao<>(Hospital.class);
-        dao = new GenericDao<>(Procedure.class);
 
+        hospitalDao = new GenericDao<>(Hospital.class);
+        procedureDao = new GenericDao<>(Procedure.class);
+        procedureTypeDao = new GenericDao<>(ProcedureType.class);
     }
 
     /**
@@ -34,7 +41,11 @@ public class ProcedureDaoTest {
      */
     @Test
     void getByIdSuccess() {
+        Procedure retrievedProcedure = (Procedure) procedureDao.getById(54);
 
+        assertEquals("329", retrievedProcedure.getCode());
+        assertEquals("MS-DRG", retrievedProcedure.getCodeType());
+        assertEquals("Major small & large bowel procedures w MCC", retrievedProcedure.getCodeDescription());
     }
 
     /**
@@ -42,7 +53,9 @@ public class ProcedureDaoTest {
      */
     @Test
     void getAllSuccess() {
+        List<Procedure> allProcedures = procedureDao.getAll();
 
+        assertEquals(519, allProcedures.size());
     }
 
     /**
@@ -50,7 +63,16 @@ public class ProcedureDaoTest {
      */
     @Test
     void insertProcedureSuccess() {
+        ProcedureType retrievedProcedureType = (ProcedureType) procedureTypeDao.getById(13);
+        Procedure newProcedure = new Procedure("911","1018FDDS","Shave Beard Head", retrievedProcedureType);
 
+        List<Procedure> allProcedureBefore = procedureDao.getAll();
+
+        procedureDao.insert(newProcedure);
+
+        List<Procedure> allProcedureAfter = procedureDao.getAll();
+
+        assertEquals(allProcedureBefore.size() + 1, allProcedureAfter.size());h
     }
 
     /**

@@ -1,8 +1,6 @@
 package com.matthewpriebe.hpi.persistence;
 
-import com.matthewpriebe.hpi.entity.Hospital;
-import com.matthewpriebe.hpi.entity.Price;
-import com.matthewpriebe.hpi.entity.Procedure;
+import com.matthewpriebe.hpi.entity.*;
 import com.matthewpriebe.hpi.util.Database;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
@@ -26,6 +24,8 @@ public class PriceDaoTest {
 
     GenericDao daoProcedure;
 
+    GenericDao daoProcedureType;
+
     /**
      * Sets up.
      * resets the database.
@@ -36,9 +36,10 @@ public class PriceDaoTest {
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
 
-        daoPrice = new GenericDao<>(Price.class);
+        daoPrice = new GenericDao<>(ProcedureHospital.class);
         daoHospital = new GenericDao<>(Hospital.class);
         daoProcedure = new GenericDao<>(Procedure.class);
+        daoProcedureType = new GenericDao<>(ProcedureType.class);
     }
 
     /**
@@ -46,9 +47,9 @@ public class PriceDaoTest {
      */
     @Test
     void getAllSuccess() {
-        List<Price> allPrices = daoPrice.getAll();
+        List<ProcedureHospital> allPrices = daoPrice.getAll();
 
-        for (Price priceItem : allPrices) {
+        for (ProcedureHospital priceItem : allPrices) {
         }
 
         assertEquals(518, allPrices.size());
@@ -59,11 +60,13 @@ public class PriceDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        List<Price> allPrices = daoPrice.getAll();
+        List<ProcedureHospital> allPrices = daoPrice.getAll();
 
-        Price foundPrice = new Price();
+        ProcedureHospital procedureHospital = (ProcedureHospital) daoPrice.getById(1);
 
-        for (Price priceItem : allPrices) {
+        ProcedureHospital foundPrice = new ProcedureHospital();
+
+        for (ProcedureHospital priceItem : allPrices) {
             if(priceItem.getId() == 14) {
                 foundPrice = priceItem;
             }
@@ -77,6 +80,24 @@ public class PriceDaoTest {
      */
     @Test
     void insertSuccess() {
+
+        ProcedureType procedureType = (ProcedureType) daoProcedureType.getById(32);
+
+        Procedure newProcedure = new Procedure("911", "HCBH", "TestCode For test new Procedure", procedureType);
+        procedureType.addProcedure(newProcedure);
+
+        Hospital newHospital = new Hospital("Sacred Hearts", "SSM-Bordhead");
+        int insertedProductId = daoHospital.insert(newHospital);
+
+        Hospital insertedHospital = (Hospital) daoHospital.getById(insertedProductId);
+
+        int id = daoProcedure.insert(newProcedure);
+
+        Procedure insertedProcedure = (Procedure) daoProcedure.getById(id);
+
+        insertedProcedure.addHospital(insertedHospital);
+
+        daoProcedure.saveOrUpdate(insertedProcedure);
 
     }
 

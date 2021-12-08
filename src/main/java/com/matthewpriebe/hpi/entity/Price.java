@@ -1,6 +1,5 @@
 package com.matthewpriebe.hpi.entity;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

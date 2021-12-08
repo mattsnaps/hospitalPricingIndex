@@ -2850,3 +2850,147 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-12-08 11:11:07.122 [main] PriceDaoTest -  
 [INFO ] 2021-12-08 11:37:48.421 [main] PriceDaoTest - FEM/POPL REVAS W/TLA
 [INFO ] 2021-12-08 12:13:21.881 [main] PriceDaoTest - $28,959.58
+[DEBUG] 2021-12-08 13:30:24.224 [http-nio-8080-exec-3] Auth - Keys are loaded. Here's e: AQAB
+[DEBUG] 2021-12-08 13:30:24.658 [http-nio-8080-exec-3] Auth - Response headers: java.net.http.HttpHeaders@21582b9e { {:status=[200], cache-control=[no-cache, no-store, max-age=0, must-revalidate], content-type=[application/json;charset=UTF-8], date=[Wed, 08 Dec 2021 19:30:24 GMT], expires=[0], pragma=[no-cache], server=[Server], set-cookie=[XSRF-TOKEN=b14325a1-802f-4830-aa28-231e11ceb05a; Path=/; Secure; HttpOnly; SameSite=Lax], strict-transport-security=[max-age=31536000 ; includeSubDomains], x-amz-cognito-request-id=[ea5d388c-1d08-4ce1-be5f-5542ebc6222e], x-application-context=[application:prod:8443], x-content-type-options=[nosniff], x-frame-options=[DENY], x-xss-protection=[1; mode=block]} }
+[DEBUG] 2021-12-08 13:30:24.659 [http-nio-8080-exec-3] Auth - Response body: {"id_token":"eyJraWQiOiIrcTFrdkd2d3pCbkM0NW1GYkFKMk9rdk9TRlZZYVEybjA4ZE03aWhEd0RjPSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoicjlaTVJLUXVBeHlaSEpiOHB5N0RrdyIsInN1YiI6ImQ5OTc2MzY5LTI1MzktNGMwMi04YmRlLTQ5YTgwOGI0ZDc1ZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMl81S0ZkTEF3VmEiLCJjb2duaXRvOnVzZXJuYW1lIjoiZDk5NzYzNjktMjUzOS00YzAyLThiZGUtNDlhODA4YjRkNzVlIiwib3JpZ2luX2p0aSI6Ijc1NzgwMjUyLTZlMGQtNDA1ZC04ZGIwLTAwNzBkNGZlOGJhMCIsImF1ZCI6IjZvdW9hdXRpbmlhNzN1bzc3aDN2dnIzZXRhIiwiZXZlbnRfaWQiOiI1ZWE4N2I1Zi0yMjQ0LTQ2MDAtODhiOS0xYzIyNmM3ZTRiMjEiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYzODk5MTgyNCwiZXhwIjoxNjM4OTk1NDI0LCJpYXQiOjE2Mzg5OTE4MjQsImp0aSI6IjNkY2E4YTBmLTAyYmEtNGJkZi1hNzk0LWJlMDk5MmU5NWFjMSIsImVtYWlsIjoicHJpZWJlbWJAZ21haWwuY29tIn0.MpAMz5jW-1KCceb-cMTjf1JVqUkvw9eHHeH-OUKri4pXuyWAG8qvHUZ3szsn53r7e-tG8EjNXNy70PeUeQC530qQoUmecBAYHEOsMwRLLTziSc-3D6kpE_U8SRrBfCFj02iTTe0De4epp6lVPN0cD1sbq-y2x1CD_PF_SUo8CgT2nFZxyr0NWuXLgKk7TK7dDtGNBHDRYPuFaK8mHx_tbNvo_xGAm5WMs-6hwjdhFhtOZP-y_Q82MlboNEg08qtqKhOUc3CXztFzZE-g8gdJx4BaY6qKLeBt1nmCPNe4qmGKoaGQWhDxsWOo5MYVnZS5Mi7oAuebCJR10pzgnypZHQ","access_token":"eyJraWQiOiIrVXhMOVZCK3FTUWFYN0Z4S1lObkk1WUVBaHpqY0ZvUzRyOWlDZHpGOGprPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkOTk3NjM2OS0yNTM5LTRjMDItOGJkZS00OWE4MDhiNGQ3NWUiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMl81S0ZkTEF3VmEiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI2b3VvYXV0aW5pYTczdW83N2gzdnZyM2V0YSIsIm9yaWdpbl9qdGkiOiI3NTc4MDI1Mi02ZTBkLTQwNWQtOGRiMC0wMDcwZDRmZThiYTAiLCJldmVudF9pZCI6IjVlYTg3YjVmLTIyNDQtNDYwMC04OGI5LTFjMjI2YzdlNGIyMSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2Mzg5OTE4MjQsImV4cCI6MTYzODk5NTQyNCwiaWF0IjoxNjM4OTkxODI0LCJqdGkiOiIzNzhjMTA3YS1hYThlLTQzOGUtOGJlMS05MGI1ZGM3ODBkOWIiLCJ1c2VybmFtZSI6ImQ5OTc2MzY5LTI1MzktNGMwMi04YmRlLTQ5YTgwOGI0ZDc1ZSJ9.ELRdKdOLOOsFJ_8OHxDfUlAXGq053LtlOQg3u9JnOVosar4hTKE561da7rzoovUqmSW-NZ-xtih9QFDaLbQAXsPtGnhU_NCrsQSEFWruuUXnSHNr93DpMiGDNLReUUFuCuM0kbUm-IsfVU7BTKMPPEFx5bDdkOCVhJh3PX3DC8RJJv9szGN8yFDSkHDGzwKluZ9KdUSA77TGOEZeIdBohlOz3b4aKSgsY9TyXZmloNpSjrQO_AKOl9gbeIezVU0bWfaGflA2XJM0P2iBeiis1KEO_zp5yvaMUIiEUUl3YBcvKcMT8hz4Yfp_Ps3IlATS_ZKQA4KhiGJMojUAjBTQcA","refresh_token":"eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.gRMuo8ZB82S5k-mvDN_spvHXtoY7aVn0UbTtauroG-sPD9UUPvDXJ3H1vL1H1mctckr63ejM5K3SaZrrSVPLqLATuCVg7pRl_0bHXfdC4F8AGPFl0Ea6NaFAlNpwKZ5rfahUF03DUJ9g_WR00_tc8W5gxmvQTPkjgTgrxSwSF5v52eI5ayTS_iVyWAdkVH89UVBTERckZtwfOlqbbjlUwGOxG-NlenUiOkUb9zpDBtLbHV1lFi91qLqQhwfiBHU-IzVdRPfzs5mX3TuBD8kQwaS9b6wXhJs6NoYsZRixZx5r_bdrO8mTRwYnmR__E2RTcRr_bIdVm_-e9bR955xynQ.mIfOotJ5NV4ZudCJ.IN5CN9DIVvdlq5-BKH9hQV-wOPKUFQslmSNBtxGDFvl__TvtJ_c6jCcLF8muWVXaQvYti2g6JSkPse9QZHpSzT5nUw9Z9-5S0eotxljps1F7HBsl6JwalzJ8lJg4kl73lCYkbZblLYAx3YsLKOyvyKRTyaruutTJAMH8jHOxidVaoNffvehgTsCJkeSjEwxGvfk74n9z7s8FcqYY0_xuvMNa0NYf7D5Npavj73BfCRVUkma-959i1Dl9E-skuu51wKpGfml1ddrMUYNCZM0mqMXaDLty7A5mwpqULWX-6BomyrmlORhqengMC_V_iyx1wkhQU3S0UClwIdsm938302wgMThO5d3nJmH-_Eys8BjW1qMd0P0JEd0gzSo_aEEANwAnj-9ZPDa-3g_Hsl2XWxdoE2oEuQ48aYvqyBb3Tf7Z0H5CKv6im11BHi9bySs_sTOq2DYpJ9YSdjaBWPDUjK80t3IPBcS5L9-xkQKxfY_EMdGYQfpiFjK9mBPwG9DnE3xNyZjvEIFupBDwq-nhD8ndLq241pfbnKhEkquLOn9JESs9xjP9kKLN05nO8dyx9BsYs32kgIplDYEjo1pWIU1jVlUYwo9e39vmNNtx2uedRs3OA7hGq9rmtWh2q6_8kjTZM96aS11RmnXkqy9fKVJP_qkOA4EVHr6DQ4_qAChnxbabkh4WSKAjzGcL5Y17n6nqt0soZkLdZRg9FVa4-19pDzHYX7PyUezE2DhcGnwFOkV72TK3tCsj59ye06SIOpmr7X-7ztguID-hbd8qzb_o6nKiS3QIOEzYWDsnmUo9qeUlP1bWCDfjaMFdqwIoKRdBUeA-ZjPJnlMTHr1BJbj51tEhprv0HxgRL_SksbfcF3IZyQGpJdNRWPKjNle_cAH7IExZfJX8dKwAEGXj-IgaJvA4keLcali0evGdXW-_rZ-JLeouuLyhanA99vW-zOkq1DgXHtaqTccwtb1NLUX1R87L0ftE2PMDEhuFhEjWg0GqFSp-H1uoND8QxY_3T2W_Yq07_EnNIyBubx_18-XpUVB5sFGvaEJNAG7piebXirjYbFj0UEBJ1xmvs-hn_TGfGWjk6xNUWRbrSHYoa9zfGt9adVx7LfJTyFXNE8Po8U1BEkjV17oKaW5CnhxOB1OXXzYAtcAtmCvUWoX32SuNqQMe09-w-y0BL6FNFq1aV6GeOpU0SEWEupLpAiCLJ3ynbRuRUGBhS24y9CIZjkXMmWTxOkHJe8pG_R4GG-eZXd0sXMwgxzF7O14_uILxriRCI88WSKqFz5FTBPWzYRPsniULZ5t9W9WDmyVS7feKYbpwfweM_1EVcKwBvVMtov-n27bKbdYDqROEwZmhKg_633fGKxOU0O5GtGRUg45PvKSzRzoORSfjjl3408bQ.7jsobat2MTH8kHj8K3uiYA","expires_in":3600,"token_type":"Bearer"}
+[DEBUG] 2021-12-08 13:30:24.686 [http-nio-8080-exec-3] Auth - Id token: eyJraWQiOiIrcTFrdkd2d3pCbkM0NW1GYkFKMk9rdk9TRlZZYVEybjA4ZE03aWhEd0RjPSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoicjlaTVJLUXVBeHlaSEpiOHB5N0RrdyIsInN1YiI6ImQ5OTc2MzY5LTI1MzktNGMwMi04YmRlLTQ5YTgwOGI0ZDc1ZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMl81S0ZkTEF3VmEiLCJjb2duaXRvOnVzZXJuYW1lIjoiZDk5NzYzNjktMjUzOS00YzAyLThiZGUtNDlhODA4YjRkNzVlIiwib3JpZ2luX2p0aSI6Ijc1NzgwMjUyLTZlMGQtNDA1ZC04ZGIwLTAwNzBkNGZlOGJhMCIsImF1ZCI6IjZvdW9hdXRpbmlhNzN1bzc3aDN2dnIzZXRhIiwiZXZlbnRfaWQiOiI1ZWE4N2I1Zi0yMjQ0LTQ2MDAtODhiOS0xYzIyNmM3ZTRiMjEiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYzODk5MTgyNCwiZXhwIjoxNjM4OTk1NDI0LCJpYXQiOjE2Mzg5OTE4MjQsImp0aSI6IjNkY2E4YTBmLTAyYmEtNGJkZi1hNzk0LWJlMDk5MmU5NWFjMSIsImVtYWlsIjoicHJpZWJlbWJAZ21haWwuY29tIn0.MpAMz5jW-1KCceb-cMTjf1JVqUkvw9eHHeH-OUKri4pXuyWAG8qvHUZ3szsn53r7e-tG8EjNXNy70PeUeQC530qQoUmecBAYHEOsMwRLLTziSc-3D6kpE_U8SRrBfCFj02iTTe0De4epp6lVPN0cD1sbq-y2x1CD_PF_SUo8CgT2nFZxyr0NWuXLgKk7TK7dDtGNBHDRYPuFaK8mHx_tbNvo_xGAm5WMs-6hwjdhFhtOZP-y_Q82MlboNEg08qtqKhOUc3CXztFzZE-g8gdJx4BaY6qKLeBt1nmCPNe4qmGKoaGQWhDxsWOo5MYVnZS5Mi7oAuebCJR10pzgnypZHQ
+[DEBUG] 2021-12-08 13:30:24.757 [http-nio-8080-exec-3] Auth - here's the username: priebemb@gmail.com
+[DEBUG] 2021-12-08 13:30:24.757 [http-nio-8080-exec-3] Auth - here are all the available claims: {at_hash=com.auth0.jwt.impl.JsonNodeClaim@730a3686, sub=com.auth0.jwt.impl.JsonNodeClaim@1bd0b548, email_verified=com.auth0.jwt.impl.JsonNodeClaim@2718bdad, iss=com.auth0.jwt.impl.JsonNodeClaim@44737aa9, cognito:username=com.auth0.jwt.impl.JsonNodeClaim@66efcaa7, origin_jti=com.auth0.jwt.impl.JsonNodeClaim@780b49c7, aud=com.auth0.jwt.impl.JsonNodeClaim@1a1c76be, event_id=com.auth0.jwt.impl.JsonNodeClaim@4565e166, token_use=com.auth0.jwt.impl.JsonNodeClaim@5dc7b19f, auth_time=com.auth0.jwt.impl.JsonNodeClaim@7f209e91, exp=com.auth0.jwt.impl.JsonNodeClaim@670be4d, iat=com.auth0.jwt.impl.JsonNodeClaim@6cf41134, jti=com.auth0.jwt.impl.JsonNodeClaim@c5f1e7c, email=com.auth0.jwt.impl.JsonNodeClaim@77f0cd70}
+[INFO ] 2021-12-08 14:03:52.535 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:05:19.798 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:05:56.211 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:06:12.618 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:06:22.278 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:06:34.121 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:06:51.218 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:07:00.120 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:08:03.188 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:08:13.218 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:08:23.258 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:08:42.997 [main] ProcedureTypeDaoTest - Test Test
+[INFO ] 2021-12-08 14:11:10.676 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@4a122e68
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@3c27f72
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@5cbe95b1
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@28fa541
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@5a82bc58
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@4aab7195
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@6210666c
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@1dca62c2
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@52657d5f
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@43d3995f
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@2211b44f
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@6c830ebd
+[INFO ] 2021-12-08 14:11:10.677 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@15f519f7
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@4a336377
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@2c2a903f
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@7d537616
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@604c7e9b
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@19d27c27
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@6181bc4a
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@70485aa
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@4bf8b77
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@e06ec83
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@628962e5
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@410382cb
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@399f5daf
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@c4cceb
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@29f3185c
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@74bbc273
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@370a8b6e
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@118fbaf0
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@208f7165
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@a0d875d
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@693f2c89
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@50b4364
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@5e541ef9
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@38054d01
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@28ce75ec
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@778113f2
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@9dc782d
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@1ba35152
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@401926df
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@3ff8a3ad
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@550fa96f
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@54275b5d
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@5d01b0d8
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@271e851e
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@ff21443
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@61e14b53
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@31b6b0c7
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@6253e59a
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@7d1cb59f
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@16ccd2bc
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@12f8682a
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@6f7a20da
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@7752c0e7
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@77ba583
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@5613247e
+[INFO ] 2021-12-08 14:11:10.678 [main] ProcedureTypeDaoTest - com.matthewpriebe.hpi.entity.ProcedureType@6851b296
+[INFO ] 2021-12-08 14:11:28.387 [main] ProcedureTypeDaoTest - 
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - IV Therapy - General classification
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Medical/Surgical Supplies and Devices - General Classification
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Oncology - General Classification
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Laboratory - General Classification
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Laboratory - Chemistry
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Laboratory - Immunologu
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Laboratory - Hematology
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Laboratory - Bacteriology and Microbiology
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Laboratory - Urology
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Radiology - Diagnostic - Arthography
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Radiology - Diagnostic - Arteriography
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Radiology - Diagnostic - Other
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - CT Scan - General Classification
+[INFO ] 2021-12-08 14:11:28.388 [main] ProcedureTypeDaoTest - CT Scan - Head Scan
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - CT Scan - Body Scan
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - CT Scan - Other CT Scans
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Blood Storage and Processing - Blood Administration
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Imaging Services - General classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Imaging Services - Diagnostic Mammography
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Imaging Services - Screening Mammography
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Imaging Services - Positron Emmission Tomography
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Respiratory Services - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Physical Therapy - General classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Physical Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Occupational Therapy - General classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Occupational Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Speech-Language Pathology Therapy - General classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Speech-Language Pathology Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Emergency Room - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Urgent Care
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Audiology - Diagnostic
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Cardiology - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Cardiology - Stress Test
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Echocardiology
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Clinic - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - 
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - MRI - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - MRI - Brain (including Brainstem)
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - MRI - Spinal Cord (including Spine)
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - MRI - Other
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - MRI - MRA Head and Neck
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Drugs Identification - Drugs Requiring Detailed Coding
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - EKG/ECG - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - EKG/ECG - Holter monitor
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - EKG/ECG - Telemetry
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - EEG - Other
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Treatment/Observation Room - Treatment Room
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Vaccine Administration
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Diagnostic Services - Peripheral Vascular Lab
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 14:11:28.389 [main] ProcedureTypeDaoTest - Other Therapeutic Services - Cardiac Rehabilitation
+[INFO ] 2021-12-08 14:11:28.390 [main] ProcedureTypeDaoTest - Other Therapeutic Services - Other
+[INFO ] 2021-12-08 14:35:08.417 [main] ProcedureTypeDaoTest - [com.matthewpriebe.hpi.entity.ProcedureType@4a122e68, com.matthewpriebe.hpi.entity.ProcedureType@3c27f72, com.matthewpriebe.hpi.entity.ProcedureType@5cbe95b1, com.matthewpriebe.hpi.entity.ProcedureType@28fa541, com.matthewpriebe.hpi.entity.ProcedureType@5a82bc58, com.matthewpriebe.hpi.entity.ProcedureType@4aab7195, com.matthewpriebe.hpi.entity.ProcedureType@6210666c, com.matthewpriebe.hpi.entity.ProcedureType@1dca62c2, com.matthewpriebe.hpi.entity.ProcedureType@52657d5f, com.matthewpriebe.hpi.entity.ProcedureType@43d3995f, com.matthewpriebe.hpi.entity.ProcedureType@2211b44f, com.matthewpriebe.hpi.entity.ProcedureType@6c830ebd, com.matthewpriebe.hpi.entity.ProcedureType@15f519f7, com.matthewpriebe.hpi.entity.ProcedureType@4a336377, com.matthewpriebe.hpi.entity.ProcedureType@2c2a903f, com.matthewpriebe.hpi.entity.ProcedureType@7d537616, com.matthewpriebe.hpi.entity.ProcedureType@604c7e9b, com.matthewpriebe.hpi.entity.ProcedureType@19d27c27, com.matthewpriebe.hpi.entity.ProcedureType@6181bc4a, com.matthewpriebe.hpi.entity.ProcedureType@70485aa, com.matthewpriebe.hpi.entity.ProcedureType@4bf8b77, com.matthewpriebe.hpi.entity.ProcedureType@e06ec83, com.matthewpriebe.hpi.entity.ProcedureType@628962e5, com.matthewpriebe.hpi.entity.ProcedureType@410382cb, com.matthewpriebe.hpi.entity.ProcedureType@399f5daf, com.matthewpriebe.hpi.entity.ProcedureType@c4cceb, com.matthewpriebe.hpi.entity.ProcedureType@29f3185c, com.matthewpriebe.hpi.entity.ProcedureType@74bbc273, com.matthewpriebe.hpi.entity.ProcedureType@370a8b6e, com.matthewpriebe.hpi.entity.ProcedureType@118fbaf0, com.matthewpriebe.hpi.entity.ProcedureType@208f7165, com.matthewpriebe.hpi.entity.ProcedureType@a0d875d, com.matthewpriebe.hpi.entity.ProcedureType@693f2c89, com.matthewpriebe.hpi.entity.ProcedureType@50b4364, com.matthewpriebe.hpi.entity.ProcedureType@5e541ef9, com.matthewpriebe.hpi.entity.ProcedureType@38054d01, com.matthewpriebe.hpi.entity.ProcedureType@28ce75ec, com.matthewpriebe.hpi.entity.ProcedureType@778113f2, com.matthewpriebe.hpi.entity.ProcedureType@9dc782d, com.matthewpriebe.hpi.entity.ProcedureType@1ba35152, com.matthewpriebe.hpi.entity.ProcedureType@401926df, com.matthewpriebe.hpi.entity.ProcedureType@3ff8a3ad, com.matthewpriebe.hpi.entity.ProcedureType@550fa96f, com.matthewpriebe.hpi.entity.ProcedureType@54275b5d, com.matthewpriebe.hpi.entity.ProcedureType@5d01b0d8, com.matthewpriebe.hpi.entity.ProcedureType@271e851e, com.matthewpriebe.hpi.entity.ProcedureType@ff21443, com.matthewpriebe.hpi.entity.ProcedureType@61e14b53, com.matthewpriebe.hpi.entity.ProcedureType@31b6b0c7, com.matthewpriebe.hpi.entity.ProcedureType@6253e59a, com.matthewpriebe.hpi.entity.ProcedureType@7d1cb59f, com.matthewpriebe.hpi.entity.ProcedureType@16ccd2bc, com.matthewpriebe.hpi.entity.ProcedureType@12f8682a, com.matthewpriebe.hpi.entity.ProcedureType@6f7a20da, com.matthewpriebe.hpi.entity.ProcedureType@7752c0e7, com.matthewpriebe.hpi.entity.ProcedureType@77ba583, com.matthewpriebe.hpi.entity.ProcedureType@5613247e, com.matthewpriebe.hpi.entity.ProcedureType@6851b296]
+[INFO ] 2021-12-08 14:35:08.419 [main] ProcedureTypeDaoTest - [com.matthewpriebe.hpi.entity.ProcedureType@5111f814, com.matthewpriebe.hpi.entity.ProcedureType@71eafb64, com.matthewpriebe.hpi.entity.ProcedureType@491cc0eb, com.matthewpriebe.hpi.entity.ProcedureType@727f36dd, com.matthewpriebe.hpi.entity.ProcedureType@2c70a1de, com.matthewpriebe.hpi.entity.ProcedureType@ae74eef, com.matthewpriebe.hpi.entity.ProcedureType@2553dcc0, com.matthewpriebe.hpi.entity.ProcedureType@2e91cf69, com.matthewpriebe.hpi.entity.ProcedureType@746e534, com.matthewpriebe.hpi.entity.ProcedureType@37665305, com.matthewpriebe.hpi.entity.ProcedureType@c683cf5, com.matthewpriebe.hpi.entity.ProcedureType@2c224096, com.matthewpriebe.hpi.entity.ProcedureType@1cfd6f63, com.matthewpriebe.hpi.entity.ProcedureType@1906f982, com.matthewpriebe.hpi.entity.ProcedureType@5444f1c3, com.matthewpriebe.hpi.entity.ProcedureType@6a5c2d2d, com.matthewpriebe.hpi.entity.ProcedureType@1dadd172, com.matthewpriebe.hpi.entity.ProcedureType@33c9f1ac, com.matthewpriebe.hpi.entity.ProcedureType@4070c4ff, com.matthewpriebe.hpi.entity.ProcedureType@4bceac99, com.matthewpriebe.hpi.entity.ProcedureType@389bc2d3, com.matthewpriebe.hpi.entity.ProcedureType@442310fd, com.matthewpriebe.hpi.entity.ProcedureType@23263ba, com.matthewpriebe.hpi.entity.ProcedureType@3ca6bd01, com.matthewpriebe.hpi.entity.ProcedureType@5acd7d1c, com.matthewpriebe.hpi.entity.ProcedureType@6b52a40, com.matthewpriebe.hpi.entity.ProcedureType@178ba69f, com.matthewpriebe.hpi.entity.ProcedureType@1e4c4fda, com.matthewpriebe.hpi.entity.ProcedureType@2f58f492, com.matthewpriebe.hpi.entity.ProcedureType@903c13, com.matthewpriebe.hpi.entity.ProcedureType@4ae5ddc0, com.matthewpriebe.hpi.entity.ProcedureType@36ab69d9, com.matthewpriebe.hpi.entity.ProcedureType@5ebfe7fa, com.matthewpriebe.hpi.entity.ProcedureType@5f4e389a, com.matthewpriebe.hpi.entity.ProcedureType@3ba1f56e, com.matthewpriebe.hpi.entity.ProcedureType@56a9b662, com.matthewpriebe.hpi.entity.ProcedureType@77881b7a, com.matthewpriebe.hpi.entity.ProcedureType@59ac77f9, com.matthewpriebe.hpi.entity.ProcedureType@6d92e327, com.matthewpriebe.hpi.entity.ProcedureType@76134251, com.matthewpriebe.hpi.entity.ProcedureType@4177d422, com.matthewpriebe.hpi.entity.ProcedureType@7bde704a, com.matthewpriebe.hpi.entity.ProcedureType@12f3fcd, com.matthewpriebe.hpi.entity.ProcedureType@6dc2e473, com.matthewpriebe.hpi.entity.ProcedureType@12ebfb2d, com.matthewpriebe.hpi.entity.ProcedureType@1abf951a, com.matthewpriebe.hpi.entity.ProcedureType@629600d7, com.matthewpriebe.hpi.entity.ProcedureType@180d918a, com.matthewpriebe.hpi.entity.ProcedureType@55f23335, com.matthewpriebe.hpi.entity.ProcedureType@33837bd4, com.matthewpriebe.hpi.entity.ProcedureType@61c145cb, com.matthewpriebe.hpi.entity.ProcedureType@153409b8, com.matthewpriebe.hpi.entity.ProcedureType@511bfbb0, com.matthewpriebe.hpi.entity.ProcedureType@79ee779c, com.matthewpriebe.hpi.entity.ProcedureType@126a9a77, com.matthewpriebe.hpi.entity.ProcedureType@27a6384b, com.matthewpriebe.hpi.entity.ProcedureType@29ee8174, com.matthewpriebe.hpi.entity.ProcedureType@23365142, com.matthewpriebe.hpi.entity.ProcedureType@6549ce71]
+[INFO ] 2021-12-08 14:35:35.164 [main] ProcedureTypeDaoTest - 58
+[INFO ] 2021-12-08 14:35:35.165 [main] ProcedureTypeDaoTest - 59
+[INFO ] 2021-12-08 14:48:15.614 [main] ProcedureTypeDaoTest - Laboratory - Immunologu
+[INFO ] 2021-12-08 14:49:11.787 [main] ProcedureTypeDaoTest - 
+[INFO ] 2021-12-08 14:49:11.788 [main] ProcedureTypeDaoTest - MRI - General Classification
+[INFO ] 2021-12-08 14:52:11.357 [main] ProcedureTypeDaoTest - 
+[INFO ] 2021-12-08 14:52:11.358 [main] ProcedureTypeDaoTest - MRI - General Classification
+[INFO ] 2021-12-08 14:52:49.577 [main] ProcedureTypeDaoTest - Other Imaging Services - Positron Emmission Tomography
