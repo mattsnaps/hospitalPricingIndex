@@ -16,7 +16,7 @@ import java.io.IOException;
         urlPatterns = {"/getresults"}
 )
 
-/** Begins the authentication process using AWS Cognito
+/**
  *
  */
 @Log4j2
