@@ -8,6 +8,8 @@ import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
@@ -44,6 +46,12 @@ public class PriceDaoTest {
      */
     @Test
     void getAllSuccess() {
+        List<Price> allPrices = daoPrice.getAll();
+
+        for (Price priceItem : allPrices) {
+            log.info(priceItem.getHospital().getHospitalName() + " - " + priceItem.getProcedure().getCodeDescription() + " - " + priceItem.getPrice());
+            log.info(" ");
+        }
 
     }
 
