@@ -68,9 +68,12 @@ public class ProcedureTypeDaoTest {
         String revDescription = "Non-Categorized Procedures";
 
         ProcedureType procedureToUpdate = (ProcedureType) dao.getById(1);
-
         procedureToUpdate.setRevDescription(revDescription);
+
         dao.saveOrUpdate(procedureToUpdate);
+
+        ProcedureType procedureAfterUpdate = (ProcedureType) dao.getById(1);
+        assertEquals(revDescription, procedureAfterUpdate.getRevDescription());
     }
 
     @Test

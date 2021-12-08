@@ -10,19 +10,8 @@ import org.junit.jupiter.api.Test;
 @Log4j2
 public class HospitalDaoTest {
 
-    /**
-     * The Dao.
-     */
-    /**
-     * The Dao procedure.
-     */
+
     GenericDao daoProcedure;
-    /**
-     * The Dao price.
-     */
-    /**
-     *
-     */
     GenericDao dao;
 
     /**

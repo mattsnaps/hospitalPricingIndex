@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 /**
  * The type Procedure dao test.
@@ -72,7 +73,7 @@ public class ProcedureDaoTest {
 
         List<Procedure> allProcedureAfter = procedureDao.getAll();
 
-        assertEquals(allProcedureBefore.size() + 1, allProcedureAfter.size());h
+        assertEquals(allProcedureBefore.size() + 1, allProcedureAfter.size());
     }
 
     /**
@@ -80,7 +81,15 @@ public class ProcedureDaoTest {
      */
     @Test
     void updateSuccess() {
+        String codeDescrtiption = "Insert ant segment drain into";
 
+        Procedure procedureToUpdate = (Procedure) procedureDao.getById(1);
+        procedureToUpdate.setCodeDescription(codeDescrtiption);
+
+        procedureDao.saveOrUpdate(procedureToUpdate);
+
+        Procedure procedureAfterUpdate = (Procedure) procedureDao.getById(1);
+        assertEquals(codeDescrtiption, procedureAfterUpdate.getCodeDescription());
     }
 
     /**
@@ -89,6 +98,21 @@ public class ProcedureDaoTest {
      */
     @Test
     void delete() {
+        Procedure procedureToDelete = (Procedure) procedureDao.getById(14);
 
+        procedureDao.delete(procedureToDelete);
+
+        Procedure deletedProcedure = (Procedure) procedureDao.getById(14);
+
+        assertNull(deletedProcedure);
+    }
+
+    @Test
+    void getByPropertySuccess() {
+        List<Procedure> procedures = procedureDao.findByPropertyEqual("codeType", "Hospital Charge Master");
+
+        for (Procedure item : procedures) {
+            log.info(item.getCodeDescription() + " -- " + item.getProcedureType().getRevDescription());
+        }
     }
 }
