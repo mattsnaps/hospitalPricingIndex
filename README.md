@@ -1,6 +1,6 @@
-#Matthew Priebe's Hospital Pricing Project
+# Matthew Priebe's Hospital Pricing Project
 
-##Problem Statement
+## Problem Statement
 
 Effective January 1, 2021 new price transparency regulations require healthcare providers to
 provide the public a list of standard charges for items and services. For years providers have hid
