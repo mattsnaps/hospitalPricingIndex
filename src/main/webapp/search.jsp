@@ -5,25 +5,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>
 <body>
+<div class="container">
 <h2>Search Test</h2>
-
 <br>
 <br>
 <br>
-<table class="table">
-    <c:forEach var="price" items="${price}">
-        <tr>
-            <td>${price.getHospital().hospitalName}</td>
-            <td>${price.getProcedure().getProcedureType().revDescription}</td>
-            <td>${price.getProcedure().codeDescription}</td>
-            <td>${price.getProcedure().codeType}</td>
-            <td>${price.getProcedure().code}</td>
-            <td>${price.price}</td>
-        </tr>
-    </c:forEach>
-</table>
+<form class="form-inline" action="searchDatabase">
+    <div class="form-group">
+        <label for="procedureTypeSelect">Select Procedure Type</label>
+        <select class="form-control" id="procedureTypeSelect" name="procedureTypeSelect">
+            <option value="0">All Procedures</option>
+            <c:forEach var="procedureType" items="${procedureType}">
+                <option value="${procedureType.id}">${procedureType.revDescription}</option>
+            </c:forEach>
+        </select>
+    </div>
+    <input type="submit">
+</form>
 
 
+</div>
 <%@include file="footer.jsp"%>
 </body>
 </html>
