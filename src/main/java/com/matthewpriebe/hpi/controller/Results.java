@@ -1,7 +1,6 @@
 package com.matthewpriebe.hpi.controller;
 
 import com.matthewpriebe.hpi.entity.Price;
-import com.matthewpriebe.hpi.entity.ProcedureHospital;
 import com.matthewpriebe.hpi.persistence.GenericDao;
 import lombok.extern.log4j.Log4j2;
 
@@ -27,7 +26,7 @@ public class Results extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        priceDao = new GenericDao<>(ProcedureHospital.class);
+        priceDao = new GenericDao<>(Price.class);
 
         req.setAttribute("price", priceDao.getAll());
 

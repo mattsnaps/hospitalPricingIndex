@@ -17,13 +17,15 @@ import java.io.Serializable;
 @Setter
 @NoArgsConstructor
 
-@Entity(name = "Price")
+@Entity(name = "ProcedureHospital")
 @Table(name = "standard_charge")
 public class Price implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
-    @GenericGenerator(name = "native", strategy = "native")
-    private int id;
+
+    @EmbeddedId
+    private PriceId id = new PriceId();
+
+    @Column(name = "id")
+    private int tableId;
 
     @Column(name = "discounted_cash_price")
     private String price;
@@ -41,13 +43,6 @@ public class Price implements Serializable {
     public Price(Hospital hospital, Procedure procedure) {
         this.hospital = hospital;
         this.procedure = procedure;
+        this.id = new PriceId(hospital.getId(), procedure.getId());
     }
-
-    public Price(Hospital hospital, Procedure procedure, String price) {
-        this.hospital = hospital;
-        this.procedure = procedure;
-        this.price = price;
-    }
-
-
 }

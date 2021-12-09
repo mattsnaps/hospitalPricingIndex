@@ -37,7 +37,7 @@ public class Procedure {
     private ProcedureType procedureType;
 
     @OneToMany(mappedBy = "procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private Set<ProcedureHospital> prices = new HashSet<>();
+    private Set<Price> prices = new HashSet<>();
 
     public Procedure(String code, String codeType, String codeDescription, ProcedureType procedureType) {
         this.code = code;
@@ -47,7 +47,7 @@ public class Procedure {
     }
 
     public void addHospital(Hospital hospital) {
-        ProcedureHospital procedurePrice = new ProcedureHospital(hospital, this);
+        Price procedurePrice = new Price(hospital, this);
         prices.add(procedurePrice);
         hospital.getPrices().add(procedurePrice);
     }
