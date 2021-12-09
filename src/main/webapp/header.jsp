@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="index.jsp">Home </a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link" href="search">Search</a>
 
             </div>
         </div>

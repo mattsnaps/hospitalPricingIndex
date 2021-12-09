@@ -1,9 +1,6 @@
 package com.matthewpriebe.hpi.persistence;
 
-import com.matthewpriebe.hpi.entity.Hospital;
-import com.matthewpriebe.hpi.entity.Price;
-import com.matthewpriebe.hpi.entity.PriceId;
-import com.matthewpriebe.hpi.entity.Procedure;
+import com.matthewpriebe.hpi.entity.*;
 import com.matthewpriebe.hpi.util.Database;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,6 +15,7 @@ public class PriceDaoTest {
     GenericDao genericPriceDao;
     GenericDao hospitalDao;
     GenericDao procedureDao;
+    GenericDao procedureTypeDao;
 
     @BeforeEach
     void setUp() {
@@ -27,6 +25,7 @@ public class PriceDaoTest {
         hospitalDao = new GenericDao<>(Hospital.class);
         procedureDao = new GenericDao<>(Procedure.class);
         genericPriceDao = new GenericDao<>(Price.class);
+        procedureTypeDao = new GenericDao<>(ProcedureType.class);
         priceDao = new PriceDao();
     }
 
@@ -51,5 +50,8 @@ public class PriceDaoTest {
         for (Price item : prices) {
             log.info(item.getProcedure().getCodeDescription());
         }
+    }
+    @Test
+    void getAllSuccess() {
     }
 }
