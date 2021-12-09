@@ -8,6 +8,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Objects;
 
 /**
  * The type Price.
@@ -22,7 +23,15 @@ import java.io.Serializable;
 public class Price implements Serializable {
 
     @EmbeddedId
-    private PriceId id = new PriceId();
+    private PriceId id;
+
+    @ManyToOne
+    @MapsId("hospitalId")
+    private Hospital hospital;
+
+    @ManyToOne
+    @MapsId("procedureId")
+    private Procedure procedure;
 
     @Column(name = "id")
     private int tableId;
@@ -30,19 +39,26 @@ public class Price implements Serializable {
     @Column(name = "discounted_cash_price")
     private String price;
 
-    @Id
-    @ManyToOne
-    @JoinColumn(name = "hospital_id", referencedColumnName = "id")
-    private Hospital hospital;
-
-    @Id
-    @ManyToOne
-    @JoinColumn(name = "procedure_id", referencedColumnName = "id")
-    private Procedure procedure;
-
     public Price(Hospital hospital, Procedure procedure) {
         this.hospital = hospital;
         this.procedure = procedure;
         this.id = new PriceId(hospital.getId(), procedure.getId());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass())
+            return false;
+
+        Price that = (Price) o;
+        return Objects.equals(hospital, that.hospital) &&
+                Objects.equals(procedure, that.procedure);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(hospital, procedure);
     }
 }

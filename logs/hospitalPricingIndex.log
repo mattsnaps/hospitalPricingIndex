@@ -3785,3 +3785,4 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-12-08 16:53:16.524 [main] HospitalDaoTest - Monroe ClinicSSM-MCH
 [INFO ] 2021-12-08 17:07:23.105 [main] PriceDaoTest - $1,110.83
 [INFO ] 2021-12-08 17:08:59.097 [main] PriceDaoTest - Monroe Clinic - INJECT SI JOINT ARTHRGRPHY&/ANES/STEROID W/IMAGE - $1,110.83
+[INFO ] 2021-12-08 18:40:40.591 [main] PriceDaoTest - $13,184.86
