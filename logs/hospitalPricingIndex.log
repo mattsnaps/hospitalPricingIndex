@@ -3786,3 +3786,934 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-12-08 17:07:23.105 [main] PriceDaoTest - $1,110.83
 [INFO ] 2021-12-08 17:08:59.097 [main] PriceDaoTest - Monroe Clinic - INJECT SI JOINT ARTHRGRPHY&/ANES/STEROID W/IMAGE - $1,110.83
 [INFO ] 2021-12-08 18:40:40.591 [main] PriceDaoTest - $13,184.86
+[INFO ] 2021-12-08 20:57:06.456 [main] HospitalDaoTest - Monroe ClinicSSM-MCH
+[INFO ] 2021-12-08 20:57:07.656 [main] HospitalDaoTest - Monroe Clinic
+[INFO ] 2021-12-08 20:57:29.961 [main] ProcedureDaoTest - ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - INJECT SI JOINT ARTHRGRPHY&/ANES/STEROID W/IMAGE -- CT Scan - Other CT Scans
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - INJECT SI JOINT ARTHRGRPHY&/ANES/STEROID W/IMAGE -- Treatment/Observation Room - Treatment Room
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - HB SUPERVISED EXERCISE THERAPY FOR PERIPHERAL ARTERY DISEASE WIT -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - HB OTH RESP PROC, GROUP -- Respiratory Services - General Classification
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - HB PULMONARY REHAB W EXER -- Other Therapeutic Services - Other
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - HB C R II REGULAR SESSION -- Other Therapeutic Services - Cardiac Rehabilitation
+[INFO ] 2021-12-08 20:57:29.962 [main] ProcedureDaoTest - HB C R III INITIAL SESSION -- Other Therapeutic Services - Cardiac Rehabilitation
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB CARDIAC REHAB NON-ECG MONITORED SESSION -- Other Therapeutic Services - Cardiac Rehabilitation
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB IMMUN ADMIN - 1ST VACCINE -- Vaccine Administration
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB INJECTION ANTIBIOTIC -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB INJECTION IV -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB INJECTION IV -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB INJECTION IV -- Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB IV PUSH SGL OR INITIAL DRUG -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB IV PUSH SGL OR INITIAL DRUG -- Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB IV PIGGYBACK INITIAL HR -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB IV TX/DX INFUSION TO 1 HR -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB WOUND VAC -- Treatment/Observation Room - Treatment Room
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB THERAPEUTIC INJECTION IM/SQ -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB THERAPEUTIC INJECTION IM/SQ -- Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB NEWBORN HEARING SCREEN -- Audiology - Diagnostic
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB INSERT PICC W/US -- Emergency Room - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US -- Emergency Room - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US -- Urgent Care
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US -- Emergency Room - General Classification
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US -- Urgent Care
+[INFO ] 2021-12-08 20:57:29.963 [main] ProcedureDaoTest - HB IMMUN ADMIN - 1ST VACCINE -- Urgent Care
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB IMMUN ADMIN - 1ST VACCINE -- Vaccine Administration
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - IV INF TX/PROPHYL/DX INIT TO 1HR -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - IV INF TX/PROPHYL/DX INIT TO 1HR -- Treatment/Observation Room - Treatment Room
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB POLYSOMNOGRAPH 3 ADDL PARAMETERS -- EEG - Other
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB POLYSOMNOGRAPH 3 ADDL PARAMETERS -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB POLYSOMNOGRAPH 1ST HALF 3 ADDL PARAMETERS -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 1ST HALF 4 ADDL PARAMETERS -- Respiratory Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 1ST HALF 4 ADDL PARAMETERS -- Respiratory Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS -- Respiratory Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS -- Respiratory Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 4 ADDL PARAMETERS -- Respiratory Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB NPSG/CPAP 4 ADDL PARAMETERS -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB POLYSOMNOGRAPH 2ND HALF 3 ADDL PARAMETERS -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.964 [main] ProcedureDaoTest - HB EKG -- EKG/ECG - General Classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB CARDIOLITE STRESS TEST -- Cardiology - Stress Test
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB STRESS TREADMILL -- Cardiology - Stress Test
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB CHEMICAL STRESS TEST -- Cardiology - Stress Test
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB TILT TABLE -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - BLOOD TRANSFUSION SERVICE -- Oncology - General Classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - BLOOD TRANSFUSION SERVICE -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - BLOOD TRANSFUSION SERVICE -- Blood Storage and Processing - Blood Administration
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - BLOOD TRANSFUSION SERVICE -- Emergency Room - General Classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - FEM/POPL REVAS W/TLA -- Radiology - Diagnostic - Other
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - FEM/POPL REVAS W/TLA -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB THPX EXERCISE 15 MIN -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB THPX EXERC 15 MIN MOD59 -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB THERAPEUTIC ACTIVIT 15MIN -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB GAIT TRAINING 15 MN 97116 -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB GAIT TRAINING 15 MN MOD59 -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB TRANSFER TRAINING 15 MIN -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB NEUROMUSC REEDUC OF MVMNT -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.965 [main] ProcedureDaoTest - HB MANUAL THERAPY (PT) -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.966 [main] ProcedureDaoTest - HB PT SCHOOLS 1/4 HOUR -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.966 [main] ProcedureDaoTest - HB PHYSICAL THERAPY EVALUATION LOW COMPLEX 20 MINS -- Physical Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.966 [main] ProcedureDaoTest - HB PHYSICAL THERAPY EVALUATION MOD COMPLEX 30 MINS -- Physical Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB PHYSICAL THERAPY EVALUATION HIGH COMPLEX 45 MINS -- Physical Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB AQUATIC THERAPY/EXERCISES -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB PT GROUP THERAPY -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OT THPY ADL 15M MOD59 -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB MANUAL THERAPY (OT) -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OT THERAPY ADL 15 MIN -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OT THERAPEUTIC ACT 15MIN -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OT THERAPEUTIC EX 15MIN -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OT TERAP EX 15M MOD59 -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB BTE EXERCISE -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OT THERAP INTER FOCUS ON COGN FUNC & COMPNSTRY STRATG TO MNG -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OCCUPATIONAL THERAPY EVAL LOW COMPLEX 30 MINS -- Occupational Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OCCUPATIONAL THERAPY EVAL MOD COMPLEX 45 MINS -- Occupational Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.967 [main] ProcedureDaoTest - HB OCCUPATIONAL THERAPY EVAL HIGH COMPLEX 60 MINS -- Occupational Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - HB NEUROMUSCULAR REEDUCATION -- Occupational Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - HB RENAL PERCUTANEOUS BX -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - HB BIOPSY-LYMPH NODE -- Treatment/Observation Room - Treatment Room
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - HB US DOPPLER COMPLETE (TESTICULAR/OVARARIAN) -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CYSTOSCOPY -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CYSTOSCOPY -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CYSTOSCOPY -- Treatment/Observation Room - Treatment Room
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - NJX DX/THER SBST INTRLMNR LMBR/SAC W/IMG GDN -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - X-RAY EYE FOR FOREIGN BODY -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - X-RAY EYE FOR FOREIGN BODY -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O IV CONTR -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O IV CONTR -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O IV CONTR -- CT Scan - Head Scan
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O IV CONTR -- CT Scan - Head Scan
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O & W IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O & W IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O & W IV CONT -- CT Scan - Head Scan
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT HEAD W/O & W IV CONT -- CT Scan - Head Scan
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.968 [main] ProcedureDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT -- CT Scan - Head Scan
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT -- CT Scan - Head Scan
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT MAXILLOFACIAL W/O DYE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT MAXILLOFACIAL W/O DYE -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT MANDIBLE LTD -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT MANDIBLE LTD -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT MANDIBLE LTD -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT MANDIBLE LTD -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT SOFT TISSUE NECK W IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT SOFT TISSUE NECK W IV CONT -- CT Scan - Head Scan
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT ANGIOGRAPHY, HEAD -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT ANGIOGRAPHY, NECK -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - CT ANGIOGRAPHY, NECK -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MRI ORBIT/FACE/NECK W/O & W GAD -- 
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MRI ORBIT/FACE/NECK W/O & W GAD -- MRI - Brain (including Brainstem)
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MR ANGIOGRAPHY HEAD W/O DYE -- 
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MR ANGIOGRAPHY HEAD W/O DYE -- MRI - MRA Head and Neck
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MRA NECK W/O & W GAD -- 
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MRA NECK W/O & W GAD -- 
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MRA NECK W/O & W GAD -- MRI - MRA Head and Neck
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MRA NECK W/O & W GAD -- MRI - MRA Head and Neck
+[INFO ] 2021-12-08 20:57:29.969 [main] ProcedureDaoTest - MRI BRAIN W/O DYE -- 
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - MRI BRAIN W/O DYE -- MRI - Brain (including Brainstem)
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - MRI BRAIN W/O & W/DYE -- MRI - Brain (including Brainstem)
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - RADIOLOGIC EXAM CHEST SINGLE VIEW -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - RADIOLOGIC EXAM CHEST SINGLE VIEW -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - RADIOLOGIC EXAM CHEST 2 VIEWS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - RADIOLOGIC EXAM CHEST 2 VIEWS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - X-RAY EXAM OF RIBS/CHEST -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - X-RAY EXAM OF RIBS/CHEST -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT THORAX W/O DYE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT CARDIAC SCORING -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT CARDIAC SCORING -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT THORAX W/ IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT THORAX W/ IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT THORAX W/ IV CONT -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT THORAX W/ IV CONT -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT PULMONARY ANGIO CHEST PE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - CT PULMONARY ANGIO CHEST PE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - X-RAY EXAM OF NECK SPINE -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - XRAY CERVICAL SPINE COMP -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.970 [main] ProcedureDaoTest - XRAY CERVICAL SPINE COMP -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.971 [main] ProcedureDaoTest - XRAY THORACIC SPINE COMP -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.971 [main] ProcedureDaoTest - XRAY THORACIC SPINE COMP -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.971 [main] ProcedureDaoTest - XRAY LUMBAR SPINE LTD -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.971 [main] ProcedureDaoTest - XRAY LUMBAR SPINE LTD -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.971 [main] ProcedureDaoTest - XRAY LUMBAR SPINE COMPLETE -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.971 [main] ProcedureDaoTest - XRAY LUMBAR SPINE COMPLETE -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.971 [main] ProcedureDaoTest - CT CERVICAL SPINE W/O IV CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - CT CERVICAL SPINE W/O IV CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - CT THORACIC SPINE W/O IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - CT THORACIC SPINE W/O IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - CT THORACIC SPINE W/O IV CONT -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - CT THORACIC SPINE W/O IV CONT -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - CT LUMBAR SPINE W/O IV CONT -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - CT LUMBAR SPINE W/O IV CONT -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - MRI NECK SPINE W/O DYE -- 
+[INFO ] 2021-12-08 20:57:29.972 [main] ProcedureDaoTest - MRI NECK SPINE W/O DYE -- MRI - Spinal Cord (including Spine)
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI CHEST SPINE W/O DYE -- MRI - Spinal Cord (including Spine)
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI LUMBAR SPINE W/O DYE -- MRI - Spinal Cord (including Spine)
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI CERVICAL SPINE W/O & W GAD -- MRI - Spinal Cord (including Spine)
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI CHEST SPINE W/O & W/DYE -- MRI - Spinal Cord (including Spine)
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI LUMBAR SPINE W/O & W/DYE -- MRI - Spinal Cord (including Spine)
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - X-RAY EXAM OF PELVIS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - X-RAY EXAM OF PELVIS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - CT SCAN,PELVIS,W/O CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - CT SCAN OF PELVIS CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - CT SCAN OF PELVIS CONTRAST -- Other Imaging Services - General classification
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI PELVIS, W/O CONTRAST -- 
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI PELVIS, W/O CONTRAST -- 
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI PELVIS W/O & W GAD -- 
+[INFO ] 2021-12-08 20:57:29.973 [main] ProcedureDaoTest - MRI PELVIS W/O & W GAD -- 
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF SHOULDER -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF HUMERUS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF ELBOW -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF FOREARM -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF WRIST -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF WRIST -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF HAND -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF HAND -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF FINGER(S) -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - X-RAY EXAM OF FINGER(S) -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - CT UPPER EXTREMITY W/O DYE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.974 [main] ProcedureDaoTest - MRI UPPER EXTERMITY W/O DYE -- 
+[INFO ] 2021-12-08 20:57:29.975 [main] ProcedureDaoTest - MRI UPPER EXTREMITY W/O&W/DYE -- 
+[INFO ] 2021-12-08 20:57:29.975 [main] ProcedureDaoTest - MRI JOINT UPR EXTREM W/O DYE -- 
+[INFO ] 2021-12-08 20:57:29.975 [main] ProcedureDaoTest - MRI JOINT UPR EXTREM W/DYE -- 
+[INFO ] 2021-12-08 20:57:29.975 [main] ProcedureDaoTest - MRI JOINT UPR EXTR W/O&W/DYE -- 
+[INFO ] 2021-12-08 20:57:29.975 [main] ProcedureDaoTest - XR HIP W/PELVIS 2-3 VIEWS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - XR BIL HIP W/PELVIS 3-4 VIEWS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - CONTRAST X-RAY OF HIP -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - XR FEMUR MIN 2 VIEWS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF KNEE, 1 OR 2 -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM, KNEE, 4 OR MORE -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - CONTRAST X-RAY OF KNEE JOINT -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - CONTRAST X-RAY OF KNEE JOINT -- Radiology - Diagnostic - Arthography
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - XRAY TIB/FIB AP MECHANICAL AXIS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - XRAY TIB/FIB AP MECHANICAL AXIS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF ANKLE -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF ANKLE -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF ANKLE -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF FOOT -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF FOOT -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF FOOT -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - X-RAY EXAM OF TOE(S) -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - CT LOWER EXTERMITY W/O DYE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - MRI LOWER EXTREMITY W/O DYE -- 
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - MRI LWR EXTREMITY W/O&W/DYE -- 
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - MRI JNT OF LWR EXTRE W/O DYE -- 
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - MRI JOINT OF LWR EXTR W/DYE -- 
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - MRI JOINT LWR EXTR W/O&W/DYE -- 
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - RADIOLOGIC EXAM ABDOMEN 1 VIEW -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - RADIOLOGIC EXAM ABDOMEN 1 VIEW -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - RADIOLOGIC EXAM ABDOMEN 2 VIEWS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.976 [main] ProcedureDaoTest - RADIOLOGIC EXAM ABDOMEN 2 VIEWS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN W/O IV CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN W/O IV CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN WITH IV CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN WITH IV CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN WITH IV CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN WITH IV CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN WITH IV CONTRAST -- Other Imaging Services - General classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN WITH IV CONTRAST -- Other Imaging Services - General classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ANGIO ABD&PLVIS CNTRST MTRL W/WO CNTRST IMGES -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ANGIO ABDOM W/O & W/DYE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABD & PELVIS W/O CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABD & PELVIS W/O CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN&PELVIS W/CONTRAST -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABDOMEN&PELVIS W/CONTRAST -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CT ABD&PELV 1+ SECTION/REGNS -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - MRI ABDOMEN W/O & W GAD -- 
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - MRI ABDOMEN W/O & W GAD -- 
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - CONTRAST XR ESOPHAGUS W/SCOUT FILMS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.977 [main] ProcedureDaoTest - XRAY ESOPHOGRAM VIDEO  W/SCOUT FILMS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY ESOPHOGRAM VIDEO  W/SCOUT FILMS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY UPPER GI W/SCOUT FILMS SGL CONTRAST -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY UPPER GI W/SCOUT FILMS SGL CONTRAST -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - CT COLONOGRAPHY, W/O DYE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - CONTRST X-RAY, URINARY TRACT -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY CYSTOGRAM VOIDING -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY HYSTEROSALPINGOGRAM -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY HYSTEROSALPINGOGRAM -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - CARDIAC MRI FOR MORPH W/DYE -- 
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - CT ANGIO HRT W/3D IMAGE -- CT Scan - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - CT ANGIO HRT W/3D IMAGE -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY AORTOGRAM W/ BILAT LOWER EXTREMITY -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - XRAY AORTOGRAM W/ BILAT LOWER EXTREMITY -- Radiology - Diagnostic - Arteriography
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - CT ANGIO ABDOMINAL ARTERIES -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - CT ANGIO ABDOMINAL ARTERIES -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - ARTERY X-RAYS, ARM/LEG -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - ARTERY X-RAYS, ARM/LEG -- Radiology - Diagnostic - Arteriography
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - US SOFT TISSUE HEAD, NECK, OR THYROID -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - US SOFT TISSUE HEAD, NECK, OR THYROID -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - US BREAST UNI REAL TIME WITH IMAGE LIMITED -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - US ABDOMEN COMPLETE -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.978 [main] ProcedureDaoTest - US ABDOMEN COMPLETE -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US ABDOMEN LTD -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US ABDOMEN LTD -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US ABDOMINAL AORTA REAL TIME SCREEN STUDY AAA -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US RETROPERITONEAL (KIDNEYS) COMP -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US RETROPERITONEAL (KIDNEYS) COMP -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US RETROPERITONEAL (AORTA) LTD -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US RETROPERITONEAL (AORTA) LTD -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - OB US >/= 14 WKS -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US TRANSVAGINAL PELVIS -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US PELVIS -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US PELVIS LTD/FOLLOW UP -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US TESTICLE -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US TESTICLE -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US COMPLETE JOINT NON-VASC -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - US LMTD JOINT NON-VASC -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - DIGITAL BREAST TOMOSYNTHESIS UNILATERAL -- Other Imaging Services - Diagnostic Mammography
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - DIGITAL BREAST TOMOSYNTHESIS BILATERAL -- Other Imaging Services - Diagnostic Mammography
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - DIAGNOSTIC MAMMOGRAPHY COMPUTER-AIDED DETCJ UNI -- Other Imaging Services - Diagnostic Mammography
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - DIAGNOSTIC MAMMOGRAPHY COMPUTER-AIDED DETCJ BI -- Other Imaging Services - Diagnostic Mammography
+[INFO ] 2021-12-08 20:57:29.979 [main] ProcedureDaoTest - DIAGNOSTIC MAMMOGRAPHY COMPUTER-AIDED DETCJ BI -- Other Imaging Services - Diagnostic Mammography
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - SCREENING MAMMOGRAPHY BI 2-VIEW BREAST INC CAD -- Other Imaging Services - Screening Mammography
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - THYROID IMAG WWO VASC FLOW W/SGL OR MULT UPTAKE(S) QUANT MEAS WW -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - HEPATOBIL SYST IMAG INC GB W/PHARMA INTERVENJ -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED GASTRIC EMPTYING SCAN -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED GASTRIC EMPTYING SCAN -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED GASTRIC EMPTYING SCAN -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED GASTRIC EMPTYING SCAN -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN WHOLE BODY -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN WHOLE BODY -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN WHOLE BODY -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN WHOLE BODY -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN 3 PHASE -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN 3 PHASE -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN 3 PHASE -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED BONE SCAN 3 PHASE -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - HT MUSCLE IMAGE SPECT, MULT -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.980 [main] ProcedureDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL -- Nuclear Medicine - Diagnostic
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - TUMORIMAGE PET/CT SKUL-THIGH -- Other Imaging Services - Positron Emmission Tomography
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - TUMOR IMAGE PET/CT FULL BODY -- Nuclear Medicine - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - TUMOR IMAGE PET/CT FULL BODY -- Other Imaging Services - Positron Emmission Tomography
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - METABOLIC PANEL TOTAL CA -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - METABOLIC PANEL TOTAL CA -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - COMPREHEN METABOLIC PANEL -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - COMPREHEN METABOLIC PANEL -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - OBSTETRIC PANEL -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - OBSTETRIC PANEL -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - LIPID PANEL -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - LIPID PANEL -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - RENAL FUNCTION PANEL -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.981 [main] ProcedureDaoTest - RENAL FUNCTION PANEL -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - HEPATIC FUNCTION PANEL -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - HEPATIC FUNCTION PANEL -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - URINALYSIS, AUTO W/SCOPE -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - URINALYSIS, AUTO W/SCOPE -- Laboratory - Bacteriology and Microbiology
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - URINALYSIS, AUTO W/SCOPE -- Drugs Identification - Drugs Requiring Detailed Coding
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - URINALYSIS NONAUTO W/O SCOPE -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - URINALYSIS NONAUTO W/O SCOPE -- Laboratory - Urology
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - URINALYSIS,AUTO, W/O SCOPE -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - URINALYSIS,AUTO, W/O SCOPE -- Laboratory - Urology
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - DOT URINALYSIS FR URGENT CARE (POC) -- Laboratory - Urology
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - ASSAY OF PSA, TOTAL -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - ASSAY OF PSA, TOTAL -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - ASSAY THYROID STIM HORMONE -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - ASSAY THYROID STIM HORMONE -- Laboratory - Chemistry
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - COMPLETE CBC W/AUTO DIFF WBC -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - COMPLETE CBC W/AUTO DIFF WBC -- Laboratory - Hematology
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - COMPLETE CBC, AUTOMATED -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - COMPLETE CBC, AUTOMATED -- Laboratory - Hematology
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - PROTHROMBIN TIME -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.982 [main] ProcedureDaoTest - PROTHROMBIN TIME -- Laboratory - Hematology
+[INFO ] 2021-12-08 20:57:29.983 [main] ProcedureDaoTest - PROTHROMBIN TIME -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.983 [main] ProcedureDaoTest - THROMBOPLASTIN TIME, PARTIAL -- Laboratory - General Classification
+[INFO ] 2021-12-08 20:57:29.983 [main] ProcedureDaoTest - THROMBOPLASTIN TIME, PARTIAL -- Laboratory - Hematology
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - COVID-19 IGG, QUALITATIVE -- Laboratory - Immunologu
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - IADNA SARS-COV-2 COVID-19 AMPLIFIED PROBE TQ -- Laboratory - Bacteriology and Microbiology
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - IMMUNIZATION ADMIN -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - IMMUNIZATION ADMIN -- Drugs Identification - Drugs Requiring Detailed Coding
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - IMMUNIZATION ADMIN -- Vaccine Administration
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - IMMUNIZATION ADMIN -- Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - SPEECH/HEARING THERAPY -- Speech-Language Pathology Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - ORAL FUNCTION THERAPY -- Speech-Language Pathology Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - AUDITOR EVOKE POTENT, COMPRE -- Audiology - Diagnostic
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - EVALUATE SWALLOWING FUNCTION -- Speech-Language Pathology Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - MOTION FLUOROSCOPY/SWALLOW -- Speech-Language Pathology Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - CHARGE EKG TOTAL (READ & TRACE) -- EKG/ECG - General Classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - CHARGE EKG TOTAL (READ & TRACE) -- EKG/ECG - Telemetry
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - CHARGE EKG TRACING -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - CHARGE EKG TRACING -- EKG/ECG - General Classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - CHARGE EKG TRACING -- EKG/ECG - Telemetry
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - CARDIOVASCULAR STRESS TEST -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - CARDIOVASCULAR STRESS TEST -- Cardiology - Stress Test
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - PER TTE W/DOPPLER, COMPLETE -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - PER TTE W/DOPPLER, COMPLETE -- Cardiology - Stress Test
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - PER TTE W/DOPPLER, COMPLETE -- Echocardiology
+[INFO ] 2021-12-08 20:57:29.984 [main] ProcedureDaoTest - PER TTE W/DOPPLER, COMPLETE -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - PER TTE W/DOPPLER, COMPLETE -- EKG/ECG - General Classification
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - PER TTE W/DOPPLER, COMPLETE -- EKG/ECG - Holter monitor
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - TTE, F-UP OR LMTD -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - TTE, F-UP OR LMTD -- Echocardiology
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - TTE, F-UP OR LMTD -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - PER ECHO TRANSESOPHAGEAL -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - PER STRESS TTE COMPLETE -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - PER STRESS TTE COMPLETE -- Cardiology - Stress Test
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - PER STRESS TTE COMPLETE -- Echocardiology
+[INFO ] 2021-12-08 20:57:29.985 [main] ProcedureDaoTest - PER STRESS TTE COMPLETE -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.986 [main] ProcedureDaoTest - TILT TABLE EVALUATION -- Cardiology - General Classification
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - US CAROTID DUPLEX BILAT -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - US CAROTID DUPLEX BILAT -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - US CAROTID DUPLEX BILAT -- Other Diagnostic Services - Peripheral Vascular Lab
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - US CAROTID DUPLEX BILAT -- Other Diagnostic Services - Peripheral Vascular Lab
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - US VENOUS DOPPLER BILAT -- Other Diagnostic Services - Peripheral Vascular Lab
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - EXTREMITY STUDY -- Other Imaging Services - Ultrasound
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - EXTREMITY STUDY -- Other Diagnostic Services - Peripheral Vascular Lab
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - VASCULAR STUDY -- Other Diagnostic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - THER/PROPH/DIAG IV INF, INIT -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.987 [main] ProcedureDaoTest - THER/PROPH/DIAG IV INF, INIT -- Emergency Room - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG IV INF, INIT -- Treatment/Observation Room - Treatment Room
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG IV INF, INIT -- Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG INJ, SC/IM -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG INJ, SC/IM -- Medical/Surgical Supplies and Devices - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG INJ, SC/IM -- Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG INJ, IV PUSH -- IV Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG INJ, IV PUSH -- Emergency Room - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THER/PROPH/DIAG INJ, IV PUSH -- Other Therapeutic Services - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - THERAPEUTIC EXERCISES -- Physical Therapy - General classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - PHYSICAL THERAPY EVALUATION LOW COMPLEX 20 MINS -- Physical Therapy - Evaluation or Re-evaluation
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - NEGATIVE PRESSURE WOUND THERAPY DME </= 50 SQ CM -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - OFFICE/OUTPATIENT VISIT, NEW (LVL3) -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - PF OFFICE/OUTPATIENT VISIT, NEW -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - OFFICE/OUTPATIENT VISIT, NEW (LVL4) -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - DOT EXAM (NEW 18-39 YRS) -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - DOT EXAM (NEW 40-64 YRS) -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - PRE-EMPL EXAM (NEW 40-64 YRS) -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - MRI W/O FOL W/CONT, BREAST, -- MRI - Other
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - ADMIN INFLUENZA VIRUS VAC -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - ADMIN INFLUENZA VIRUS VAC -- Drugs Identification - Drugs Requiring Detailed Coding
+[INFO ] 2021-12-08 20:57:29.988 [main] ProcedureDaoTest - ADMIN INFLUENZA VIRUS VAC -- Vaccine Administration
+[INFO ] 2021-12-08 20:57:29.992 [main] ProcedureDaoTest - LOW DOSE CT LUNG SCREENING (LDCT) -- CT Scan - Body Scan
+[INFO ] 2021-12-08 20:57:29.992 [main] ProcedureDaoTest - INITIAL VEIN MAPPING BEFORE HEMODIALYSIS ACCESS -- Radiology - Diagnostic - General Classification
+[INFO ] 2021-12-08 20:57:29.993 [main] ProcedureDaoTest - INITIAL VEIN MAPPING BEFORE HEMODIALYSIS ACCESS -- Other Diagnostic Services - Peripheral Vascular Lab
+[INFO ] 2021-12-08 20:57:29.994 [main] ProcedureDaoTest - HOSPITAL OUTPATIENT CLINIC VISIT FOR ASSESSMENT AND MANAGEMENT O -- Clinic - General Classification
+[INFO ] 2021-12-08 20:57:29.994 [main] ProcedureDaoTest - SARS-COV-2 NAAT -- Laboratory - Bacteriology and Microbiology
+[INFO ] 2021-12-08 21:16:05.770 [main] PriceDaoTest - Insert ant segment drain int
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Removal of breast lesion
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Excision breast lesion
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Partial mastectomy
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Mast mod rad
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Cardiac valve & oth maj cardiothoracic proc w card cath w MCC
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Repair rotator cuff acute
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Repair rotator cuff chronic
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - Remove wrist tendon lesion
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - INJECT SI JOINT ARTHRGRPHY&/ANES/STEROID W/IMAGE
+[INFO ] 2021-12-08 21:16:05.771 [main] PriceDaoTest - INJECT SI JOINT ARTHRGRPHY&/ANES/STEROID W/IMAGE
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Total hip arthroplasty
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Total knee arthroplasty
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Repair of hammertoe
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Correction hallux valgus
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Shoulder arthroscopy/surgery
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Arthroscop rotator cuff repr
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Knee arthroscopy/surgery
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Knee arthroscopy/surgery
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Knee arthroscopy/surgery
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Knee arthroscopy/surgery
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Resect inferior turbinate
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB SUPERVISED EXERCISE THERAPY FOR PERIPHERAL ARTERY DISEASE WIT
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB OTH RESP PROC, GROUP
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB PULMONARY REHAB W EXER
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB C R II REGULAR SESSION
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB C R III INITIAL SESSION
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB CARDIAC REHAB NON-ECG MONITORED SESSION
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Repair of nasal septum
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - Ther fx nasal inf turbinate
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB IMMUN ADMIN - 1ST VACCINE
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB INJECTION ANTIBIOTIC
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB INJECTION IV
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB INJECTION IV
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB INJECTION IV
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB IV PUSH SGL OR INITIAL DRUG
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB IV PUSH SGL OR INITIAL DRUG
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB IV PIGGYBACK INITIAL HR
+[INFO ] 2021-12-08 21:16:05.772 [main] PriceDaoTest - HB IV TX/DX INFUSION TO 1 HR
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB WOUND VAC
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Nsl/sins ndsc total
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Nsl/sins ndsc w/prtl ethmdct
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Nsl/sins ndsc w/tot ethmdct
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Exploration maxillary sinus
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Nsl/sins ndsc sphn tiss rmvl
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Endoscopy maxillary sinus
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Dx bronchoscope/brush
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Dx bronchoscope/lavage
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Bronchoscopy w/biopsy(s)
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Bronchoscopy/lung bx each
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB THERAPEUTIC INJECTION IM/SQ
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Major small & large bowel procedures w MCC
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Major small & large bowel procedures w CC
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB THERAPEUTIC INJECTION IM/SQ
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Major small & large bowel procedures w/o CC/MCC
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - Insj subq car rhythm mntr
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB NEWBORN HEARING SCREEN
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB INSERT PICC W/US
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB ARTHROCENTESIS ASPIR&/INJ MAJOR JT/BURSA W/O US
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB IMMUN ADMIN - 1ST VACCINE
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - HB IMMUN ADMIN - 1ST VACCINE
+[INFO ] 2021-12-08 21:16:05.773 [main] PriceDaoTest - IV INF TX/PROPHYL/DX INIT TO 1HR
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - IV INF TX/PROPHYL/DX INIT TO 1HR
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB POLYSOMNOGRAPH 3 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB POLYSOMNOGRAPH 3 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB POLYSOMNOGRAPH 1ST HALF 3 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 1ST HALF 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 1ST HALF 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 2ND HALF 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB NPSG/CPAP 4 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB POLYSOMNOGRAPH 2ND HALF 3 ADDL PARAMETERS
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB EKG
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB CARDIOLITE STRESS TEST
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB STRESS TREADMILL
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB CHEMICAL STRESS TEST
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - HB TILT TABLE
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - BLOOD TRANSFUSION SERVICE
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - BLOOD TRANSFUSION SERVICE
+[INFO ] 2021-12-08 21:16:05.774 [main] PriceDaoTest - BLOOD TRANSFUSION SERVICE
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - BLOOD TRANSFUSION SERVICE
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - FEM/POPL REVAS W/TLA
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - FEM/POPL REVAS W/TLA
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB THPX EXERCISE 15 MIN
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB THPX EXERC 15 MIN MOD59
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB THERAPEUTIC ACTIVIT 15MIN
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB GAIT TRAINING 15 MN 97116
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB GAIT TRAINING 15 MN MOD59
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB TRANSFER TRAINING 15 MIN
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB NEUROMUSC REEDUC OF MVMNT
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB MANUAL THERAPY (PT)
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB PT SCHOOLS 1/4 HOUR
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB PHYSICAL THERAPY EVALUATION LOW COMPLEX 20 MINS
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB PHYSICAL THERAPY EVALUATION MOD COMPLEX 30 MINS
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB PHYSICAL THERAPY EVALUATION HIGH COMPLEX 45 MINS
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB AQUATIC THERAPY/EXERCISES
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB PT GROUP THERAPY
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OT THPY ADL 15M MOD59
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB MANUAL THERAPY (OT)
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OT THERAPY ADL 15 MIN
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OT THERAPEUTIC ACT 15MIN
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OT THERAPEUTIC EX 15MIN
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OT TERAP EX 15M MOD59
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB BTE EXERCISE
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OT THERAP INTER FOCUS ON COGN FUNC & COMPNSTRY STRATG TO MNG
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OCCUPATIONAL THERAPY EVAL LOW COMPLEX 30 MINS
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OCCUPATIONAL THERAPY EVAL MOD COMPLEX 45 MINS
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB OCCUPATIONAL THERAPY EVAL HIGH COMPLEX 60 MINS
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - HB NEUROMUSCULAR REEDUCATION
+[INFO ] 2021-12-08 21:16:05.775 [main] PriceDaoTest - Biopsy/removal lymph nodes
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Biopsy/removal lymph nodes
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Biopsy/removal lymph nodes
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - HB RENAL PERCUTANEOUS BX
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - HB BIOPSY-LYMPH NODE
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - HB US DOPPLER COMPLETE (TESTICULAR/OVARARIAN)
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Remove tonsils and adenoids
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Remove tonsils and adenoids
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Removal of tonsils
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Removal of tonsils
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Egd diagnostic brush wash
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Egd biopsy single/multiple
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Diagnostic sigmoidoscopy
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Diagnostic colonoscopy
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Colonoscopy and biopsy
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Colonoscopy w/lesion removal
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Colonoscopy w/endoscope us
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Spinal fusion except cervical w/o MCC
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Major joint replacement or reattachment of lower extremity w MCC
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Major joint replacement or reattachment of lower extremity w/o MCC
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Cervical spinal fusion w/o CC/MCC
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Laparoscopic cholecystectomy
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Prp i/hern init reduc >5 yr
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Prp i/hern init block >5 yr
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Rerepair ing hernia reduce
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Rpr ventral hern init reduc
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Rpr ventral hern init block
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Rerepair ventrl hern reduce
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Rpr umbil hern reduc > 5 yr
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Rpr umbil hern block > 5 yr
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Lap ing hernia repair init
+[INFO ] 2021-12-08 21:16:05.776 [main] PriceDaoTest - Lap vent/abd hern proc comp
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Lap inc hern repair comp
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CYSTOSCOPY
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CYSTOSCOPY
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CYSTOSCOPY
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Prostatectomy (turp)
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Circum 28 days or older
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Biopsy of prostate
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Laparo radical prostatectomy
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Laparo-vag hyst incl t/o
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Tlh w/t/o 250 g or less
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Obstetrical care
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Cesarean delivery
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Vbac delivery
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Njx interlaminar lmbr/sac
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - NJX DX/THER SBST INTRLMNR LMBR/SAC W/IMG GDN
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Carpal tunnel surgery
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - After cataract laser surgery
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Xcapsl ctrc rmvl cplx wo ecp
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Xcapsl ctrc rmvl w/o ecp
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - Create eardrum opening
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - X-RAY EYE FOR FOREIGN BODY
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - X-RAY EYE FOR FOREIGN BODY
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O IV CONTR
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O IV CONTR
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O IV CONTR
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O IV CONTR
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O & W IV CONT
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O & W IV CONT
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O & W IV CONT
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT HEAD W/O & W IV CONT
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.777 [main] PriceDaoTest - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT MAXILLOFACIAL W/O DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT MAXILLOFACIAL W/O DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT MANDIBLE LTD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT MANDIBLE LTD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT MANDIBLE LTD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT MANDIBLE LTD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT SOFT TISSUE NECK W IV CONT
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT SOFT TISSUE NECK W IV CONT
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT ANGIOGRAPHY, HEAD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT ANGIOGRAPHY, NECK
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT ANGIOGRAPHY, NECK
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRI ORBIT/FACE/NECK W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRI ORBIT/FACE/NECK W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MR ANGIOGRAPHY HEAD W/O DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MR ANGIOGRAPHY HEAD W/O DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRA NECK W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRA NECK W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRA NECK W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRA NECK W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRI BRAIN W/O DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRI BRAIN W/O DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - MRI BRAIN W/O & W/DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - RADIOLOGIC EXAM CHEST SINGLE VIEW
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - RADIOLOGIC EXAM CHEST SINGLE VIEW
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - RADIOLOGIC EXAM CHEST 2 VIEWS
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - RADIOLOGIC EXAM CHEST 2 VIEWS
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - X-RAY EXAM OF RIBS/CHEST
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - X-RAY EXAM OF RIBS/CHEST
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT THORAX W/O DYE
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT CARDIAC SCORING
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT CARDIAC SCORING
+[INFO ] 2021-12-08 21:16:05.778 [main] PriceDaoTest - CT THORAX W/ IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT THORAX W/ IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT THORAX W/ IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT THORAX W/ IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT PULMONARY ANGIO CHEST PE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT PULMONARY ANGIO CHEST PE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - X-RAY EXAM OF NECK SPINE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY CERVICAL SPINE COMP
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY CERVICAL SPINE COMP
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY THORACIC SPINE COMP
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY THORACIC SPINE COMP
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY LUMBAR SPINE LTD
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY LUMBAR SPINE LTD
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY LUMBAR SPINE COMPLETE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - XRAY LUMBAR SPINE COMPLETE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT CERVICAL SPINE W/O IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT CERVICAL SPINE W/O IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT THORACIC SPINE W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT THORACIC SPINE W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT THORACIC SPINE W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT THORACIC SPINE W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT LUMBAR SPINE W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT LUMBAR SPINE W/O IV CONT
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI NECK SPINE W/O DYE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI NECK SPINE W/O DYE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI CHEST SPINE W/O DYE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI LUMBAR SPINE W/O DYE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI CERVICAL SPINE W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI CHEST SPINE W/O & W/DYE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI LUMBAR SPINE W/O & W/DYE
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - X-RAY EXAM OF PELVIS
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - X-RAY EXAM OF PELVIS
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT SCAN,PELVIS,W/O CONTRAST
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT SCAN OF PELVIS CONTRAST
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - CT SCAN OF PELVIS CONTRAST
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI PELVIS, W/O CONTRAST
+[INFO ] 2021-12-08 21:16:05.779 [main] PriceDaoTest - MRI PELVIS, W/O CONTRAST
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - MRI PELVIS W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - MRI PELVIS W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF SHOULDER
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF HUMERUS
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF ELBOW
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF FOREARM
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF WRIST
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF WRIST
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF HAND
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF HAND
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF FINGER(S)
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF FINGER(S)
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - CT UPPER EXTREMITY W/O DYE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - MRI UPPER EXTERMITY W/O DYE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - MRI UPPER EXTREMITY W/O&W/DYE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - MRI JOINT UPR EXTREM W/O DYE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - MRI JOINT UPR EXTREM W/DYE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - MRI JOINT UPR EXTR W/O&W/DYE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - XR HIP W/PELVIS 2-3 VIEWS
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - XR BIL HIP W/PELVIS 3-4 VIEWS
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - CONTRAST X-RAY OF HIP
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - XR FEMUR MIN 2 VIEWS
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF KNEE, 1 OR 2
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM, KNEE, 4 OR MORE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - CONTRAST X-RAY OF KNEE JOINT
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - CONTRAST X-RAY OF KNEE JOINT
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - XRAY TIB/FIB AP MECHANICAL AXIS
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - XRAY TIB/FIB AP MECHANICAL AXIS
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF ANKLE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF ANKLE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF ANKLE
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF FOOT
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF FOOT
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF FOOT
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - X-RAY EXAM OF TOE(S)
+[INFO ] 2021-12-08 21:16:05.780 [main] PriceDaoTest - CT LOWER EXTERMITY W/O DYE
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - MRI LOWER EXTREMITY W/O DYE
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - MRI LWR EXTREMITY W/O&W/DYE
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - MRI JNT OF LWR EXTRE W/O DYE
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - MRI JOINT OF LWR EXTR W/DYE
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - MRI JOINT LWR EXTR W/O&W/DYE
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - RADIOLOGIC EXAM ABDOMEN 1 VIEW
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - RADIOLOGIC EXAM ABDOMEN 1 VIEW
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - RADIOLOGIC EXAM ABDOMEN 2 VIEWS
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - RADIOLOGIC EXAM ABDOMEN 2 VIEWS
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN W/O IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN W/O IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN WITH IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN WITH IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN WITH IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN WITH IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN WITH IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN WITH IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN W/O & W/ IV CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ANGIO ABD&PLVIS CNTRST MTRL W/WO CNTRST IMGES
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ANGIO ABDOM W/O & W/DYE
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABD & PELVIS W/O CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABD & PELVIS W/O CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN&PELVIS W/CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABDOMEN&PELVIS W/CONTRAST
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CT ABD&PELV 1+ SECTION/REGNS
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - MRI ABDOMEN W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - MRI ABDOMEN W/O & W GAD
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - Uterine & adnexa proc for non-malignancy w CC/MCC
+[INFO ] 2021-12-08 21:16:05.781 [main] PriceDaoTest - CONTRAST XR ESOPHAGUS W/SCOUT FILMS
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY ESOPHOGRAM VIDEO  W/SCOUT FILMS
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY ESOPHOGRAM VIDEO  W/SCOUT FILMS
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY UPPER GI W/SCOUT FILMS SGL CONTRAST
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY UPPER GI W/SCOUT FILMS SGL CONTRAST
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - CT COLONOGRAPHY, W/O DYE
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - Uterine & adnexa proc for non-malignancy w/o CC/MCC
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - CONTRST X-RAY, URINARY TRACT
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY CYSTOGRAM VOIDING
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY HYSTEROSALPINGOGRAM
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY HYSTEROSALPINGOGRAM
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - CARDIAC MRI FOR MORPH W/DYE
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - CT ANGIO HRT W/3D IMAGE
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - CT ANGIO HRT W/3D IMAGE
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY AORTOGRAM W/ BILAT LOWER EXTREMITY
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - XRAY AORTOGRAM W/ BILAT LOWER EXTREMITY
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - CT ANGIO ABDOMINAL ARTERIES
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - CT ANGIO ABDOMINAL ARTERIES
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - ARTERY X-RAYS, ARM/LEG
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - ARTERY X-RAYS, ARM/LEG
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - US SOFT TISSUE HEAD, NECK, OR THYROID
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - US SOFT TISSUE HEAD, NECK, OR THYROID
+[INFO ] 2021-12-08 21:16:05.782 [main] PriceDaoTest - US BREAST UNI REAL TIME WITH IMAGE LIMITED
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US ABDOMEN COMPLETE
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US ABDOMEN COMPLETE
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US ABDOMEN LTD
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US ABDOMEN LTD
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US ABDOMINAL AORTA REAL TIME SCREEN STUDY AAA
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US RETROPERITONEAL (KIDNEYS) COMP
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US RETROPERITONEAL (KIDNEYS) COMP
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US RETROPERITONEAL (AORTA) LTD
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US RETROPERITONEAL (AORTA) LTD
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - OB US >/= 14 WKS
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US TRANSVAGINAL PELVIS
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US PELVIS
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US PELVIS LTD/FOLLOW UP
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US TESTICLE
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US TESTICLE
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US COMPLETE JOINT NON-VASC
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - US LMTD JOINT NON-VASC
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - Mri breast c-+ w/cad uni
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - DIGITAL BREAST TOMOSYNTHESIS UNILATERAL
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - DIGITAL BREAST TOMOSYNTHESIS BILATERAL
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - DIAGNOSTIC MAMMOGRAPHY COMPUTER-AIDED DETCJ UNI
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - DIAGNOSTIC MAMMOGRAPHY COMPUTER-AIDED DETCJ BI
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - DIAGNOSTIC MAMMOGRAPHY COMPUTER-AIDED DETCJ BI
+[INFO ] 2021-12-08 21:16:05.783 [main] PriceDaoTest - SCREENING MAMMOGRAPHY BI 2-VIEW BREAST INC CAD
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - THYROID IMAG WWO VASC FLOW W/SGL OR MULT UPTAKE(S) QUANT MEAS WW
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED LYMPHOSCINTIGRAPHY SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - HEPATOBIL SYST IMAG INC GB W/PHARMA INTERVENJ
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED GASTRIC EMPTYING SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED GASTRIC EMPTYING SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED GASTRIC EMPTYING SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED GASTRIC EMPTYING SCAN
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN WHOLE BODY
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN WHOLE BODY
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN WHOLE BODY
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN WHOLE BODY
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN 3 PHASE
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN 3 PHASE
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN 3 PHASE
+[INFO ] 2021-12-08 21:16:05.784 [main] PriceDaoTest - NUC MED BONE SCAN 3 PHASE
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - HT MUSCLE IMAGE SPECT, MULT
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - CESAREAN SECTION W/O STERILIZATION W MCC
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - CESAREAN SECTION W/O STERILIZATION W CC
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - NUC MED RENAL SCAN WITH  CAPTOPRIL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - CESAREAN SECTION W/O STERILIZATION W/O CC/MCC
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - TUMORIMAGE PET/CT SKUL-THIGH
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - TUMOR IMAGE PET/CT FULL BODY
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - TUMOR IMAGE PET/CT FULL BODY
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - Normal newborn
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - METABOLIC PANEL TOTAL CA
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - METABOLIC PANEL TOTAL CA
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - COMPREHEN METABOLIC PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - COMPREHEN METABOLIC PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - OBSTETRIC PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - OBSTETRIC PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - LIPID PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - LIPID PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - RENAL FUNCTION PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - RENAL FUNCTION PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - HEPATIC FUNCTION PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - HEPATIC FUNCTION PANEL
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - VAGINAL DELIVERY W/O STERILIZATION/D&C W CC
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - VAGINAL DELIVERY W/O STERILIZATION/D&C W/O CC/MCC
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - Urinalysis nonauto w/scope
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - URINALYSIS, AUTO W/SCOPE
+[INFO ] 2021-12-08 21:16:05.785 [main] PriceDaoTest - URINALYSIS, AUTO W/SCOPE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - URINALYSIS, AUTO W/SCOPE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - URINALYSIS NONAUTO W/O SCOPE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - URINALYSIS NONAUTO W/O SCOPE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - URINALYSIS,AUTO, W/O SCOPE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - URINALYSIS,AUTO, W/O SCOPE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - DOT URINALYSIS FR URGENT CARE (POC)
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - ASSAY OF PSA, TOTAL
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - ASSAY OF PSA, TOTAL
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - Assay of psa free
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - ASSAY THYROID STIM HORMONE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - ASSAY THYROID STIM HORMONE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - COMPLETE CBC W/AUTO DIFF WBC
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - COMPLETE CBC W/AUTO DIFF WBC
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - COMPLETE CBC, AUTOMATED
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - COMPLETE CBC, AUTOMATED
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - PROTHROMBIN TIME
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - PROTHROMBIN TIME
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - PROTHROMBIN TIME
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - THROMBOPLASTIN TIME, PARTIAL
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - THROMBOPLASTIN TIME, PARTIAL
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - COVID-19 IGG, QUALITATIVE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - IADNA SARS-COV-2 COVID-19 AMPLIFIED PROBE TQ
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - IMMUNIZATION ADMIN
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - IMMUNIZATION ADMIN
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - IMMUNIZATION ADMIN
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - IMMUNIZATION ADMIN
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - Psytx w pt 30 minutes
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - Psytx w pt 45 minutes
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - Psytx w pt 60 minutes
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - Family psytx w/o pt 50 min
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - Family psytx w/pt 50 min
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - Group psychotherapy
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - SPEECH/HEARING THERAPY
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - ORAL FUNCTION THERAPY
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - AUDITOR EVOKE POTENT, COMPRE
+[INFO ] 2021-12-08 21:16:05.786 [main] PriceDaoTest - EVALUATE SWALLOWING FUNCTION
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - MOTION FLUOROSCOPY/SWALLOW
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - CHARGE EKG TOTAL (READ & TRACE)
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - CHARGE EKG TOTAL (READ & TRACE)
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - CHARGE EKG TRACING
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - CHARGE EKG TRACING
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - CHARGE EKG TRACING
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - CARDIOVASCULAR STRESS TEST
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - CARDIOVASCULAR STRESS TEST
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER TTE W/DOPPLER, COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER TTE W/DOPPLER, COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER TTE W/DOPPLER, COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER TTE W/DOPPLER, COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER TTE W/DOPPLER, COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER TTE W/DOPPLER, COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - TTE, F-UP OR LMTD
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - TTE, F-UP OR LMTD
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - TTE, F-UP OR LMTD
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER ECHO TRANSESOPHAGEAL
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER STRESS TTE COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER STRESS TTE COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER STRESS TTE COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - PER STRESS TTE COMPLETE
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - Left hrt cath w/ventrclgrphy
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - TILT TABLE EVALUATION
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - US CAROTID DUPLEX BILAT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - US CAROTID DUPLEX BILAT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - US CAROTID DUPLEX BILAT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - US CAROTID DUPLEX BILAT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - US VENOUS DOPPLER BILAT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - EXTREMITY STUDY
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - EXTREMITY STUDY
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - VASCULAR STUDY
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG IV INF, INIT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG IV INF, INIT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG IV INF, INIT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG IV INF, INIT
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG INJ, SC/IM
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG INJ, SC/IM
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG INJ, SC/IM
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG INJ, IV PUSH
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG INJ, IV PUSH
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THER/PROPH/DIAG INJ, IV PUSH
+[INFO ] 2021-12-08 21:16:05.787 [main] PriceDaoTest - THERAPEUTIC EXERCISES
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - PHYSICAL THERAPY EVALUATION LOW COMPLEX 20 MINS
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - NEGATIVE PRESSURE WOUND THERAPY DME </= 50 SQ CM
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - OFFICE/OUTPATIENT VISIT, NEW (LVL3)
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - PF OFFICE/OUTPATIENT VISIT, NEW
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - OFFICE/OUTPATIENT VISIT, NEW (LVL4)
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Office/outpatient visit new
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Office consultation
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Office consultation
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - DOT EXAM (NEW 18-39 YRS)
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - DOT EXAM (NEW 40-64 YRS)
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - PRE-EMPL EXAM (NEW 40-64 YRS)
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - MRI W/O FOL W/CONT, BREAST,
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Tte w or wo fol wcon,doppler
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Tte w or w/o contr, cont ecg
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Perc drug-el cor stent sing
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - ADMIN INFLUENZA VIRUS VAC
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - ADMIN INFLUENZA VIRUS VAC
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - ADMIN INFLUENZA VIRUS VAC
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Ca screen - flexi sigmoidscope
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Colorectal scrn - hi risk ind
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Colon ca scrn not hi rsk ind
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - Inj for sacroiliac jt anesth
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - LOW DOSE CT LUNG SCREENING (LDCT)
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - INITIAL VEIN MAPPING BEFORE HEMODIALYSIS ACCESS
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - INITIAL VEIN MAPPING BEFORE HEMODIALYSIS ACCESS
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - HOSPITAL OUTPATIENT CLINIC VISIT FOR ASSESSMENT AND MANAGEMENT O
+[INFO ] 2021-12-08 21:16:05.788 [main] PriceDaoTest - SARS-COV-2 NAAT
+[INFO ] 2021-12-08 21:18:10.189 [main] PriceDaoTest - Monroe Clinic-com.matthewpriebe.hpi.entity.ProcedureType@3316527e - $13,184.86
+[INFO ] 2021-12-08 21:18:43.279 [main] PriceDaoTest - Monroe Clinic - Ther fx nasal inf turbinate - $13,184.86

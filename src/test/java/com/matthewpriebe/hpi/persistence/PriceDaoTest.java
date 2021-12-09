@@ -9,10 +9,13 @@ import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 @Log4j2
 public class PriceDaoTest {
 
     PriceDao priceDao;
+    GenericDao genericPriceDao;
     GenericDao hospitalDao;
     GenericDao procedureDao;
 
@@ -23,7 +26,7 @@ public class PriceDaoTest {
 
         hospitalDao = new GenericDao<>(Hospital.class);
         procedureDao = new GenericDao<>(Procedure.class);
-
+        genericPriceDao = new GenericDao<>(Price.class);
         priceDao = new PriceDao();
     }
 
@@ -37,6 +40,16 @@ public class PriceDaoTest {
 
         Price price = priceDao.getById(priceId);
 
-        log.info(price.getPrice());
+        log.info(price.getHospital().getHospitalName() + " - " + price.getProcedure().getCodeDescription() + " - " + price.getPrice());
+    }
+
+    @Test
+    void getByPropertySuccess() {
+
+        List<Price> prices = genericPriceDao.findByPropertyEqual("hospital", 1);
+
+        for (Price item : prices) {
+            log.info(item.getProcedure().getCodeDescription());
+        }
     }
 }
