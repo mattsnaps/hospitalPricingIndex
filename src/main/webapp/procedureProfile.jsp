@@ -12,6 +12,7 @@ ${Test}<br>
 <br>
 <c:forEach var="google" items="${Google}">
     ${google.getSnippet()} <br>
+
 </c:forEach>
 
 

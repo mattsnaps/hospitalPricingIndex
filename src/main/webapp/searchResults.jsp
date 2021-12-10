@@ -17,7 +17,7 @@ ${Test}<br>
         <tr>
             <td>${price.getHospital().hospitalName}</td>
             <td>${price.getProcedure().getProcedureType().revDescription}</td>
-            <td><a href="getProcedureProfile?procedureId=${price.getProcedure().id}&procedureDesc=${price.getProcedure().codeDescription}">${price.getProcedure().codeDescription}</a></td>
+            <td><a href="getProcedureProfile?procedureId=${price.getProcedure().id}&procedureDesc=${price.getProcedure().codeDescription}&procedureCode=${price.getProcedure().codeType}&code=${price.getProcedure().code}">${price.getProcedure().codeDescription}</a></td>
             <td>${price.price}</td>
         </tr>
         </c:if>
