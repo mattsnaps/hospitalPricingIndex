@@ -6,19 +6,23 @@
 <%@include file="header.jsp"%>
 <body>
 <h2>Test Test</h2>
-${Test}
+${Test}<br>
+<c:set var="procedureTypeId" value="${Type}"/>
 <br>
 <br>
 <br>
 <table class="table">
-
-    <c:forEach var="procedureList" items="${procedureList}">
+    <c:forEach var="price" items="${price}">
+        <c:if test="${price.getProcedure().getProcedureType().id == procedureTypeId}">
         <tr>
-            <td>${procedureList.codeDescription}</td>
+            <td>${price.getHospital().hospitalName}</td>
+            <td>${price.getProcedure().getProcedureType().revDescription}</td>
+            <td><a href="getProcedureProfile?procedureId=${price.getProcedure().id}">${price.getProcedure().codeDescription}</a></td>
+            <td>${price.price}</td>
         </tr>
+        </c:if>
     </c:forEach>
 </table>
-
 
 <%@include file="footer.jsp"%>
 </body>

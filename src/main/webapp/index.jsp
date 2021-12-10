@@ -6,6 +6,10 @@
 
 <a href = "getresults">results</a>
 
-<%@include file="footer.jsp"%>
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+
 </body>
 </html>

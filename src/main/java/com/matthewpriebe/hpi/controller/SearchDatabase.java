@@ -24,15 +24,21 @@ public class SearchDatabase extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        procedureDao = new GenericDao<>(Procedure.class);
 
-        req.getParameter("procedureTypeSelect");
+        if (req.getParameter("submit").equals("procedureType")) {
+            req.setAttribute("Test", "ProcedureType");
+            req.setAttribute("Type", req.getParameter("procedureTypeSelect"));
 
-        req.setAttribute("Test", req.getParameter("procedureTypeSelect"));
 
-        List<Procedure> procedures = procedureDao.getAll();
-
-        req.setAttribute("procedureList", procedures);
+        } else if (req.getParameter("submit").equals("procedure")) {
+            req.setAttribute("Test", "Procedure");
+            req.setAttribute("Type", req.getParameter("procedureSelect"));
+        } else if (req.getParameter("submit").equals("hospital")) {
+            req.setAttribute("Test", "Hospital");
+            req.setAttribute("Type", req.getParameter("hospitalNameSelect"));
+        } else {
+            req.setAttribute("Test", "Error");
+        }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/searchResults.jsp");
         dispatcher.forward(req, resp);
