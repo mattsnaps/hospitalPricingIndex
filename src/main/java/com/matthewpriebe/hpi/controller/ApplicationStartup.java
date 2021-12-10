@@ -29,12 +29,22 @@ public class ApplicationStartup extends HttpServlet implements PropertiesLoader 
 
         ServletContext ctx = config.getServletContext();
 
-        Properties properties = new Properties();
+        Properties cognitoProperties = new Properties();
         try {
-            properties = loadProperties("/cognito.properties");
+            cognitoProperties = loadProperties("/cognito.properties");
+
         } catch (Exception e) {
             log.info(e);
         }
-        ctx.setAttribute("cognitoProperties", properties);
+
+        Properties serpapiProperties = new Properties();
+        try {
+            serpapiProperties = loadProperties("/serpapi.properties");
+
+        } catch (Exception e) {
+            log.info(e);
+        }
+        ctx.setAttribute("cognitoProperties", cognitoProperties);
+        ctx.setAttribute("serapiProperties", serpapiProperties);
     }
 }

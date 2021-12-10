@@ -14,7 +14,7 @@ public class SearchInformation{
 	private String organicResultsState;
 
 	@JsonProperty("total_results")
-	private int totalResults;
+	private long totalResults;
 
 	public void setQueryDisplayed(String queryDisplayed){
 		this.queryDisplayed = queryDisplayed;
@@ -40,11 +40,11 @@ public class SearchInformation{
 		return organicResultsState;
 	}
 
-	public void setTotalResults(int totalResults){
+	public void setTotalResults(long totalResults){
 		this.totalResults = totalResults;
 	}
 
-	public int getTotalResults(){
+	public long getTotalResults(){
 		return totalResults;
 	}
 

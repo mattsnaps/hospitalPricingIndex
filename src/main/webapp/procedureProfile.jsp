@@ -10,6 +10,9 @@ ${Test}<br>
 <br>
 <br>
 <br>
+<c:forEach var="google" items="${Google}">
+    ${google.getSnippet()} <br>
+</c:forEach>
 
 
 <%@include file="footer.jsp"%>
