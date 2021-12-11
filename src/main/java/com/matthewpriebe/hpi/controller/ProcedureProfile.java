@@ -45,7 +45,8 @@ public class ProcedureProfile extends HttpServlet {
         }
 
         req.setAttribute("Test", searchParameter);
-        req.setAttribute("Google", googleSearch.getSnippet(searchParameter).getOrganicResults());
+        req.setAttribute("procedureId", procedureId);
+        req.setAttribute("Google", googleSearch.getSnippet(searchParameter));
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/procedureProfile.jsp");
         dispatcher.forward(req, resp);

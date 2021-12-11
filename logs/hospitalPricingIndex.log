@@ -5017,3 +5017,219 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-12-10 16:36:41.545 [http-nio-8080-exec-7] GoogleSearchDao - 45378+CPT+code+Diagnostic+colonoscopy
 [INFO ] 2021-12-10 16:36:41.545 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
 [INFO ] 2021-12-10 16:36:41.545 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:39:14.979 [http-nio-8080-exec-6] GoogleSearchDao - Knee arthroscopy/surgery
+
+[INFO ] 2021-12-10 16:39:14.981 [http-nio-8080-exec-6] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:39:14.981 [http-nio-8080-exec-6] GoogleSearchDao - Knee+arthroscopy/surgery
+[INFO ] 2021-12-10 16:39:14.981 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:39:14.981 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:39:29.815 [http-nio-8080-exec-5] GoogleSearchDao - Nsl/sins ndsc w/tot ethmdct
+
+[INFO ] 2021-12-10 16:39:29.816 [http-nio-8080-exec-5] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:39:29.816 [http-nio-8080-exec-5] GoogleSearchDao - Nsl/sins+ndsc+w/tot+ethmdct
+[INFO ] 2021-12-10 16:39:29.816 [http-nio-8080-exec-5] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:39:29.816 [http-nio-8080-exec-5] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:40:37.474 [http-nio-8080-exec-5] GoogleSearchDao - Biopsy/removal lymph nodes
+
+[INFO ] 2021-12-10 16:40:37.474 [http-nio-8080-exec-5] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:40:37.474 [http-nio-8080-exec-5] GoogleSearchDao - Biopsy/removal+lymph+nodes
+[INFO ] 2021-12-10 16:40:37.474 [http-nio-8080-exec-5] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:40:37.474 [http-nio-8080-exec-5] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:40:59.937 [http-nio-8080-exec-4] GoogleSearchDao - Major joint replacement or reattachment of lower extremity w/o MCC
+
+[INFO ] 2021-12-10 16:40:59.937 [http-nio-8080-exec-4] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:40:59.937 [http-nio-8080-exec-4] GoogleSearchDao - Major+joint+replacement+or+reattachment+of+lower+extremity+w/o+MCC
+[INFO ] 2021-12-10 16:40:59.937 [http-nio-8080-exec-4] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:40:59.937 [http-nio-8080-exec-4] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:41:08.388 [http-nio-8080-exec-3] GoogleSearchDao - Prostatectomy (turp)
+
+[INFO ] 2021-12-10 16:41:08.388 [http-nio-8080-exec-3] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:41:08.388 [http-nio-8080-exec-3] GoogleSearchDao - Prostatectomy+(turp)
+[INFO ] 2021-12-10 16:41:08.388 [http-nio-8080-exec-3] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:41:08.388 [http-nio-8080-exec-3] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:41:21.221 [http-nio-8080-exec-2] GoogleSearchDao - CESAREAN SECTION W/O STERILIZATION W MCC
+
+[INFO ] 2021-12-10 16:41:21.221 [http-nio-8080-exec-2] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:41:21.221 [http-nio-8080-exec-2] GoogleSearchDao - CESAREAN+SECTION+W/O+STERILIZATION+W+MCC
+[INFO ] 2021-12-10 16:41:21.221 [http-nio-8080-exec-2] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:41:21.221 [http-nio-8080-exec-2] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:41:38.708 [http-nio-8080-exec-1] GoogleSearchDao - Normal newborn
+
+[INFO ] 2021-12-10 16:41:38.709 [http-nio-8080-exec-1] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:41:38.709 [http-nio-8080-exec-1] GoogleSearchDao - Normal+newborn
+[INFO ] 2021-12-10 16:41:38.709 [http-nio-8080-exec-1] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:41:38.709 [http-nio-8080-exec-1] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:41:48.323 [http-nio-8080-exec-10] GoogleSearchDao - Tte w or wo fol wcon,doppler
+
+[INFO ] 2021-12-10 16:41:48.323 [http-nio-8080-exec-10] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:41:48.323 [http-nio-8080-exec-10] GoogleSearchDao - Tte+w+or+wo+fol+wcon,doppler
+[INFO ] 2021-12-10 16:41:48.323 [http-nio-8080-exec-10] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:41:48.323 [http-nio-8080-exec-10] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-10 16:42:00.492 [http-nio-8080-exec-9] GoogleSearchDao - Colon ca scrn not hi rsk ind
+
+[INFO ] 2021-12-10 16:42:00.492 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-10 16:42:00.492 [http-nio-8080-exec-9] GoogleSearchDao - Colon+ca+scrn+not+hi+rsk+ind
+[INFO ] 2021-12-10 16:42:00.492 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-10 16:42:00.492 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:26:49.909 [http-nio-8080-exec-7] GoogleSearchDao - INJECT SI JOINT ARTHRGRPHY
+
+[INFO ] 2021-12-11 15:26:49.911 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:26:49.911 [http-nio-8080-exec-7] GoogleSearchDao - INJECT+SI+JOINT+ARTHRGRPHY
+[INFO ] 2021-12-11 15:26:49.911 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:26:49.911 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:28:39.515 [http-nio-8080-exec-7] GoogleSearchDao - MRI LUMBAR SPINE W/O 
+
+[INFO ] 2021-12-11 15:28:39.516 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:28:39.516 [http-nio-8080-exec-7] GoogleSearchDao - MRI+LUMBAR+SPINE+W/O+
+[INFO ] 2021-12-11 15:28:39.516 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:28:39.516 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:28:49.739 [http-nio-8080-exec-8] GoogleSearchDao - MRI LUMBAR SPINE W/O DYE
+
+[INFO ] 2021-12-11 15:28:49.739 [http-nio-8080-exec-8] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:28:49.739 [http-nio-8080-exec-8] GoogleSearchDao - MRI+LUMBAR+SPINE+W/O+DYE
+[INFO ] 2021-12-11 15:28:49.739 [http-nio-8080-exec-8] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:28:49.739 [http-nio-8080-exec-8] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:39:24.079 [http-nio-8080-exec-7] GoogleSearchDao - LIPID PANEL
+
+[INFO ] 2021-12-11 15:39:24.080 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:39:24.080 [http-nio-8080-exec-7] GoogleSearchDao - LIPID+PANEL
+[INFO ] 2021-12-11 15:39:24.080 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:39:24.080 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:40:37.371 [http-nio-8080-exec-7] GoogleSearchDao - LIPID PANEL
+
+[INFO ] 2021-12-11 15:40:37.373 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:40:37.373 [http-nio-8080-exec-7] GoogleSearchDao - LIPID+PANEL
+[INFO ] 2021-12-11 15:40:37.373 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:40:37.373 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:46:32.796 [http-nio-8080-exec-9] GoogleSearchDao - LIPID PANEL
+
+[INFO ] 2021-12-11 15:46:32.798 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:46:32.798 [http-nio-8080-exec-9] GoogleSearchDao - LIPID+PANEL
+[INFO ] 2021-12-11 15:46:32.798 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:46:32.798 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:51:27.177 [main] GoogleSearchDao - Men In Black
+
+[INFO ] 2021-12-11 15:51:27.183 [main] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:51:27.184 [main] GoogleSearchDao - Men+In+Black
+[INFO ] 2021-12-11 15:51:27.184 [main] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:51:27.184 [main] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:51:32.814 [main] GoogleSearchDaoTest - A streetwise NYPD detective joins a secret organization that polices extraterrestrial affairs on Earth. ... A police officer joins a secret organization that ...
+[INFO ] 2021-12-11 15:51:32.814 [main] GoogleSearchDaoTest - Men in Black (stylized as MIB: Men in Black) is a 1997 American science fiction action comedy film directed by Barry Sonnenfeld, produced by Walter F.
+[INFO ] 2021-12-11 15:51:32.814 [main] GoogleSearchDaoTest - The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to ...
+[INFO ] 2021-12-11 15:55:29.571 [main] GoogleSearchDao - Men In Black
+
+[INFO ] 2021-12-11 15:55:29.576 [main] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:55:29.576 [main] GoogleSearchDao - Men+In+Black
+[INFO ] 2021-12-11 15:55:29.576 [main] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:55:29.576 [main] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 15:55:30.928 [main] GoogleSearchDaoTest - A streetwise NYPD detective joins a secret organization that polices extraterrestrial affairs on Earth. ... A police officer joins a secret organization that ...
+[INFO ] 2021-12-11 15:55:30.929 [main] GoogleSearchDaoTest - Men in Black (stylized as MIB: Men in Black) is a 1997 American science fiction action comedy film directed by Barry Sonnenfeld, produced by Walter F.
+[INFO ] 2021-12-11 15:55:30.929 [main] GoogleSearchDaoTest - The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to ...
+[INFO ] 2021-12-11 15:56:18.205 [http-nio-8080-exec-6] GoogleSearchDao - LIPID PANEL
+
+[INFO ] 2021-12-11 15:56:18.207 [http-nio-8080-exec-6] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 15:56:18.207 [http-nio-8080-exec-6] GoogleSearchDao - LIPID+PANEL
+[INFO ] 2021-12-11 15:56:18.207 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 15:56:18.207 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:01:15.469 [http-nio-8080-exec-6] GoogleSearchDao - LIPID PANEL
+
+[INFO ] 2021-12-11 16:01:15.470 [http-nio-8080-exec-6] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:01:15.470 [http-nio-8080-exec-6] GoogleSearchDao - LIPID+PANEL
+[INFO ] 2021-12-11 16:01:15.470 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:01:15.470 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:02:43.625 [http-nio-8080-exec-6] GoogleSearchDao - RENAL FUNCTION PANEL
+
+[INFO ] 2021-12-11 16:02:43.626 [http-nio-8080-exec-6] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:02:43.627 [http-nio-8080-exec-6] GoogleSearchDao - RENAL+FUNCTION+PANEL
+[INFO ] 2021-12-11 16:02:43.627 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:02:43.627 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:03:11.972 [http-nio-8080-exec-9] GoogleSearchDao - ASSAY OF PSA, TOTAL
+
+[INFO ] 2021-12-11 16:03:11.973 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:03:11.973 [http-nio-8080-exec-9] GoogleSearchDao - ASSAY+OF+PSA,+TOTAL
+[INFO ] 2021-12-11 16:03:11.973 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:03:11.973 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:04:15.524 [http-nio-8080-exec-7] GoogleSearchDao - SARS-COV-2 NAAT
+
+[INFO ] 2021-12-11 16:04:15.526 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:04:15.526 [http-nio-8080-exec-7] GoogleSearchDao - SARS-COV-2+NAAT
+[INFO ] 2021-12-11 16:04:15.526 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:04:15.526 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:04:48.378 [http-nio-8080-exec-7] GoogleSearchDao - URINALYSIS, AUTO W/SCOPE
+
+[INFO ] 2021-12-11 16:04:48.378 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:04:48.378 [http-nio-8080-exec-7] GoogleSearchDao - URINALYSIS,+AUTO+W/SCOPE
+[INFO ] 2021-12-11 16:04:48.378 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:04:48.378 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:06:26.673 [http-nio-8080-exec-7] GoogleSearchDao - NUC MED BONE SCAN WHOLE BODY
+
+[INFO ] 2021-12-11 16:06:26.675 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:06:26.675 [http-nio-8080-exec-7] GoogleSearchDao - NUC+MED+BONE+SCAN+WHOLE+BODY
+[INFO ] 2021-12-11 16:06:26.675 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:06:26.675 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:06:46.617 [http-nio-8080-exec-6] GoogleSearchDao - NUC MED RENAL SCAN WITH  CAPTOPRIL
+
+[INFO ] 2021-12-11 16:06:46.617 [http-nio-8080-exec-6] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:06:46.617 [http-nio-8080-exec-6] GoogleSearchDao - NUC+MED+RENAL+SCAN+WITH++CAPTOPRIL
+[INFO ] 2021-12-11 16:06:46.617 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:06:46.617 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:06:50.414 [http-nio-8080-exec-5] GoogleSearchDao - TUMOR IMAGE PET/CT FULL BODY
+
+[INFO ] 2021-12-11 16:06:50.414 [http-nio-8080-exec-5] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:06:50.414 [http-nio-8080-exec-5] GoogleSearchDao - TUMOR+IMAGE+PET/CT+FULL+BODY
+[INFO ] 2021-12-11 16:06:50.414 [http-nio-8080-exec-5] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:06:50.414 [http-nio-8080-exec-5] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:07:03.717 [http-nio-8080-exec-3] GoogleSearchDao - METABOLIC PANEL TOTAL CA
+
+[INFO ] 2021-12-11 16:07:03.717 [http-nio-8080-exec-3] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:07:03.717 [http-nio-8080-exec-3] GoogleSearchDao - METABOLIC+PANEL+TOTAL+CA
+[INFO ] 2021-12-11 16:07:03.717 [http-nio-8080-exec-3] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:07:03.717 [http-nio-8080-exec-3] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:15:07.490 [http-nio-8080-exec-4] GoogleSearchDao - METABOLIC PANEL TOTAL CA
+
+[INFO ] 2021-12-11 16:15:07.490 [http-nio-8080-exec-4] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:15:07.490 [http-nio-8080-exec-4] GoogleSearchDao - METABOLIC+PANEL+TOTAL+CA
+[INFO ] 2021-12-11 16:15:07.490 [http-nio-8080-exec-4] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:15:07.490 [http-nio-8080-exec-4] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:23:49.419 [http-nio-8080-exec-5] GoogleSearchDao - CT ORBIT, SELLA,POST FOSSA, OR EAR W/O IV CONT
+
+[INFO ] 2021-12-11 16:23:49.420 [http-nio-8080-exec-5] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:23:49.421 [http-nio-8080-exec-5] GoogleSearchDao - CT+ORBIT,+SELLA,POST+FOSSA,+OR+EAR+W/O+IV+CONT
+[INFO ] 2021-12-11 16:23:49.421 [http-nio-8080-exec-5] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:23:49.421 [http-nio-8080-exec-5] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:24:00.960 [http-nio-8080-exec-5] GoogleSearchDao - LIPID PANEL
+
+[INFO ] 2021-12-11 16:24:00.960 [http-nio-8080-exec-5] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:24:00.961 [http-nio-8080-exec-5] GoogleSearchDao - LIPID+PANEL
+[INFO ] 2021-12-11 16:24:00.961 [http-nio-8080-exec-5] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:24:00.961 [http-nio-8080-exec-5] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:25:09.406 [http-nio-8080-exec-5] GoogleSearchDao - LIPID PANEL
+
+[INFO ] 2021-12-11 16:25:09.407 [http-nio-8080-exec-5] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:25:09.407 [http-nio-8080-exec-5] GoogleSearchDao - LIPID+PANEL
+[INFO ] 2021-12-11 16:25:09.408 [http-nio-8080-exec-5] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:25:09.408 [http-nio-8080-exec-5] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:48:19.705 [http-nio-8080-exec-10] GoogleSearchDao - MRI ORBIT/FACE/NECK W/O 
+
+[INFO ] 2021-12-11 16:48:19.706 [http-nio-8080-exec-10] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:48:19.706 [http-nio-8080-exec-10] GoogleSearchDao - MRI+ORBIT/FACE/NECK+W/O+
+[INFO ] 2021-12-11 16:48:19.706 [http-nio-8080-exec-10] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:48:19.706 [http-nio-8080-exec-10] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:48:27.613 [http-nio-8080-exec-9] GoogleSearchDao - MRI JOINT UPR EXTR W/O
+
+[INFO ] 2021-12-11 16:48:27.613 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:48:27.613 [http-nio-8080-exec-9] GoogleSearchDao - MRI+JOINT+UPR+EXTR+W/O
+[INFO ] 2021-12-11 16:48:27.613 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:48:27.613 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:56:47.706 [http-nio-8080-exec-10] GoogleSearchDao - CT HEAD W/O 
+
+[INFO ] 2021-12-11 16:56:47.708 [http-nio-8080-exec-10] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:56:47.708 [http-nio-8080-exec-10] GoogleSearchDao - CT+HEAD+W/O+
+[INFO ] 2021-12-11 16:56:47.708 [http-nio-8080-exec-10] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:56:47.708 [http-nio-8080-exec-10] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - CT CARDIAC SCORING
+
+[INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - CT+CARDIAC+SCORING
+[INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
