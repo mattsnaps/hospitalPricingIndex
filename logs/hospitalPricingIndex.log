@@ -5233,3 +5233,39 @@ com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized f
 [INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - CT+CARDIAC+SCORING
 [INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
 [INFO ] 2021-12-11 16:57:08.361 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 17:34:07.913 [http-nio-8080-exec-1] GoogleSearchDao - BLOOD TRANSFUSION SERVICE
+
+[INFO ] 2021-12-11 17:34:07.914 [http-nio-8080-exec-1] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 17:34:07.914 [http-nio-8080-exec-1] GoogleSearchDao - BLOOD+TRANSFUSION+SERVICE
+[INFO ] 2021-12-11 17:34:07.915 [http-nio-8080-exec-1] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 17:34:07.915 [http-nio-8080-exec-1] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 17:34:30.818 [http-nio-8080-exec-9] GoogleSearchDao - CYSTOSCOPY
+
+[INFO ] 2021-12-11 17:34:30.818 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 17:34:30.818 [http-nio-8080-exec-9] GoogleSearchDao - CYSTOSCOPY
+[INFO ] 2021-12-11 17:34:30.818 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 17:34:30.818 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 17:34:50.227 [http-nio-8080-exec-8] GoogleSearchDao - US ABDOMEN LTD
+
+[INFO ] 2021-12-11 17:34:50.227 [http-nio-8080-exec-8] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 17:34:50.227 [http-nio-8080-exec-8] GoogleSearchDao - US+ABDOMEN+LTD
+[INFO ] 2021-12-11 17:34:50.227 [http-nio-8080-exec-8] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 17:34:50.227 [http-nio-8080-exec-8] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 17:35:38.044 [http-nio-8080-exec-8] GoogleSearchDao - MRI W/O FOL W/CONT, BREAST,
+
+[INFO ] 2021-12-11 17:35:38.044 [http-nio-8080-exec-8] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 17:35:38.044 [http-nio-8080-exec-8] GoogleSearchDao - MRI+W/O+FOL+W/CONT,+BREAST,
+[INFO ] 2021-12-11 17:35:38.044 [http-nio-8080-exec-8] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 17:35:38.044 [http-nio-8080-exec-8] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 17:36:04.584 [http-nio-8080-exec-7] GoogleSearchDao - HB WOUND VAC
+
+[INFO ] 2021-12-11 17:36:04.584 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 17:36:04.584 [http-nio-8080-exec-7] GoogleSearchDao - HB+WOUND+VAC
+[INFO ] 2021-12-11 17:36:04.584 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 17:36:04.584 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-11 17:53:34.842 [http-nio-8080-exec-6] GoogleSearchDao - PROTHROMBIN TIME
+
+[INFO ] 2021-12-11 17:53:34.843 [http-nio-8080-exec-6] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-11 17:53:34.843 [http-nio-8080-exec-6] GoogleSearchDao - PROTHROMBIN+TIME
+[INFO ] 2021-12-11 17:53:34.843 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-11 17:53:34.843 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4

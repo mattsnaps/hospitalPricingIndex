@@ -35,18 +35,17 @@ public class ProcedureProfile extends HttpServlet {
         procedureDao = new GenericDao<>(Procedure.class);
 
         String searchParameter;
+        Procedure retrievedProcedure;
 
         int procedureId = Integer.parseInt(req.getParameter("procedureId"));
 
-        if (req.getParameter("procedureCode").equals("HCPCS")) {
-            searchParameter = req.getParameter("procedureDesc");
-        } else {
-            searchParameter = req.getParameter("procedureDesc");
-        }
+        retrievedProcedure = (Procedure) procedureDao.getById(procedureId);
 
-        req.setAttribute("Test", searchParameter);
+        searchParameter = retrievedProcedure.getCodeDescription();
+
+        req.setAttribute("procedureDesc", searchParameter);
         req.setAttribute("procedureId", procedureId);
-        req.setAttribute("Google", googleSearch.getSnippet(searchParameter));
+        req.setAttribute("google", googleSearch.getSnippet(searchParameter));
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/procedureProfile.jsp");
         dispatcher.forward(req, resp);

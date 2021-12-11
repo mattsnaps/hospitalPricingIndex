@@ -7,7 +7,7 @@
 <body>
 <br>
 
-<h2>${Test}</h2>
+<h2>${procedureDesc}</h2>
 
 <br>
 <br>
@@ -34,7 +34,7 @@
 </div>
 
 <div>
-    <c:forEach var="google" items="${Google.getOrganicResults()}">
+    <c:forEach var="google" items="${google.getOrganicResults()}">
         ${google.getTitle()}<br>
         <a href="${google.getLink()}">${google.getLink()}</a><br>
         ${google.getSnippet()} <br><br>
@@ -42,7 +42,7 @@
 </div>
 <hr>
 <div>
-    <c:forEach var="google" items="${Google.getRelatedQuestions()}">
+    <c:forEach var="google" items="${google.getRelatedQuestions()}">
         ${google.getQuestion()}<br>
         ${google.getSnippet()}<br>
         ${google.getTitle()}<br>

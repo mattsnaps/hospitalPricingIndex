@@ -23,13 +23,13 @@
         <button type="submit" name="submit" value="procedureType" class="btn btn-primary">Search Procedure Category</button>
     </form>
 
-    <form class="form-inline" action="searchDatabase">
+    <form class="form-inline" action="getProcedureProfile">
         <div class="form-group">
-            <label for="procedureSelect">Search By Procedure</label>
-            <select class="form-control" id="procedureSelect" name="procedureSelect">
+            <label for="procedureId">Search By Procedure</label>
+            <select class="form-control" id="procedureId" name="procedureId">
                 <option value="0">All Procedures</option>
                 <c:forEach var="procedure" items="${sessionScope.procedure}">
-                    <option value="${procedure.id}">${procedure.codeDescription}</option>
+                    <option value='${procedure.id}'>${procedure.codeDescription}</option>
                 </c:forEach>
             </select>
         </div>
