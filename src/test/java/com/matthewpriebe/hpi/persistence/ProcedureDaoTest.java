@@ -56,7 +56,7 @@ public class ProcedureDaoTest {
     void getAllSuccess() {
         List<Procedure> allProcedures = procedureDao.getAll();
 
-        assertEquals(519, allProcedures.size());
+        assertEquals(1298, allProcedures.size());
     }
 
     /**

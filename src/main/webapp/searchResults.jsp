@@ -21,16 +21,9 @@ ${Test}<br>
     <c:forEach var="procedure" items="${procedure}">
         <c:if test="${procedure.getProcedureType().id == procedureTypeId}">
         <tr>
-<<<<<<< HEAD
             <td>${procedure.getProcedureType().revDescription}</td>
             <td>${procedure.code}</td>
             <td><a href="getProcedureProfile?procedureId=${procedure.id}&procedureDesc=${procedure.codeDescription}">${procedure.codeDescription}</a></td>
-=======
-            <td>${price.getHospital().hospitalName}</td>
-            <td>${price.getProcedure().getProcedureType().revDescription}</td>
-            <td><a href="getProcedureProfile?procedureId=${price.getProcedure().id}&procedureDesc=${price.getProcedure().codeDescription}">${price.getProcedure().codeDescription}</a></td>
-            <td>${price.price}</td>
->>>>>>> 61613b6ea9040a96355b3457a7c5927b7ba92c3e
         </tr>
         </c:if>
     </c:forEach>
