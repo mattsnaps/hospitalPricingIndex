@@ -18,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 @Log4j2
 public class HospitalDaoTest {
 
-
     GenericDao procedureDao;
     GenericDao hospitalDao;
 
