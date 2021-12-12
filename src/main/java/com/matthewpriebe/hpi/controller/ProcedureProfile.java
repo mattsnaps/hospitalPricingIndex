@@ -48,15 +48,9 @@ public class ProcedureProfile extends HttpServlet {
 
         retrievedProcedure = (Procedure) procedureDao.getById(procedureId);
 
-<<<<<<< HEAD
         searchParameter = retrievedProcedure.getCodeDescription();
 
-=======
-        retrievedProcedure = (Procedure) procedureDao.getById(procedureId);
 
-        searchParameter = retrievedProcedure.getCodeDescription();
-
->>>>>>> 61613b6ea9040a96355b3457a7c5927b7ba92c3e
         req.setAttribute("procedureDesc", searchParameter);
         req.setAttribute("procedureId", procedureId);
         req.setAttribute("google", googleSearch.getSnippet(searchParameter));

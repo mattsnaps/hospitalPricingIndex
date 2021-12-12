@@ -20,7 +20,6 @@
             </tr>
         </thread>
         <tbody>
-<<<<<<< HEAD
                 <c:forEach var="price" items="${price}">
                     <c:if test="${price.getProcedure().id == procedureId}">
                         <tr>
@@ -29,16 +28,6 @@
                         </tr>
                     </c:if>
                 </c:forEach>
-=======
-            <tr>
-                <c:forEach var="price" items="${price}">
-                    <c:if test="${price.getProcedure().id == procedureId}">
-                        <td>${price.getHospital().hospitalName}</td>
-                        <td>${price.price}</td>
-                    </c:if>
-                </c:forEach>
-            </tr>
->>>>>>> 61613b6ea9040a96355b3457a7c5927b7ba92c3e
         </tbody>
     </table>
 
