@@ -37,7 +37,11 @@ public class GoogleSearchDao implements PropertiesLoader {
         log.info(searchTerm + "\n");
 
         char plus = '+';
+        searchTerm = searchTerm.replace('&', plus);
         searchTerm = searchTerm.replace(' ', plus);
+        searchTerm = searchTerm.replace('^', plus);
+        searchTerm = searchTerm.replace('<', plus);
+        searchTerm = searchTerm.replace('<', plus);
 
         log.info(BASE_URL);
         log.info(searchTerm);

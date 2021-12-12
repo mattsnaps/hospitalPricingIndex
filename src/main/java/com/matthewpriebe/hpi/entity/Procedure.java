@@ -33,7 +33,7 @@ public class Procedure {
     private String codeDescription;
 
     @ManyToOne
-    @JoinColumn(name="procedure_catagory_id", nullable = false)
+    @JoinColumn(name="procedure_category_id", nullable = false)
     private ProcedureType procedureType;
 
     @OneToMany(mappedBy = "procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)

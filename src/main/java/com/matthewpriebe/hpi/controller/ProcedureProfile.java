@@ -1,9 +1,12 @@
 package com.matthewpriebe.hpi.controller;
 
+import com.matthewpriebe.hpi.entity.Hospital;
 import com.matthewpriebe.hpi.entity.Price;
+import com.matthewpriebe.hpi.entity.PriceId;
 import com.matthewpriebe.hpi.entity.Procedure;
 import com.matthewpriebe.hpi.persistence.GenericDao;
 import com.matthewpriebe.hpi.persistence.GoogleSearchDao;
+import com.matthewpriebe.hpi.persistence.PriceDao;
 import lombok.extern.log4j.Log4j2;
 import org.hibernate.Session;
 
@@ -14,7 +17,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import javax.servlet.http.HttpSession;
 
 @WebServlet(
@@ -26,26 +32,34 @@ import javax.servlet.http.HttpSession;
  */
 @Log4j2
 public class ProcedureProfile extends HttpServlet {
-
+    
     GenericDao procedureDao;
+
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         GoogleSearchDao googleSearch = new GoogleSearchDao();
         procedureDao = new GenericDao<>(Procedure.class);
 
-        String searchParameter;
-
         int procedureId = Integer.parseInt(req.getParameter("procedureId"));
 
-        if (req.getParameter("procedureCode").equals("HCPCS")) {
-            searchParameter = req.getParameter("procedureDesc");
-        } else {
-            searchParameter = req.getParameter("procedureDesc");
-        }
+        String searchParameter;
+        Procedure retrievedProcedure;
 
-        req.setAttribute("Test", searchParameter);
-        req.setAttribute("Google", googleSearch.getSnippet(searchParameter).getOrganicResults());
+        retrievedProcedure = (Procedure) procedureDao.getById(procedureId);
+
+<<<<<<< HEAD
+        searchParameter = retrievedProcedure.getCodeDescription();
+
+=======
+        retrievedProcedure = (Procedure) procedureDao.getById(procedureId);
+
+        searchParameter = retrievedProcedure.getCodeDescription();
+
+>>>>>>> 61613b6ea9040a96355b3457a7c5927b7ba92c3e
+        req.setAttribute("procedureDesc", searchParameter);
+        req.setAttribute("procedureId", procedureId);
+        req.setAttribute("google", googleSearch.getSnippet(searchParameter));
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/procedureProfile.jsp");
         dispatcher.forward(req, resp);

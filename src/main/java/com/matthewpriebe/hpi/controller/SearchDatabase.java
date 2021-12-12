@@ -28,8 +28,6 @@ public class SearchDatabase extends HttpServlet {
         if (req.getParameter("submit").equals("procedureType")) {
             req.setAttribute("Test", "ProcedureType");
             req.setAttribute("Type", req.getParameter("procedureTypeSelect"));
-
-
         } else if (req.getParameter("submit").equals("procedure")) {
             req.setAttribute("Test", "Procedure");
             req.setAttribute("Type", req.getParameter("procedureSelect"));
