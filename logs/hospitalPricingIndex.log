@@ -71,3 +71,104 @@
 [INFO ] 2021-12-12 01:39:59.434 [http-nio-8080-exec-6] GoogleSearchDao - Antibody+Test;+severe+acute+respiratory+syndrome+coronavirus+2
 [INFO ] 2021-12-12 01:39:59.434 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
 [INFO ] 2021-12-12 01:39:59.434 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[ERROR] 2021-12-12 22:23:03.776 [main] Database - java.sql.SQLException: Access denied for user 'priebe'@'localhost' (using password: YES)
+[ERROR] 2021-12-12 22:24:15.330 [main] Database - java.sql.SQLSyntaxErrorException: Unknown database 'sample_pricing_data'
+[ERROR] 2021-12-12 22:25:20.232 [main] Database - Database.loadProperties()...
+java.lang.NullPointerException: inStream parameter is null
+	at java.util.Objects.requireNonNull(Objects.java:246) ~[?:?]
+	at java.util.Properties.load(Properties.java:406) ~[?:?]
+	at com.matthewpriebe.hpi.util.Database.loadProperties(Database.java:50) ~[test-classes/:?]
+	at com.matthewpriebe.hpi.util.Database.<init>(Database.java:39) ~[test-classes/:?]
+	at com.matthewpriebe.hpi.util.Database.<clinit>(Database.java:27) ~[test-classes/:?]
+	at com.matthewpriebe.hpi.persistence.ProcedureTypeDaoTest.setUp(ProcedureTypeDaoTest.java:21) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:389) ~[junit-platform-commons-1.0.0.jar:1.0.0]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeMethodInExtensionContext(ClassTestDescriptor.java:289) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$11(ClassTestDescriptor.java:277) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$null$2(TestMethodTestDescriptor.java:132) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:152) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:131) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:57) ~[junit-jupiter-engine-5.0.0.jar:5.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:83) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$null$2(HierarchicalTestExecutor.java:92) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.lambda$execute$3(HierarchicalTestExecutor.java:92) ~[junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:77) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:51) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43) [junit-platform-engine-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) [junit-platform-launcher-1.0.0.jar:1.0.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2021-12-12 22:25:20.245 [main] Database - java.lang.NullPointerException
+[INFO ] 2021-12-12 22:29:54.889 [http-nio-8080-exec-9] GoogleSearchDao - Biopsy/removal lymph nodes
+
+[INFO ] 2021-12-12 22:29:54.890 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-12 22:29:54.890 [http-nio-8080-exec-9] GoogleSearchDao - Biopsy/removal+lymph+nodes
+[INFO ] 2021-12-12 22:29:54.890 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-12 22:29:54.890 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-12 22:30:03.030 [http-nio-8080-exec-9] GoogleSearchDao - Biopsy of prostate
+
+[INFO ] 2021-12-12 22:30:03.030 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-12 22:30:03.030 [http-nio-8080-exec-9] GoogleSearchDao - Biopsy+of+prostate
+[INFO ] 2021-12-12 22:30:03.030 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-12 22:30:03.030 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-12 22:30:12.236 [http-nio-8080-exec-9] GoogleSearchDao - Colonoscopy and biopsy
+
+[INFO ] 2021-12-12 22:30:12.237 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-12 22:30:12.237 [http-nio-8080-exec-9] GoogleSearchDao - Colonoscopy+and+biopsy
+[INFO ] 2021-12-12 22:30:12.237 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-12 22:30:12.237 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-12 22:30:20.882 [http-nio-8080-exec-9] GoogleSearchDao - Hospital outpt clinic visit
+
+[INFO ] 2021-12-12 22:30:20.882 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-12 22:30:20.882 [http-nio-8080-exec-9] GoogleSearchDao - Hospital+outpt+clinic+visit
+[INFO ] 2021-12-12 22:30:20.882 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-12 22:30:20.882 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-12 22:30:28.468 [http-nio-8080-exec-9] GoogleSearchDao - Knee arthroscopy/surgery
+
+[INFO ] 2021-12-12 22:30:28.468 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-12 22:30:28.468 [http-nio-8080-exec-9] GoogleSearchDao - Knee+arthroscopy/surgery
+[INFO ] 2021-12-12 22:30:28.468 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-12 22:30:28.468 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[DEBUG] 2021-12-12 22:31:13.609 [http-nio-8080-exec-9] Auth - Keys are loaded. Here's e: AQAB
+[DEBUG] 2021-12-12 22:31:14.718 [http-nio-8080-exec-9] Auth - Response headers: java.net.http.HttpHeaders@3171fb34 { {:status=[200], cache-control=[no-cache, no-store, max-age=0, must-revalidate], content-type=[application/json;charset=UTF-8], date=[Mon, 13 Dec 2021 04:31:14 GMT], expires=[0], pragma=[no-cache], server=[Server], set-cookie=[XSRF-TOKEN=8c04605c-7d83-4ec0-a9cc-f0f4e9df581a; Path=/; Secure; HttpOnly; SameSite=Lax], strict-transport-security=[max-age=31536000 ; includeSubDomains], x-amz-cognito-request-id=[1b2673b8-3843-4a1c-88e6-525dfabf640c], x-application-context=[application:prod:8443], x-content-type-options=[nosniff], x-frame-options=[DENY], x-xss-protection=[1; mode=block]} }
+[DEBUG] 2021-12-12 22:31:14.719 [http-nio-8080-exec-9] Auth - Response body: {"id_token":"eyJraWQiOiIrcTFrdkd2d3pCbkM0NW1GYkFKMk9rdk9TRlZZYVEybjA4ZE03aWhEd0RjPSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoid0QwVWFLRENlbG50MlcyejYzZ1ktQSIsInN1YiI6ImQ5OTc2MzY5LTI1MzktNGMwMi04YmRlLTQ5YTgwOGI0ZDc1ZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMl81S0ZkTEF3VmEiLCJjb2duaXRvOnVzZXJuYW1lIjoiZDk5NzYzNjktMjUzOS00YzAyLThiZGUtNDlhODA4YjRkNzVlIiwib3JpZ2luX2p0aSI6IjcwZTVlNTRjLWQ1YmMtNDA4NC1hZjA4LTg1ZGI5YTNjOGU5YSIsImF1ZCI6IjZvdW9hdXRpbmlhNzN1bzc3aDN2dnIzZXRhIiwiZXZlbnRfaWQiOiJlZWRmYWQyZC1iYWQwLTRlYzktOWIwMi1kMDk5MGMzNGFkMDkiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYzOTM2OTg3NCwiZXhwIjoxNjM5MzczNDc0LCJpYXQiOjE2MzkzNjk4NzQsImp0aSI6IjgxZDMxYmJiLTRlNDctNGUzMS1iYjg0LTUyZmMzZmM3NTVhMCIsImVtYWlsIjoicHJpZWJlbWJAZ21haWwuY29tIn0.BPMfsVxJ4A8b33duDXatiHWm2lILEcaEdL4_wtivewngoBqP3ta1bOze54B1AEuqdZj9oByg-YHLoXJguWCqo478iC3tp8lHzT_SEJSwCyYXnSsQyDcJcIh5vhSjMxrRXuos_usyI4aGK5qoVgmAVFl8gvU5WDuFKyuzZ6kyY1Gho-k4XkP60nrIz6AWN_CmUR7gTLC7wrf9U-TglQp6eCuGjIHtzBQyOWPB6jnVB3M6oWb2ADFjPqvCwuHC-C_4SHGwYzGwGesYpd2Mo_mMGJgFh4qI-M8wE540WTdCTtp9uXwtkmGTQdhhZ7-cMt1QneFc_RAym-KrkredNYmG2g","access_token":"eyJraWQiOiIrVXhMOVZCK3FTUWFYN0Z4S1lObkk1WUVBaHpqY0ZvUzRyOWlDZHpGOGprPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJkOTk3NjM2OS0yNTM5LTRjMDItOGJkZS00OWE4MDhiNGQ3NWUiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMl81S0ZkTEF3VmEiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI2b3VvYXV0aW5pYTczdW83N2gzdnZyM2V0YSIsIm9yaWdpbl9qdGkiOiI3MGU1ZTU0Yy1kNWJjLTQwODQtYWYwOC04NWRiOWEzYzhlOWEiLCJldmVudF9pZCI6ImVlZGZhZDJkLWJhZDAtNGVjOS05YjAyLWQwOTkwYzM0YWQwOSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2MzkzNjk4NzQsImV4cCI6MTYzOTM3MzQ3NCwiaWF0IjoxNjM5MzY5ODc0LCJqdGkiOiIyNDgxZjE0Ny03MjMyLTQ1YWUtYWFjYS01YzBkY2QxM2EwNzMiLCJ1c2VybmFtZSI6ImQ5OTc2MzY5LTI1MzktNGMwMi04YmRlLTQ5YTgwOGI0ZDc1ZSJ9.goPkUk7sLRwMhNnUktNRk9UK3nf9eDJnuF2Umbq1vmpu4QgbQQ7oW57mwNQSNxjvtKDz_rdGaJYUx_-TQDBg1_lnVdJ6NHnuAV-7IT8diJ-BnVKBp0xJU37M6CAd-NyfW3pWSW53AGZ3SdRaa7imHtuZkKrz_6rsW9muQ0eebBtpwo9U4B3Xg3vVkpadC8a085pvLg8qqvSTg9W2IazfP32VoALri4_UWSIytdFdibeaddusYzJeAIse9MOSCF65lhr0vMzjSckhNlVOLS-EdVeelvKwS7A-k9LNK8XlXi_JrDpqAdqjagp3WZH-mZSY_KIOsJqtrer0pYPsOuZ5Rw","refresh_token":"eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.dNb0VC17QGLxmPRT_XJf51kmG3ChL7ARGGQdomTk69igOw3C5wVM1fYPiieMdK_DEQ8H8jaocwYU4mVSa7JqWNSxd-WbcSXr8xiQsZqHiuQXrdB2UEHlLjqt1b4Zo189n6YXpbrZI2h1Bv9B0X69HQVEIa--3vhQ5wQbQjBTpa-bB7CDQwPAUyv4DrDBicuph3ZXvym_ZBIhSr4uAVZmx3H5A-5uhV16jj6QWvN6mSjcTpyASMC5jwEWrbrKD2LDBDqPWf6v8e16aLryhNhKcwsT9YpBHFgkeUb7cRete5aefclclT5wRYxdB813IRPRSwvs98PZhnbSpInpkKJUAw.5KrRRtZ1kOzpxUPF.pCNbeB1Lvqxy10DeHIBmqH9a6SUcIYd6Wss9zgk1APLsSj7jEpvBUys0Q8LXvoAzpFmLgbIcnAa71ovd8hGdE1Ncidl3wf4QqpZtPzdKCHGQeGCmuW7NHeDRzaz9BF-UHwltmXdr9XlWUOiDA1dehQHi5h_sDit1iFYsxKlmlsWIR8U4hO4GxR-ol22qdKPMPrSaibFyHAycaEL0-Xg9nlSo2bfyxjA8o-ovZ95ryT7hQcYMw5SeQEd1T_1fdT5g6vVj0XU0JINyAS3gRxmWgj2u5uAl3fvoDakZoBzhOBFZ0LvyOEzvw0nbIQM4Ebe6pOo9o2_kIZjQYKBCsDwVtFYF9uUCSu-yu-LV_m755kTqSuzj660ea5MK5xodeayth-s3nvvAnguPAn-R_BWCAxUME_hEzyuQERr2dcA6pPyed5zQnmOxyg0mRLHEc_oNuPXrV-f6vCmcEfqtPo5lFS1vPbnB_gziEiDWs2gRUXtREQ8kb6h_q82vmVQ9nlltO-AYJJoVx3oxxAJLiIoUDXIMn4uya7sfW2j4DXHf_zbxBZerdk6MmPkbE9ImHigNOapajOvAjP7sVZLFQZVc8E5Qb6dMrAgbji2dPYkfk5Zuc4qXgGeDTLwasKjJCaIW-BUV6jc9J-XAMIKz82UPvjdtc9MMHvFI3eF5A7QjHTdjvmFHmSpzcpG9Q_6TdGe_xpCA1gSGOuHH-HGcgeoirnWHBPodnzRjvrCPyPKr10SOPHZ1CQeY7EbD63LHw8ALhwNE39-I4n00LhMoObId6oVC3wiia9yvOI0ya0ceF4gwx_JXLug8wvrGWhuOQEiMKmkVtC7wmB95QDQrOjf5ODBH6_B9372a8VioATmU-S0bx7dqZpXV7uMSgvNWO3yeZ0lj74CuBAbrMzwj-lbttBy4dv2-CZ8xTxaRYSWnp3U3bdry8KFIfrZ4IkGqP_bb-lXOWXqTz00aAG6YHeq96s9FNdZ10YyIgpLBA9xiVpJWnH9U-F4gBZDLg5bvddCfBIe1VxptIwp_9roThl95ZpoH4cSzdLKSxgTQSWVelrjgv1x03ItWPBPQp4-0K-k9JfGofDSKB3_P1_HlQdeqVnnxxZM_l2dCgiIo25uvT1U-1Ic11GeIHbxuyO_c71jB-F87xl9OP5A9BfbdekWcMzaxrpW3qWbA8GHe3jI1Z48q2Rk9XJJdl5_M2SoVxHa4EQxlHFYH6QDzrGeHU9Yyp1DIBlDQ8af-RpgD8jzAs9Rib7mldr1An3Qf5h7Lmz1hMH5-hHIlcjVrVhktQUj25eKXjq59EDUGyJs5lfzG2qbhwoOueiLGNZya44XvlSm37SsA4gNLBX5UTafIlam6_MKxMec-pcmete9CThV7BqnCg53mvtoNbBMpXLYZL7nM.7bNmtpb7y1dqtsoXCB1Enw","expires_in":3600,"token_type":"Bearer"}
+[DEBUG] 2021-12-12 22:31:14.720 [http-nio-8080-exec-9] Auth - Id token: eyJraWQiOiIrcTFrdkd2d3pCbkM0NW1GYkFKMk9rdk9TRlZZYVEybjA4ZE03aWhEd0RjPSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoid0QwVWFLRENlbG50MlcyejYzZ1ktQSIsInN1YiI6ImQ5OTc2MzY5LTI1MzktNGMwMi04YmRlLTQ5YTgwOGI0ZDc1ZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0yLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMl81S0ZkTEF3VmEiLCJjb2duaXRvOnVzZXJuYW1lIjoiZDk5NzYzNjktMjUzOS00YzAyLThiZGUtNDlhODA4YjRkNzVlIiwib3JpZ2luX2p0aSI6IjcwZTVlNTRjLWQ1YmMtNDA4NC1hZjA4LTg1ZGI5YTNjOGU5YSIsImF1ZCI6IjZvdW9hdXRpbmlhNzN1bzc3aDN2dnIzZXRhIiwiZXZlbnRfaWQiOiJlZWRmYWQyZC1iYWQwLTRlYzktOWIwMi1kMDk5MGMzNGFkMDkiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTYzOTM2OTg3NCwiZXhwIjoxNjM5MzczNDc0LCJpYXQiOjE2MzkzNjk4NzQsImp0aSI6IjgxZDMxYmJiLTRlNDctNGUzMS1iYjg0LTUyZmMzZmM3NTVhMCIsImVtYWlsIjoicHJpZWJlbWJAZ21haWwuY29tIn0.BPMfsVxJ4A8b33duDXatiHWm2lILEcaEdL4_wtivewngoBqP3ta1bOze54B1AEuqdZj9oByg-YHLoXJguWCqo478iC3tp8lHzT_SEJSwCyYXnSsQyDcJcIh5vhSjMxrRXuos_usyI4aGK5qoVgmAVFl8gvU5WDuFKyuzZ6kyY1Gho-k4XkP60nrIz6AWN_CmUR7gTLC7wrf9U-TglQp6eCuGjIHtzBQyOWPB6jnVB3M6oWb2ADFjPqvCwuHC-C_4SHGwYzGwGesYpd2Mo_mMGJgFh4qI-M8wE540WTdCTtp9uXwtkmGTQdhhZ7-cMt1QneFc_RAym-KrkredNYmG2g
+[DEBUG] 2021-12-12 22:31:14.768 [http-nio-8080-exec-9] Auth - here's the username: priebemb@gmail.com
+[DEBUG] 2021-12-12 22:31:14.768 [http-nio-8080-exec-9] Auth - here are all the available claims: {at_hash=com.auth0.jwt.impl.JsonNodeClaim@808c626, sub=com.auth0.jwt.impl.JsonNodeClaim@7f7b11df, email_verified=com.auth0.jwt.impl.JsonNodeClaim@556339ad, iss=com.auth0.jwt.impl.JsonNodeClaim@634a924f, cognito:username=com.auth0.jwt.impl.JsonNodeClaim@2dbd51f6, origin_jti=com.auth0.jwt.impl.JsonNodeClaim@a6f5877, aud=com.auth0.jwt.impl.JsonNodeClaim@460db6c6, event_id=com.auth0.jwt.impl.JsonNodeClaim@71e28ca2, token_use=com.auth0.jwt.impl.JsonNodeClaim@36975189, auth_time=com.auth0.jwt.impl.JsonNodeClaim@46cb1bcc, exp=com.auth0.jwt.impl.JsonNodeClaim@6d5b3e55, iat=com.auth0.jwt.impl.JsonNodeClaim@8b938c0, jti=com.auth0.jwt.impl.JsonNodeClaim@42e2b47, email=com.auth0.jwt.impl.JsonNodeClaim@1aa54575}

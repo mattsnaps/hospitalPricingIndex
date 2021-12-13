@@ -4,8 +4,6 @@
 <body>
 <%@include file="header.jsp"%>
 
-<a href = "getresults">results</a>
-
 <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>
 </div>
