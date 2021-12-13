@@ -1,0 +1,1302 @@
+[DEBUG] 2021-12-12 23:19:41.247 [http-nio-8080-exec-8] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2021-12-12 23:19:41.248 [http-nio-8080-exec-8] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2021-12-12 23:19:41.253 [http-nio-8080-exec-8] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2021-12-12 23:19:41.318 [http-nio-8080-exec-8] Version - HHH000412: Hibernate Core {5.4.4.Final}
+[DEBUG] 2021-12-12 23:19:41.319 [http-nio-8080-exec-8] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2021-12-12 23:19:41.441 [http-nio-8080-exec-8] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2021-12-12 23:19:41.442 [http-nio-8080-exec-8] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2021-12-12 23:19:41.462 [http-nio-8080-exec-8] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2021-12-12 23:19:41.622 [http-nio-8080-exec-8] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2021-12-12 23:19:41.636 [http-nio-8080-exec-8] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[DEBUG] 2021-12-12 23:19:41.637 [http-nio-8080-exec-8] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2021-12-12 23:19:41.653 [http-nio-8080-exec-8] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[DEBUG] 2021-12-12 23:19:41.681 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@5920d336
+[DEBUG] 2021-12-12 23:19:41.681 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@5920d336
+[DEBUG] 2021-12-12 23:19:41.681 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5920d336
+[DEBUG] 2021-12-12 23:19:41.681 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2809cb61
+[DEBUG] 2021-12-12 23:19:41.682 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@28e72f5f
+[DEBUG] 2021-12-12 23:19:41.682 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@58be91f2
+[DEBUG] 2021-12-12 23:19:41.683 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@11e07e95
+[DEBUG] 2021-12-12 23:19:41.683 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@11e07e95
+[DEBUG] 2021-12-12 23:19:41.683 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@11e07e95
+[DEBUG] 2021-12-12 23:19:41.683 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@1c810bc3
+[DEBUG] 2021-12-12 23:19:41.683 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@1c810bc3
+[DEBUG] 2021-12-12 23:19:41.683 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1c810bc3
+[DEBUG] 2021-12-12 23:19:41.684 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3b59271a
+[DEBUG] 2021-12-12 23:19:41.684 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3b59271a
+[DEBUG] 2021-12-12 23:19:41.684 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3b59271a
+[DEBUG] 2021-12-12 23:19:41.685 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@4b4a8b8d
+[DEBUG] 2021-12-12 23:19:41.685 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@4b4a8b8d
+[DEBUG] 2021-12-12 23:19:41.685 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4b4a8b8d
+[DEBUG] 2021-12-12 23:19:41.685 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5ab2c9d7
+[DEBUG] 2021-12-12 23:19:41.685 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5ab2c9d7
+[DEBUG] 2021-12-12 23:19:41.685 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@5ab2c9d7
+[DEBUG] 2021-12-12 23:19:41.686 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@76bf4f1b
+[DEBUG] 2021-12-12 23:19:41.686 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@76bf4f1b
+[DEBUG] 2021-12-12 23:19:41.686 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@76bf4f1b
+[DEBUG] 2021-12-12 23:19:41.687 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@466c84db
+[DEBUG] 2021-12-12 23:19:41.687 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@466c84db
+[DEBUG] 2021-12-12 23:19:41.687 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@466c84db
+[DEBUG] 2021-12-12 23:19:41.687 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@280e17b7
+[DEBUG] 2021-12-12 23:19:41.687 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@280e17b7
+[DEBUG] 2021-12-12 23:19:41.688 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@51b4378a
+[DEBUG] 2021-12-12 23:19:41.688 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@51b4378a
+[DEBUG] 2021-12-12 23:19:41.688 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@1e5f0450
+[DEBUG] 2021-12-12 23:19:41.688 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@1e5f0450
+[DEBUG] 2021-12-12 23:19:41.689 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2687d497
+[DEBUG] 2021-12-12 23:19:41.689 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@67cb9af8
+[DEBUG] 2021-12-12 23:19:41.690 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@1845b06
+[DEBUG] 2021-12-12 23:19:41.690 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1845b06
+[DEBUG] 2021-12-12 23:19:41.690 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@d843208
+[DEBUG] 2021-12-12 23:19:41.690 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@d843208
+[DEBUG] 2021-12-12 23:19:41.694 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@6f153fc4
+[DEBUG] 2021-12-12 23:19:41.694 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@6f153fc4
+[DEBUG] 2021-12-12 23:19:41.695 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@7c00aea6
+[DEBUG] 2021-12-12 23:19:41.695 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@7c00aea6
+[DEBUG] 2021-12-12 23:19:41.695 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1b50b443
+[DEBUG] 2021-12-12 23:19:41.695 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1b50b443
+[DEBUG] 2021-12-12 23:19:41.696 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@53ec9143
+[DEBUG] 2021-12-12 23:19:41.696 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@53ec9143
+[DEBUG] 2021-12-12 23:19:41.697 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@43742db2
+[DEBUG] 2021-12-12 23:19:41.697 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@43742db2
+[DEBUG] 2021-12-12 23:19:41.698 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@3f43d645
+[DEBUG] 2021-12-12 23:19:41.698 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@3f43d645
+[DEBUG] 2021-12-12 23:19:41.699 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@57419b8e
+[DEBUG] 2021-12-12 23:19:41.699 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@57419b8e
+[DEBUG] 2021-12-12 23:19:41.700 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@46550cab
+[DEBUG] 2021-12-12 23:19:41.700 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@46550cab
+[DEBUG] 2021-12-12 23:19:41.701 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@1b25ccb5
+[DEBUG] 2021-12-12 23:19:41.701 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1b25ccb5
+[DEBUG] 2021-12-12 23:19:41.701 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@68775eea
+[DEBUG] 2021-12-12 23:19:41.701 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@68775eea
+[DEBUG] 2021-12-12 23:19:41.702 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@68775eea
+[DEBUG] 2021-12-12 23:19:41.703 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@14659836
+[DEBUG] 2021-12-12 23:19:41.703 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@36e79216
+[DEBUG] 2021-12-12 23:19:41.703 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@36e79216
+[DEBUG] 2021-12-12 23:19:41.703 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@36e79216
+[DEBUG] 2021-12-12 23:19:41.704 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@45f719d2
+[DEBUG] 2021-12-12 23:19:41.704 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@13043b45
+[DEBUG] 2021-12-12 23:19:41.704 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@13043b45
+[DEBUG] 2021-12-12 23:19:41.705 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@646b5270
+[DEBUG] 2021-12-12 23:19:41.705 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@646b5270
+[DEBUG] 2021-12-12 23:19:41.705 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@3f8ef3a8
+[DEBUG] 2021-12-12 23:19:41.705 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3f8ef3a8
+[DEBUG] 2021-12-12 23:19:41.706 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@2d64599e
+[DEBUG] 2021-12-12 23:19:41.706 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2d64599e
+[DEBUG] 2021-12-12 23:19:41.706 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7d4711e5
+[DEBUG] 2021-12-12 23:19:41.706 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7d4711e5
+[DEBUG] 2021-12-12 23:19:41.707 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@d3757e
+[DEBUG] 2021-12-12 23:19:41.707 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@46a63c6d
+[DEBUG] 2021-12-12 23:19:41.707 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@46a63c6d
+[DEBUG] 2021-12-12 23:19:41.707 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@46a63c6d
+[DEBUG] 2021-12-12 23:19:41.708 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@76343d2c
+[DEBUG] 2021-12-12 23:19:41.708 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@76343d2c
+[DEBUG] 2021-12-12 23:19:41.708 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@76343d2c
+[DEBUG] 2021-12-12 23:19:41.708 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@b48ae5b
+[DEBUG] 2021-12-12 23:19:41.709 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@3ff5533b
+[DEBUG] 2021-12-12 23:19:41.709 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5ff9e40
+[DEBUG] 2021-12-12 23:19:41.709 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5ff9e40
+[DEBUG] 2021-12-12 23:19:41.709 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5ff9e40
+[DEBUG] 2021-12-12 23:19:41.710 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@405eba08
+[DEBUG] 2021-12-12 23:19:41.710 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@405eba08
+[DEBUG] 2021-12-12 23:19:41.710 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@405eba08
+[DEBUG] 2021-12-12 23:19:41.710 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@76c753b6
+[DEBUG] 2021-12-12 23:19:41.711 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@20b89f24
+[DEBUG] 2021-12-12 23:19:41.711 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@6bd8e9d3
+[DEBUG] 2021-12-12 23:19:41.711 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6bd8e9d3
+[DEBUG] 2021-12-12 23:19:41.712 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@50ab7e1e
+[DEBUG] 2021-12-12 23:19:41.712 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@66c3eaca
+[DEBUG] 2021-12-12 23:19:41.712 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@66c3eaca
+[DEBUG] 2021-12-12 23:19:41.713 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@7ce7dd14
+[DEBUG] 2021-12-12 23:19:41.713 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@7ce7dd14
+[DEBUG] 2021-12-12 23:19:41.714 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6575b845
+[DEBUG] 2021-12-12 23:19:41.714 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7393c7aa
+[DEBUG] 2021-12-12 23:19:41.715 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@6dc7358f
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@661d3912
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@661d3912
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@293a7ae3
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1b6006b6
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@52d350d3
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@74818cbf
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@e160dae
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@15d8ef6c
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5d4560cc
+[DEBUG] 2021-12-12 23:19:41.717 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@25d9fbaf
+[DEBUG] 2021-12-12 23:19:41.738 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2021-12-12 23:19:41.739 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2021-12-12 23:19:41.739 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2021-12-12 23:19:41.739 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2021-12-12 23:19:41.739 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2021-12-12 23:19:41.740 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2021-12-12 23:19:41.740 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2021-12-12 23:19:41.742 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2021-12-12 23:19:41.742 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2021-12-12 23:19:41.742 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2021-12-12 23:19:41.743 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2021-12-12 23:19:41.743 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2021-12-12 23:19:41.743 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2021-12-12 23:19:41.744 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[INFO ] 2021-12-12 23:19:41.747 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/hospital_prices
+[INFO ] 2021-12-12 23:19:41.747 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH10001001: Connection properties: {password=****, user=root}
+[INFO ] 2021-12-12 23:19:41.747 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2021-12-12 23:19:46.881 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2021-12-12 23:19:47.036 [http-nio-8080-exec-8] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.27
+      major : 8
+      minor : 0
+[DEBUG] 2021-12-12 23:19:47.037 [http-nio-8080-exec-8] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+[DEBUG] 2021-12-12 23:19:47.037 [http-nio-8080-exec-8] JdbcEnvironmentInitiator - JDBC version : 4.2
+[INFO ] 2021-12-12 23:19:47.055 [http-nio-8080-exec-8] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[DEBUG] 2021-12-12 23:19:47.070 [http-nio-8080-exec-8] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2021-12-12 23:19:47.088 [http-nio-8080-exec-8] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2021-12-12 23:19:47.133 [http-nio-8080-exec-8] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2021-12-12 23:19:47.136 [http-nio-8080-exec-8] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3b056e2b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@1bbf0389]
+[DEBUG] 2021-12-12 23:19:47.180 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-12 23:19:47.195 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-12 23:19:47.199 [http-nio-8080-exec-8] EntityBinder - Import with entity name Hospital
+[DEBUG] 2021-12-12 23:19:47.201 [http-nio-8080-exec-8] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.Hospital on table hospital
+[DEBUG] 2021-12-12 23:19:47.219 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.220 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-12 23:19:47.221 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Hospital:id]
+[DEBUG] 2021-12-12 23:19:47.223 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.224 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2021-12-12 23:19:47.227 [http-nio-8080-exec-8] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=entity_cd, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property entity with lazy=false
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Hospital:entity]
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for entity
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] PropertyBinder - Building property entity
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=hospital_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property hospitalName with lazy=false
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Hospital:hospitalName]
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for hospitalName
+[DEBUG] 2021-12-12 23:19:47.228 [http-nio-8080-exec-8] PropertyBinder - Building property hospitalName
+[DEBUG] 2021-12-12 23:19:47.229 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hospital'}
+[DEBUG] 2021-12-12 23:19:47.229 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=prices, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.230 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.237 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.237 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hospital), mappingColumn=prices_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.237 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='prices_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-12 23:19:47.238 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hospital'}
+[DEBUG] 2021-12-12 23:19:47.238 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hospital'}
+[DEBUG] 2021-12-12 23:19:47.239 [http-nio-8080-exec-8] CollectionBinder - Collection role: com.matthewpriebe.hpi.entity.Hospital.prices
+[DEBUG] 2021-12-12 23:19:47.240 [http-nio-8080-exec-8] PropertyBinder - Building property prices
+[DEBUG] 2021-12-12 23:19:47.241 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.241 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-12 23:19:47.241 [http-nio-8080-exec-8] EntityBinder - Import with entity name Procedure
+[DEBUG] 2021-12-12 23:19:47.242 [http-nio-8080-exec-8] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.Procedure on table procedure
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:id]
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=code, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property code with lazy=false
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:code]
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for code
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - Building property code
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=code_desc, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property codeDescription with lazy=false
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:codeDescription]
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for codeDescription
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - Building property codeDescription
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=code_type, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property codeType with lazy=false
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Procedure:codeType]
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for codeType
+[DEBUG] 2021-12-12 23:19:47.244 [http-nio-8080-exec-8] PropertyBinder - Building property codeType
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedure'}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=prices, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=prices_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='prices_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedure'}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedure'}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] CollectionBinder - Collection role: com.matthewpriebe.hpi.entity.Procedure.prices
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] PropertyBinder - Building property prices
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='procedure_category_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2021-12-12 23:19:47.245 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure), mappingColumn=procedureType, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.246 [http-nio-8080-exec-8] PropertyBinder - Building property procedureType
+[DEBUG] 2021-12-12 23:19:47.246 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-12 23:19:47.246 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-12 23:19:47.247 [http-nio-8080-exec-8] EntityBinder - Import with entity name ProcedureHospital
+[DEBUG] 2021-12-12 23:19:47.247 [http-nio-8080-exec-8] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.Price on table standard_charge
+[DEBUG] 2021-12-12 23:19:47.247 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=hospital_id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property hospitalId with lazy=false
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Price.id:hospitalId]
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for hospitalId
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] PropertyBinder - Building property hospitalId
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([]), hospitalId, foreign, Hibernate-local--foreign generator, ...)
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=procedure_id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property procedureId with lazy=false
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Price.id:procedureId]
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for procedureId
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] PropertyBinder - Building property procedureId
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([]), procedureId, foreign, Hibernate-local--foreign generator, ...)
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2021-12-12 23:19:47.249 [http-nio-8080-exec-8] BinderHelper - #makeIdGenerator(org.hibernate.mapping.Component([org.hibernate.mapping.Property(hospitalId), org.hibernate.mapping.Property(procedureId)]), id, assigned, , ...)
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=hospital, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] PropertyBinder - Building property hospital
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=discounted_cash_price, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property price with lazy=false
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Price:price]
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for price
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] PropertyBinder - Building property price
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=procedure, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] PropertyBinder - Building property procedure
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(standard_charge), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property tableId with lazy=false
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.Price:tableId]
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for tableId
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] PropertyBinder - Building property tableId
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] EntityBinder - Import with entity name ProcedureType
+[DEBUG] 2021-12-12 23:19:47.250 [http-nio-8080-exec-8] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.ProcedureType on table procedure_category
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.ProcedureType:id]
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedureType'}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=procedures, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=procedures_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='procedures_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedureType'}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='procedureType'}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] CollectionBinder - Collection role: com.matthewpriebe.hpi.entity.ProcedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] PropertyBinder - Building property procedures
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=rev_code, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property revCode with lazy=false
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.ProcedureType:revCode]
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for revCode
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] PropertyBinder - Building property revCode
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(procedure_category), mappingColumn=rev_desc, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property revDescription with lazy=false
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.ProcedureType:revDescription]
+[DEBUG] 2021-12-12 23:19:47.251 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for revDescription
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - Building property revDescription
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: com.matthewpriebe.hpi.entity.User
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] EntityBinder - Import with entity name User
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] EntityBinder - Bind entity com.matthewpriebe.hpi.entity.User on table user
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.User:id]
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property email with lazy=false
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.User:email]
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for email
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - Building property email
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.User:firstName]
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - Building property firstName
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2021-12-12 23:19:47.252 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.matthewpriebe.hpi.entity.User:lastName]
+[DEBUG] 2021-12-12 23:19:47.253 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2021-12-12 23:19:47.253 [http-nio-8080-exec-8] PropertyBinder - Building property lastName
+[DEBUG] 2021-12-12 23:19:47.254 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for entity
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for hospitalName
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for code
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for codeDescription
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for codeType
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for hospitalId
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for procedureId
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for price
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for tableId
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for revCode
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for revDescription
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for email
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2021-12-12 23:19:47.255 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2021-12-12 23:19:47.257 [http-nio-8080-exec-8] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [hospital]
+[DEBUG] 2021-12-12 23:19:47.257 [http-nio-8080-exec-8] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [procedure]
+[DEBUG] 2021-12-12 23:19:47.257 [http-nio-8080-exec-8] PrimaryKey - Forcing column [hospital_id] to be non-null as it is part of the primary key for table [standard_charge]
+[DEBUG] 2021-12-12 23:19:47.257 [http-nio-8080-exec-8] PrimaryKey - Forcing column [procedure_id] to be non-null as it is part of the primary key for table [standard_charge]
+[DEBUG] 2021-12-12 23:19:47.258 [http-nio-8080-exec-8] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [procedure_category]
+[DEBUG] 2021-12-12 23:19:47.258 [http-nio-8080-exec-8] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2021-12-12 23:19:47.258 [http-nio-8080-exec-8] CollectionSecondPass - Second pass for collection: com.matthewpriebe.hpi.entity.Hospital.prices
+[DEBUG] 2021-12-12 23:19:47.258 [http-nio-8080-exec-8] CollectionBinder - Binding a OneToMany: com.matthewpriebe.hpi.entity.Hospital.prices through a foreign key
+[DEBUG] 2021-12-12 23:19:47.258 [http-nio-8080-exec-8] CollectionBinder - Mapping collection: com.matthewpriebe.hpi.entity.Hospital.prices -> standard_charge
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] TableBinder - Retrieving property com.matthewpriebe.hpi.entity.Price.hospital
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionSecondPass - Mapped collection key: hospital_id, one-to-many: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionSecondPass - Second pass for collection: com.matthewpriebe.hpi.entity.Procedure.prices
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionBinder - Binding a OneToMany: com.matthewpriebe.hpi.entity.Procedure.prices through a foreign key
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionBinder - Mapping collection: com.matthewpriebe.hpi.entity.Procedure.prices -> standard_charge
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] TableBinder - Retrieving property com.matthewpriebe.hpi.entity.Price.procedure
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionSecondPass - Mapped collection key: procedure_id, one-to-many: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionSecondPass - Second pass for collection: com.matthewpriebe.hpi.entity.ProcedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionBinder - Binding a OneToMany: com.matthewpriebe.hpi.entity.ProcedureType.procedures through a foreign key
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionBinder - Mapping collection: com.matthewpriebe.hpi.entity.ProcedureType.procedures -> procedure
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] TableBinder - Retrieving property com.matthewpriebe.hpi.entity.Procedure.procedureType
+[DEBUG] 2021-12-12 23:19:47.259 [http-nio-8080-exec-8] CollectionSecondPass - Mapped collection key: procedure_category_id, one-to-many: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.260 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-12 23:19:47.261 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-12 23:19:47.261 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.262 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-12 23:19:47.262 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-12 23:19:47.262 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.263 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Price] is safe
+[DEBUG] 2021-12-12 23:19:47.263 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-12 23:19:47.302 [http-nio-8080-exec-8] SessionFactoryImpl - Building session factory
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - SessionFactory name : null
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Statistics: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Default entity-mode: pojo
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Default batch fetch size: -1
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Default null ordering: NONE
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - JTA Track by Thread: enabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Query language substitutions: {}
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Named query checking : enabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Second-level cache: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Second-level query cache: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Second-level query cache factory: null
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Second-level cache region prefix: null
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2021-12-12 23:19:47.303 [http-nio-8080-exec-8] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JDBC batch size: 15
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - Scrollable result sets: enabled
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - Wrap result sets: disabled
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JDBC result set fetch size: null
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - Generate SQL with comments: disabled
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JPA compliance - query : 
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JPA compliance - closed-handling : 
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JPA compliance - lists : 
+[DEBUG] 2021-12-12 23:19:47.304 [http-nio-8080-exec-8] Settings - JPA compliance - transactions : 
+[INFO ] 2021-12-12 23:19:47.344 [http-nio-8080-exec-8] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[DEBUG] 2021-12-12 23:19:47.357 [http-nio-8080-exec-8] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2021-12-12 23:19:47.357 [http-nio-8080-exec-8] SessionFactoryImpl - Instantiating session factory with properties: {awt.toolkit=sun.lwawt.macosx.LWCToolkit, java.specification.version=11, sun.cpu.isalist=, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.min_size=5, sun.arch.data.model=64, java.vendor.url=https://bell-sw.com/, catalina.useNaming=true, openejb.provider.default=org.apache.tomee, sun.boot.library.path=/Users/matthewpriebe/Library/Java/JavaVirtualMachines/liberica-11.0.13/lib, com.sun.management.jmxremote.ssl=false, sun.java.command=org.apache.catalina.startup.Bootstrap start, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming:org.apache.openejb.core.ivm.naming, openejb.embedder.source=ServerListener, java.version.date=2021-10-19, java.home=/Users/matthewpriebe/Library/Java/JavaVirtualMachines/liberica-11.0.13, ignore.endorsed.dirs=, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, org.apache.activemq.broker.jmx.createConnector=false, hibernate.c3p0.timeout=300, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, openejb.scan.webapp.container=true, com.sun.management.jmxremote.password.file=/Users/matthewpriebe/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/1181ce83-dcfe-4a04-adb8-d4bed98c93e7/jmxremote.password, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., openejb.deployments.classpath.filter.systemapps=false, jdk.tls.ephemeralDHKeySize=2048, java.util.logging.config.file=/Users/matthewpriebe/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/1181ce83-dcfe-4a04-adb8-d4bed98c93e7/conf/logging.properties, java.protocol.handler.pkgs=org.apache.catalina.webresources, connection.password=Thermodynamic16, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, openejb.scan.webapp.container.excludes=, java.runtime.version=11.0.13+8-LTS, user.name=matthewpriebe, org.apache.johnzon.max-string-length=8192, file.encoding=UTF-8, derby.system.home=/Users/matthewpriebe/tomcat/bin, org.apache.catalina.security.SecurityListener.UMASK=0027, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.io.tmpdir=/Users/matthewpriebe/tomcat/temp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar, java.version=11.0.13, com.sun.management.jmxremote.port=1099, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-jmx-remote.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina-ws.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-*.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, connection.driver_class=com.mysql.cj.jdbc.Driver, tomcat.built=Jun 30 2020 21:49:10 UTC, java.library.path=/Users/matthewpriebe/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=BellSoft, tomee.version=7.1.4, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeBig, tomcat.util.buf.StringCache.byte.enabled=true, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, gopherProxySet=false, java.class.path=/Users/matthewpriebe/tomcat/bin/bootstrap.jar:/Users/matthewpriebe/tomcat/bin/tomcat-juli.jar, tomcat.version=8.5.57.0, java.vm.vendor=BellSoft, openejb.home=/Users/matthewpriebe/tomcat, openejb.system.apps=true, user.timezone=America/Chicago, os.name=Mac OS X, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, openejb.base=/Users/matthewpriebe/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/1181ce83-dcfe-4a04-adb8-d4bed98c93e7, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, com.sun.management.jmxremote=, sun.cpu.endian=little, user.home=/Users/matthewpriebe, hibernate.c3p0.max_statements=50, user.language=en, openejb.deployments.classpath=false, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., openejb.loader=tomcat-system, server.loader=, com.sun.management.jmxremote.access.file=/Users/matthewpriebe/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/1181ce83-dcfe-4a04-adb8-d4bed98c93e7/jmxremote.access, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, hibernate.c3p0.max_size=20, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, path.separator=:, org.apache.openejb.core.security.JaccProvider=org.apache.openejb.core.security.jacc.BasicJaccProvider, common.loader="/Users/matthewpriebe/tomcat/lib","/Users/matthewpriebe/tomcat/lib/*.jar","/Users/matthewpriebe/tomcat/lib","/Users/matthewpriebe/tomcat/lib/*.jar", hibernate.connection.username=****, os.version=11.6, openejb.version=7.1.4, org.apache.security.jacc.EJBMethodPermission.methodInterfaces=BusinessLocalHome,BusinessRemoteHome,BusinessRemote,BusinessLocal, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/hospital_prices, java.vm.name=OpenJDK 64-Bit Server VM, openejb.scan.webapp.container.includes=.*(geronimo|mp-jwt|failsafe).*, tomee.remote.support=true, java.vendor.url.bug=https://bell-sw.com/support, catalina.home=/Users/matthewpriebe/tomcat, user.dir=/Users/matthewpriebe/tomcat/bin, bval.in-container=true, os.arch=aarch64, openjpa.Log=org.apache.openejb.openjpa.JULOpenJPALogFactory, hibernate.connection.password=****, tomee.serialization.class.blacklist=-, tomee.serialization.class.whitelist=, shared.loader=, catalina.base=/Users/matthewpriebe/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/1181ce83-dcfe-4a04-adb8-d4bed98c93e7, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@3d073c51, noBanner=true, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, org.apache.webbeans.logger.WebBeansLoggerFacade=org.apache.openejb.cdi.logging.ContainerJULLoggerFactory, java.vm.info=mixed mode, java.vm.version=11.0.13+8-LTS, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.hostname=127.0.0.1, javax.security.jacc.PolicyConfigurationFactory.provider=org.apache.openejb.core.security.JaccProvider$Factory, connection.url=jdbc:mysql://localhost:3306/hospital_prices, java.class.version=55.0, authconfigprovider.factory=false}
+[DEBUG] 2021-12-12 23:19:47.370 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Procedure] is safe
+[DEBUG] 2021-12-12 23:19:47.370 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.376 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.ProcedureType] is safe
+[DEBUG] 2021-12-12 23:19:47.376 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-12 23:19:47.376 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Price] is safe
+[DEBUG] 2021-12-12 23:19:47.376 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-12 23:19:47.377 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Hospital] is safe
+[DEBUG] 2021-12-12 23:19:47.377 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-12 23:19:47.377 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.User] is safe
+[DEBUG] 2021-12-12 23:19:47.377 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.User
+[DEBUG] 2021-12-12 23:19:47.378 [http-nio-8080-exec-8] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2021-12-12 23:19:47.379 [http-nio-8080-exec-8] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2021-12-12 23:19:47.379 [http-nio-8080-exec-8] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3b056e2b] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@709b8fe1]
+[DEBUG] 2021-12-12 23:19:47.408 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Procedure] is safe
+[DEBUG] 2021-12-12 23:19:47.408 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.415 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Procedure] is safe
+[DEBUG] 2021-12-12 23:19:47.415 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.567 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.ProcedureType] is safe
+[DEBUG] 2021-12-12 23:19:47.567 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-12 23:19:47.567 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.ProcedureType] is safe
+[DEBUG] 2021-12-12 23:19:47.567 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-12 23:19:47.573 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Price] is safe
+[DEBUG] 2021-12-12 23:19:47.573 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-12 23:19:47.579 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Hospital] is safe
+[DEBUG] 2021-12-12 23:19:47.579 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-12 23:19:47.579 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.Hospital] is safe
+[DEBUG] 2021-12-12 23:19:47.579 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-12 23:19:47.584 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.User] is safe
+[DEBUG] 2021-12-12 23:19:47.584 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.User
+[DEBUG] 2021-12-12 23:19:47.585 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [com.matthewpriebe.hpi.entity.User] is safe
+[DEBUG] 2021-12-12 23:19:47.585 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.matthewpriebe.hpi.entity.User
+[DEBUG] 2021-12-12 23:19:47.594 [http-nio-8080-exec-8] AbstractCollectionPersister - Static SQL for collection: com.matthewpriebe.hpi.entity.ProcedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.594 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row insert: update `procedure` set procedure_category_id=? where id=?
+[DEBUG] 2021-12-12 23:19:47.594 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row update: update `procedure` set  where id=?
+[DEBUG] 2021-12-12 23:19:47.594 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row delete: update `procedure` set procedure_category_id=null where procedure_category_id=? and id=?
+[DEBUG] 2021-12-12 23:19:47.594 [http-nio-8080-exec-8] AbstractCollectionPersister -  One-shot delete: update `procedure` set procedure_category_id=null where procedure_category_id=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister - Static SQL for collection: com.matthewpriebe.hpi.entity.Procedure.prices
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row insert: update standard_charge set `procedure_id`=? where hospital_id=? and `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row update: update standard_charge set  where hospital_id=? and `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row delete: update standard_charge set `procedure_id`=null where `procedure_id`=? and hospital_id=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  One-shot delete: update standard_charge set `procedure_id`=null where `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister - Static SQL for collection: com.matthewpriebe.hpi.entity.Hospital.prices
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row insert: update standard_charge set hospital_id=? where hospital_id=? and `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row update: update standard_charge set  where hospital_id=? and `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row delete: update standard_charge set hospital_id=null where hospital_id=? and `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.595 [http-nio-8080-exec-8] AbstractCollectionPersister -  One-shot delete: update standard_charge set hospital_id=null where hospital_id=?
+[DEBUG] 2021-12-12 23:19:47.597 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.Procedure
+[DEBUG] 2021-12-12 23:19:47.597 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select id from `procedure` where id =?
+[DEBUG] 2021-12-12 23:19:47.597 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select procedure_.id, procedure_.code as code2_1_, procedure_.code_desc as code_des3_1_, procedure_.code_type as code_typ4_1_, procedure_.procedure_category_id as procedur5_1_ from `procedure` procedure_ where procedure_.id=?
+[DEBUG] 2021-12-12 23:19:47.597 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into `procedure` (code, code_desc, code_type, procedure_category_id, id) values (?, ?, ?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.597 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update `procedure` set code=?, code_desc=?, code_type=?, procedure_category_id=? where id=?
+[DEBUG] 2021-12-12 23:19:47.597 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from `procedure` where id=?
+[DEBUG] 2021-12-12 23:19:47.597 [http-nio-8080-exec-8] AbstractEntityPersister -  Identity insert: insert into `procedure` (code, code_desc, code_type, procedure_category_id) values (?, ?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.616 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61d28c38]
+[DEBUG] 2021-12-12 23:19:47.617 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : code
+[DEBUG] 2021-12-12 23:19:47.617 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : codeDescription
+[DEBUG] 2021-12-12 23:19:47.617 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : codeType
+[DEBUG] 2021-12-12 23:19:47.617 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-12 23:19:47.620 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1df7fb1]
+[DEBUG] 2021-12-12 23:19:47.622 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@76785db7]
+[DEBUG] 2021-12-12 23:19:47.623 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@78181435]
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospitalId
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedureId
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@340028a9]
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital.entity
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital.hospitalName
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital.prices
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.hospital.prices
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.procedure
+[DEBUG] 2021-12-12 23:19:47.626 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.tableId
+[DEBUG] 2021-12-12 23:19:47.627 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType
+[DEBUG] 2021-12-12 23:19:47.627 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4ab525d7]
+[DEBUG] 2021-12-12 23:19:47.627 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.627 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.627 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType.revCode
+[DEBUG] 2021-12-12 23:19:47.627 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType.revDescription
+[DEBUG] 2021-12-12 23:19:47.627 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.636 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.640 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Procedure)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Procedure)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Procedure.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>)
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>.hospital)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.Procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Procedure)
+          - SQL table alias mapping - procedure0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur4_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - hospital3_3_2_, procedur4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {hospital3_3_2_, procedur4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+                      - JOIN (JoinDefinedByMetadata(hospital)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                            - SQL table alias mapping - hospital2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_0_3_}
+          - JOIN (JoinDefinedByMetadata(procedureType)) : <gen:0> -> <gen:4>
+             - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+                - SQL table alias mapping - proceduret3_
+                - alias suffix - 4_
+                - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2021-12-12 23:19:47.641 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Procedure [NONE]: select procedure0_.id as id1_1_0_, procedure0_.code as code2_1_0_, procedure0_.code_desc as code_des3_1_0_, procedure0_.code_type as code_typ4_1_0_, procedure0_.procedure_category_id as procedur5_1_0_, prices1_.`procedure_id` as procedur4_3_1_, prices1_.hospital_id as hospital3_3_1_, prices1_.hospital_id as hospital3_3_2_, prices1_.`procedure_id` as procedur4_3_2_, prices1_.discounted_cash_price as discount1_3_2_, prices1_.id as id2_3_2_, hospital2_.id as id1_0_3_, hospital2_.entity_cd as entity_c2_0_3_, hospital2_.hospital_name as hospital3_0_3_, proceduret3_.id as id1_2_4_, proceduret3_.rev_code as rev_code2_2_4_, proceduret3_.rev_desc as rev_desc3_2_4_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.`procedure_id` left outer join hospital hospital2_ on prices1_.hospital_id=hospital2_.id inner join procedure_category proceduret3_ on procedure0_.procedure_category_id=proceduret3_.id where procedure0_.id=?
+[DEBUG] 2021-12-12 23:19:47.641 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4b3bf9cf]
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : code
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : codeDescription
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : codeType
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@539e2007]
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@678c1c6d]
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@73ed64d2]
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospitalId
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedureId
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c7d5e07]
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital.entity
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital.hospitalName
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital.prices
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.hospital.prices
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.procedure
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.tableId
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6aa6dfea]
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType.revCode
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType.revDescription
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.642 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.643 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Procedure)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Procedure)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Procedure.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>)
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Procedure.prices.<elements>.hospital)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.Procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Procedure)
+          - SQL table alias mapping - procedure0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur4_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - hospital3_3_2_, procedur4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {hospital3_3_2_, procedur4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+                      - JOIN (JoinDefinedByMetadata(hospital)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                            - SQL table alias mapping - hospital2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_0_3_}
+          - JOIN (JoinDefinedByMetadata(procedureType)) : <gen:0> -> <gen:4>
+             - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+                - SQL table alias mapping - proceduret3_
+                - alias suffix - 4_
+                - suffixed key columns - {id1_2_4_}
+
+[DEBUG] 2021-12-12 23:19:47.643 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Procedure [READ]: select procedure0_.id as id1_1_0_, procedure0_.code as code2_1_0_, procedure0_.code_desc as code_des3_1_0_, procedure0_.code_type as code_typ4_1_0_, procedure0_.procedure_category_id as procedur5_1_0_, prices1_.`procedure_id` as procedur4_3_1_, prices1_.hospital_id as hospital3_3_1_, prices1_.hospital_id as hospital3_3_2_, prices1_.`procedure_id` as procedur4_3_2_, prices1_.discounted_cash_price as discount1_3_2_, prices1_.id as id2_3_2_, hospital2_.id as id1_0_3_, hospital2_.entity_cd as entity_c2_0_3_, hospital2_.hospital_name as hospital3_0_3_, proceduret3_.id as id1_2_4_, proceduret3_.rev_code as rev_code2_2_4_, proceduret3_.rev_desc as rev_desc3_2_4_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.`procedure_id` left outer join hospital hospital2_ on prices1_.hospital_id=hospital2_.id inner join procedure_category proceduret3_ on procedure0_.procedure_category_id=proceduret3_.id where procedure0_.id=?
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.Procedure: select procedure0_.id as id1_1_1_, procedure0_.code as code2_1_1_, procedure0_.code_desc as code_des3_1_1_, procedure0_.code_type as code_typ4_1_1_, procedure0_.procedure_category_id as procedur5_1_1_, prices1_.`procedure_id` as procedur4_3_3_, prices1_.hospital_id as hospital3_3_3_, prices1_.hospital_id as hospital3_3_0_, prices1_.`procedure_id` as procedur4_3_0_, prices1_.discounted_cash_price as discount1_3_0_, prices1_.id as id2_3_0_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.`procedure_id` where procedure0_.id=?
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.Procedure: select procedure0_.id as id1_1_1_, procedure0_.code as code2_1_1_, procedure0_.code_desc as code_des3_1_1_, procedure0_.code_type as code_typ4_1_1_, procedure0_.procedure_category_id as procedur5_1_1_, prices1_.`procedure_id` as procedur4_3_3_, prices1_.hospital_id as hospital3_3_3_, prices1_.hospital_id as hospital3_3_0_, prices1_.`procedure_id` as procedur4_3_0_, prices1_.discounted_cash_price as discount1_3_0_, prices1_.id as id2_3_0_ from `procedure` procedure0_ left outer join standard_charge prices1_ on procedure0_.id=prices1_.`procedure_id` where procedure0_.id=?
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.ProcedureType
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select id from procedure_category where id =?
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select proceduret_.id, proceduret_.rev_code as rev_code2_2_, proceduret_.rev_desc as rev_desc3_2_ from procedure_category proceduret_ where proceduret_.id=?
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into procedure_category (rev_code, rev_desc, id) values (?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update procedure_category set rev_code=?, rev_desc=? where id=?
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from procedure_category where id=?
+[DEBUG] 2021-12-12 23:19:47.651 [http-nio-8080-exec-8] AbstractEntityPersister -  Identity insert: insert into procedure_category (rev_code, rev_desc) values (?, ?)
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7ab74501]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@37e3ab04]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a221ea8]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.code
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.codeDescription
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.codeType
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@169518f1]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2cf893d5]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@28cc6f33]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.hospitalId
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.procedureId
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.hospital
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@283618f4]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.price
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.procedure
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedures.prices.procedure
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.tableId
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.procedureType
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedures.procedureType
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : revCode
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : revDescription
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.ProcedureType)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.ProcedureType)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>)
+                - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>)
+                      - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:5>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>.hospital)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+          - SQL table alias mapping - proceduret0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(procedures)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+                - SQL table alias mapping - procedures1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur5_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                      - SQL table alias mapping - procedures1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(prices)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                            - SQL table alias mapping - prices2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {procedur4_3_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - hospital3_3_4_, procedur4_3_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.Price)
+                                  - SQL table alias mapping - prices2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {hospital3_3_4_, procedur4_3_4_}
+                                  - JOIN (JoinDefinedByMetadata(id)) : <gen:4> -> <gen:4>-id
+                                     - CompositeQuerySpaceImpl(uid=<gen:4>-id)
+                                        - SQL table alias mapping - prices2_
+
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.ProcedureType [NONE]: select proceduret0_.id as id1_2_0_, proceduret0_.rev_code as rev_code2_2_0_, proceduret0_.rev_desc as rev_desc3_2_0_, procedures1_.procedure_category_id as procedur5_1_1_, procedures1_.id as id1_1_1_, procedures1_.id as id1_1_2_, procedures1_.code as code2_1_2_, procedures1_.code_desc as code_des3_1_2_, procedures1_.code_type as code_typ4_1_2_, procedures1_.procedure_category_id as procedur5_1_2_, prices2_.`procedure_id` as procedur4_3_3_, prices2_.hospital_id as hospital3_3_3_, prices2_.hospital_id as hospital3_3_4_, prices2_.`procedure_id` as procedur4_3_4_, prices2_.discounted_cash_price as discount1_3_4_, prices2_.id as id2_3_4_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_category_id left outer join standard_charge prices2_ on procedures1_.id=prices2_.`procedure_id` where proceduret0_.id=?
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4b8fd17f]
+[DEBUG] 2021-12-12 23:19:47.652 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@517f50f0]
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49961393]
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.code
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.codeDescription
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.codeType
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6d042f2]
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7f23d330]
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@3a7e4bac]
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.hospitalId
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.procedureId
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.hospital
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@21433297]
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.price
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.procedure
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedures.prices.procedure
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.prices.tableId
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedures.procedureType
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedures.procedureType
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : revCode
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : revDescription
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.ProcedureType)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.ProcedureType)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>)
+                - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>)
+                      - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:5>, path=com.matthewpriebe.hpi.entity.ProcedureType.procedures.<elements>.prices.<elements>.hospital)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+          - SQL table alias mapping - proceduret0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(procedures)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+                - SQL table alias mapping - procedures1_
+                - alias suffix - 1_
+                - suffixed key columns - {procedur5_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                      - SQL table alias mapping - procedures1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(prices)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+                            - SQL table alias mapping - prices2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {procedur4_3_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - hospital3_3_4_, procedur4_3_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.matthewpriebe.hpi.entity.Price)
+                                  - SQL table alias mapping - prices2_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {hospital3_3_4_, procedur4_3_4_}
+                                  - JOIN (JoinDefinedByMetadata(id)) : <gen:4> -> <gen:4>-id
+                                     - CompositeQuerySpaceImpl(uid=<gen:4>-id)
+                                        - SQL table alias mapping - prices2_
+
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.ProcedureType [READ]: select proceduret0_.id as id1_2_0_, proceduret0_.rev_code as rev_code2_2_0_, proceduret0_.rev_desc as rev_desc3_2_0_, procedures1_.procedure_category_id as procedur5_1_1_, procedures1_.id as id1_1_1_, procedures1_.id as id1_1_2_, procedures1_.code as code2_1_2_, procedures1_.code_desc as code_des3_1_2_, procedures1_.code_type as code_typ4_1_2_, procedures1_.procedure_category_id as procedur5_1_2_, prices2_.`procedure_id` as procedur4_3_3_, prices2_.hospital_id as hospital3_3_3_, prices2_.hospital_id as hospital3_3_4_, prices2_.`procedure_id` as procedur4_3_4_, prices2_.discounted_cash_price as discount1_3_4_, prices2_.id as id2_3_4_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_category_id left outer join standard_charge prices2_ on procedures1_.id=prices2_.`procedure_id` where proceduret0_.id=?
+[DEBUG] 2021-12-12 23:19:47.653 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.ProcedureType: select proceduret0_.id as id1_2_1_, proceduret0_.rev_code as rev_code2_2_1_, proceduret0_.rev_desc as rev_desc3_2_1_, procedures1_.procedure_category_id as procedur5_1_3_, procedures1_.id as id1_1_3_, procedures1_.id as id1_1_0_, procedures1_.code as code2_1_0_, procedures1_.code_desc as code_des3_1_0_, procedures1_.code_type as code_typ4_1_0_, procedures1_.procedure_category_id as procedur5_1_0_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_category_id where proceduret0_.id=?
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.ProcedureType: select proceduret0_.id as id1_2_1_, proceduret0_.rev_code as rev_code2_2_1_, proceduret0_.rev_desc as rev_desc3_2_1_, procedures1_.procedure_category_id as procedur5_1_3_, procedures1_.id as id1_1_3_, procedures1_.id as id1_1_0_, procedures1_.code as code2_1_0_, procedures1_.code_desc as code_des3_1_0_, procedures1_.code_type as code_typ4_1_0_, procedures1_.procedure_category_id as procedur5_1_0_ from procedure_category proceduret0_ left outer join `procedure` procedures1_ on proceduret0_.id=procedures1_.procedure_category_id where proceduret0_.id=?
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.Price
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select hospital_id, `procedure_id` from standard_charge where hospital_id =? and `procedure_id` =?
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select price_.hospital_id, price_.`procedure_id`, price_.discounted_cash_price as discount1_3_, price_.id as id2_3_ from standard_charge price_ where price_.hospital_id=? and price_.`procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into standard_charge (discounted_cash_price, id, hospital_id, `procedure_id`) values (?, ?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update standard_charge set discounted_cash_price=?, id=? where hospital_id=? and `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from standard_charge where hospital_id=? and `procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b26f27a]
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@3d39e1c9]
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospitalId
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureId
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@31c6251c]
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.entity
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.hospitalName
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.prices
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hospital.prices
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51d32f38]
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.code
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.codeDescription
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.codeType
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.prices
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedure.prices
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1bd21e7]
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedure.procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.revCode
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.revDescription
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : tableId
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.654 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Price)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Price)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Price.hospital)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Price.procedure)
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Price.procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Price)
+          - SQL table alias mapping - price0_
+          - alias suffix - 0_
+          - suffixed key columns - {hospital3_3_0_, procedur4_3_0_}
+          - JOIN (JoinDefinedByMetadata(id)) : <gen:0> -> <gen:0>-id
+             - CompositeQuerySpaceImpl(uid=<gen:0>-id)
+                - SQL table alias mapping - price0_
+          - JOIN (JoinDefinedByMetadata(hospital)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                - SQL table alias mapping - hospital1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+          - JOIN (JoinDefinedByMetadata(procedure)) : <gen:0> -> <gen:2>
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                - SQL table alias mapping - procedure2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_1_2_}
+                - JOIN (JoinDefinedByMetadata(procedureType)) : <gen:2> -> <gen:3>
+                   - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+                      - SQL table alias mapping - proceduret3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {id1_2_3_}
+
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Price [NONE]: select price0_.hospital_id as hospital3_3_0_, price0_.`procedure_id` as procedur4_3_0_, price0_.discounted_cash_price as discount1_3_0_, price0_.id as id2_3_0_, hospital1_.id as id1_0_1_, hospital1_.entity_cd as entity_c2_0_1_, hospital1_.hospital_name as hospital3_0_1_, procedure2_.id as id1_1_2_, procedure2_.code as code2_1_2_, procedure2_.code_desc as code_des3_1_2_, procedure2_.code_type as code_typ4_1_2_, procedure2_.procedure_category_id as procedur5_1_2_, proceduret3_.id as id1_2_3_, proceduret3_.rev_code as rev_code2_2_3_, proceduret3_.rev_desc as rev_desc3_2_3_ from standard_charge price0_ inner join hospital hospital1_ on price0_.hospital_id=hospital1_.id inner join `procedure` procedure2_ on price0_.`procedure_id`=procedure2_.id inner join procedure_category proceduret3_ on procedure2_.procedure_category_id=proceduret3_.id where price0_.hospital_id=? and price0_.`procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f03390d]
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@3c616621]
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospitalId
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureId
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@776a4eb0]
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.entity
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.hospitalName
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.prices
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hospital.prices
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@39ffb54a]
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.code
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.codeDescription
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.codeType
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.prices
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedure.prices
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@230b667f]
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedure.procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.revCode
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.revDescription
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : tableId
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.655 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Price)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Price)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Price.hospital)
+          - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Price.procedure)
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Price.procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Price)
+          - SQL table alias mapping - price0_
+          - alias suffix - 0_
+          - suffixed key columns - {hospital3_3_0_, procedur4_3_0_}
+          - JOIN (JoinDefinedByMetadata(id)) : <gen:0> -> <gen:0>-id
+             - CompositeQuerySpaceImpl(uid=<gen:0>-id)
+                - SQL table alias mapping - price0_
+          - JOIN (JoinDefinedByMetadata(hospital)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                - SQL table alias mapping - hospital1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+          - JOIN (JoinDefinedByMetadata(procedure)) : <gen:0> -> <gen:2>
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                - SQL table alias mapping - procedure2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_1_2_}
+                - JOIN (JoinDefinedByMetadata(procedureType)) : <gen:2> -> <gen:3>
+                   - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+                      - SQL table alias mapping - proceduret3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {id1_2_3_}
+
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Price [READ]: select price0_.hospital_id as hospital3_3_0_, price0_.`procedure_id` as procedur4_3_0_, price0_.discounted_cash_price as discount1_3_0_, price0_.id as id2_3_0_, hospital1_.id as id1_0_1_, hospital1_.entity_cd as entity_c2_0_1_, hospital1_.hospital_name as hospital3_0_1_, procedure2_.id as id1_1_2_, procedure2_.code as code2_1_2_, procedure2_.code_desc as code_des3_1_2_, procedure2_.code_type as code_typ4_1_2_, procedure2_.procedure_category_id as procedur5_1_2_, proceduret3_.id as id1_2_3_, proceduret3_.rev_code as rev_code2_2_3_, proceduret3_.rev_desc as rev_desc3_2_3_ from standard_charge price0_ inner join hospital hospital1_ on price0_.hospital_id=hospital1_.id inner join `procedure` procedure2_ on price0_.`procedure_id`=procedure2_.id inner join procedure_category proceduret3_ on procedure2_.procedure_category_id=proceduret3_.id where price0_.hospital_id=? and price0_.`procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.Price: select price0_.hospital_id as hospital3_3_0_, price0_.`procedure_id` as procedur4_3_0_, price0_.discounted_cash_price as discount1_3_0_, price0_.id as id2_3_0_ from standard_charge price0_ where price0_.hospital_id=? and price0_.`procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.Price: select price0_.hospital_id as hospital3_3_0_, price0_.`procedure_id` as procedur4_3_0_, price0_.discounted_cash_price as discount1_3_0_, price0_.id as id2_3_0_ from standard_charge price0_ where price0_.hospital_id=? and price0_.`procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.Hospital
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select id from hospital where id =?
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select hospital_.id, hospital_.entity_cd as entity_c2_0_, hospital_.hospital_name as hospital3_0_ from hospital hospital_ where hospital_.id=?
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into hospital (entity_cd, hospital_name, id) values (?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update hospital set entity_cd=?, hospital_name=? where id=?
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from hospital where id=?
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] AbstractEntityPersister -  Identity insert: insert into hospital (entity_cd, hospital_name) values (?, ?)
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c4c5056]
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : entity
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospitalName
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3f88678f]
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58bd436d]
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@76dd76cc]
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospitalId
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedureId
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.hospital
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@24725ed4]
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.code
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.codeDescription
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.codeType
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.prices
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.procedure.prices
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.procedureType
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1d28d6b2]
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.tableId
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.656 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Hospital)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Hospital)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Hospital.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Hospital.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>)
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>.procedure)
+                   - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>.procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Hospital)
+          - SQL table alias mapping - hospital0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {hospital3_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - hospital3_3_2_, procedur4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {hospital3_3_2_, procedur4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+                      - JOIN (JoinDefinedByMetadata(procedure)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                            - SQL table alias mapping - procedure2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_1_3_}
+
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Hospital [NONE]: select hospital0_.id as id1_0_0_, hospital0_.entity_cd as entity_c2_0_0_, hospital0_.hospital_name as hospital3_0_0_, prices1_.hospital_id as hospital3_3_1_, prices1_.`procedure_id` as procedur4_3_1_, prices1_.hospital_id as hospital3_3_2_, prices1_.`procedure_id` as procedur4_3_2_, prices1_.discounted_cash_price as discount1_3_2_, prices1_.id as id2_3_2_, procedure2_.id as id1_1_3_, procedure2_.code as code2_1_3_, procedure2_.code_desc as code_des3_1_3_, procedure2_.code_type as code_typ4_1_3_, procedure2_.procedure_category_id as procedur5_1_3_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id left outer join `procedure` procedure2_ on prices1_.`procedure_id`=procedure2_.id where hospital0_.id=?
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@59534ed]
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : entity
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospitalName
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1790c7b3]
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c560eb5]
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@6048798e]
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospitalId
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedureId
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.hospital
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.hospital
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.price
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27d12fd5]
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.code
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.codeDescription
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.codeType
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.prices
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : prices.procedure.prices
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.procedure.procedureType
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51e57a69]
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices.tableId
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.Hospital)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.Hospital)
+          - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Hospital.prices, querySpaceUid=<gen:1>, path=com.matthewpriebe.hpi.entity.Hospital.prices)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:2>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>)
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:3>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>.procedure)
+                   - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:4>, path=com.matthewpriebe.hpi.entity.Hospital.prices.<elements>.procedure.procedureType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.Hospital)
+          - SQL table alias mapping - hospital0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(prices)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+                - SQL table alias mapping - prices1_
+                - alias suffix - 1_
+                - suffixed key columns - {hospital3_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - hospital3_3_2_, procedur4_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Price)
+                      - SQL table alias mapping - prices1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {hospital3_3_2_, procedur4_3_2_}
+                      - JOIN (JoinDefinedByMetadata(id)) : <gen:2> -> <gen:2>-id
+                         - CompositeQuerySpaceImpl(uid=<gen:2>-id)
+                            - SQL table alias mapping - prices1_
+                      - JOIN (JoinDefinedByMetadata(procedure)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                            - SQL table alias mapping - procedure2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_1_3_}
+
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.Hospital [READ]: select hospital0_.id as id1_0_0_, hospital0_.entity_cd as entity_c2_0_0_, hospital0_.hospital_name as hospital3_0_0_, prices1_.hospital_id as hospital3_3_1_, prices1_.`procedure_id` as procedur4_3_1_, prices1_.hospital_id as hospital3_3_2_, prices1_.`procedure_id` as procedur4_3_2_, prices1_.discounted_cash_price as discount1_3_2_, prices1_.id as id2_3_2_, procedure2_.id as id1_1_3_, procedure2_.code as code2_1_3_, procedure2_.code_desc as code_des3_1_3_, procedure2_.code_type as code_typ4_1_3_, procedure2_.procedure_category_id as procedur5_1_3_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id left outer join `procedure` procedure2_ on prices1_.`procedure_id`=procedure2_.id where hospital0_.id=?
+[DEBUG] 2021-12-12 23:19:47.657 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.Hospital: select hospital0_.id as id1_0_1_, hospital0_.entity_cd as entity_c2_0_1_, hospital0_.hospital_name as hospital3_0_1_, prices1_.hospital_id as hospital3_3_3_, prices1_.`procedure_id` as procedur4_3_3_, prices1_.hospital_id as hospital3_3_0_, prices1_.`procedure_id` as procedur4_3_0_, prices1_.discounted_cash_price as discount1_3_0_, prices1_.id as id2_3_0_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id where hospital0_.id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.Hospital: select hospital0_.id as id1_0_1_, hospital0_.entity_cd as entity_c2_0_1_, hospital0_.hospital_name as hospital3_0_1_, prices1_.hospital_id as hospital3_3_3_, prices1_.`procedure_id` as procedur4_3_3_, prices1_.hospital_id as hospital3_3_0_, prices1_.`procedure_id` as procedur4_3_0_, prices1_.discounted_cash_price as discount1_3_0_, prices1_.id as id2_3_0_ from hospital hospital0_ left outer join standard_charge prices1_ on hospital0_.id=prices1_.hospital_id where hospital0_.id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: com.matthewpriebe.hpi.entity.User
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select id from user where id =?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select user_.id, user_.email as email2_4_, user_.first_name as first_na3_4_, user_.last_name as last_nam4_4_ from user user_ where user_.id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into user (email, first_name, last_name, id) values (?, ?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update user set email=?, first_name=?, last_name=? where id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from user where id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] AbstractEntityPersister -  Identity insert: insert into user (email, first_name, last_name) values (?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@60b4d24b]
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : email
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.User, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.User [NONE]: select user0_.id as id1_4_0_, user0_.email as email2_4_0_, user0_.first_name as first_na3_4_0_, user0_.last_name as last_nam4_4_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@71bfdb94]
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : email
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=com.matthewpriebe.hpi.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.matthewpriebe.hpi.entity.User, querySpaceUid=<gen:0>, path=com.matthewpriebe.hpi.entity.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.matthewpriebe.hpi.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] EntityLoader - Static select for entity com.matthewpriebe.hpi.entity.User [READ]: select user0_.id as id1_4_0_, user0_.email as email2_4_0_, user0_.first_name as first_na3_4_0_, user0_.last_name as last_nam4_4_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity com.matthewpriebe.hpi.entity.User: select user0_.id as id1_4_0_, user0_.email as email2_4_0_, user0_.first_name as first_na3_4_0_, user0_.last_name as last_nam4_4_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-12-12 23:19:47.658 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity com.matthewpriebe.hpi.entity.User: select user0_.id as id1_4_0_, user0_.email as email2_4_0_, user0_.first_name as first_na3_4_0_, user0_.last_name as last_nam4_4_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@178f2db3]
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e437c00]
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : code
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : codeDescription
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : codeType
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : prices
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3caf2dda]
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3909f533]
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@5f3e7287]
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureType
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedureType
+[DEBUG] 2021-12-12 23:19:47.661 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+    - Returns
+       - CollectionReturnImpl(collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures, querySpaceUid=<gen:0>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:1>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures].<elements>)
+             - CollectionAttributeFetchImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:2>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures].<elements>.prices)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:3>, path=[com.matthewpriebe.hpi.entity.ProcedureType.procedures].<elements>.prices.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.matthewpriebe.hpi.entity.ProcedureType.procedures)
+          - SQL table alias mapping - procedures0_
+          - alias suffix - 0_
+          - suffixed key columns - {procedur5_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                - SQL table alias mapping - procedures0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] CollectionLoader - Static select for collection com.matthewpriebe.hpi.entity.ProcedureType.procedures: select procedures0_.procedure_category_id as procedur5_1_0_, procedures0_.id as id1_1_0_, procedures0_.id as id1_1_1_, procedures0_.code as code2_1_1_, procedures0_.code_desc as code_des3_1_1_, procedures0_.code_type as code_typ4_1_1_, procedures0_.procedure_category_id as procedur5_1_1_ from `procedure` procedures0_ where procedures0_.procedure_category_id=?
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3d878d61]
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2df80ad0]
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@25fabf12]
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospitalId
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureId
+[DEBUG] 2021-12-12 23:19:47.663 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@30c06b1f]
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.entity
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.hospitalName
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital.prices
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hospital.prices
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedure
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : tableId
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+    - Returns
+       - CollectionReturnImpl(collection=com.matthewpriebe.hpi.entity.Procedure.prices, querySpaceUid=<gen:0>, path=[com.matthewpriebe.hpi.entity.Procedure.prices])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:1>, path=[com.matthewpriebe.hpi.entity.Procedure.prices].<elements>)
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Hospital, querySpaceUid=<gen:2>, path=[com.matthewpriebe.hpi.entity.Procedure.prices].<elements>.hospital)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.matthewpriebe.hpi.entity.Procedure.prices)
+          - SQL table alias mapping - prices0_
+          - alias suffix - 0_
+          - suffixed key columns - {procedur4_3_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - hospital3_3_1_, procedur4_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Price)
+                - SQL table alias mapping - prices0_
+                - alias suffix - 1_
+                - suffixed key columns - {hospital3_3_1_, procedur4_3_1_}
+                - JOIN (JoinDefinedByMetadata(id)) : <gen:1> -> <gen:1>-id
+                   - CompositeQuerySpaceImpl(uid=<gen:1>-id)
+                      - SQL table alias mapping - prices0_
+                - JOIN (JoinDefinedByMetadata(hospital)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Hospital)
+                      - SQL table alias mapping - hospital1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] CollectionLoader - Static select for collection com.matthewpriebe.hpi.entity.Procedure.prices: select prices0_.`procedure_id` as procedur4_3_0_, prices0_.hospital_id as hospital3_3_0_, prices0_.hospital_id as hospital3_3_1_, prices0_.`procedure_id` as procedur4_3_1_, prices0_.discounted_cash_price as discount1_3_1_, prices0_.id as id2_3_1_, hospital1_.id as id1_0_2_, hospital1_.entity_cd as entity_c2_0_2_, hospital1_.hospital_name as hospital3_0_2_ from standard_charge prices0_ inner join hospital hospital1_ on prices0_.hospital_id=hospital1_.id where prices0_.`procedure_id`=?
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5a2428a5]
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@8b50eab]
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1>-id -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@3b9e1431]
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospitalId
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedureId
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hospital
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hospital
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : price
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3db3fc88]
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.code
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.codeDescription
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.codeType
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.prices
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedure.prices
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@15212a68]
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : procedure.procedureType.procedures
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.revCode
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : procedure.procedureType.revDescription
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : tableId
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-12-12 23:19:47.664 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-12-12 23:19:47.665 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+    - Returns
+       - CollectionReturnImpl(collection=com.matthewpriebe.hpi.entity.Hospital.prices, querySpaceUid=<gen:0>, path=[com.matthewpriebe.hpi.entity.Hospital.prices])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.matthewpriebe.hpi.entity.Price, querySpaceUid=<gen:1>, path=[com.matthewpriebe.hpi.entity.Hospital.prices].<elements>)
+             - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.Procedure, querySpaceUid=<gen:2>, path=[com.matthewpriebe.hpi.entity.Hospital.prices].<elements>.procedure)
+                - EntityAttributeFetchImpl(entity=com.matthewpriebe.hpi.entity.ProcedureType, querySpaceUid=<gen:3>, path=[com.matthewpriebe.hpi.entity.Hospital.prices].<elements>.procedure.procedureType)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.matthewpriebe.hpi.entity.Hospital.prices)
+          - SQL table alias mapping - prices0_
+          - alias suffix - 0_
+          - suffixed key columns - {hospital3_3_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - hospital3_3_1_, procedur4_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.matthewpriebe.hpi.entity.Price)
+                - SQL table alias mapping - prices0_
+                - alias suffix - 1_
+                - suffixed key columns - {hospital3_3_1_, procedur4_3_1_}
+                - JOIN (JoinDefinedByMetadata(id)) : <gen:1> -> <gen:1>-id
+                   - CompositeQuerySpaceImpl(uid=<gen:1>-id)
+                      - SQL table alias mapping - prices0_
+                - JOIN (JoinDefinedByMetadata(procedure)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.matthewpriebe.hpi.entity.Procedure)
+                      - SQL table alias mapping - procedure1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+                      - JOIN (JoinDefinedByMetadata(procedureType)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.matthewpriebe.hpi.entity.ProcedureType)
+                            - SQL table alias mapping - proceduret2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_2_3_}
+
+[DEBUG] 2021-12-12 23:19:47.665 [http-nio-8080-exec-8] CollectionLoader - Static select for collection com.matthewpriebe.hpi.entity.Hospital.prices: select prices0_.hospital_id as hospital3_3_0_, prices0_.`procedure_id` as procedur4_3_0_, prices0_.hospital_id as hospital3_3_1_, prices0_.`procedure_id` as procedur4_3_1_, prices0_.discounted_cash_price as discount1_3_1_, prices0_.id as id2_3_1_, procedure1_.id as id1_1_2_, procedure1_.code as code2_1_2_, procedure1_.code_desc as code_des3_1_2_, procedure1_.code_type as code_typ4_1_2_, procedure1_.procedure_category_id as procedur5_1_2_, proceduret2_.id as id1_2_3_, proceduret2_.rev_code as rev_code2_2_3_, proceduret2_.rev_desc as rev_desc3_2_3_ from standard_charge prices0_ inner join `procedure` procedure1_ on prices0_.`procedure_id`=procedure1_.id inner join procedure_category proceduret2_ on procedure1_.procedure_category_id=proceduret2_.id where prices0_.hospital_id=?
+[DEBUG] 2021-12-12 23:19:47.690 [http-nio-8080-exec-8] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2021-12-12 23:19:47.691 [http-nio-8080-exec-8] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2021-12-12 23:19:47.691 [http-nio-8080-exec-8] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2021-12-12 23:19:47.695 [http-nio-8080-exec-8] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-12-12 23:19:47.695 [http-nio-8080-exec-8] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2021-12-12 23:19:47.695 [http-nio-8080-exec-8] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2021-12-12 23:19:47.696 [http-nio-8080-exec-8] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2021-12-12 23:19:47.696 [http-nio-8080-exec-8] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@37c11fe
+[DEBUG] 2021-12-12 23:19:47.697 [http-nio-8080-exec-8] SessionFactoryRegistry - Registering SessionFactory: 52e48bef-9ea7-48d6-b97b-4225dd567327 (<unnamed>)
+[DEBUG] 2021-12-12 23:19:47.697 [http-nio-8080-exec-8] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2021-12-12 23:19:47.750 [http-nio-8080-exec-8] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2021-12-12 23:19:47.776 [http-nio-8080-exec-8] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.email=:param0
+[DEBUG] 2021-12-12 23:19:47.787 [http-nio-8080-exec-8] QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@37dd9c80
+[DEBUG] 2021-12-12 23:19:47.803 [http-nio-8080-exec-8] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from com.matthewpriebe.hpi.entity.User as generatedAlias0 where generatedAlias0.email=:param0
+[DEBUG] 2021-12-12 23:19:47.806 [http-nio-8080-exec-8] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-12-12 23:19:47.809 [http-nio-8080-exec-8] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'matthewpriebe'
+    |  |     |  |  |  \-[IDENT] Node: 'hpi'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'email'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[DEBUG] 2021-12-12 23:19:47.823 [http-nio-8080-exec-8] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2021-12-12 23:19:47.832 [http-nio-8080-exec-8] FromElement - FromClause{level=1} : com.matthewpriebe.hpi.entity.User (generatedAlias0) -> user0_
+[DEBUG] 2021-12-12 23:19:47.832 [http-nio-8080-exec-8] FromReferenceNode - Resolved : generatedAlias0 -> user0_.id
+[DEBUG] 2021-12-12 23:19:47.834 [http-nio-8080-exec-8] FromReferenceNode - Resolved : generatedAlias0 -> user0_.id
+[DEBUG] 2021-12-12 23:19:47.835 [http-nio-8080-exec-8] DotNode - getDataType() : email -> org.hibernate.type.StringType@1e5f0450
+[DEBUG] 2021-12-12 23:19:47.835 [http-nio-8080-exec-8] FromReferenceNode - Resolved : generatedAlias0.email -> user0_.email
+[DEBUG] 2021-12-12 23:19:47.836 [http-nio-8080-exec-8] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2021-12-12 23:19:47.836 [http-nio-8080-exec-8] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} user0_.id ) ( FromClause{level=1} user user0_ ) ( where ( = ( user0_.email user0_.id email ) ? ) ) )
+[DEBUG] 2021-12-12 23:19:47.842 [http-nio-8080-exec-8] JoinProcessor - Using FROM fragment [user user0_]
+[DEBUG] 2021-12-12 23:19:47.843 [http-nio-8080-exec-8] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2021-12-12 23:19:47.843 [http-nio-8080-exec-8] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.id as id1_4_' {alias=generatedAlias0, className=com.matthewpriebe.hpi.entity.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.email as email2_4_, user0_.first_name as first_na3_4_, user0_.last_name as last_nam4_4_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.matthewpriebe.hpi.entity.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.email' {propertyName=email,dereferenceType=PRIMITIVE,getPropertyPath=email,path=generatedAlias0.email,tableAlias=user0_,className=com.matthewpriebe.hpi.entity.User,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=generatedAlias0, className=com.matthewpriebe.hpi.entity.User, tableAlias=user0_}
+          |  \-[IDENT] IdentNode: 'email' {originalText=email}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@1e5f0450}
+
+[DEBUG] 2021-12-12 23:19:47.843 [http-nio-8080-exec-8] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-12-12 23:19:47.846 [http-nio-8080-exec-8] QueryTranslatorImpl - HQL: select generatedAlias0 from com.matthewpriebe.hpi.entity.User as generatedAlias0 where generatedAlias0.email=:param0
+[DEBUG] 2021-12-12 23:19:47.846 [http-nio-8080-exec-8] QueryTranslatorImpl - SQL: select user0_.id as id1_4_, user0_.email as email2_4_, user0_.first_name as first_na3_4_, user0_.last_name as last_nam4_4_ from user user0_ where user0_.email=?
+[DEBUG] 2021-12-12 23:19:47.846 [http-nio-8080-exec-8] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-12-12 23:19:47.857 [http-nio-8080-exec-8] SQL - select user0_.id as id1_4_, user0_.email as email2_4_, user0_.first_name as first_na3_4_, user0_.last_name as last_nam4_4_ from user user0_ where user0_.email=?
+[DEBUG] 2021-12-12 23:19:47.871 [http-nio-8080-exec-8] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-12-12 23:19:47.873 [http-nio-8080-exec-8] TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[DEBUG] 2021-12-12 23:19:47.873 [http-nio-8080-exec-8] TransactionImpl - begin
+[DEBUG] 2021-12-12 23:19:47.883 [http-nio-8080-exec-8] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2021-12-12 23:19:47.889 [http-nio-8080-exec-8] SQL - insert into user (email, first_name, last_name) values (?, ?, ?)
+[DEBUG] 2021-12-12 23:19:47.897 [http-nio-8080-exec-8] SqlExceptionHelper - could not execute statement [n/a]
+java.sql.SQLException: Field 'id' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1094) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1042) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1345) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1027) ~[mysql-connector-java-8.0.16.jar:8.0.16]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:410) ~[c3p0-0.9.5.3.jar:0.9.5.3]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3112) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3705) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:335) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:292) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:198) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:128) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:193) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:38) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:178) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:32) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:75) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:697) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:689) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:684) [hibernate-core-5.4.4.Final.jar:5.4.4.Final]
+	at com.matthewpriebe.hpi.persistence.GenericDao.insert(GenericDao.java:94) [classes/:?]
+	at com.matthewpriebe.hpi.controller.Auth.checkUserName(Auth.java:278) [classes/:?]
+	at com.matthewpriebe.hpi.controller.Auth.doGet(Auth.java:112) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [catalina.jar:8.5.57]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:8.5.57]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-websocket.jar:8.5.57]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:8.5.57]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:8.5.57]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [catalina.jar:8.5.57]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:8.5.57]
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44) [tomee-catalina-7.1.4.jar:7.1.4]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543) [catalina.jar:8.5.57]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [catalina.jar:8.5.57]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [catalina.jar:8.5.57]
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97) [tomee-catalina-7.1.4.jar:7.1.4]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [catalina.jar:8.5.57]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [catalina.jar:8.5.57]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:8.5.57]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615) [tomcat-coyote.jar:8.5.57]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:8.5.57]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818) [tomcat-coyote.jar:8.5.57]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1626) [tomcat-coyote.jar:8.5.57]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:8.5.57]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:8.5.57]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+[WARN ] 2021-12-12 23:19:47.901 [http-nio-8080-exec-8] SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+[ERROR] 2021-12-12 23:19:47.901 [http-nio-8080-exec-8] SqlExceptionHelper - Field 'id' doesn't have a default value

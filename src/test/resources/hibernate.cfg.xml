@@ -21,6 +21,7 @@
         <mapping class="com.matthewpriebe.hpi.entity.ProcedureType"/>
         <mapping class="com.matthewpriebe.hpi.entity.Price"/>
         <mapping class="com.matthewpriebe.hpi.entity.PriceId"/>
+        <mapping class="com.matthewpriebe.hpi.entity.User" />
     </session-factory>
 
 </hibernate-configuration>

@@ -7,7 +7,11 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.matthewpriebe.hpi.auth.*;
+import com.matthewpriebe.hpi.entity.Hospital;
+import com.matthewpriebe.hpi.entity.User;
+import com.matthewpriebe.hpi.persistence.GenericDao;
 import com.matthewpriebe.hpi.util.PropertiesLoader;
+import net.bytebuddy.description.type.TypeList;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -39,6 +43,7 @@ import java.security.spec.InvalidKeySpecException;
 import java.security.spec.RSAPublicKeySpec;
 import java.util.Base64;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Properties;
 import java.util.stream.Collectors;
 
@@ -100,8 +105,11 @@ public class Auth extends HttpServlet implements PropertiesLoader {
             }
         }
 
+
         HttpSession session = req.getSession(false);
         session.setAttribute("username", userName);
+
+        checkUserName(userName);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("index.jsp");
         dispatcher.forward(req, resp);
@@ -258,6 +266,17 @@ public class Auth extends HttpServlet implements PropertiesLoader {
         REGION = properties.getProperty("region");
         POOL_ID = properties.getProperty("poolId");
 
+    }
+
+    private void checkUserName(String userName) {
+        GenericDao userDao;
+        userDao = new GenericDao<>(User.class);
+        List<User> users = userDao.findByPropertyEqual("email", userName);
+
+        if(users.size() == 0) {
+            User newUser = new User(userName, "first name", "last name");
+            userDao.insert(newUser);
+        }
     }
 }
 
