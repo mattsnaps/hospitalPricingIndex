@@ -5,10 +5,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>
 <body>
-<h2>Profile Page</h2>
-${sessionScope.username}<br>
-${sessionScope.first_name}<br>
-${sessionScope.last_name}<br>
+<h2>Profile Successfully Updated</h2>
 
 <br>
 <br>
