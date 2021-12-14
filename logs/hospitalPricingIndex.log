@@ -467,3 +467,9 @@ java.lang.NullPointerException: inStream parameter is null
 [INFO ] 2021-12-13 23:01:34.385 [http-nio-8080-exec-4] EditProfile - 1
 [INFO ] 2021-12-13 23:01:34.387 [http-nio-8080-exec-4] EditProfile - Matthew
 [INFO ] 2021-12-13 23:01:34.387 [http-nio-8080-exec-4] EditProfile - Priebe
+[INFO ] 2021-12-13 23:15:53.755 [http-nio-8080-exec-9] GoogleSearchDao - Anterior colporrhaphy
+
+[INFO ] 2021-12-13 23:15:53.756 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-13 23:15:53.756 [http-nio-8080-exec-9] GoogleSearchDao - Anterior+colporrhaphy
+[INFO ] 2021-12-13 23:15:53.756 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-13 23:15:53.756 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4

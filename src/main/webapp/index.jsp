@@ -4,10 +4,8 @@
 <body>
 <%@include file="header.jsp"%>
 
-<div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
 
 
+<%@include file="footer.jsp"%>
 </body>
 </html>

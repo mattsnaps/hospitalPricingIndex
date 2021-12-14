@@ -3,8 +3,9 @@
 <%@include file="taglib.jsp"%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="header.jsp"%>
+
 <body>
+<%@include file="header.jsp"%>
 <br>
 
 <h2>${procedureDesc}</h2>

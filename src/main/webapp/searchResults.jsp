@@ -5,8 +5,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>
 <body>
-<h2>Test Test</h2>
-${Test}<br>
+<h2>Search Results</h2>
 <c:set var="procedureTypeId" value="${Type}"/>
 <br>
 <br>

@@ -3,8 +3,9 @@
 <%@include file="taglib.jsp"%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="header.jsp"%>
+
 <body>
+<%@include file="header.jsp"%>
 <h2>Profile Page</h2>
 ${sessionScope.username}<br>
 ${sessionScope.first_name}<br>

@@ -3,10 +3,9 @@
 <%@include file="taglib.jsp"%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="header.jsp"%>
 <body>
-<div class="container">
-<h2>Search Test</h2>
+<%@include file="header.jsp"%>
+<h2>Search</h2>
 <br>
 <br>
 <br>
@@ -35,7 +34,6 @@
         </div>
         <button type="submit" name="submit" value="procedure" class="btn btn-primary">Search By Procedure</button>
     </form>
-</div>
 <%@include file="footer.jsp"%>
 </body>
 </html>
