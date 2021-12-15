@@ -1,0 +1,96 @@
+[INFO ] 2021-12-14 22:07:48.234 [http-nio-8080-exec-9] GoogleSearchDao - Colonoscopy and biopsy
+
+[INFO ] 2021-12-14 22:07:48.234 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:07:48.235 [http-nio-8080-exec-9] GoogleSearchDao - Colonoscopy+and+biopsy
+[INFO ] 2021-12-14 22:07:48.235 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:07:48.235 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:08:15.138 [http-nio-8080-exec-10] GoogleSearchDao - Carpal tunnel surgery
+
+[INFO ] 2021-12-14 22:08:15.139 [http-nio-8080-exec-10] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:08:15.139 [http-nio-8080-exec-10] GoogleSearchDao - Carpal+tunnel+surgery
+[INFO ] 2021-12-14 22:08:15.139 [http-nio-8080-exec-10] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:08:15.139 [http-nio-8080-exec-10] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:08:25.279 [http-nio-8080-exec-9] GoogleSearchDao - Create eardrum opening
+
+[INFO ] 2021-12-14 22:08:25.279 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:08:25.279 [http-nio-8080-exec-9] GoogleSearchDao - Create+eardrum+opening
+[INFO ] 2021-12-14 22:08:25.279 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:08:25.279 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:08:54.378 [http-nio-8080-exec-9] GoogleSearchDao - Knee arthroscopy/surgery
+
+[INFO ] 2021-12-14 22:08:54.379 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:08:54.379 [http-nio-8080-exec-9] GoogleSearchDao - Knee+arthroscopy/surgery
+[INFO ] 2021-12-14 22:08:54.379 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:08:54.379 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:09:05.074 [http-nio-8080-exec-8] GoogleSearchDao - Laparo-vag hyst incl t/o
+
+[INFO ] 2021-12-14 22:09:05.074 [http-nio-8080-exec-8] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:09:05.074 [http-nio-8080-exec-8] GoogleSearchDao - Laparo-vag+hyst+incl+t/o
+[INFO ] 2021-12-14 22:09:05.074 [http-nio-8080-exec-8] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:09:05.074 [http-nio-8080-exec-8] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:09:32.844 [http-nio-8080-exec-8] GoogleSearchDao - Mri breast c-+ w/cad uni
+
+[INFO ] 2021-12-14 22:09:32.845 [http-nio-8080-exec-8] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:09:32.845 [http-nio-8080-exec-8] GoogleSearchDao - Mri+breast+c-++w/cad+uni
+[INFO ] 2021-12-14 22:09:32.845 [http-nio-8080-exec-8] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:09:32.845 [http-nio-8080-exec-8] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:09:43.018 [http-nio-8080-exec-7] GoogleSearchDao - Remove tonsils and adenoids
+
+[INFO ] 2021-12-14 22:09:43.019 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:09:43.019 [http-nio-8080-exec-7] GoogleSearchDao - Remove+tonsils+and+adenoids
+[INFO ] 2021-12-14 22:09:43.019 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:09:43.019 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:10:16.884 [http-nio-8080-exec-7] GoogleSearchDao - VAGINAL DELIVERY W/O STERILIZATION/D&C W CC
+
+[INFO ] 2021-12-14 22:10:16.884 [http-nio-8080-exec-7] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:10:16.884 [http-nio-8080-exec-7] GoogleSearchDao - VAGINAL+DELIVERY+W/O+STERILIZATION/D+C+W+CC
+[INFO ] 2021-12-14 22:10:16.884 [http-nio-8080-exec-7] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:10:16.884 [http-nio-8080-exec-7] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:10:31.312 [http-nio-8080-exec-6] GoogleSearchDao - VAGINAL DELIVERY W/O STERILIZATION/D&C W MCC
+
+[INFO ] 2021-12-14 22:10:31.312 [http-nio-8080-exec-6] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:10:31.312 [http-nio-8080-exec-6] GoogleSearchDao - VAGINAL+DELIVERY+W/O+STERILIZATION/D+C+W+MCC
+[INFO ] 2021-12-14 22:10:31.312 [http-nio-8080-exec-6] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:10:31.312 [http-nio-8080-exec-6] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:10:35.340 [http-nio-8080-exec-5] GoogleSearchDao - VAGINAL DELIVERY W/O STERILIZATION/D&C W/O CC/MCC
+
+[INFO ] 2021-12-14 22:10:35.340 [http-nio-8080-exec-5] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:10:35.340 [http-nio-8080-exec-5] GoogleSearchDao - VAGINAL+DELIVERY+W/O+STERILIZATION/D+C+W/O+CC/MCC
+[INFO ] 2021-12-14 22:10:35.340 [http-nio-8080-exec-5] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:10:35.340 [http-nio-8080-exec-5] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:10:48.287 [http-nio-8080-exec-4] GoogleSearchDao - Total hip arthroplasty
+
+[INFO ] 2021-12-14 22:10:48.288 [http-nio-8080-exec-4] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:10:48.288 [http-nio-8080-exec-4] GoogleSearchDao - Total+hip+arthroplasty
+[INFO ] 2021-12-14 22:10:48.288 [http-nio-8080-exec-4] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:10:48.288 [http-nio-8080-exec-4] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:11:09.409 [http-nio-8080-exec-3] GoogleSearchDao - Prev visit new age 18-39
+
+[INFO ] 2021-12-14 22:11:09.409 [http-nio-8080-exec-3] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:11:09.409 [http-nio-8080-exec-3] GoogleSearchDao - Prev+visit+new+age+18-39
+[INFO ] 2021-12-14 22:11:09.409 [http-nio-8080-exec-3] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:11:09.409 [http-nio-8080-exec-3] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:11:27.217 [http-nio-8080-exec-2] GoogleSearchDao - Major joint replacement or reattachment of lower extremity w/o MCC
+
+[INFO ] 2021-12-14 22:11:27.217 [http-nio-8080-exec-2] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:11:27.217 [http-nio-8080-exec-2] GoogleSearchDao - Major+joint+replacement+or+reattachment+of+lower+extremity+w/o+MCC
+[INFO ] 2021-12-14 22:11:27.217 [http-nio-8080-exec-2] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:11:27.217 [http-nio-8080-exec-2] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:11:46.030 [http-nio-8080-exec-1] GoogleSearchDao - Major small & large bowel procedures w CC
+
+[INFO ] 2021-12-14 22:11:46.030 [http-nio-8080-exec-1] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:11:46.030 [http-nio-8080-exec-1] GoogleSearchDao - Major+small+++large+bowel+procedures+w+CC
+[INFO ] 2021-12-14 22:11:46.030 [http-nio-8080-exec-1] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:11:46.030 [http-nio-8080-exec-1] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:11:51.849 [http-nio-8080-exec-10] GoogleSearchDao - Major small & large bowel procedures w/o CC/MCC
+
+[INFO ] 2021-12-14 22:11:51.849 [http-nio-8080-exec-10] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:11:51.849 [http-nio-8080-exec-10] GoogleSearchDao - Major+small+++large+bowel+procedures+w/o+CC/MCC
+[INFO ] 2021-12-14 22:11:51.849 [http-nio-8080-exec-10] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:11:51.849 [http-nio-8080-exec-10] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
+[INFO ] 2021-12-14 22:12:04.679 [http-nio-8080-exec-9] GoogleSearchDao - Hospital outpt clinic visit
+
+[INFO ] 2021-12-14 22:12:04.680 [http-nio-8080-exec-9] GoogleSearchDao - https://serpapi.com/search.json?engine=google&q=
+[INFO ] 2021-12-14 22:12:04.680 [http-nio-8080-exec-9] GoogleSearchDao - Hospital+outpt+clinic+visit
+[INFO ] 2021-12-14 22:12:04.680 [http-nio-8080-exec-9] GoogleSearchDao - +&google_domain=google.com&gl=us&num=3&api_key=
+[INFO ] 2021-12-14 22:12:04.680 [http-nio-8080-exec-9] GoogleSearchDao - 062af4e39fedd6356c4e64ead9cdfb30f966af4e8fd2790645d914af1ba607a4
