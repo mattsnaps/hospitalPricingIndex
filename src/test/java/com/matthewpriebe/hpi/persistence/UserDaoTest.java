@@ -24,10 +24,4 @@ public class UserDaoTest {
 
         userDao = new GenericDao<>(ProcedureType.class);
     }
-
-    @Test
-    void getByPropertySuccess() {
-
-        //List<User> retreivedUser = userDao.findByPropertyEqual("email", userName);
-    }
 }

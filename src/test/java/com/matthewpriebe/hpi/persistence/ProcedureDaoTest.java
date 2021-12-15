@@ -44,9 +44,9 @@ public class ProcedureDaoTest {
     void getByIdSuccess() {
         Procedure retrievedProcedure = (Procedure) procedureDao.getById(54);
 
-        assertEquals("329", retrievedProcedure.getCode());
-        assertEquals("MS-DRG", retrievedProcedure.getCodeType());
-        assertEquals("Major small & large bowel procedures w MCC", retrievedProcedure.getCodeDescription());
+        assertEquals("93005-0732", retrievedProcedure.getCode());
+        assertEquals("Hospital Charge Master", retrievedProcedure.getCodeType());
+        assertEquals("CHARGE EKG TRACING", retrievedProcedure.getCodeDescription());
     }
 
     /**

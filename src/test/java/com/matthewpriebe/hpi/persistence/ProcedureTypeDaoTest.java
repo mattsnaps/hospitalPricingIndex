@@ -26,16 +26,16 @@ public class ProcedureTypeDaoTest {
 
     @Test
     void getByIdSuccess() {
-        ProcedureType retrievedProcedure = (ProcedureType) dao.getById(13);
+        ProcedureType retrievedProcedure = (ProcedureType) dao.getById(36);
 
-        assertEquals("Radiology - Diagnostic - Arteriography", retrievedProcedure.getRevDescription());
+        assertEquals("Nuclear Medicine - General Classification", retrievedProcedure.getRevDescription());
     }
 
     @Test
     void getAllSuccess() {
         List<ProcedureType> allProcedureTypes = dao.getAll();
 
-        assertEquals(58, allProcedureTypes.size());
+        assertEquals(72, allProcedureTypes.size());
     }
 
     @Test

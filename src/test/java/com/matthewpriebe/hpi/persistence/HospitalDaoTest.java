@@ -70,7 +70,7 @@ public class HospitalDaoTest {
 
         List<Hospital> allHospitalsAfter = hospitalDao.getAll();
 
-        assertEquals(allHospitalsBefore.size() + 1, allHospitalsAfter.size());
+        assertEquals(allHospitalsBefore.size() + 3, allHospitalsAfter.size());
     }
 
 
@@ -111,5 +111,6 @@ public class HospitalDaoTest {
         for (Hospital item : hospitals) {
             log.info(item.getHospitalName() + item.getEntity());
         }
+        assertEquals(1, hospitals.size());
     }
 }
