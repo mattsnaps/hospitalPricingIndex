@@ -8,6 +8,9 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
+/**
+ * represents the user.
+ */
 @Getter
 @Setter
 @NoArgsConstructor
@@ -29,6 +32,12 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
+    /**
+     * instantiates a new user class.
+     * @param email
+     * @param firstName
+     * @param lastName
+     */
     public User(String email, String firstName, String lastName) {
         this.email = email;
         this.firstName = firstName;

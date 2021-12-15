@@ -28,14 +28,20 @@ import javax.servlet.http.HttpSession;
 )
 
 /**
- *
+ *Serlvet for the profile for the individual procedures.
  */
 @Log4j2
 public class ProcedureProfile extends HttpServlet {
     
     GenericDao procedureDao;
 
-
+    /**
+     * Get all the procedure information. Calls the good api and runs a search.
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         GoogleSearchDao googleSearch = new GoogleSearchDao();
@@ -49,7 +55,6 @@ public class ProcedureProfile extends HttpServlet {
         retrievedProcedure = (Procedure) procedureDao.getById(procedureId);
 
         searchParameter = retrievedProcedure.getCodeDescription();
-
 
         req.setAttribute("procedureDesc", searchParameter);
         req.setAttribute("procedureId", procedureId);

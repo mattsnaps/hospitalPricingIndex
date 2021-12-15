@@ -8,6 +8,9 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * type of procedure. category
+ */
 @NoArgsConstructor
 @Getter
 @Setter
@@ -29,11 +32,20 @@ public class ProcedureType {
     @OneToMany(mappedBy = "procedureType", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Procedure> procedures = new HashSet<>();
 
+    /**
+     * instantiates a new procedure category
+     * @param revCode
+     * @param revDescription
+     */
     public ProcedureType(String revCode, String revDescription) {
         this.revCode = revCode;
         this.revDescription = revDescription;
     }
 
+    /**
+     * allows you to add procedure to a list.
+     * @param procedure
+     */
     public void addProcedure(Procedure procedure) {
         procedures.add(procedure);
         procedure.setProcedureType(this);

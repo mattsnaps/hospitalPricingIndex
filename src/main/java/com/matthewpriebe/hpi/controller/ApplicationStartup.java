@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import java.util.Properties;
 
 /**
- *
+ *Servlet that on startup put the cognito and serpapi properties into servlet context
  * @author priebe
  */
 

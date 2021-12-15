@@ -20,11 +20,21 @@ import java.util.List;
         urlPatterns = {"/profile"}
 )
 @Log4j2
-
+/**
+ * Servlet for the user Profile
+ */
 public class Profile extends HttpServlet {
 
     GenericDao userDao;
 
+    /**
+     * Checks to see if username is in the session. If not redirects to login page.
+     * gets user information and redirects to profile page.
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

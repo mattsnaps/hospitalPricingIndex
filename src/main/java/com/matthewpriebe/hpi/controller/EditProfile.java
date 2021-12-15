@@ -13,15 +13,23 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+
 @WebServlet(
         urlPatterns = {"/editProfile"}
 )
-
+/**
+ *
+ *
+ */
 @Log4j2
 public class EditProfile extends HttpServlet {
 
     GenericDao userDao;
 
+    /**
+     * The doGet method gets the session and gets out the user ID. Then if updates the data
+     *base with new user information info.
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         userDao = new GenericDao<>(User.class);

@@ -48,6 +48,9 @@ import java.util.Properties;
 import java.util.stream.Collectors;
 
 
+/**
+ * The type Auth.
+ */
 @WebServlet(
         urlPatterns = {"/auth"}
 )
@@ -57,6 +60,7 @@ import java.util.stream.Collectors;
  */
 
 public class Auth extends HttpServlet implements PropertiesLoader {
+
     Properties properties;
     String CLIENT_ID;
     String CLIENT_SECRET;

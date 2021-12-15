@@ -12,8 +12,10 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import java.util.Properties;
-// TODO Clean up this messy class
-// TODO Change name of main method.
+
+/**
+ * This manges the google search Dao
+ */
 @Log4j2
 public class GoogleSearchDao implements PropertiesLoader {
     Properties properties;
@@ -22,6 +24,13 @@ public class GoogleSearchDao implements PropertiesLoader {
     String API_KEY;
 
 
+    /**
+     * This method recieves a search terms converts it so it can be used for the api.
+     * The api url is contructed and sent. Info is returned in the form of JSON and returned to
+     * an method that called this one.
+     * @param searchTerm
+     * @return
+     */
     public GoogleResponse getSnippet(String searchTerm) {
 
         try {

@@ -9,6 +9,9 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+ * The Id for the price. Id for the hospital and procedure.
+ */
 @NoArgsConstructor
 @Getter
 @Setter
@@ -22,6 +25,11 @@ public class PriceId implements Serializable {
     @Column(name = "procedure_id")
     private int procedureId;
 
+    /**
+     * set the hospital id and the procedure id part.
+     * @param hospitalId
+     * @param procedureId
+     */
     PriceId(int hospitalId, int procedureId){
         this.hospitalId = hospitalId;
         this.procedureId = procedureId;

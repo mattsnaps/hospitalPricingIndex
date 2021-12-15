@@ -39,6 +39,11 @@ public class Price implements Serializable {
     @Column(name = "discounted_cash_price")
     private String price;
 
+    /**
+     * instantiates a new Price. Basically what a hospital charges for a specific procedure.
+     * @param hospital
+     * @param procedure
+     */
     public Price(Hospital hospital, Procedure procedure) {
         this.hospital = hospital;
         this.procedure = procedure;

@@ -5,12 +5,15 @@ import com.matthewpriebe.hpi.entity.PriceId;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+/**
+ * Price Dao
+ */
 public class PriceDao {
 
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
     /**
-     * Gets by id.
+     * Gets by id. This dao is special because it uses a composite key in oder to access database information.
      *
      * @param id the id
      * @return the by id
