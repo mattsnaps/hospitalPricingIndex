@@ -5,6 +5,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <body>
+<div class="container">
 <%@include file="header.jsp"%>
 <h2>Profile Successfully Updated</h2>
 
@@ -12,9 +13,10 @@
 <br>
 <br>
 
-<a href="editProfile.jsp" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Edit Profile</a>
+<a href="profile" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Return to Profile</a>
 
 
 <%@include file="footer.jsp"%>
+</div>
 </body>
 </html>

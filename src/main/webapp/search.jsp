@@ -4,6 +4,7 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <body>
+<div class="container">
 <%@include file="header.jsp"%>
 <h2>Search</h2>
 <br>
@@ -35,5 +36,6 @@
         <button type="submit" name="submit" value="procedure" class="btn btn-primary">Search By Procedure</button>
     </form>
 <%@include file="footer.jsp"%>
+</div>
 </body>
 </html>

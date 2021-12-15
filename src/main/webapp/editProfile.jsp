@@ -3,7 +3,9 @@
 <%@include file="taglib.jsp"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <body>
+<div class="container">
 <%@include file="header.jsp"%>
+
 <h2>Profile Page</h2>
 
 <form action="editProfile" method="get">
@@ -25,5 +27,6 @@
 <br>
 
 <%@include file="footer.jsp"%>
+</div>
 </body>
 </html>
