@@ -8,3 +8,4 @@ their prices, which caused prices to vary wildly between facilities. This made i
 impossible for consumers to shop around for the lowest cost medical care. This app will serve
 as a price aggregator. A one stop shop that will allow consumers to search for procedures and
 compare the standard charges across different providers.
+
