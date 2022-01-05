@@ -2,6 +2,7 @@
 
 How to use App with screenshots
 
+[App Demo](demo.md)
 
 ## Problem Statement
 
