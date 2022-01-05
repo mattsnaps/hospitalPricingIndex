@@ -51,7 +51,4 @@ public class PriceDaoTest {
             log.info(item.getProcedure().getCodeDescription());
         }
     }
-    @Test
-    void getAllSuccess() {
-    }
 }

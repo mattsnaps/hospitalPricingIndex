@@ -18,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 @Log4j2
 public class HospitalDaoTest {
 
-
     GenericDao procedureDao;
     GenericDao hospitalDao;
 
@@ -55,7 +54,7 @@ public class HospitalDaoTest {
     void getAllSuccess() {
         List<Hospital> allHospitals = hospitalDao.getAll();
 
-        assertEquals(1, allHospitals.size());
+        assertEquals(3, allHospitals.size());
     }
 
     /**
@@ -112,5 +111,6 @@ public class HospitalDaoTest {
         for (Hospital item : hospitals) {
             log.info(item.getHospitalName() + item.getEntity());
         }
+        assertEquals(1, hospitals.size());
     }
 }

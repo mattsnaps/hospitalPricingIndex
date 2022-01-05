@@ -14,6 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Servlets to direct the search
+ */
 @WebServlet(
         urlPatterns = {"/searchDatabase"}
 )
@@ -22,6 +25,13 @@ public class SearchDatabase extends HttpServlet {
 
     GenericDao procedureDao;
 
+    /**
+     * Directs the serach based on the various inputs.
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

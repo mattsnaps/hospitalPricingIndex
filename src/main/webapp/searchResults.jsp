@@ -3,14 +3,15 @@
 <%@include file="taglib.jsp"%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="header.jsp"%>
+
 <body>
-<h2>Test Test</h2>
-${Test}<br>
+<div class="container">
+<%@include file="header.jsp"%>
+<h2>Search Results</h2>
 <c:set var="procedureTypeId" value="${Type}"/>
-<br>
-<br>
-<br>
+    <form>
+        <input type="button" value="Return to Search" onclick="history.back()">
+    </form>
 <table class="table">
     <tr>
         <th>Category Name</th>
@@ -31,5 +32,6 @@ ${Test}<br>
 </table>
 
 <%@include file="footer.jsp"%>
+</div>
 </body>
 </html>

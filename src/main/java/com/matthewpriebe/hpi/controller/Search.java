@@ -18,6 +18,9 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Servlet for thetype Search.
+ */
 @WebServlet(
         urlPatterns = {"/search"}
 )
@@ -29,6 +32,13 @@ public class Search extends HttpServlet implements PropertiesLoader {
     GenericDao priceDao;
     GenericDao hospitalDao;
 
+    /**
+     * This gets all the needed information out of the database and puts it into the session.
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 

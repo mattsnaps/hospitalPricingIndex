@@ -3,15 +3,12 @@
 <%@include file="taglib.jsp"%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="header.jsp"%>
+
 <body>
+<div class="container">
+<%@include file="header.jsp"%>
+    <h2>${procedureDesc}</h2>
 <br>
-
-<h2>${procedureDesc}</h2>
-
-<br>
-<br>
-<div>
     <table class="table">
         <thread>
             <tr>
@@ -30,20 +27,23 @@
                 </c:forEach>
         </tbody>
     </table>
-
-</div>
+    <form>
+        <input type="button" value="Return to Results" onclick="history.back()">
+    </form>
 
 <div>
+    <h3>Top Search Results for Procedure</h3>
     <c:forEach var="google" items="${google.getOrganicResults()}">
-        ${google.getTitle()}<br>
+        <b>${google.getTitle()}</b><br>
         <a href="${google.getLink()}">${google.getLink()}</a><br>
         ${google.getSnippet()} <br><br>
     </c:forEach>
 </div>
 <hr>
 <div>
+    <h3>Top Questions About Procedure</h3>
     <c:forEach var="google" items="${google.getRelatedQuestions()}">
-        ${google.getQuestion()}<br>
+        <b>${google.getQuestion()}</b><br>
         ${google.getSnippet()}<br>
         ${google.getTitle()}<br>
         <a href="${google.getLink()}">${google.getLink()}</a><br><br>
@@ -52,5 +52,6 @@
 
 
 <%@include file="footer.jsp"%>
+</div>
 </body>
 </html>

@@ -39,6 +39,13 @@ public class Procedure {
     @OneToMany(mappedBy = "procedure", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<Price> prices = new HashSet<>();
 
+    /**
+     * instantiates a new procedure
+     * @param code
+     * @param codeType
+     * @param codeDescription
+     * @param procedureType
+     */
     public Procedure(String code, String codeType, String codeDescription, ProcedureType procedureType) {
         this.code = code;
         this.codeType = codeType;
@@ -46,6 +53,10 @@ public class Procedure {
         this.procedureType = procedureType;
     }
 
+    /**
+     * allows program to add hospital to a list.
+     * @param hospital
+     */
     public void addHospital(Hospital hospital) {
         Price procedurePrice = new Price(hospital, this);
         prices.add(procedurePrice);

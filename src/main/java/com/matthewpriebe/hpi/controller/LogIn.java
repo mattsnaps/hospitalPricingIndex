@@ -31,7 +31,6 @@ public class LogIn extends HttpServlet implements PropertiesLoader {
      */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // TODO if properties weren't loaded properly, route to an error page
 
         ServletContext ctx = req.getServletContext();
         Properties properties = (Properties) ctx.getAttribute("cognitoProperties");
