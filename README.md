@@ -1,7 +1,8 @@
 # Matthew Priebe's Hospital Pricing Project
 
-Link to Project Demo
-https://youtu.be/QOFxQrH1M-I
+How to use App with screenshots
+
+[App Demo](demo.md)
 
 ## Problem Statement
 
