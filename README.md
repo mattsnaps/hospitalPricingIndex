@@ -23,8 +23,7 @@ compare the standard charges across different providers.
 | Hosting | AWS Elastic Beanstalk |
 | Unit Testing | JUnit 5 tests |
 | IDE | IntelliJ IDEA |
-| VCS | Git |
-|HTML Parser | Jsoup  | 
+| VCS | Git | 
 
 ## Database Tables
 User
